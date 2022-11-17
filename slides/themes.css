@@ -1,0 +1,214 @@
+/* @theme bbzbl */
+@import 'default';
+@import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
+@import url(https://code.cdn.mozilla.net/fonts/fira.css);
+
+:root {
+  font-family: 'Fira Sans', 'Segoe UI', 'Liberation Sans', 'Helvetica', 'Arial', sans-serif;
+}
+
+/* body { */
+/*   background-color: #fff; */
+/* } */
+
+/* * { font-family: 'Fira', sans-serif;  } */
+code * { font-family: 'Fira Code', monospace;  }
+@supports (font-variation-settings: normal) {
+  code * { font-family: 'Fira Code VF', monospace; font-size: 95%; }
+}
+
+section.code { font-family: 'Fira Code', monospace;  }
+@supports (font-variation-settings: normal) {
+  section.code { font-family: 'Fira Code VF', monospace; }
+}
+
+* {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+}
+.bold{font-weight:bold;}
+.italic{font-style: italic;}
+.oblique{font-style: oblique;}
+
+section.emoji-list ul {
+  list-style-type: none;
+  padding-left: 2rem;
+}
+section.emoji-list ul > li {
+  position: relative;
+  /* margin-left: 1rem !important; */
+}
+section.emoji-list ul > li img {
+  left: -40px;
+  top: 5px;
+  position: absolute;
+  /* text-align: center; */
+  width: 1rem;
+  line-height: inherit;
+}
+
+section .footnotes {
+  position: absolute;
+  bottom: 2rem;
+  font-size: 0.6rem;
+  border-top: 1px solid #eee;
+  padding-top: 0.5rem;
+  z-index: 1;
+  left: 70px;
+  right: 70px;
+}
+
+section .footnotes.left {
+  right: 655px;
+}
+section .footnotes.right {
+  left: 655px;
+}
+
+section[data-marpit-advanced-background-split="right"] {
+  padding-right: 1rem;
+}
+
+header .footnotes,
+header .footnotes-sep,
+section .footnotes-sep,
+section .footnote-backref,
+footer .footnotes,
+footer .footnotes-sep {
+  display: none;
+}
+
+strong {
+  color: var(--color-fg-strong);
+}
+
+footer {
+  width: 100%;
+}
+
+section {
+  justify-content: start;
+}
+section h1 {
+  font-weight: 900;
+  letter-spacing: 0.05rem;
+}
+section h2 {
+  font-weight: 600;
+}
+section h2 {
+  color: var(--h2-color);
+}
+section h1 strong,
+section h2 strong,
+section h3 strong {
+  color:  var(--color-fg-strong) ;
+  font-style: italic;
+}
+section h1 a {
+  float: right;
+}
+section h1 sup a {
+  float: unset;
+}
+section sup a::before, 
+section sup a::after {
+  content: unset;
+}
+section a,
+section a:visited{
+  color: darkblue;
+}
+section hr {
+  padding-top: .10em;
+}
+
+/* big */
+section.big {
+  justify-content: center;
+}
+section.big h1 {
+  font-size: 3rem;
+}
+section.big h2 {
+  font-size: 2.5rem;
+}
+
+/* small */
+.s1 {
+  font-size: 0.9rem;
+}
+.s2 {
+  font-size: 0.8rem;
+}
+.s3 {
+  font-size: 0.7rem;
+}
+.s4 {
+  font-size: 0.6rem;
+}
+
+.regular {
+  font-size: 1rem;
+}
+
+.right {
+  float: right;
+}
+
+
+/* small-text */
+section.small-text ul, 
+section.small-text ol, 
+section.small-text p {
+  font-size: 0.8rem;
+}
+/* section.small-text ul { */
+/*   padding-left: 1rem; */
+/* } */
+
+/* center */
+section.center {
+  text-align: center;
+  justify-content: center;
+}
+
+section.center footer {
+  text-align: left;
+  justify-content: left;
+}
+
+section blockquote {
+  color: var(--color-fg-blockquote);
+  font-style: italic;
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+.columns h1:first-child, h2:first-child, h3:first-child {
+  margin-top: 0;
+}
+
+/* variables */
+
+section {
+  --color-border-default: rgb(100, 100, 100);
+  --header-footer-color: hsla(0,0%,20%,.65);
+  --color-fg-blockquote: hsla(0,0%,10%,.9);
+  --color-canvas-default: #fff;
+  /* --h1-color: rgb(34, 68, 102); */
+  /* --h2-color: rgb(70, 70, 145) */
+  /* --h1-color: #3a0ca3; */
+  /* --h2-color: #7209b7; */
+  /* --color-fg-strong: #f72585; */
+  --h1-color: #580c1f;
+  /* --h1-color: #000; */
+  --h2-color: #a7333f;
+  --color-fg-strong: #c52233;
+  /* --h1-color-strong: #c52233; */
+  /* color:  #c52233 ; */
+}
+

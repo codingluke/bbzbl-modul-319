@@ -1,2 +1,10 @@
-# bbzbl-modul-319
-Webseite für das Modul 319 an der BBZBL
+# BBZBL Modul 319
+
+Applikationen entwerfen und implementieren 
+
+## INFO
+
+Ehemaliges Modul 403
+
+Programmabläufe prozedural implementieren
+
