@@ -44,6 +44,21 @@ const config = {
     ],
     require.resolve("@docusaurus/theme-mermaid"),
   ],
+  
+  plugins: [
+    ["devserver-config",
+      {
+        proxy: {
+          "/bbzbl-modul-319/slides": {
+            target: "http://localhost:3003",
+            pathRewrite: function(/** @type {string} */ path, /** @type {any} */ _req) {
+              return path.replace("/bbzbl-modul-319/slides", '') + ".md";
+            }
+          }
+        }
+      }
+    ]
+  ],
 
   presets: [
     [
@@ -54,8 +69,8 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/codingluke/bbzbl-modul-431/tree/main/',
+          // editUrl:
+            // 'https://github.com/codingluke/bbzbl-modul-431/tree/main/',
           remarkPlugins: [oembed],
         },
         // blog: {
