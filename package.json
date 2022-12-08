@@ -16,7 +16,22 @@
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
-    "write-heading-ids": "docusaurus write-heading-ids"
+    "write-heading-ids": "docusaurus write-heading-ids",
+    "dev": "wireit",
+    "start:marp": "wireit"
+  },
+  "wireit": {
+    "dev": {
+      "command": "docusaurus start",
+      "service": true,
+      "dependencies": [
+        "start:marp"
+      ]
+    },
+    "start:marp": {
+      "command": "env PORT=3003 marp --engine ./src/marp/engine.js --html --allow-local-files --theme slides/theme.css --watch --server slides",
+      "service": true
+    }
   },
   "dependencies": {
     "@agentofuser/remark-oembed": "^1.0.4",
@@ -24,9 +39,10 @@
     "@docusaurus/preset-classic": "^2.2.0",
     "@docusaurus/theme-mermaid": "^2.2.0",
     "@easyops-cn/docusaurus-search-local": "^0.33.4",
-    "@marp-team/marp-cli": "^2.2.0",
+    "@marp-team/marp-cli": "^2.2.2",
     "@mdx-js/react": "^1.6.22",
     "clsx": "^1.1.1",
+    "devserver-config": "file:plugins/devserver-config",
     "markdown-it-container": "^3.0.0",
     "markdown-it-external-links": "^0.0.6",
     "markdown-it-mark": "^3.0.1",
@@ -36,7 +52,8 @@
     "react-dom": "^17.0.2",
     "react-lite-youtube-embed": "^2.3.1",
     "remark-html": "^15.0.1",
-    "remark-oembed": "^1.2.2"
+    "remark-oembed": "^1.2.2",
+    "wireit": "^0.8.0"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^2.1.0"

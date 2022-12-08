@@ -70,3 +70,22 @@ table {
   table-layout: auto;
   width: 100%;
 }
+
+img[src$='#center'] { 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+img[src$='#right'] { 
+  display: block;
+  margin-left: auto;
+  width: 70%;
+}
+
+img[src$='#left'] { 
+  display: block;
+  margin-right: auto;
+  width: 70%;
+}
