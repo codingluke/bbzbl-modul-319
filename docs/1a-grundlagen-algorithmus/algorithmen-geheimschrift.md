@@ -1,4 +1,4 @@
-# ✏️ Geheimschrift
+# Geheimschrift
 
 Sie tauschen häufiger Mitteilungen aus z.B. über das Handy. Leider können diese kurzen Botschaften auch von anderen Familienmitgliedern oder Freunden gelesen werden, wenn Sie gerade das Handy haben. Sie benutzen daher eine Geheimschrift.
 

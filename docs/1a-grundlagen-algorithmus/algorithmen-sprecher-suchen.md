@@ -1,4 +1,4 @@
-# ✏️ Sprecher suchen
+# Sprecher suchen
 
 <div class="grid"><div>
 

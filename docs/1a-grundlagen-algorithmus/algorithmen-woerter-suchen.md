@@ -1,4 +1,4 @@
-# ✏️  Wörter suchen
+# Wörter suchen
 
 In solchen Rätseln sind in einem oft quadratischen Feld Wörter versteckt, die horizontal, vertikal oder diagonal (auch rückwärts) geschrieben sind. In einem kleinen Feld lassen sich gesuchte Wörter noch schnell selbst finden. Schon bei 50x20 Zeichen ist es aber sehr ermüdend.
 

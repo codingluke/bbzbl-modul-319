@@ -1,13 +1,15 @@
 # 1b - Hello World Programm
 
-Sie lernen mit der Entwicklungsumgebung [Eclipse](https://www.eclipse.org/ide/) ein HelloWord-Programm zu schreiben.
+Sie lernen mit der Entwicklungsumgebung [Eclipse](https://www.eclipse.org/ide/) ein **HelloWord-Programm** zu schreiben.
 
-## Ziele
+:::info Ziele
 
 - Sie wissen, was der Umfang einer Entwicklungsumgebung ist.
 - Sie können Eclipse starten, mit einem Workspace umgehen und Projekte anlegen.
 - Sie können ein erste Programm, _HelloWorld_, schreiben und dessen Elemente beschreiben.
 - Sie können die grundlegenden Konventionen und Kommentare anwenden.
+
+:::
 
 ## Infrastrktur zum Programmieren
 
@@ -55,3 +57,32 @@ Klicken Sie nun auf [Weiter um Eclipse zu installieren](./aufgabe1.md).
 ## :pencil: Aufgaben
 
 <DocCardList />
+
+## :tv: Erklärvideos
+
+
+<div class="grid"><div class="center">
+
+### [Java Grundlagen auf Studyflix](https://studyflix.de/informatik/einfuhrung-in-die-java-grundlagen-213?topic_id=16)
+Erklärung der wichtigsten Grundlagen in Java: 
+
+- Syntax (Klassen, Kommentare)
+- Bugs 
+- Compiler 
+
+</div><div>
+
+[![Einführung in die Java Grundlagen](https://d3f6gjnauy613m.cloudfront.net/system/production/videos/000/213/10b5997f7533af3908fd41a0c44619ad0cd73653/card_720.jpeg?1628089774)](https://studyflix.de/informatik/einfuhrung-in-die-java-grundlagen-213?topic_id=16)
+</div><div class="center">
+
+### [Java Main Methode auf Studyflix](https://studyflix.de/informatik/java-main-1790?topic_id=16)
+
+- `args` und `void` in Java 
+- `public static void main` 
+
+</div><div>
+
+[![Java Main Methode einfach erklärt](https://d3f6gjnauy613m.cloudfront.net/system/production/videos/001/790/e066d0aceaf818522aa2264cae109fbd157fece5/card_Java_Main_Thumbnail.png?1627306808)](https://studyflix.de/informatik/java-main-1790?topic_id=16)
+
+</div></div>
+

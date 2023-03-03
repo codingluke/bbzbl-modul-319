@@ -2,9 +2,12 @@
 
 Was sind überhaupt Programme, was sind Algorithmen? Sie lernen mit der Entwicklungsumgebung Eclipse ein HelloWord-Programm zu schreiben.
 
-## Ziele
+
+:::info Ziele
 
 - Sie können erklären, was ein Algorithmus ist und welches die wichtigsten Kontrollstrukturen sind.
+
+:::
 
 ## Code.org
 
@@ -36,7 +39,7 @@ Viele Informatiker argumentieren, dass das Erlernen des Programmierens ohne eine
 > "Diese Fähigkeit wird auch als Computational Thinking bezeichnet, was deren Erfinderin, Jeannette Wing, 2006 beschrieb als: Computational Thinking is the thought process involved in formulating a problem and expressing its solution(s) in such a way that a computer—human or machine—can effectively carry out."<br/>
 > --[Swissinformatics Magazine](https://magazine.swissinformatics.org/de/computational-thinking-%E2%89%A0-programming/)
 
-## Welche Tätigkeiten mit "Problemlösungsschritten" sind Ihnen bekannt?
+## :pencil: Welche Tätigkeiten mit "Problemlösungsschritten" sind Ihnen bekannt?
 
 Sie konnten im Unterricht diskutieren oder dies nun noch selbst als Gedankenexperiment nachholen, welche Tätigkeiten Ihnen einfallen, bei denen Sie Probleme analysiert, Lösungen gesucht und gefunden haben, und einen Bauplan entwickelt haben, um eine Aufgabe oder ein Problem zu lösen.
 
@@ -54,7 +57,7 @@ Hier einige Beispiele von Tätigkeiten, die es erforderlich machen, Probleme aus
 
 ## Die Grundformen der Programmierung
 
-Die folgenden Grundbegriffe wurden im Unterricht definiert
+Die folgenden Grundbegriffe wurden im Unterricht definiert:
 
 - Sequenz (Schritt für Schritt)
 - Selektion / Bedingung (if, else, ...)
@@ -90,6 +93,6 @@ In diesem Auftrag geht es darum, zu verstehen was Algorithmen überhaupt sind un
 
 </details>
 
-## :pencil: Aufgaben
+## :pencil: Zusätzliche Aufgaben
 
 <DocCardList />

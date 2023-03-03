@@ -89,3 +89,7 @@ img[src$='#left'] {
   margin-right: auto;
   width: 70%;
 }
+
+.highlight {
+  background-color: #ccc;
+}
