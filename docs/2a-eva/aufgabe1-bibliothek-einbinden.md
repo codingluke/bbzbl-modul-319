@@ -1,6 +1,6 @@
-# Bibliothek `MyTools` einbinden
+# 📝 Bibliothek `MyTools` einbinden
 
-## Neues Projekt und Klasse erstellen
+## 1. Neues Projekt und Klasse erstellen
 
 - Erstellen Sie in Ihrem persönlichen Workspace ein neues Projekt namens "EVA". 
 - Legen Sie darin die Klasse `EinUndAusgabe` an.
@@ -21,7 +21,7 @@
 
 ## Die Klasse `StdInput`
 
-Mit der Bibliothek beinhaltet die Klasse `StdInput`. Mit dieser können verschiedene Datentypen eingelesen werden.
+Die Bibliothek beinhaltet die Klasse `StdInput`. Mit dieser können verschiedene Datentypen vom Terminal aus eingelesen werden.
 
 Datentyp | Methode
 -- | --

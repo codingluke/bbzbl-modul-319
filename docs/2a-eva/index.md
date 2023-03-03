@@ -1,19 +1,22 @@
-# 2a - EVA Prinzip und Datentypen
+# 2a - Das EVA-Prinzip 
 
 Ohne Benutzereingaben machen viele Programme keinen Sinn. Sie lernen daher hier das EVA-Prinzip kennen, und wie Sie es mit einer Bibliothek in Ihrem Projekt nutzen, um Eingaben von Benutzern einzulesen. Sie kennen die vorgestellten Datentypen und können diese in Programmen nutzen.
 
 :::info Ziele
+
 - Sie können das EVA-Prinzip erklären.
 - Sie können eine Bibliothek in Ihr Eclipse-Projekt einbinden. Sie können die Bibliothek dazu verwenden, um Benutzereingaben einzulesen.
-- Sie kennen die primitiven Datentypen und den besonderen Datentyp String und können diese als Variablen in Programmen nutzen.
+
 :::
 
 ## Das EVA Prinzip
 
 Grundsätzlich befolgen alle Programme das EVA Prinzip. Selbst Smartphones, die auf Wisch-Gesten reagieren, folgen diesem Prinzip, einfach viel schneller. Mit diesen Aufträgen lernen Sie, wie Sie Daten in Java-Programme eingeben können.
 
-:::tip EVA-Prinzip
+:::info EVA-Prinzip
+
 **E**ingabe -> **V**erarbeiten -> **A**usgabe
+
 :::
 
 ### Eingabe
