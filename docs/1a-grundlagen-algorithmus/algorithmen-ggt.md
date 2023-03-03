@@ -1,4 +1,4 @@
-# ✏️  ggT
+# ggT
 
 **Grösster gemeinsamer Teiler**, der älteste Algorithmus der Welt! :scream:
 

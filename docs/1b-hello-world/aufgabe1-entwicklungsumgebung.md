@@ -1,4 +1,4 @@
-# ✏️  Entwicklungsumgebung
+# Entwicklungsumgebung
 Entwicklungsumgebung aufsetzen
 
 ## 1. Eclipse herunterladen und installieren
