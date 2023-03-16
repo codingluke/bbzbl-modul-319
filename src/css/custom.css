@@ -93,3 +93,54 @@ img[src$='#left'] {
 .highlight {
   background-color: #ccc;
 }
+
+.code-block-red-line {
+  background-color: #ff000020;
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+  border-left: 3px solid #ff000080;
+}
+
+.code-block-green-line {
+  background-color: #00A17020;
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+  border-left: 3px solid #00A17080;
+}
+
+.code-block-yellow-line {
+  background-color: #F5DF4E40;
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+  border-left: 3px solid #F5DF4E80;
+}
+
+.code-block-orange-line {
+  background-color: #F0780040;
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+  border-left: 3px solid #F0780080;
+}
+
+.code-block-blue-line {
+  background-color: #0072B520;
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+  border-left: 3px solid #0072B580;
+}
+
+.theme-code-block-highlighted-line {
+  background-color: #BAB4B520;
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+  border-left: 3px solid #BAB4B599;
+}
+
+
+

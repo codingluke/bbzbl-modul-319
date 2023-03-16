@@ -7744,6 +7744,14 @@ relateurl@^0.2.7:
   resolved "https://registry.yarnpkg.com/relateurl/-/relateurl-0.2.7.tgz#54dbf377e51440aca90a4cd274600d3ff2d888a9"
   integrity sha512-G08Dxvm4iDN3MLM0EsP62EDV9IuhXPR6blNz6Utcp7zyV3tr4HVNINt6MpaRWbxoOHT3Q7YN2P+jaHX8vUbgog==
 
+remark-docusaurus-tabs@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/remark-docusaurus-tabs/-/remark-docusaurus-tabs-0.2.0.tgz#39e02b2e72a68458c1c11003e95ddb7d236e8006"
+  integrity sha512-Xl8FkeQAdDqlhf7EurBxCkT7cfA5QK2PN8eoFr94g1OOuc7XsgVk897zf8yhNNnpQYR8nd/XC6JaXTZxHxX4mA==
+  dependencies:
+    mdast-util-to-string "^2.0.0"
+    unist-util-visit "^2.0.3"
+
 remark-emoji@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/remark-emoji/-/remark-emoji-2.2.0.tgz#1c702090a1525da5b80e15a8f963ef2c8236cac7"
