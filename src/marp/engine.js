@@ -1,6 +1,7 @@
 const markdownItMark = require('markdown-it-mark');
 const markdownItContainer = require('markdown-it-container');
 const link = require("markdown-it-external-links");
+const marpKrokiPlugin = require('./kroki-plugin');
 
 module.exports = ({ marp }) => marp
   .use(markdownItMark)
@@ -33,3 +34,4 @@ module.exports = ({ marp }) => marp
     externalTarget: "_blank",
     externalRel: "noopener noreferrer"
   })
+  .use(marpKrokiPlugin)
