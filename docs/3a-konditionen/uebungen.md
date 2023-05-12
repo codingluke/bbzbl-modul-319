@@ -370,8 +370,7 @@ Willkommen im Club Flamingo
 Einlass möglich für maximal 4 Personen auf einmal.
 Wie viele Personen sind Sie: 4
 Wir benötigen die Personalien von einer Person.
-Vorname: Hans
-Nachname: Muster
+Vorname: Hans Nachname: Muster
 Strasse: Musterweg 1
 Plz: 4000
 Ort: Mustersta  

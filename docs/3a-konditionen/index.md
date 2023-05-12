@@ -1,6 +1,9 @@
-# 3a - Bedingungen: if / switch
+# 3a - Kontrollstrukturen
 
 Mit `if` und `switch` können Sie auf unterschiedliche Werte in Ihren Variablen unterschiedlich, **spezifisch reagieren**.
+
+- Diese zwei Kontrollstrukturen benötigen **Bedingungen** um zu Entscheiden was für welche Situation gemacht werden soll.
+- Dafür existiert in Java der Datentyp `boolean` und die Vergleichsoperatoren.
 
 :::info Ziele
 
@@ -9,4 +12,18 @@ Mit `if` und `switch` können Sie auf unterschiedliche Werte in Ihren Variablen 
 
 :::
 
+## :teacher: Präsentation
+
+[:computer: Open in Browser](pathname:///slides/operatoren) | [:floppy_disk: download PDF](pathname:///slides/operatoren.pdf)
+
+<iframe src="/bbzbl-modul-319/slides/operatoren" width="100%" height="400px"></iframe>
+
+## :tv: Erklärvideos von Studyflix
+
+- [if-Anweisung einfach erklärt](https://studyflix.de/informatik/if-anweisung-220 )
+- [Switch-Anweisung einfach erklärt](https://studyflix.de/informatik/switch-case-java-1804 )
+
+## :pencil: Aufgaben
+
 <DocCardList />
+

@@ -9,11 +9,13 @@ In Java ist es wichtig, dass Sie bei allen Klammern immer daran denken, dass die
 Als eine Besonderheit kennzeichnet dieses Klammerpaar `{ }` sogenannte Blöcke, die man auch als Programmabschnitte bezeichnen kann.
 
 :::tip
+
 - Nach einem Codeblock `}` folgt **kein** Semikolon 
 - Nach einer Schliessenden normalen Klammer `)` folgt immer eine geschweifte Klammer `{`
 - Jeder Befehl endet mit einem Semikolon `;` 
   - Nach jedem Semikolon sollte eine neue Zeile beginnen, muss aber nicht!
   - Dies nicht zu machen ist **schlechter Stiel und gibt Abzug**!
+
 :::
 
 ## 1. Auftrag: Blöcke finden
