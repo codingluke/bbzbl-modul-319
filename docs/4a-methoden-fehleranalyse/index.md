@@ -78,6 +78,10 @@ Werte einzusehen, zu ändern, etc.
 Dies hilft um zu verstehen, wie sich das Programm genau verhält und unterstütz
 somit die Fehlersuche von Laufzeitfehlern.
 
+## Themen
+
+<DocCardList />
+
 ## :tv: Erklärvideos von Studyflix
 
 - [Java Methoden einfach erklärt](https://studyflix.de/informatik/java-methoden-1901)
