@@ -11,12 +11,14 @@ und damit ein einfaches Spiel programmieren können.
 
 :::
 
-## Zufall erzeugen und erste, einfache Spiele
+## :joy: Erste einfache Spiele
 
 Sie können in Java-Programmen nun mit Bedingungen umgehen und Wiederholungen ausführen. 
 Damit kann man schon einiges machen. 
 Beispielsweise lassen sich damit kleine Ratespiele programmieren, wie im nachfolgenden Auftrag. 
 
-Als Zusatz erfahren Sie hier, wie Sie eine Zufallszahl erzeugen können.
-
 <DocCardList />
+
+## :tv: Erklärvideos vom Studiflix
+
+- https://studyflix.de/informatik/zufallszahlen-237
