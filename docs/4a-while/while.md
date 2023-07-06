@@ -16,7 +16,8 @@ Beim `while` wird das Wissen über den boolean Datentyp, wie es beim `if`
 angewandt wurde, ebenfalls benötigt. Zentral ist also wieder, dass eine
 Bedingung formuliert werden kann.
 
-Das grundsätzliche Muster der `while`-Kontrollstruktur sieht folgendermassen aus:
+Das grundsätzliche Muster der `while`-Kontrollstruktur sieht folgendermassen
+aus:
 
 <div class="grid"><div>
 
@@ -34,13 +35,16 @@ while (i > 0) {
 
 ```mermaid
 stateDiagram-v2
-    while: while (solange-die-Bedingung-zutrifft)
-    do: { wird der Code-Block ausgeführt }
-    [*] --> while
+    direction LR
+    state bedingung <<choice>>
+    do: { Code-Block }
 
-    while --> do
-    do --> while
-    while --> [*]
+    [*] --> bedingung
+    bedingung --> do: true
+    state while {
+        do --> bedingung
+    }
+    bedingung --> [*]: false
 ```
 
 </div></div>
@@ -49,10 +53,11 @@ Der Aufbau der Anweisung ist also so:
 
 1. Es besteht ein Anfangsstatus.
    - Hier eine Variable `int i = 10;`.
-2. Es folgt das Schlüsselwort `while` mit einer **booleschen Bedingung** im runden Klammerpaar `()`.
+2. Es folgt das Schlüsselwort `while` mit einer **booleschen Bedingung** im
+   runden Klammerpaar `()`.
    - Hier `i` grösser als `0` also `(i > 0)`
-3. dann folgt zwischen den beiden geschweiften Klammern `{}` der
-   Code- Block, dessen Ausführung durch das `while` kontrolliert wird.
+3. dann folgt zwischen den beiden geschweiften Klammern `{}` der Code- Block,
+   dessen Ausführung durch das `while` kontrolliert wird.
    - Er wird solange ausgeführt bis die Bedingung `false` ergibt.
 
 **Und wie oft wird also obige Anweisung ausgeführt?**
@@ -66,7 +71,8 @@ Der Aufbau der Anweisung ist also so:
 :::info while
 
 - **_Solange-die-Bedingung-zutrifft_** wird ein Code-Block ausgeführt.
-- Trifft die Bedingung von Anfang an nicht zu, wird der Code-Block auch nie ausgeführt.
+- Trifft die Bedingung von Anfang an nicht zu, wird der Code-Block auch nie
+  ausgeführt.
 
 :::
 
@@ -141,7 +147,8 @@ public class AASwitzerland {
 
 Schreiben Sie ein Programm, welches eine Multiplikationstafel ausgibt.
 
-- Der Benutzer gibt an, für welche Zahl die Multiplikationstafel erstellt werden soll.
+- Der Benutzer gibt an, für welche Zahl die Multiplikationstafel erstellt werden
+  soll.
 
 ```bash title="Folgende Ausgabe ist erwünscht, falls der Benutzer z.B. 2 eingibt:"
 1 x 2 = 2
@@ -180,4 +187,3 @@ public class ABMultiplication {
 ```
 
 </details>
-

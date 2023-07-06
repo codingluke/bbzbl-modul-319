@@ -23,12 +23,15 @@ do {
 
 ```mermaid
 stateDiagram-v2
-    do: do { der Code-Block wird mindestens einmal ausgeführt }
-    while: while (solange-die-Bedingung-zutrifft-wiederholen)
+    direction LR
+    do: { Code-Block }
+    state bedingung <<choice>>
     [*] --> do
-    do --> while
-    while --> do
-    while --> [*]
+    state do..while {
+        do --> bedingung
+        bedingung --> do: true
+    }
+    bedingung --> [*]: false
 ```
 
 </div></div>
