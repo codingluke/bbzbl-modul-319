@@ -1,13 +1,54 @@
-# 7 - Arrays mit for[each]
-
-Mit dem for lernen Sie die letzte Kontrollstruktur kennen. Besonders beim Umgang mit Arrays, 
-besonderen Variablen, die eine definierte Anzahl Werte des gleichen Datentyps aufnehmen kann, ist for hilfreich.
+# 7 - Arrays und for(each)
 
 :::info Ziele
 
-- Sie können mittels Arrays effizient mit mehreren Werte des gleichen Datentyps programmieren.
-- Sie können die for Kontrollstruktur nutzen, die besonders für das Durchlaufen von Arrays hilfreich ist.
+- Sie können mittels Arrays effizient mit mehreren Werte des gleichen Datentyps
+  programmieren.
+- Sie können die for Kontrollstruktur nutzen, die besonders für das Durchlaufen
+  von Arrays hilfreich ist.
 
 :::
 
+Wir haben Datentypen kennengelernt und wissen, wie wir Variablen anlegen können.
+Damit können wir Werte zwischenspeichern und später wieder darauf zurückgreifen.
 
+Stellen Sie sich nun einmal vor, Sie schreiben ein Programm, mit dem Sie
+Messwerte erfassen. Alle Messwerte haben den gleichen Datentyp. Wenn wir
+annehmen, dass Sie 100 solche Messwerte speichern möchten, dann könnten Sie das
+so machen:
+
+```java
+int wert1;
+int wert2;
+int wert3;
+// immer weiter so
+int wert100;
+```
+
+Das wäre sicher möglich, aber sehr aufwendig und nicht gut umsetzbar. Möchten
+Sie jetzt die Messwerte auslesen (über eine **fiktive Messmethode `mess_methode`**), dann könnte
+das so aussehen:
+
+```java
+wert1 = mess_methode();
+wert2 = mess_methode();
+wert3 = mess_methode();
+// und so weiter
+wert100 = mess_methode();
+```
+
+Wenn Sie jetzt zum Beispiel den Durchschnitt der Messwerte ausrechnen möchten,
+dann schreiben Sie einen Code wie diesen:
+
+```java
+int summe = wert1 + wert2 + wert3 + /* ... */ + wert100;
+int durchschnitt = summe / 100;
+```
+
+Soll das Programm jetzt noch so erweitert werden, dass Sie mehr Messwerte
+erfassen können, zum Beispiel 1000, dann läuft es endgültig aus dem Ruder.
+
+Wie man das Program trotzdem zähmen kann, erfahren Sie im nächsten Kapitel.
+## Themen
+
+<DocCardList />
