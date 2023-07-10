@@ -91,8 +91,8 @@ beendet wird.
 
 #### `<Schrittweite>`
 
-**Am Schluss einer Sequenz**, vor der `<Bedingung>`, wird die `<Zählervariable>` hoch
-oder runter gezählt.
+**Am Schluss einer Sequenz**, vor der `<Bedingung>`, wird die `<Zählervariable>`
+hoch oder runter gezählt.
 
 :bulb: `i++` Zählt z.B. die Variable `i` mit der Schrittweite 1 hoch.
 

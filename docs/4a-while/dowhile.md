@@ -2,14 +2,15 @@
 sidebar_position: 2
 ---
 
-# `do..while`
+# `do { } while`
 
 Zusätzlich existiert eine sogenannt "flussgesteuerte" Variante von `while`.
-Diese Variante **beginnt mit dem Schlüsselwort `do`**, und das `while` rutscht an den Schluss.
+Diese Variante **beginnt mit dem Schlüsselwort `do`**, und das `while` rutscht
+an den Schluss.
 
 <div class="grid"><div>
 
-```java title="do..while Code-Beispiel"
+```java title="do { } while Code-Beispiel"
 int x = 10;
 do {
     System.out.println("value of x: " + x);
@@ -36,17 +37,19 @@ stateDiagram-v2
 
 </div></div>
 
-Der `do`-Block in den gescheiften Klammern `{}` wird **immer einmal ausgeführt**,
-bevor die Bedingung überprüft wird.
+Der `do`-Block in den gescheiften Klammern `{}` wird **immer einmal
+ausgeführt**, bevor die Bedingung überprüft wird.
 
-Ist die Bedingung erfüllt, wird der do-Block erneut ausgeführt, solange bis die Bedingung x > 0 nicht
-mehr erfüllt ist. Die `do..while` Schlaufe ist dadurch unerscheidlich zur `while`
-Schlaufe, dass der Code-Block immer **mindestens ein Mal ausgeführt wird**.
+Ist die Bedingung erfüllt, wird der do-Block erneut ausgeführt, solange bis die
+Bedingung x > 0 nicht mehr erfüllt ist. Die `do..while` Schlaufe ist dadurch
+unerscheidlich zur `while` Schlaufe, dass der Code-Block immer **mindestens ein
+Mal ausgeführt wird**.
 
 :::info do..while
 
 - Der Code-Block wird **immer zuerst einmal ausgeführt**
-- **_Solange-die-Bedingung-zutrifft_** wird der Code-Block wiederholt ausgeführt.
+- **_Solange-die-Bedingung-zutrifft_** wird der Code-Block wiederholt
+  ausgeführt.
 
 :::
 
@@ -54,8 +57,8 @@ Schlaufe, dass der Code-Block immer **mindestens ein Mal ausgeführt wird**.
 
 ### Fahrenheit Umrechner
 
-Schreiben Sie ein Programm, welches eine Auflistung der Celsiuswerte von
--20 bis 100 Grad in 5er Schritten in Fahrenheit ausgibt.
+Schreiben Sie ein Programm, welches eine Auflistung der Celsiuswerte von -20 bis
+100 Grad in 5er Schritten in Fahrenheit ausgibt.
 
 ```java title="Die Formel dazu lautet:"
 fahrenheit = (9.0/5.0) * celsius + 32
@@ -91,12 +94,13 @@ public class ACFahrenheit {
 
 ### Guthaben aufbrauchen
 
-Schreiben Sie ein Programm, welches zuerst ein Startguthaben von 100.00 Franken in einer Variablen
-festlegt.
+Schreiben Sie ein Programm, welches zuerst ein Startguthaben von 100.00 Franken
+in einer Variablen festlegt.
 
-- Nun soll jeweils wiederholt der Benutzer über sein aktuelles Guthaben informiert
-  und nach einem Betrag gefragt werden, den man abheben möchte.
-- Dieser Betrag wird so lange abgezogen, bis das Guthaben 0 oder weniger beträgt.
+- Nun soll jeweils wiederholt der Benutzer über sein aktuelles Guthaben
+  informiert und nach einem Betrag gefragt werden, den man abheben möchte.
+- Dieser Betrag wird so lange abgezogen, bis das Guthaben 0 oder weniger
+  beträgt.
 - Am Schluss soll «Sorry, your balance now is zero or below» auf die Konsole
   ausgegeben werden.
 
