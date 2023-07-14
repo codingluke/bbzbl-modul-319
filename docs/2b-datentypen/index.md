@@ -10,6 +10,11 @@ besitzen einen Namen sowie einen für die zu speichernden Daten passenden
 - Sie können diese als Variablen in Programmen nutzen.
 
 :::
+<!-- ## :teacher: Präsentation -->
+
+<!-- [:computer: Open in Browser](pathname:///slides/operatoren) | [:floppy_disk: download PDF](pathname:///slides/operatoren.pdf) -->
+
+<!-- <iframe src="/bbzbl-modul-319/slides/operatoren" width="100%" height="400px"></iframe> -->
 
 ## Deklaration und Initialisierung von Variablen
 
@@ -292,6 +297,10 @@ b--; // b = b - 1
 System.out.println(b); // 1 - 1 = 0
 ```
 
+## :pencil: Aufgaben
+
+<DocCardList />
+
 ## :tv: Erklärvideos von Studyflix
 
 - [Java Datentypen einfach Erklährt](https://studyflix.de/informatik/primitive-datentypen-215)
@@ -299,6 +308,3 @@ System.out.println(b); // 1 - 1 = 0
 - [Ausdrücke und Operatoren in Java](https://studyflix.de/informatik/ausdrucke-und-arithmetische-operatoren-217)
 - [Boolsche ausdrücke in Java](https://studyflix.de/informatik/boolesche-ausdrucke-221)
 
-## :pencil: Aufgaben
-
-<DocCardList />

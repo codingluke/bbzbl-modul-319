@@ -28,7 +28,7 @@ Bedeutung von Programmen und Algorithmen denken.
 
 </div></div>
 
-## Was ist programmieren? kukuk
+## Was ist programmieren?
 
 Viele Informatiker argumentieren, dass das Erlernen des Programmierens ohne
 einen Computer anfangen sollte. Auch im Unterricht zeigt sich oft, dass
@@ -104,13 +104,16 @@ welche grundlegenden Kontrollstrukturen sie mitdefinieren.
 
 - Ein Algorithmus ist eine endliche Folge (Ablauf) aus eindeutigen und
   ausführbaren Anweisungen.
+  - Eine eindeutige Handlungsvorschrift zur Lösung eines Problems oder einer
+    Klasse von Problemen
 - Ein Programm ist ein Algorithmus, der in einer formalisierten Sprache
   abgefasst ist und maschinell ausgeführt werden kann.
 - Eine lineare Folge von Anweisungen nennt man Sequenz.
   - Ein Viereck zeichnen.
   - Die Wörter Hello, World hintereinander ausgeben.
   - ...
-- Wenn eine Sequenz in zwei Sequenzen verzweigt, spricht man von Selektion.
+- Wenn eine Sequenz in zwei Sequenzen verzweigt, spricht man von
+  Selektion/Bedingung.
 - Die Wiederholung eines Abschnitts einer Sequenz wird als Iteration bezeichnet.
 
 **Kein Algorithmus sind:**

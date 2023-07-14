@@ -7,7 +7,7 @@ const oembed = require("@agentofuser/remark-oembed");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Modul 319",
+  title: "Modul 403/319",
   tagline: "Applikationen entwerfen und implementieren",
   url: "https://codingluke.github.io",
   baseUrl: "/bbzbl-modul-319/",
@@ -99,7 +99,7 @@ const config = {
         theme: { light: "neutral", dark: "forest" },
       },
       navbar: {
-        title: "Modul 431",
+        title: "Modul 403/319",
         logo: {
           alt: "BBZBL Logo",
           src: "img/bbzbl-logo.png",
@@ -113,7 +113,7 @@ const config = {
           },
           { to: "/slides/", label: "Präsentationen", position: "left" },
           {
-            href: "https://github.com/codingluke/bbzbl-modul-431",
+            href: "https://github.com/codingluke/bbzbl-modul-319",
             label: "GitHub",
             position: "right",
           },
@@ -142,7 +142,10 @@ const config = {
           {
             className: "code-block-green-line",
             line: "highlight-green-next-line",
-            block: { start: "highlight-green-start", end: "highlight-green-end" },
+            block: {
+              start: "highlight-green-start",
+              end: "highlight-green-end",
+            },
           },
           {
             className: "code-block--line",
@@ -152,7 +155,10 @@ const config = {
           {
             className: "code-block-orange-line",
             line: "highlight-orange-next-line",
-            block: { start: "highlight-orange-start", end: "highlight-orange-end" },
+            block: {
+              start: "highlight-orange-start",
+              end: "highlight-orange-end",
+            },
           },
           {
             className: "code-block-blue-line",
