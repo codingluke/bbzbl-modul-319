@@ -76,10 +76,6 @@ Der Aufbau der Anweisung ist also so:
 
 :::
 
-## :tv: Erklärvideos von Studyflix
-
-- [while-Schleife einfach erklärt](https://studyflix.de/informatik/while-schleife-224)
-
 ## :pencil: Aufgaben
 
 ### Wiederholte Ausgabe
@@ -187,3 +183,7 @@ public class ABMultiplication {
 ```
 
 </details>
+
+## :tv: Erklärvideos von Studyflix
+
+- [while-Schleife einfach erklärt](https://studyflix.de/informatik/while-schleife-224)

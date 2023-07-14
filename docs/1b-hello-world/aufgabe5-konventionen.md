@@ -72,21 +72,7 @@ Es gibt gute Gründe für Kommentare:
 
 - eine **öffentliche Methode** für JavaDoc kurz Beschreiben
 - erläutern **warum** eine Entscheidung getroffen wurde
-- TODO: Kommentare für Infos was man in Zukunft verbessern sollte
-
-:::danger Es gibt aber auch schlechte Kommentare!
-
-**:scream: Kommentare veralten schnell! Nichts ist schlimmer als ein Kommentar
-der nicht mehr stimmt**
-
-Kommentare **sollten nicht beschreiben was der Programmcode im detail macht**!
-Das steht im Code. Wenn dafür Kommentare nötig sind, sollte der Code überdacht
-werden.
-
-1.  Kleinere Methoden wo der Namen bereits sagt was es macht
-2.  Komplexe Abhängigkeiten entkoppeln
-
-:::
+- "TODO-Kommentare" für Infos was man in Zukunft verbessern sollte
 
 ### Einzeiliger Kommentar
 
@@ -145,10 +131,25 @@ public MeinTollerKlasseName {
   Dokumentation daraus generiert werden kann.
 - [:link: JavaDoc Beschreibung auf Wikipedia](https://de.wikipedia.org/wiki/Javadoc)
 
+:::danger Es gibt aber auch schlechte Kommentare!
+
+Kommentare **sollten nicht beschreiben was der Programmcode im Detail macht**!
+Das steht im Code. Wenn dafür Kommentare nötig sind, sollte der Code überdacht
+werden:
+
+- Kleinere Methoden wo der Namen bereits beschreibt was gemacht wird
+- Komplexe Abhängigkeiten entkoppeln / auseinandernehmen
+
+:scream: Kommentare **veralten schnell!** Nichts ist schlimmer als ein Kommentar
+der nicht mehr stimmt!
+
+:::
+
 ## :pencil: Auftrag: Kommentieren Sie Ihr «HelloWorld»
 
 Beschreiben Sie mit Kommentaren Ihr «HelloWorld»-Programm, so dass Sie sich
 später wieder an alle Schritte der Erstellung erinnern.
 
-- Diese Kommentare sind zwar nicht sinnvoll für die Softwareentwicklung
+- Diese Kommentare sind zwar nicht sinnvoll für die Softwareentwicklung -> siehe
+  roter Kasten oben.
 - **Hier sind sie jedoch sinnvoll für sie selbst zur Dokumentation!**

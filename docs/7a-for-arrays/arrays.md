@@ -269,9 +269,6 @@ for(int i = 0; i < worte.length; i++){
     System.out.println(i + ": " + worte[i]);
 }
 ```
-## :tv: Erklärvideos von Studyflix
-
-- https://studyflix.de/informatik/java-array-1898
 
 ## :pencil: Aufgaben
 
@@ -689,3 +686,7 @@ public class Dice {
 ```
 
 </details>
+
+## :tv: Erklärvideos von Studyflix
+
+- https://studyflix.de/informatik/java-array-1898

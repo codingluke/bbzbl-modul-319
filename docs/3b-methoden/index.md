@@ -179,10 +179,6 @@ beobachten**. Wenn man z.B. "Hi" nach "i" ändert, wird der Ausdruck `false`, da
    einerseits ein Symbol für die Java-Perspektive (J), und andererseits ein
    Symbol für die Debugging-Perspektive (Käfer) angezeigt.
 
-## :tv: Erklärvideos von Studyflix
-
-- [Java Methoden einfach erklärt](https://studyflix.de/informatik/java-methoden-1901)
-
 ## :pencil: Aufgaben
 
 ### Auftrag 1
@@ -231,3 +227,7 @@ public class OutputMethodExample {
   - Diese Debugging-Session soll aufzeigen, wie der Aufruf einer Methode
     erfolgt.
 - Spielen Sie mit den Möglichkeiten
+
+## :tv: Erklärvideos von Studyflix
+
+- [Java Methoden einfach erklärt](https://studyflix.de/informatik/java-methoden-1901)

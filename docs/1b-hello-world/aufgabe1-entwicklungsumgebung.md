@@ -1,14 +1,15 @@
 # Entwicklungsumgebung
 
-Entwicklungsumgebung aufsetzen
+In dieser Aufgabe lernen Sie wie, Sie die Entwicklungsumgebung _Eclipse_
+aufsetzen, damit Sie Java Programme erstellen und ausführen können.
 
 ## 1. Eclipse herunterladen und installieren
 
 Falls Sie mit Ihrem **eigenen Computer** arbeiten, müssen Sie zuerst
-[Eclipse](https://www.eclipse.org) herunterladen und installieren. Eclipse
+[Eclipse](https://www.eclipseide.org) herunterladen und installieren. Eclipse
 installiert automatisch die aktuelle Java version.
 
-- :link: [Eclipse Download](https://www.eclipse.org)
+- :link: [Eclipse Download](https://www.eclipseide.org)
 
 :::note Wenn Sie auf einem Schulcomputer oder der Windows VM arbeiten, können
 sie diesen Schritt überspringen.
@@ -26,16 +27,16 @@ sie diesen Schritt überspringen.
     Netzwerk-Verzeichnis**, damit Ihnen diese von Woche zu Woche zur Verfügung
     steht.
   - Abschliessend betätigen Sie «Launch».
-- Nun sollte Eclipse starten, und Sie sind parat für ihr erstel "Hello World"
+  ![eclipse-select-workspace](images/eclipse-select-workspace.png)
+- Nun sollte Eclipse starten, und Sie sind parat für ihr erstes "Hello World"
   :superhero:
 
-TODO: Aktuelle Screenshots
 
 :::tip
 
 - Falls Sie zuhause daran arbeiten möchten, können Sie den **Workspace
   entsprechend nach dem Unterricht kopieren**.
-- Wenn Sie einen Laptop besitzen, arbeiten Sie lieber damit.
+- :superhero: Wenn Sie **einen Laptop** besitzen, arbeiten Sie lieber damit.
 
 :::
 
