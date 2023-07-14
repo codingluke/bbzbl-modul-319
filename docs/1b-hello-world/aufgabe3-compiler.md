@@ -52,7 +52,7 @@ das, was die eigentliche Leistung des Programms ausmacht. Über die Java-Klasse
 System erfolgt die Ausgabe auf die Console (out), wo eine Zeile ausgegeben wird
 (println).
 
-## Auftrag: Visualisierung
+## :pencil: Aufgabe: Visualisierung
 
 Erstellen Sie eine eigene Visualisierung, welche für Ihr HelloWorld Programm
 aufzeigt, wie der Sourcecode zu einem ausführbaren Programm überführt wird,

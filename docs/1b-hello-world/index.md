@@ -1,6 +1,6 @@
 # 1b - Hello World Programm
 
-Sie lernen mit der Entwicklungsumgebung [Eclipse](https://www.eclipse.org/ide/)
+Sie lernen mit der Entwicklungsumgebung [Eclipse](https://www.eclipseide.org)
 ein **HelloWord-Programm** zu schreiben.
 
 :::info Ziele
@@ -13,7 +13,7 @@ ein **HelloWord-Programm** zu schreiben.
 
 :::
 
-## Infrastrktur zum Programmieren
+## Infrastruktur zum Programmieren
 
 Um zu programmieren ist es vorteilhaft eine Entwicklungsumgebung einzusetzen,
 weil viele technische notwendige Abläufe verlässlich im Hintergrund laufen, ohne
@@ -43,14 +43,15 @@ Als Entwicklungsumgebung wird ein Programm bezeichnet, welches es erlaubt:
 ### Eclipse als Entwicklungsumgebung
 
 Im Unterricht verwenden wir als Standard-Entwicklungsumgebung
-[Eclipse](https://www.eclipse.org). Um auch zuhause mit Eclipse können Sie es
-von [hier](https://www.eclipse.org) herunterladen. Eclipse ist eine offene
+[Eclipse](https://www.eclipseide.org). Um auch zuhause mit Eclipse können Sie es
+von [hier](https://www.eclipseide.org) herunterladen. Eclipse ist eine offene
 _(Open Source)_ Software und somit gratis für alle verwendbar.
 
-- :link: [Eclipse Download](https://www.eclipse.org)
+- :link: [Eclipse Download](https://www.eclipseide.org)
 
-Zusätzlich zu Eclipse gibt es noch viele Andere, teilweise sogar modernere
-Umgebungen. Diese sind jedoch teilweise kostenpflichtig.
+Zusätzlich zu Eclipse gibt es noch viele Andere, teilweise sogar modernere,
+Umgebungen. Diese sind jedoch häufig kostenpflichtig oder nicht so gut geeignet
+für Java.
 
 - [JetBrains IntelliJ](https://www.jetbrains.com/idea/)
 - [JetBrains Fleet](https://www.jetbrains.com/fleet/)
@@ -60,9 +61,9 @@ Umgebungen. Diese sind jedoch teilweise kostenpflichtig.
   - Nicht so geeignet für java!
   - Sonst jedoch super!
 
-Klicken Sie nun auf [Weiter um Eclipse zu installieren](./aufgabe1.md).
+Klicken Sie nun auf [Weiter um Eclipse zu installieren](./aufgabe1-entwicklungsumgebung.md)
 
-## :pencil: Aufgaben
+## Themen
 
 <DocCardList />
 

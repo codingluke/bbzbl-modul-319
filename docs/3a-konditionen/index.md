@@ -23,11 +23,11 @@ unterschiedlich, **spezifisch reagieren**.
 
 <iframe src="/bbzbl-modul-319/slides/operatoren" width="100%" height="400px"></iframe>
 
+## :open_book: Themen
+
+<DocCardList />
+
 ## :tv: Erklärvideos von Studyflix
 
 - [if-Anweisung einfach erklärt](https://studyflix.de/informatik/if-anweisung-220)
 - [Switch-Anweisung einfach erklärt](https://studyflix.de/informatik/switch-case-java-1804)
-
-## :open_book: Themen
-
-<DocCardList />

@@ -79,6 +79,82 @@ auseinanderzunehmen und in einzelnen Schritten zu lösen.
 
 </details>
 
+## Let's Play!
+
+Hier sieht ihr ein lustiges Flussdiagram. Spiele in dieser Art kennt ihr
+bestimmt aus Magazinen und Witz-Seiten. Ihr werdet sehen, dass Quitz wie dieses
+die Grundlagen vom Programmieren sehr gut zusammenfassen.
+
+![shit-together](../../images/flowchart-shit-togetzer-loopable.png)
+
+Später, wenn wir die Entwicklungsumgebung zusammen aufgebaut habt, können wir
+den Code hier kopieren und dieses Quizz interaktiv spielen. Es fasst alle
+Konzepte dieses Moduls zusammen. Am ende des Moduls solltet Ihr fähig sein
+solche Quizz selbst zu programmieren.
+
+<details><summary>Code zum Kopieren</summary>
+
+```java
+import java.util.Scanner;
+
+public class ShitTogether {
+
+  public static void main(String[] args) throws InterruptedException {
+    Scanner scanner = new Scanner(System.in);
+    boolean goalFullfiled = false;
+    String plan = "";
+    String goal = "";
+    System.out.println("Get Your Shit Together!\n");
+    do {
+      System.out.println("Start with a GOAL: ");
+      goal = scanner.next();
+      System.out.println("\nDo you have a plan to achieve it? (That's your strategy)");
+      System.out.println("1: Yes");
+      System.out.println("2: No");
+      if (scanner.nextInt() == 1) {
+        System.out.println("\nMake One!: ");
+        plan = scanner.next();
+      }
+      System.out.println("\nHow is it working out?");
+      System.out.println("1: Great!");
+      System.out.println("2: Not so Great!");
+      if (scanner.nextInt() == 1) {
+        goalFullfiled = true;
+      } else {
+        System.out.println("\nWhy?");
+        System.out.println("1: I don't have enough Time to Do it all!");
+        System.out.println("2: I have too much on my to-do list!");
+        if (scanner.nextInt() == 1) {
+          System.out.println("- Berak your plan into Small manageable chunks!");
+        } else {
+          System.out.println("- You need to priorize!");
+        }
+        System.out.println("- Schedule Time to focus on each chunk");
+        System.out.println("\nDid you do each chunk when you saild you would?");
+        System.out.println("1: Yes");
+        System.out.println("2: No I failed to commit...");
+        if (scanner.nextInt() == 1) {
+          goalFullfiled = true;
+        } else {
+          System.out.println("You do not have your shit together!\n\n");
+          goal = "";
+          plan = "";
+        }
+      }
+    } while (!goalFullfiled);
+
+    System.out.println("HUZZAH! You have your shit together");
+    System.out.println("You archived your goal: " + goal);
+    if (!"".equals(plan)) {
+      System.out.println("Whith the plan: " + plan);
+    }
+    scanner.close();
+  }
+}
+```
+
+</details>
+
 ## Die Grundformen der Programmierung
 
 Die folgenden Grundbegriffe wurden im Unterricht definiert
@@ -88,6 +164,16 @@ Die folgenden Grundbegriffe wurden im Unterricht definiert
 - Iteration (do, while, for, ...)
 - Algorithmus
   - Spezifische Kombination von Sequenz, Bedingung und Iteration
+
+<div class="grid"><div>
+
+![algorithmus](images/algorithmus.png)
+
+</div><div>
+
+![strukturen](images/strukturen.png)
+
+</div></div>
 
 ## :pencil: Definition Algorithmus und Kontrollstrukturen
 

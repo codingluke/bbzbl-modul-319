@@ -71,6 +71,8 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       {
         docs: {
+          showLastUpdateAuthor: false,
+          showLastUpdateTime: false,
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -121,7 +123,7 @@ const config = {
       },
       footer: {
         style: "dark",
-        copyright: `Made with ❤️ in Pratteln`,
+        copyright: `Made with ❤️ in Pratteln <br/> A. Moreno / R. Zaugg / L. Hodel`,
       },
       prism: {
         theme: lightCodeTheme,

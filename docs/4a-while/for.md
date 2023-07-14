@@ -228,10 +228,6 @@ das nach der 5. Wiederholung der Fall sein.
 4
 ```
 
-## :tv: Erklärvideos von Studiflix
-
-- [for-Schleife einfach erklärt](https://studyflix.de/informatik/for-schleife-226)
-
 ## :pencil: Aufgaben
 
 ### Auftrag 1
@@ -331,3 +327,7 @@ Flagge 2
 @@@@
 @@@@@
 ```
+
+## :tv: Erklärvideos von Studiflix
+
+- [for-Schleife einfach erklärt](https://studyflix.de/informatik/for-schleife-226)

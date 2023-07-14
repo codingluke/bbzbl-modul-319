@@ -5,24 +5,27 @@ diese **paarweise eingesetzt werden**. In Java werden folgende Klammertypen
 verwendet:
 
 - `{ }` Codeblock
-- `( )` Methoden/Funktions Signatur (immer gefolgt von einem Codeblock)
-- `[ ]` Arrays (Listen)
+- `( )` Methoden/Funktions Signatur (meistens gefolgt von einem Codeblock)
+- `[ ]` Arrays (Auflistung, Anordnung)
 
 Als eine Besonderheit kennzeichnet dieses Klammerpaar `{ }` sogenannte Blöcke,
 die man auch als Programmabschnitte bezeichnen kann.
 
-:::tip
+:::info
 
 - Nach einem Codeblock `}` folgt **kein** Semikolon
-- Nach einer Schliessenden normalen Klammer `)` folgt immer eine geschweifte
-  Klammer `{`
+- Nach einer Schliessenden normalen Klammer `)` folgt in der Regel eine
+  geschweifte Klammer `{`
+  - Ausnahmen sind in dem Modul nicht relevant.
 - Jeder Befehl endet mit einem Semikolon `;`
   - Nach jedem Semikolon sollte eine neue Zeile beginnen, muss aber nicht!
   - Dies nicht zu machen ist **schlechter Stiel und gibt Abzug**!
 
 :::
 
-## 1. Auftrag: Blöcke finden
+## :pencil: Aufgaben
+
+### 1. Blöcke finden
 
 Wenden Sie nun das im oberen Abschnitt vorgestellte Konzept der Blöcke an.
 Bisher haben wir die Klassen und `main`-Methode von Java kennen gelernt.
@@ -48,7 +51,7 @@ public class HelloWorld {
 
 :::
 
-## 2. Auftrag: _HelloWorld.java_ Datei finden
+### 2. _HelloWorld.java_ Datei finden
 
 Und wo liegt nun die _HelloWorld.java_ Datei?
 
@@ -56,12 +59,14 @@ Und wo liegt nun die _HelloWorld.java_ Datei?
   und wählen Sie _«Show in»_, dann _«System Explorer»_.
 - Anschliessende sehen Sie die Klasse im Windows Explorer rsp. Finder.
 
-:::tip der Klassenname und Dateiname müssen **immer identisch sein**. Probieren
-Sie es aus.
+:::caution Achtung!
+
+Der **Klassenname und Dateiname müssen immer identisch sein**. Probieren Sie es
+aus. Nun sollte Eclipse einen Error anzeigen.
 
 :::
 
-## 3. Auftrag: Das `bin`-Verzeichnis und `class`-Dateien
+### 3. Das `bin`-Verzeichnis und `class`-Dateien suchen
 
 Suchen Sie von hier aus auch das `bin`-Verzeichnis. Sie sollten darin die
 class-Dateien sehen. Diese werden jeweils bei jeglicher Veränderung durch
