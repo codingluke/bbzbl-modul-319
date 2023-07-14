@@ -1,6 +1,7 @@
 # 📝 Datetypen bestimmen
 
-Bestimmen Sie die die <u>kleinst möglichen</u> Datentypen für die folgenden Werte:
+Bestimmen Sie die die <u>kleinst möglichen</u> Datentypen für die folgenden
+Werte:
 
 ```
 11.39    .................................

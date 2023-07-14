@@ -4,17 +4,26 @@ sidebar_position: 1
 
 # if - Kontrollstruktur
 
-Mit dem Schlüsselwort **if** _(engl. falls)_ in Kombination mit dem **Datentyp boolean** können Programme erstellt werden, die abhängig von Benutzereingaben oder Variablenwerten unterschiedlich reagieren.
+Mit dem Schlüsselwort **if** _(engl. falls)_ in Kombination mit dem **Datentyp
+boolean** können Programme erstellt werden, die abhängig von Benutzereingaben
+oder Variablenwerten unterschiedlich reagieren.
 
 ## `if`-Anatomie
 
-Eine Kontrollstruktur mit einem `if` sieht so aus, wie im nächsten **formellen Beispiel** dargestellt. Es folgt ein **praktisches Beispiel** um es zu veranschaulichen.
+Eine Kontrollstruktur mit einem `if` sieht so aus, wie im nächsten **formellen
+Beispiel** dargestellt. Es folgt ein **praktisches Beispiel** um es zu
+veranschaulichen.
 
 ### Formelles Beispiel
 
-Hier ist nun eine `if-Kontrollstruktur` mit drei möglichen Codeblock Anweisungen dargestellt. Im laufenden Programm wird immer nur eine der Anweisungen ausgeführt. Dies ermöglicht es dynamisch auf die Benutzereingabe zu reagieren indem je nach Eingabe einen anderen Code ausgeführt wird.
+Hier ist nun eine `if-Kontrollstruktur` mit drei möglichen Codeblock Anweisungen
+dargestellt. Im laufenden Programm wird immer nur eine der Anweisungen
+ausgeführt. Dies ermöglicht es dynamisch auf die Benutzereingabe zu reagieren
+indem je nach Eingabe einen anderen Code ausgeführt wird.
 
-Die Bezeichnungen `<Bedingung>` und `<Anweisung>` dienen als **Platzhalter**. Sie sind sogenannter Pseudocode und somit **nicht korrekter Java-Code**. Im späteren praktischen Beispiel werden diese mit korrektem Java-Code ersetzt.
+Die Bezeichnungen `<Bedingung>` und `<Anweisung>` dienen als **Platzhalter**.
+Sie sind sogenannter Pseudocode und somit **nicht korrekter Java-Code**. Im
+späteren praktischen Beispiel werden diese mit korrektem Java-Code ersetzt.
 
 <div className="grid"><div>
 
@@ -69,7 +78,8 @@ flowchart TD
    - ist <u>optional</u>
    - kann auch noch mehrfach wiederholt folgen
    - kann nie alleine stehen _(nie ohne vorausgehender `if`-Block)_
-   - wird ausgeführt, sofern die Bedingung vom vorausgehendem `if` oder `else if` Block **false** war
+   - wird ausgeführt, sofern die Bedingung vom vorausgehendem `if` oder
+     `else if` Block **false** war
 
 </div>
 
@@ -85,27 +95,38 @@ flowchart TD
 
 **Erläuterung**
 
-1. Wenn die `<Bedingung1>` `wahr` ist, wird <u>nur</u> die `<Anweisung1>` ausgeführt.
-2. Wenn die `<Bedingung1>` `falsch` <u>und</u> die `<Bedingung2>` `wahr` ist, wird <u>nur</u> die `<Anweisung2>` ausgeführt.
-3. Wenn die `<Bedingung1>` `falsch` <u>und</u> die `<Bedingung2>` `falsch` ist, wird <u>nur</u> die `<Anweisung3>` ausgeführt.
+1. Wenn die `<Bedingung1>` `wahr` ist, wird <u>nur</u> die `<Anweisung1>`
+   ausgeführt.
+2. Wenn die `<Bedingung1>` `falsch` <u>und</u> die `<Bedingung2>` `wahr` ist,
+   wird <u>nur</u> die `<Anweisung2>` ausgeführt.
+3. Wenn die `<Bedingung1>` `falsch` <u>und</u> die `<Bedingung2>` `falsch` ist,
+   wird <u>nur</u> die `<Anweisung3>` ausgeführt.
 
 :::tip
 
-Es wird immer nur <u>ein Anweisungs-Block</u> pro `if`-Kontrollstruktur ausgeführt!
+Es wird immer nur <u>ein Anweisungs-Block</u> pro `if`-Kontrollstruktur
+ausgeführt!
 
 :::
 
 :::tip Klammern
 
-Die Buchhaltung mit Klammern wird nun wichtiger, und auch eine schöne Formatierung des Programms hilft Strukturen und Zusammenhänge richtig zu erkennen.
+Die Buchhaltung mit Klammern wird nun wichtiger, und auch eine schöne
+Formatierung des Programms hilft Strukturen und Zusammenhänge richtig zu
+erkennen.
 
-In eclipse gibt es den Shortcut `Ctrl + Shift + F`. Damit können Sie Ihren Sourcecode automatisch formatieren lassen.
+In eclipse gibt es den Shortcut `Ctrl + Shift + F`. Damit können Sie Ihren
+Sourcecode automatisch formatieren lassen.
 
 :::
 
 ### Praktisches Beispiel
 
-Im praktischen Beispiel wollen wir herausfinden ob es sich um ein Kind, Jugendlicher oder Erwachsener handelt. Dazu existiert eine Variable `int age` in der das Alter gespeichert ist. In der if-Kontrollstruktur wird nun das Alter geprüft und je nach Situation in die Console geschrieben ob es sich um ein Kind, Jugendlicher oder Erwachsener handelt.
+Im praktischen Beispiel wollen wir herausfinden ob es sich um ein Kind,
+Jugendlicher oder Erwachsener handelt. Dazu existiert eine Variable `int age` in
+der das Alter gespeichert ist. In der if-Kontrollstruktur wird nun das Alter
+geprüft und je nach Situation in die Console geschrieben ob es sich um ein Kind,
+Jugendlicher oder Erwachsener handelt.
 
 <div className="grid"><div>
 
@@ -130,7 +151,8 @@ else {
 
 :::tip
 
-Die Variable `int age` könnte nun auch von der Konsole eingelesen werden und somit "dynamisch" sein. Dann macht die Kondition auch mehr Sinn!
+Die Variable `int age` könnte nun auch von der Konsole eingelesen werden und
+somit "dynamisch" sein. Dann macht die Kondition auch mehr Sinn!
 
 :::
 
@@ -157,21 +179,28 @@ flowchart TD
 1. Es existiert eine Variable _age_ vom Typ `int` mit dem Wert `14`
 2. Die `if`-Block Bedingung **_(Linie 3)_ wir ausgeführt**
    - Die Bedingung prüft ob es sich um ein Kind handelt, also kleiner als 12 ist
-   - Da der Wert von _age_ `14` ist, ist der `boolean` der Prüfung `false`, also falsch
+   - Da der Wert von _age_ `14` ist, ist der `boolean` der Prüfung `false`, also
+     falsch
    - Der Code-Block **_(Linie 4)_ wird übersprungen**
 3. Die `else if` Bedingung _(Linie 6)_ wird nun ausgeführt
    - Es wird geprüft ob der Wert von `age` kleiner als 18 ist.
-   - Da der Wert 14 kleiner als 18 ist, ist der `boolean` der **Prüfung `true`, also richtig**
+   - Da der Wert 14 kleiner als 18 ist, ist der `boolean` der **Prüfung `true`,
+     also richtig**
    - Der **`else if`-Block _(Linie 7)_ wird ausgeführt**.
-4. Da eine Bedingung `true` war, wird der **`else`-Block _(Linie 10)_ übersprungen!**
+4. Da eine Bedingung `true` war, wird der **`else`-Block _(Linie 10)_
+   übersprungen!**
 
 ## Bedingungen, Boolshe Ausdrücke, Typ `boolean`
 
 Aber was ist eine Bedingung?
 
-Bedingungen sind Code-Ausdrücke, welche entweder wahr (`true`) oder falsch (`false`) sein können. Diese werden mit dem Datentyp `boolean` ausgedrückt und sind elementar für die `if`-Kontrollstruktur um zu entscheiden, welcher Codeblock genau ausgeführt werden soll.
+Bedingungen sind Code-Ausdrücke, welche entweder wahr (`true`) oder falsch
+(`false`) sein können. Diese werden mit dem Datentyp `boolean` ausgedrückt und
+sind elementar für die `if`-Kontrollstruktur um zu entscheiden, welcher
+Codeblock genau ausgeführt werden soll.
 
-Beispielsweise könnte eine Kassensoftware Kunden, die für mehr als 100 CHF einkaufen einen Rabatt von 10% einräumen. Dies sieht dann so aus:
+Beispielsweise könnte eine Kassensoftware Kunden, die für mehr als 100 CHF
+einkaufen einen Rabatt von 10% einräumen. Dies sieht dann so aus:
 
 ```java
 if (amount > 100) { // Boolsher Ausdruck direkt in der if-Kontrollstruktur
@@ -179,7 +208,9 @@ if (amount > 100) { // Boolsher Ausdruck direkt in der if-Kontrollstruktur
 }
 ```
 
-Stattdessen könnte man auch eine **Variable** `boolean giveDiscount` (gebe Rabatt) einführen. Dies hat den Vorteil, dass ein guter Variabelname direkt beschreibt was gemacht wird. Dies würde dann so aussehen:
+Stattdessen könnte man auch eine **Variable** `boolean giveDiscount` (gebe
+Rabatt) einführen. Dies hat den Vorteil, dass ein guter Variabelname direkt
+beschreibt was gemacht wird. Dies würde dann so aussehen:
 
 ```java
 boolean giveDiscount = amount > 100;
@@ -189,7 +220,9 @@ if (giveDiscount) { // Variable vom Datentyp `boolean` in der if-Kontrollstruktu
 }
 ```
 
-Hier noch mehr Beispiele wie Boolshe Ausdrücke in boolean Variablen gespeichert und verwendet werden können. Laut Konvention beginnen diese Variablennamen mit `is` _(zu Deutsch "ist")_.
+Hier noch mehr Beispiele wie Boolshe Ausdrücke in boolean Variablen gespeichert
+und verwendet werden können. Laut Konvention beginnen diese Variablennamen mit
+`is` _(zu Deutsch "ist")_.
 
 ```java title="Beispiel Bool'she Ausdrücke in Variablen"
 // mit int
@@ -209,7 +242,9 @@ if (is21) {
 
 ### Kombination von Bedingungen und Wahrheitswerten
 
-Manchmal müssen mehrere Bedingungen kombiniert werden. Dies kann mit einem logischen UND (`&&`) sein oder mit einem logischen ODER (`||`). Nur wie stellt man dies in Java dar?
+Manchmal müssen mehrere Bedingungen kombiniert werden. Dies kann mit einem
+logischen UND (`&&`) sein oder mit einem logischen ODER (`||`). Nur wie stellt
+man dies in Java dar?
 
 | Logischer Ausruck | Beduetung      | Beschreibung                         |
 | :---------------- | :------------- | :----------------------------------- |
@@ -218,7 +253,8 @@ Manchmal müssen mehrere Bedingungen kombiniert werden. Dies kann mit einem logi
 
 <div className="grid"><div>
 
-Beim logischen **UND**, `&&`, müssen beide, rsp. **alle Werte `true`** sein. Sobald ein false auftritt, ist alles false:
+Beim logischen **UND**, `&&`, müssen beide, rsp. **alle Werte `true`** sein.
+Sobald ein false auftritt, ist alles false:
 
 | Kombination    | Resultat |
 | :------------- | :------- |
@@ -236,7 +272,8 @@ if (amount < 100 && age < 18) {
 
 </div><div>
 
-Beim logischen **ODER**, `||`, muss **mindestens ein Wert `true`** sein. Sobald ein `true` auftritt, ist alles `true`:
+Beim logischen **ODER**, `||`, muss **mindestens ein Wert `true`** sein. Sobald
+ein `true` auftritt, ist alles `true`:
 
 | Kombination      | Resultat |
 | :--------------- | :------- |
@@ -256,13 +293,18 @@ if (amount < 100 || age < 18) {
 
 :::tip
 
-Die beiden senkrechten Striche werden auf CH-PC-Tastaturen häufig mit `ALT-GR plus Taste 7` erzeugt (auf der Taste ist das meist mit einem gelegentlich noch unterbrochen vertikalen Strich dargestellt).
+Die beiden senkrechten Striche werden auf CH-PC-Tastaturen häufig mit
+`ALT-GR plus Taste 7` erzeugt (auf der Taste ist das meist mit einem
+gelegentlich noch unterbrochen vertikalen Strich dargestellt).
 
 :::
 
 ## Vergleichsoperatoren
 
-In den obigen Beispielen wurden bereits einige Vergleichsoperatoren verwendet. Unter anderem folgende sechs Vergleichsoperatoren stehen zur Verfügung: `<`, `<=`, `>`, `>=`, `==`, `!=`. Zusätzlich existiert die Methode `equals` für Strings.
+In den obigen Beispielen wurden bereits einige Vergleichsoperatoren verwendet.
+Unter anderem folgende sechs Vergleichsoperatoren stehen zur Verfügung: `<`,
+`<=`, `>`, `>=`, `==`, `!=`. Zusätzlich existiert die Methode `equals` für
+Strings.
 
 | Operator | Beduetung       | `true` Beispiel           |
 | :------- | :-------------- | :------------------------ |
@@ -276,8 +318,9 @@ In den obigen Beispielen wurden bereits einige Vergleichsoperatoren verwendet. U
 
 ### Der Spezialfall `String.equals`
 
-Es gibt eine Ausnahme beim gleich Vergleichs-Operator (`==`) und dem Datentyp `String` für Zeichenketten.
-Strings dürfen <u>nicht</u> mit `==` verglichen werden, sondern mit dem **Aufruf der Methode `equals`** wie hier gezeigt:
+Es gibt eine Ausnahme beim gleich Vergleichs-Operator (`==`) und dem Datentyp
+`String` für Zeichenketten. Strings dürfen <u>nicht</u> mit `==` verglichen
+werden, sondern mit dem **Aufruf der Methode `equals`** wie hier gezeigt:
 
 ```java
 String vehicle = "auto"; // gegeben ist eine String Variable
@@ -296,10 +339,13 @@ if (isAuto) {
 
 :::info
 
-- **String** Variablen **immer mit `.equals()`** vergleichen, <u>nie</u> mit `==`
-- Auch ist es gute Praxis der **bekannte Wert mit dem unbekannten zu vergleichen** und nicht anders rum:
+- **String** Variablen **immer mit `.equals()`** vergleichen, <u>nie</u> mit
+  `==`
+- Auch ist es gute Praxis der **bekannte Wert mit dem unbekannten zu
+  vergleichen** und nicht anders rum:
   - :white_check_mark: `"auto".equals(vehicle);`
-  - :x: `vehicle.equals("auto");` ergibt ein NullPointer wenn die `vehicle` den Wert `null` besitzt.
+  - :x: `vehicle.equals("auto");` ergibt ein NullPointer wenn die `vehicle` den
+    Wert `null` besitzt.
 
 :::
 
@@ -307,7 +353,8 @@ if (isAuto) {
 
 Erstellen Sie ein Programm, welches:
 
-- einen Kaufbetrag entgegen nimmt _([Eingabe einlesen](../2a-eva/aufgabe2-eingabe.md))_
+- einen Kaufbetrag entgegen nimmt
+  _([Eingabe einlesen](../2a-eva/aufgabe2-eingabe.md))_
 - bei Einkäufen über CHF 100 einen Rabatt von 15% gewährt
 
 <details><summary>Musterlösung:</summary>
@@ -334,11 +381,13 @@ public class A1DiscountEvaluation {
 
 Erstellen Sie Programm, welches:
 
-- Gewichtsangaben entgegen nimmt _([Eingabe einlesen](../2a-eva/aufgabe2-eingabe.md))_
+- Gewichtsangaben entgegen nimmt
+  _([Eingabe einlesen](../2a-eva/aufgabe2-eingabe.md))_
 - Bis und mit 5kg CHF 2 für Kleinpakete verrechnet
 - Zwischen 5kg und 10kg CHF 5 für Mittelpakete verrechnet
 - Ab 10kg für Grosspakete CHF 10 verrechnet
-- Für Pakete >= 15kg (ab 15kg) wird auf die Spedition verwiesen. Diese können nicht versendet werden.
+- Für Pakete >= 15kg (ab 15kg) wird auf die Spedition verwiesen. Diese können
+  nicht versendet werden.
 
 <details><summary>Musterlösung</summary>
 
@@ -376,7 +425,9 @@ public class A2ParcelPrice {
 
 ## :pencil: Auftrag 3
 
-Bauen Sie folgenden Abschnitt in ein Programm ein und untersuchen Sie, warum die Ausgabe des Programms falsch ist. Warum ist dieser Fehler so schwer zu entdecken?
+Bauen Sie folgenden Abschnitt in ein Programm ein und untersuchen Sie, warum die
+Ausgabe des Programms falsch ist. Warum ist dieser Fehler so schwer zu
+entdecken?
 
 ```java
 int value = 50;
@@ -387,7 +438,9 @@ if (value > 100) ; {
 
 <details><summary>Musterlösung</summary>
 
-Das Semikolon `;` nach der `if (value > 100)` Anweisung is zu viel. Es ist jedoch **syntaktisch korrekt** und ergibt keinen Error in Eclipse! Nur macht es keinen Sinn.
+Das Semikolon `;` nach der `if (value > 100)` Anweisung is zu viel. Es ist
+jedoch **syntaktisch korrekt** und ergibt keinen Error in Eclipse! Nur macht es
+keinen Sinn.
 
 Man könnte es auch so schreiben:
 
@@ -406,13 +459,17 @@ if (value > 100); // Dieser Ausdruck macht nix! NIE!
 
 ## :pencil: Auftrag 4 - Reflexion
 
-Inzwischen haben Sie eine Vorstellung, was Syntax in Java bedeutet. Sie haben inzwischen auch das eine oder andere Programm erstellt. Vermutlich waren einige dieser ersten Aufgaben nicht einfach lösbar, nur schon das Beachten der Klammern, deren Paare, und auch die Datentypen, wie man Werte in diesen speichert.
+Inzwischen haben Sie eine Vorstellung, was Syntax in Java bedeutet. Sie haben
+inzwischen auch das eine oder andere Programm erstellt. Vermutlich waren einige
+dieser ersten Aufgaben nicht einfach lösbar, nur schon das Beachten der
+Klammern, deren Paare, und auch die Datentypen, wie man Werte in diesen
+speichert.
 
 Darum kehren wir das Vorgehen nochmals um:
 
-- Wie können Aufgaben in der Programmierung lösbarer werden? 
-- Was denkt man am besten, in welcher Reihenfolge? 
-    - Fangen Sie bei den geschweiften Klammern an?
+- Wie können Aufgaben in der Programmierung lösbarer werden?
+- Was denkt man am besten, in welcher Reihenfolge?
+  - Fangen Sie bei den geschweiften Klammern an?
 
 Folgende Bausteine könnten Sie in der Vorarbeit zu einer Aufgabe unterstützen:
 
@@ -423,12 +480,17 @@ Folgende Bausteine könnten Sie in der Vorarbeit zu einer Aufgabe unterstützen:
 
 ### Aufgabe
 
-Beschreiben Sie nun schriftlich, aus Ihrer Sicht als Programmiererin oder Programmierer, **wie** man eine der vorherigen Aufgaben angeht und löst. Probieren Sie möglichst, praktisch jedes Detail zu beschreiben und ohne Aussagen "ja, das weiss ich einfach" auszukommen.
+Beschreiben Sie nun schriftlich, aus Ihrer Sicht als Programmiererin oder
+Programmierer, **wie** man eine der vorherigen Aufgaben angeht und löst.
+Probieren Sie möglichst, praktisch jedes Detail zu beschreiben und ohne Aussagen
+"ja, das weiss ich einfach" auszukommen.
 
 :::tip Üben
 
-Einer der wichtigsten Punkte beim Programmieren ist das Üben. Das oberhalb beschriebene Vorgehen kann dabei helfen, mit dem Lösen solcher Aufgaben vertrauter zu werden. Probieren Sie hin und wieder, besonders bei anspruchsvollen Aufgaben, sich den idealen Denk- und Arbeitsplan
-für die Programmierung einer Lösung bewusst zu machen und schriftlich zu dokumentieren.
+Einer der wichtigsten Punkte beim Programmieren ist das Üben. Das oberhalb
+beschriebene Vorgehen kann dabei helfen, mit dem Lösen solcher Aufgaben
+vertrauter zu werden. Probieren Sie hin und wieder, besonders bei
+anspruchsvollen Aufgaben, sich den idealen Denk- und Arbeitsplan für die
+Programmierung einer Lösung bewusst zu machen und schriftlich zu dokumentieren.
 
 :::
-

@@ -26,8 +26,8 @@ int wert100;
 ```
 
 Das wäre sicher möglich, aber sehr aufwendig und nicht gut umsetzbar. Möchten
-Sie jetzt die Messwerte auslesen (über eine **fiktive Messmethode `mess_methode`**), dann könnte
-das so aussehen:
+Sie jetzt die Messwerte auslesen (über eine **fiktive Messmethode
+`mess_methode`**), dann könnte das so aussehen:
 
 ```java
 wert1 = mess_methode();
@@ -49,6 +49,13 @@ Soll das Programm jetzt noch so erweitert werden, dass Sie mehr Messwerte
 erfassen können, zum Beispiel 1000, dann läuft es endgültig aus dem Ruder.
 
 Wie man das Program trotzdem zähmen kann, erfahren Sie im nächsten Kapitel.
-## Themen
+
+## :open_book: Themen
 
 <DocCardList />
+
+## :tv: Erklärvideos von Studyflix
+
+- [Array einfach erklärt](https://studyflix.de/informatik/java-array-1898)
+- [for-Schleife einfach erklärt](https://studyflix.de/informatik/for-schleife-226)
+- [foreach-Schleife einfach erklärt](https://studyflix.de/informatik/java-foreach-1935)

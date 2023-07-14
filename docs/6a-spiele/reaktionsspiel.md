@@ -2,13 +2,15 @@
 
 ## :brain: Aktuelle Zeit
 
-Die aktuelle Zeit kann mit folgendem Code in Millisekunden seit dem 01.01.1970 ausgelesen werden:
+Die aktuelle Zeit kann mit folgendem Code in Millisekunden seit dem 01.01.1970
+ausgelesen werden:
 
 ```java
 long time = System.currentTimeMillis();
 ```
 
-Die Differenz zwischen zwei Zeiten ergibt somit die Zeitspanne zwischen zwei Messungen in Millisekunden.
+Die Differenz zwischen zwei Zeiten ergibt somit die Zeitspanne zwischen zwei
+Messungen in Millisekunden.
 
 ```java
 long time1 = System.currentTimeMillis();
@@ -44,7 +46,8 @@ Please immediately response to:
 2
 ```
 
-- Der Benutzer muss nun so schnell wie möglich eine `d` eingeben und `Enter` drücken
+- Der Benutzer muss nun so schnell wie möglich eine `d` eingeben und `Enter`
+  drücken
 - Dies wird 10x wiederholt
 - Zum Schluss erhält der Spieler seine Reaktionszeit in Sekunden auf der Konsole
 
@@ -52,8 +55,8 @@ Please immediately response to:
 Your score: 1.6265 seconds
 ```
 
-- Gibt der Benutzer einen falschen Buchstaben ein, zählt dies als Versuch, wird aber in der
-  Berechnung der Reaktionszeit ignoriert.
+- Gibt der Benutzer einen falschen Buchstaben ein, zählt dies als Versuch, wird
+  aber in der Berechnung der Reaktionszeit ignoriert.
 
 **Komplette Beispielausgabe:**
 

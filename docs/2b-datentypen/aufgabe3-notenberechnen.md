@@ -4,12 +4,14 @@ Erstellen Sie ein Programm, welches vom Benutzer
 
 - drei Semesternoten einliest (`StdInput.read...`)
 - den Durchschnitt berechnet
-- sich dabei an ein strenges Notensystem hält, dass nur ganze Noten zulässt und immer abrundet
+- sich dabei an ein strenges Notensystem hält, dass nur ganze Noten zulässt und
+  immer abrundet
 - den Durchschnitt ausgibt
 
 :::note
 
-- Anhand dieser Übung erkennen Sie, dass man mit Variablen und Zahlen ganz normal rechnen kann.
+- Anhand dieser Übung erkennen Sie, dass man mit Variablen und Zahlen ganz
+  normal rechnen kann.
 - Auch sollte nun das **EVA-Prinzip** klar werden
 
 :::
@@ -20,7 +22,7 @@ Erstellen Sie ein Programm, welches vom Benutzer
 **Wo ist die Methode `main`?**
 
 - Die Klasse mit der `main` Methode müsst Ihr selber erstellen.
-- der `import` gehört ganz oben ins File. 
+- der `import` gehört ganz oben ins File.
 - `...` kann man löschen ;)
 
 ```java title="Musterlösung ohne main"
@@ -34,7 +36,7 @@ double grade2;
 double grade3;
 double result;
 
-// E - Einlesen 
+// E - Einlesen
 System.out.println("Welcome to the average calculator");
 System.out.println("Please enter the first grade");
 grade1 = StdInput.readDouble();

@@ -30,3 +30,7 @@ for(String wort : worte) {
 ## :tv: Video über Foreach mit Array
 
 <YouTube id="kUXTO1lwZzY" />
+
+## :tv: Erklärvideos von Studyflix
+
+- [foreach-Schleife einfach erklärt](https://studyflix.de/informatik/java-foreach-1935)

@@ -4,11 +4,16 @@ sidebar_position: 2
 
 # Debugging / Fehleranalyse
 
-Debugging ist eine Arbeitstechnik in der Programmierung, welche es erlaubt, den Ablauf eines Programms besser nachzuvollziehen. Dabei kann das Programm in einem speziellen Modus ausgeführt werden, der es erlaubt, das Programm auf jeder beliebigen Codezeile anzuhalten, die in den Variablen gespeicherten Werte einzusehen, zu ändern, etc.
+Debugging ist eine Arbeitstechnik in der Programmierung, welche es erlaubt, den
+Ablauf eines Programms besser nachzuvollziehen. Dabei kann das Programm in einem
+speziellen Modus ausgeführt werden, der es erlaubt, das Programm auf jeder
+beliebigen Codezeile anzuhalten, die in den Variablen gespeicherten Werte
+einzusehen, zu ändern, etc.
 
 ## Eine Debugging-Session Schritt-für-Schritt
 
-Folgende Schritte sind nötig, um eine Debugging-Session für folgenden Programmcode durchzuführen:
+Folgende Schritte sind nötig, um eine Debugging-Session für folgenden
+Programmcode durchzuführen:
 
 ```java title="Das verwendete Code-Beispiel"
 public class Mini {
@@ -29,6 +34,7 @@ public class Mini {
 ![](./images/debugging-1.png)
 
 :::info Dazu auf das blaue Band links vom Code doppelklicken
+
 :::
 
 2. Das Debugging durch den „Käfer-Button“ starten
@@ -47,35 +53,51 @@ public class Mini {
 
 Was wird hier angezeigt?
 
-- **(1)** Code-Fenster: die Zeile mit dem Breakpoint, grün unterlegt ist der Code, der beim nächsten Schritt ausgeführt wird
+- **(1)** Code-Fenster: die Zeile mit dem Breakpoint, grün unterlegt ist der
+  Code, der beim nächsten Schritt ausgeführt wird
 - **(2)** Buttons zur Steuerung:
   - **Resume**: Programm weiter laufen lassen, bis zum nächsten Breakpoint
   - Pause: Kann ignoriert werden
   - **Stop**: Debugging Session wird beendet
-  - **Step-Into**: Springt zur **nächsten Linie welche ausgeführt wird**. Also auch weiter zu einer möglichen Methode. So kann manuell durch den gesamten Programmablauf navigiert werden.
-  - **Step-Over**: Springt zur **nächsten Linie in der aktuellen Methode**. Überspringt also den Aufruf einer mögliche Methode auf der aktuellen Linie.
-- **(3)** Variablen-Fenster: hier sind alle bereits initialisierten Variablen und deren Werte einsehbar (das Programm ist bereits einen Schritt weiter als der Breakpoint)
-- **(4)** Debug-Fenster: alle laufenden Debug-Prozesse (mit Doppel-x am oberen Rand aufräumen)
+  - **Step-Into**: Springt zur **nächsten Linie welche ausgeführt wird**. Also
+    auch weiter zu einer möglichen Methode. So kann manuell durch den gesamten
+    Programmablauf navigiert werden.
+  - **Step-Over**: Springt zur **nächsten Linie in der aktuellen Methode**.
+    Überspringt also den Aufruf einer mögliche Methode auf der aktuellen Linie.
+- **(3)** Variablen-Fenster: hier sind alle bereits initialisierten Variablen
+  und deren Werte einsehbar (das Programm ist bereits einen Schritt weiter als
+  der Breakpoint)
+- **(4)** Debug-Fenster: alle laufenden Debug-Prozesse (mit Doppel-x am oberen
+  Rand aufräumen)
 
 6. Einzelne Ausdrücke genauer untersuchen (Rechtsklick auf Linie)
 
 ![](./images/debugging-6.png)
 
-Als Beispiel wurde **Display** ausgewählt, welches den Ausdruck ausführt, und das Ergebnis anzeigt:
+Als Beispiel wurde **Display** ausgewählt, welches den Ausdruck ausführt, und
+das Ergebnis anzeigt:
 
 ![](./images/debugging-62.png)
 
-Nun kann man **Anpassungen am Code vornehmen**, und sofort die **Folgen beobachten**. Wenn man z.B. "Hi" nach "i" ändert, wird der Ausdruck `false`, da `String message = "Hi"` ist und nicht "i"
+Nun kann man **Anpassungen am Code vornehmen**, und sofort die **Folgen
+beobachten**. Wenn man z.B. "Hi" nach "i" ändert, wird der Ausdruck `false`, da
+`String message = "Hi"` ist und nicht "i"
 
 ![](./images/debugging-63.png)
 
-7. Das Debugging wird über den Stopp-Button beendet. Anschliessend können Sie in der Entwicklungsumgebung oben rechts wieder zur Java-Perspektive zurück wechseln. Sobald Debugging einmal ausgeführt wurde, wird oben rechts einerseits ein Symbol für die Java-Perspektive (J), und andererseits ein Symbol für die Debugging-Perspektive (Käfer) angezeigt.
+7. Das Debugging wird über den Stopp-Button beendet. Anschliessend können Sie in
+   der Entwicklungsumgebung oben rechts wieder zur Java-Perspektive zurück
+   wechseln. Sobald Debugging einmal ausgeführt wurde, wird oben rechts
+   einerseits ein Symbol für die Java-Perspektive (J), und andererseits ein
+   Symbol für die Debugging-Perspektive (Käfer) angezeigt.
 
 ## :pencil: Aufgaben
 
 ### Auftrag 1
 
-Kopieren Sie das Code-Beispiel und debuggen Sie ihn, wie in der [**Schritt für Schritt Anleitung**](#eine-debugging-session-schritt-für-schritt) gezeigt.
+Kopieren Sie das Code-Beispiel und debuggen Sie ihn, wie in der
+[**Schritt für Schritt Anleitung**](#eine-debugging-session-schritt-für-schritt)
+gezeigt.
 
 ```java title="Das verwendete Code-Beispiel"
 public class Mini {
@@ -93,7 +115,8 @@ public class Mini {
 
 ### Auftrag 2
 
-Kopieren Sie folgendes Beispiel mit einfachem Methodenaufruf in eine Klasse OutputMethodExample in Eclipse:
+Kopieren Sie folgendes Beispiel mit einfachem Methodenaufruf in eine Klasse
+OutputMethodExample in Eclipse:
 
 ```java showLineNumbers
 import java.time.LocalDate;
@@ -109,8 +132,10 @@ public class OutputMethodExample {
 ```
 
 - Untersuchen Sie den Ablauf mittels Debugging.
-- Ein **Breakpoint** muss dabei <u>mindestens</u> auf die **Zeile 4**, mit dem Aufruf der Methode `printCurrentDate`, gesetzt werden.
+- Ein **Breakpoint** muss dabei <u>mindestens</u> auf die **Zeile 4**, mit dem
+  Aufruf der Methode `printCurrentDate`, gesetzt werden.
 - Sobald der Debugger dort anhält, muss:
   - **Step Into** gewählt werden, damit der Debugger in die Methode verzweigt.
-  - Diese Debugging-Session soll aufzeigen, wie der Aufruf einer Methode erfolgt.
+  - Diese Debugging-Session soll aufzeigen, wie der Aufruf einer Methode
+    erfolgt.
 - Spielen Sie mit den Möglichkeiten

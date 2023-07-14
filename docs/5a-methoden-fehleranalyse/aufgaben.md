@@ -18,8 +18,10 @@ ausgeführt werden. Also auf Zeilen im Methodenkörper.
 
 Erstellen Sie ein Programm, das zwei Zahlen von der Konsole einliest.
 
-- Diese beiden Zahlen sollen an eine Methode als Parameter übergeben werden können.
-- Die Methode soll die grössere der beiden Zahlen ermitteln und diese als Rückgabewert zurückgeben.
+- Diese beiden Zahlen sollen an eine Methode als Parameter übergeben werden
+  können.
+- Die Methode soll die grössere der beiden Zahlen ermitteln und diese als
+  Rückgabewert zurückgeben.
 
 <details>
 <summary>Musterlösung</summary>
@@ -59,7 +61,8 @@ public class A1EvaluateBiggerNumber {
 Erstellen Sie ein Programm, in dem eine Methode prüft, ob eine Zahl innerhalb
 eines Intervalls liegt.
 
-- Der Intervall (unterer und oberer Grenzwert) und die Zahl werden als Parameter an die Methode übermittelt.
+- Der Intervall (unterer und oberer Grenzwert) und die Zahl werden als Parameter
+  an die Methode übermittelt.
 - Die Methode gibt true zurück, falls die Zahl im Intervall liegt, sonst false.
 - Das Ergebnis soll in der `main`-Methode auf die Konsole ausgegeben werden.
 
@@ -96,8 +99,10 @@ public class A2Intervall {
 Erstellen Sie ein Programm, wobei Sie einen Sparbetrag eingeben können, sowie
 einen Zins in %.
 
-- In einer Methode soll entsprechend der Zinsbetrag ausgerechnet und zurückgegeben werden.
-- Dieser Zinsbetrag soll dann in der main-Methode auf die Konsole ausgegeben werden.
+- In einer Methode soll entsprechend der Zinsbetrag ausgerechnet und
+  zurückgegeben werden.
+- Dieser Zinsbetrag soll dann in der main-Methode auf die Konsole ausgegeben
+  werden.
 
 <details>
 <summary>Musterlösung</summary>
@@ -125,13 +130,16 @@ public class A3InterestCalculator {
 
 ## Auftrag 4 «Einfacher Rechner»
 
-Dieses Programm erwartet die Eingabe zweier Zahlen `a` und `b` durch den Benutzer,
-sowie den Rechenoperator als String `+` oder `*`.
+Dieses Programm erwartet die Eingabe zweier Zahlen `a` und `b` durch den
+Benutzer, sowie den Rechenoperator als String `+` oder `*`.
 
-- Für die Operatoren `+` und `*` sollen zwei Methoden (z.B. `add`, `mulitpy`) existieren
-  welche die Parameter `a` und `b` besitzen und das Resultat zurückgeben.
-- Je nach Operator werden die beiden Zahlen `a` und `b` an die zuständige Methode als Parameter übergeben
-- Das Ergebnis wird berechnet und als Rückgabewert an die `main`-Methode zurückgegeben.
+- Für die Operatoren `+` und `*` sollen zwei Methoden (z.B. `add`, `mulitpy`)
+  existieren welche die Parameter `a` und `b` besitzen und das Resultat
+  zurückgeben.
+- Je nach Operator werden die beiden Zahlen `a` und `b` an die zuständige
+  Methode als Parameter übergeben
+- Das Ergebnis wird berechnet und als Rückgabewert an die `main`-Methode
+  zurückgegeben.
 - Das Ergebnis soll in die Konsole ausgegeben werden.
 
 <details>
@@ -182,5 +190,5 @@ public class A4SimpleCalculator {
 
 ## Auftrag 5 «Eigenes Beispiel»
 
-Adaptieren Sie ein Beispiel mit Methoden inkl. Parameter(n) und Rückgabewert
-auf eine eigene Situation.
+Adaptieren Sie ein Beispiel mit Methoden inkl. Parameter(n) und Rückgabewert auf
+eine eigene Situation.
