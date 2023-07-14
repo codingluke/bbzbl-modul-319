@@ -78,7 +78,7 @@ Der Aufbau der Anweisung ist also so:
 
 ## :tv: Erklärvideos von Studyflix
 
-- https://studyflix.de/informatik/while-schleife-224
+- [while-Schleife einfach erklärt](https://studyflix.de/informatik/while-schleife-224)
 
 ## :pencil: Aufgaben
 

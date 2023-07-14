@@ -16,10 +16,12 @@ Erstellen Sie das Programm namens `DiceGame`. Dieses Programm:
 
 - Wird zuerst nur für einen Spieler implementiert.
 - Der Benutzer gibt zu Beginn ein Maximum an Punkten an
-- Danach wird für den Spieler so lange gewürfelt, bis er das Maximum erreicht oder über-schritten hat.
-  Das Würfeln an sich soll in eine Methode ausgelagert werden. Der Rückgabewert ist die gewürfelte Zahl.
+- Danach wird für den Spieler so lange gewürfelt, bis er das Maximum erreicht
+  oder über-schritten hat. Das Würfeln an sich soll in eine Methode ausgelagert
+  werden. Der Rückgabewert ist die gewürfelte Zahl.
 - Die einzelnen Würfe sollen auf der Konsole dargestellt werden.
-- Zum Schluss soll auch ausgegeben werden, wie viele Würfe benötigt wurden, um auf das Maximum zu kommen
+- Zum Schluss soll auch ausgegeben werden, wie viele Würfe benötigt wurden, um
+  auf das Maximum zu kommen
 
 **Beispielausgabe:**
 
@@ -72,8 +74,8 @@ public class DiceGame {
 
 ## :pencil: Zweispieler Variante
 
-Sie haben nun das Programm für einen Spieler erstellt.
-Kopieren Sie nun die Klasse `DiceGame` und benennen Sie die Kopie `DiceGame2Player`.
+Sie haben nun das Programm für einen Spieler erstellt. Kopieren Sie nun die
+Klasse `DiceGame` und benennen Sie die Kopie `DiceGame2Player`.
 
 Programmieren Sie es nun so um, dass:
 
@@ -81,8 +83,8 @@ Programmieren Sie es nun so um, dass:
 - Sie treten nacheinander an.
 - Zuerst versucht also Spieler 1 auf das Maximum zu kommen, danach Spieler 2.
 - Lagern Sie den Spielmechanismus in eine Methode aus.
-  - Die Methode erhält als Parameter das Punktemaximum und liefert als Rückgabewert
-    die benötigte Anzahl Würfe, um das Maximum zu erreichen.
+  - Die Methode erhält als Parameter das Punktemaximum und liefert als
+    Rückgabewert die benötigte Anzahl Würfe, um das Maximum zu erreichen.
 - Es gewinnt derjenige, der das Maximum mit weniger Würfen erreichen konnte.
 
 **Beispielausgabe:**
@@ -156,11 +158,11 @@ public class DiceGame2Player {
 ## :pencil: Zusatz Variante
 
 Machen Sie wiederum eine Kopie von `DiceGame2Player` und benennen Sie die Kopie
-`DiceGameVariante`. 
+`DiceGameVariante`.
 
-Der Benutzer gibt zu Beginn z.B. nicht ein Punktemaximum an,
-sondern **definiert die Anzahl Würfe**, welche die Spieler würfeln sollen.
-Derjenigen mit der höheren Punktzahl gewinnt zum Schluss das Spiel.
+Der Benutzer gibt zu Beginn z.B. nicht ein Punktemaximum an, sondern **definiert
+die Anzahl Würfe**, welche die Spieler würfeln sollen. Derjenigen mit der
+höheren Punktzahl gewinnt zum Schluss das Spiel.
 
 <details><summary>Musterlösung:</summary>
 

@@ -2,7 +2,8 @@
 
 ## Quelltext / Code lesen / interpretieren können
 
-Überlegen Sie die Wirkung der nachfolgenden Ausschnitte aus grösseren Programmen. Lesen Sie die Frage und schreiben die Antwort auf ein Blatt Papier:
+Überlegen Sie die Wirkung der nachfolgenden Ausschnitte aus grösseren
+Programmen. Lesen Sie die Frage und schreiben die Antwort auf ein Blatt Papier:
 
 ```java title="Welcher Wert für r ausgegeben?"
 int a, b, c, d, r;
@@ -44,8 +45,8 @@ System.out.println(celsius);
 
 ## Fehler in Quelltext / Code entdecken können
 
-Sehen Sie die nachfolgenden Programme an. Entdecken Sie die Fehler und schreiben Sie die
-Korrektur direkt in auf dieses Blatt.
+Sehen Sie die nachfolgenden Programme an. Entdecken Sie die Fehler und schreiben
+Sie die Korrektur direkt in auf dieses Blatt.
 
 ```java title="Finden Sie den logischen Fehler:"
 public class PriceForQuantity {
@@ -89,7 +90,8 @@ public class HelloUser {
 
 ### Programm 1
 
-Erstellen Sie ein Programm, welches Meilen einliest und in km umrechnet und ausgibt.
+Erstellen Sie ein Programm, welches Meilen einliest und in km umrechnet und
+ausgibt.
 
 Die Berechnung erfolgt so: `km = miles / 0.62137;`
 
@@ -170,7 +172,8 @@ Folgende Werte können Sie als test verwenden:
 
 Erweiterung nachdem alle Programme fertig sind:
 
-- Eingabe der Distanz und Reisedauer berechnet durchschnittliche Geschwindigkeit.
+- Eingabe der Distanz und Reisedauer berechnet durchschnittliche
+  Geschwindigkeit.
 
 <details><summary>Musterlösung:</summary>
 
@@ -242,7 +245,8 @@ public class A3DateTime {
 
 ### Programm 4
 
-Erstellen Sie ein Programm, welches die folgende Ausgabe erzeugt (rechnen Sie mit ganzen int-Zahlen):
+Erstellen Sie ein Programm, welches die folgende Ausgabe erzeugt (rechnen Sie
+mit ganzen int-Zahlen):
 
 ```bash
 Wollen Sie auf Ihrer Pizza zusätzlich Schinken? (true/false)
@@ -293,7 +297,8 @@ public class A4PizzaOrder {
 
 ### Programm 5
 
-Erstellen Sie ein Programm, welches einen Bilettpreis abhängig von der Distanz berechnet.
+Erstellen Sie ein Programm, welches einen Bilettpreis abhängig von der Distanz
+berechnet.
 
 - Der Basispreis pro Kilometer ist 0.45 Einheiten.
 
@@ -319,13 +324,21 @@ public class A5Ticket {
 
 ## Aufgabe Club
 
-In dieser Aufgabe können die Themen Ausgabe, Eingabe, Datentypen (Variablen) und die Kontrollstruktur if geübt werden.
+In dieser Aufgabe können die Themen Ausgabe, Eingabe, Datentypen (Variablen) und
+die Kontrollstruktur if geübt werden.
 
-In einen Club dürfen maximal 4 Personen auf einmal. Der Türsteher begrüsst die ankommenden Gäste und fragt nach, wie viele Personen Sie sind. Bei mehr wie 4 Personen wird der Einlass mit der Aussage «Sie sind leider zu viele Personen» verweigert. Bei weniger oder gleich 4 Personen wird nach den Personalien einer Person gefragt. Die Daten Vor- und Nachname, Strasse, Plz, Ort und Telefonnummer werden abgefragt und gespeichert.
+In einen Club dürfen maximal 4 Personen auf einmal. Der Türsteher begrüsst die
+ankommenden Gäste und fragt nach, wie viele Personen Sie sind. Bei mehr wie 4
+Personen wird der Einlass mit der Aussage «Sie sind leider zu viele Personen»
+verweigert. Bei weniger oder gleich 4 Personen wird nach den Personalien einer
+Person gefragt. Die Daten Vor- und Nachname, Strasse, Plz, Ort und Telefonnummer
+werden abgefragt und gespeichert.
 
 - Wählen Sie dazu möglichst passende Datentypen.
-- Danach folgt die Frage, ob sie schon 18 Jahre alt sind. «true» bedeutet ja, «false» nein.
-- Wird «true» eingegeben, wünscht der Türsteher einen schönen Abend und wiederholt die Angaben.
+- Danach folgt die Frage, ob sie schon 18 Jahre alt sind. «true» bedeutet ja,
+  «false» nein.
+- Wird «true» eingegeben, wünscht der Türsteher einen schönen Abend und
+  wiederholt die Angaben.
 - Bei «false» wird der Zutritt verweigert.
 
 ```md title="Beispiel Ablauf, wenn alles in Ordnung ist:"
@@ -333,22 +346,11 @@ Willkommen im Club Flamingo
 
 ---
 
-Einlass möglich für maximal 4 Personen auf einmal.
-Wie viele Personen sind Sie: 4
-Wir benötigen die Personalien von einer Person.
-Vorname: Hans
-Nachname: Muster
-Strasse: Musterweg 1
-Plz: 4000
-Ort: Mustersta  
-Telefon: 079 999 99 99
-Sind Sie schon 18 Jahre alt?
-true
-Einen schönen Abend im Flamingo.
-Ihre Angaben:
-Hans Muster
-Musterweg 1
-4000 Mustersta  
+Einlass möglich für maximal 4 Personen auf einmal. Wie viele Personen sind Sie:
+4 Wir benötigen die Personalien von einer Person. Vorname: Hans Nachname: Muster
+Strasse: Musterweg 1 Plz: 4000 Ort: Mustersta  
+Telefon: 079 999 99 99 Sind Sie schon 18 Jahre alt? true Einen schönen Abend im
+Flamingo. Ihre Angaben: Hans Muster Musterweg 1 4000 Mustersta  
 Tel: 079 999 99 99
 ```
 
@@ -357,9 +359,8 @@ Willkommen im Club Flamingo
 
 ---
 
-Einlass möglich für maximal 4 Personen auf einmal.
-Wie viele Personen sind Sie: 5
-Sie sind leider zu viele Personen.
+Einlass möglich für maximal 4 Personen auf einmal. Wie viele Personen sind Sie:
+5 Sie sind leider zu viele Personen.
 ```
 
 ```md title="Reaktion des Programms, wenn das Alter kleiner wie 18 ist."
@@ -367,17 +368,11 @@ Willkommen im Club Flamingo
 
 ---
 
-Einlass möglich für maximal 4 Personen auf einmal.
-Wie viele Personen sind Sie: 4
-Wir benötigen die Personalien von einer Person.
-Vorname: Hans Nachname: Muster
-Strasse: Musterweg 1
-Plz: 4000
-Ort: Mustersta  
-Telefon: 079 999 99 99
-SSind Sie schon 18 Jahre alt?
-false
-Sie sind leider zu jung und dürfen nicht in den Club.ind Sie schon 18 Jahre alt?
+Einlass möglich für maximal 4 Personen auf einmal. Wie viele Personen sind Sie:
+4 Wir benötigen die Personalien von einer Person. Vorname: Hans Nachname: Muster
+Strasse: Musterweg 1 Plz: 4000 Ort: Mustersta  
+Telefon: 079 999 99 99 SSind Sie schon 18 Jahre alt? false Sie sind leider zu
+jung und dürfen nicht in den Club.ind Sie schon 18 Jahre alt?
 ```
 
 <details><summary>Musterlösung:</summary>

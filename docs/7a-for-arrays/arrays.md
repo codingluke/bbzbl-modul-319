@@ -34,7 +34,7 @@ welche als Array mehrere Werte fassen kann. Danach wird durch `= new int[100]`
 der Array initialisiert. Beim initialisieren wird festgelegt, dass der Array 100
 Werte fassen kann. Diese Länge ist fest und kann nicht mehr geändert werden.
 
-:::caution 
+:::caution
 
 Alle weiteren Code-Beispiele beziehen sich immer auf oberen Array `werte`
 
@@ -269,6 +269,9 @@ for(int i = 0; i < worte.length; i++){
     System.out.println(i + ": " + worte[i]);
 }
 ```
+## :tv: Erklärvideos von Studyflix
+
+- https://studyflix.de/informatik/java-array-1898
 
 ## :pencil: Aufgaben
 

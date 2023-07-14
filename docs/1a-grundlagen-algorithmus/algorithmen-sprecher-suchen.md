@@ -2,11 +2,13 @@
 
 <div class="grid"><div>
 
-Für eine große Gruppe von Leuten ist ein Sprecher zu benennen. Die Gruppe einigt sich darauf, den Ältesten mit dieser Aufgabe zu betrauen. 
+Für eine große Gruppe von Leuten ist ein Sprecher zu benennen. Die Gruppe einigt
+sich darauf, den Ältesten mit dieser Aufgabe zu betrauen.
 
 ## Aufgabe
 
-- Erläutern Sie schriftlich das Vorgehen, wie Sie den ältesten Sprecher ermitteln.
+- Erläutern Sie schriftlich das Vorgehen, wie Sie den ältesten Sprecher
+  ermitteln.
 
 </div><div>
 
