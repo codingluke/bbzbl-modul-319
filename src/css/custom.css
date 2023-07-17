@@ -35,7 +35,7 @@
 
 @media print {
   :root {
-    --ifm-font-size-base: 75%;
+    --ifm-font-size-base: 80%;
     print-color-adjust: exact;
   }
   .theme-doc-footer {
@@ -44,7 +44,6 @@
   .theme-code-block,
   .theme-admonition,
   .docusaurus-mermaid-container svg,
-  .grid,
   p {
     page-break-inside: avoid;
   }
@@ -59,7 +58,7 @@
   h5 {
     page-break-after: avoid;
   }
-  @page {
+  @page { 
     size: a4;
     header: "<div>hallo</div>";
   }
@@ -67,6 +66,7 @@
   details {
     display: none;
   }
+  
 }
 
 .break {
@@ -86,7 +86,7 @@ iframe {
   margin-bottom: 1rem;
 }
 
-iframe[src$="pdf"] {
+iframe[src$="pdf"] { 
   height: 800px;
 }
 
@@ -111,12 +111,19 @@ iframe[src$="pdf"] {
   .grid .center {
     align-self: center;
   }
+  .grid.twentyEighty {
+    grid-template-columns: minmax(0, 2fr) minmax(0, 8fr);
+  }
 }
 
 table {
   display: table;
   table-layout: auto;
   width: 100%;
+}
+
+table hr {
+  background-color: var(--ifm-color-primary-darkest);
 }
 
 img[src$="#center"] {
@@ -138,6 +145,7 @@ img[src$="#left"] {
   width: 70%;
 }
 
+/* codeblock magic comments */
 .highlight {
   background-color: #ccc;
 }
@@ -189,3 +197,13 @@ img[src$="#left"] {
   padding: 0 var(--ifm-pre-padding);
   border-left: 3px solid #bab4b599;
 }
+
+/* Mermaid */
+.javaBuiltIn > rect {
+  stroke: #00000040 !important;
+  fill: #00000005 !important;
+}
+.javaBuiltIn .nodeLabel {
+  color: #00000075 !important;
+}
+

@@ -1,0 +1,59 @@
+---
+sidebar_position: 1
+---
+
+# Woche 1
+
+## :teacher: Präsentation
+
+[:computer: Open in Browser](pathname:///slides/woche-1) |
+[:floppy_disk: download PDF](pathname:///slides/woche-1.pdf)
+
+<iframe src="/bbzbl-modul-319/slides/programmieren" width="100%" height="400px"></iframe>
+
+<div class="grid"><div>
+
+## :brain: Unterricht
+
+| Zeit  | Was                                                       |
+| ----- | --------------------------------------------------------- |
+| 12.45 | Vorstellung                                               |
+| 13:00 | [Modulidentifikation]                                     |
+| 13:10 | [Algorithmus / Programmieren][algorithmus]                |
+| 13:30 | :coffee: Pause!                                           |
+| 13:35 | [Algorithmus / Programmieren][algorithmus]                |
+| 14:20 | :coffee: :coffee: Pause!                                  |
+| 14:40 | [Grundstrukturen]                                         |
+| 14:50 | [Hallo Welt] / [Wie versteht der Computer Java][compiler] |
+| 15:30 | :coffee: Pause!                                           |
+| 15:50 | [Code-Konventionen]                                       |
+| 16:10 | Abschluss                                                 |
+
+</div><div>
+
+[modulidentifikation]: ../modulidentifikation.md
+[algorithmus]: ../1a-grundlagen-algorithmus/index.md
+[grundstrukturen]:
+  ../1a-grundlagen-algorithmus/index.md#die-grundformen-der-programmierung
+[hallo welt]: ../1b-hello-world/index.md
+[compiler]: ../1b-hello-world/aufgabe3-compiler.md
+[code-konventionen]: ../1b-hello-world/aufgabe5-konventionen.md
+
+## :pencil: Hausaufgaben
+
+### Auftrag 1
+
+Stellen Sie sicher, dass Sie auch zu Hause mit Ihrer Entwicklungsumgebung
+programmieren können (falls nicht bereits erledigt)
+
+- Laden Sie die aktuelle [Eclipse Version herunter](https://www.eclipseide.org/)
+  und installieren Sie es
+
+### Auftrag 2
+
+- Schauen Sie die Videos zu unterst auf der
+  [Hello World Unterseite](../1b-hello-world/index.md) an.
+- Testen Sie Ihre Entwicklungsumgebung mit einem einfachen
+  [`Hello World`](../1b-hello-world/aufgabe2-helloworld.md)
+
+</div></div>
