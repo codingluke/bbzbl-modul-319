@@ -2,10 +2,11 @@ import java.util.Scanner;
 
 public class Memory {
 
+  private static Scanner scanner = new Scanner(System.in);
+
   public static void main(String[] args) {
     String[] cards = {"Auto", "Stift", "Stern", "Apfel", "Buch", "Drucker", "Autobahn", "Katze", "Uhr", "Baum"};
     boolean[] guesses = {false, false, false, false, false, false, false, false, false, false};
-    Scanner scanner = new Scanner(System.in);
     String answer = "";
 
     do {
@@ -27,8 +28,6 @@ public class Memory {
     } else {
       System.out.println("Tschüss du Kluger Mensch!");
     }
-
-    scanner.close();
   }
 
   /**
@@ -63,7 +62,6 @@ public class Memory {
    * @param cards
    */
   private static void guessCard(boolean[] guesses, String[] cards) {
-    Scanner scanner = new Scanner(System.in);
     int pos = nextGuessIndex(guesses);
     System.out.println("Rate das Wort auf Position: " + (pos + 1));
     String guess = scanner.next();

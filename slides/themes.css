@@ -183,6 +183,13 @@ section blockquote {
   font-style: italic;
 }
 
+section.light-text h1,
+section.light-text h2,
+section.light-text h3 {
+  color: white;
+  text-shadow: 0 0 20px #060606;
+}
+
 .columns {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
