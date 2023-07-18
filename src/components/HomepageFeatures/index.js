@@ -1,51 +1,49 @@
-import React from 'react';
-import clsx from 'clsx';
-import styles from './styles.module.css';
+import React from "react";
+import clsx from "clsx";
+import styles from "./styles.module.css";
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: "Quartalsübersicht",
+    url: "/bbzbl-modul-319/docs/lektionen",
+    Svg: "🗓️",
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Hier gelangen Sie auf die Lektionenübersicht. Schauen Sie genau,{" "}
+        <b>wann</b> die LBs sind!
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: "LB-Übersicht",
+    url: "/bbzbl-modul-319/docs/beurteilungen",
+    Svg: "🖍️",
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Hier werden alle Leistungsbeurteilungen genau erläutert. Lesen Sie diese
+        genau durch, damit Sie sich optimal darauf vorbereiten können.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
+    title: "Modulbeschreibung",
+    url: "/bbzbl-modul-319/docs/modulidentifikation",
+    Svg: "ℹ️",
+    description: <>Hier finden Sie die offizielle Berschreibung des Moduls.</>,
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description, url }) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+    <a href={url} className={clsx("col col--4", styles.featureLink)}>
+      <div className={clsx("text--center", styles.featureSvg)}>
+        {Svg}
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
         <p>{description}</p>
       </div>
-    </div>
+    </a>
   );
 }
 
