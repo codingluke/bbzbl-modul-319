@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Allgemeine Infos
+# ℹ️  Allgemeine Infos
 
 ## Modulidentifikation
 

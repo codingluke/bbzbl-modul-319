@@ -3,6 +3,7 @@ import clsx from "clsx";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css';
+import HomepageFeatures from "../components/HomepageFeatures";
 
 
 import styles from "./index.module.css";
@@ -36,6 +37,7 @@ export default function Home() {
   return (
     <Layout title={siteConfig.title} description={siteConfig.tagline}>
       <HomepageHeader />
+      <HomepageFeatures />
     </Layout>
   );
 }
