@@ -1,0 +1,151 @@
+@import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
+@import url(https://code.cdn.mozilla.net/fonts/fira.css);
+
+/* body { */
+/*   background: var(--ifm-background-color); */
+/*   font-size: 16px; */
+/* } */
+strong {
+  font-weight: 600;
+}
+h1 {
+  color: var(--ifm-font-color-base);
+  font-family: 'Fira Sans', 'Segoe UI', 'Liberation Sans', 'Helvetica', 'Arial', sans-serif;
+}
+.container {
+  margin-top: 50px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.timeline {
+  border-left: 4px solid var(--ifm-color-info-darker);
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  background: var(--ifm-background-surface-color);
+  color: var(--ifm-font-color-base);
+  margin: 50px auto;
+  letter-spacing: 0.5px;
+  position: relative;
+  line-height: 1.4em;
+  font-size: 1.03em;
+  padding: 50px;
+  list-style: none;
+  text-align: left;
+  font-weight: 100;
+  max-width: 500px;
+}
+
+@media screen and (max-width: 996px) {
+  .timeline {
+    margin-left: 20%;
+  }
+}
+
+.timeline h1,
+.timeline h2,
+.timeline h3 {
+  /* letter-spacing: 1.5px; */
+  font-weight: 300;
+  /* font-size: 1.4em; */
+  font-family: 'Fira Sans', 'Segoe UI', 'Liberation Sans', 'Helvetica', 'Arial', sans-serif;
+}
+.timeline .event {
+  border-bottom: 1px dashed var(--ifm-color-content);
+  margin-bottom: 1rem;
+  position: relative;
+}
+.timeline .event:last-of-type {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border: none;
+}
+.timeline .event:before,
+.timeline .event:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+.timeline .event:before {
+  left: -160px;
+  color: var(--ifm-font-color-base);
+  content: attr(data-date);
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.timeline .event:after {
+  border: 4px solid var(--ifm-color-info-darker);
+  left: -61.6px;
+  background: var(--ifm-background-surface-color);
+  border-radius: 50%;
+  height: 11px;
+  width: 11px;
+  content: "";
+  top: 5px;
+}
+.timeline .event.active:after {
+  background: var(--ifm-color-warning);
+  box-shadow: 0 0 15px 1px var(--ifm-color-warning);
+  height: 12px;
+  width: 12px;
+}
+
+.container h1 {
+  position: relative;
+  margin: 0 auto 20px;
+  display: inline-block;
+  /* padding: 10px 40px; */
+  text-align: center;
+  /* background-color: var(--ifm-color-info); */
+  color: var(--ifm-color-info-contrast-background);
+  z-index: 0;
+}
+.container h1 div {
+  padding: 10px 60px;
+  background-color: var(--ifm-color-info);
+}
+.container h1::before,
+.container h1::after {
+  content: "";
+  width: 80px;
+  height: 100%;
+  background-color: var(--ifm-color-info-lighter);
+
+  /* position ribbon ends behind and slightly lower */
+  position: absolute;
+  z-index: -1;
+  top: 20px;
+
+  /* clip ribbon end shape */
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 25% 50%);
+
+  /* draw and position the folded ribbon bit */
+  background-image: linear-gradient(45deg, transparent 50%, var(--ifm-color-info-dark) 50%);
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.container h1::before {
+  left: -60px;
+}
+.container h1::after {
+  right: -60px;
+  transform: scaleX(-1); /* flip horizontally */
+}
+
+/* everything below is for demo appearances and not important to the concept */
+
+/* body { */
+/*   box-sizing: border-box; */
+/*   display: grid; */
+/*   align-items: center; */
+/*   min-height: 100vh; */
+/*   margin: 0; */
+/*   padding: 20px 80px; */
+/*   color: #fff; */
+/*   background-color: #c5e0dd; */
+/*   font-family: 'Merriweather', serif */
+/* } */
+
+/* @media (max-width: 400px) { */
+/*   h1 { font-size: 1.5rem; } */
+/* } */

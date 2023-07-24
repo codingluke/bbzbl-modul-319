@@ -1,7 +1,7 @@
 import React from "react";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
-import styles from "./timeline.module.css";
+import Timeline, { Event } from "../components/Timeline";
 
 const events = [
   {
@@ -61,27 +61,17 @@ const events = [
   },
 ];
 
-const Timeline = ({ events }) => {
-  return (
-    <div id="content">
-      <h1>Timeline Concept</h1>
-      <ul className={styles.timeline}>
-        {events.map(({ time, title, description }) => (
-          <li className={styles.event} data-date={time}>
-            <h2>{title}</h2>
-            {description}
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
-};
-
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout title={siteConfig.title} description={siteConfig.tagline}>
-      <Timeline events={events} />
+      <Timeline title="- Woche 1">
+        {events.map((event) => (
+          <Event key={event.time} time={event.time} title={event.title}>
+            {event.description}
+          </Event>
+        ))}
+      </Timeline>
     </Layout>
   );
 }

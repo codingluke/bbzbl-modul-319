@@ -2,9 +2,8 @@ import React from "react";
 import clsx from "clsx";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
-import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css';
+import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
 import HomepageFeatures from "../components/HomepageFeatures";
-
 
 import styles from "./index.module.css";
 import Link from "@docusaurus/Link";
@@ -14,7 +13,9 @@ function HomepageHeader() {
   return (
     <header className={clsx("hero", styles.heroBanner)}>
       <div className="container">
-        <h1 className={clsx("hero__title", styles.heroTitle)}>{siteConfig.title}</h1>
+        <h1 className={clsx("hero__title", styles.heroTitle)}>
+          {siteConfig.title}
+        </h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div>
           <p>

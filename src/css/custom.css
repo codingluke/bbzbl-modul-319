@@ -207,3 +207,8 @@ img[src$="#left"] {
   color: #00000075 !important;
 }
 
+.blank .navbar,
+.blank footer {
+  display: none;
+}
+
