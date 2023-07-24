@@ -11,25 +11,11 @@ sidebar_position: 1
 
 <iframe src="/bbzbl-modul-319/slides/programmieren" width="100%" height="400px"></iframe>
 
-<div class="grid"><div>
+## :compass: Ablauf
 
-## :brain: Unterricht
+import Ablauf from "../../src/pages/woche-01.md"
 
-| Zeit  | Was                                                       |
-| ----- | --------------------------------------------------------- |
-| 12.45 | Vorstellung                                               |
-| 13:00 | [Modulidentifikation]                                     |
-| 13:10 | [Algorithmus / Programmieren][algorithmus]                |
-| 13:30 | :coffee: Pause!                                           |
-| 13:35 | [Algorithmus / Programmieren][algorithmus]                |
-| 14:20 | :coffee: :coffee: Pause!                                  |
-| 14:40 | [Grundstrukturen]                                         |
-| 14:50 | [Hallo Welt] / [Wie versteht der Computer Java][compiler] |
-| 15:30 | :coffee: Pause!                                           |
-| 15:50 | [Code-Konventionen]                                       |
-| 16:10 | Abschluss                                                 |
-
-</div><div>
+<Ablauf />
 
 [modulidentifikation]: ../modulidentifikation.md
 [algorithmus]: ../1a-grundlagen-algorithmus/index.md
@@ -39,7 +25,7 @@ sidebar_position: 1
 [compiler]: ../1b-hello-world/aufgabe3-compiler.md
 [code-konventionen]: ../1b-hello-world/aufgabe5-konventionen.md
 
-## :pencil: Hausaufgaben
+## :house: Hausaufgaben
 
 ### Auftrag 1
 
@@ -55,5 +41,3 @@ programmieren können (falls nicht bereits erledigt)
   [Hello World Unterseite](../1b-hello-world/index.md) an.
 - Testen Sie Ihre Entwicklungsumgebung mit einem einfachen
   [`Hello World`](../1b-hello-world/aufgabe2-helloworld.md)
-
-</div></div>
