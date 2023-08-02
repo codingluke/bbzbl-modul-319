@@ -1802,7 +1802,7 @@
   resolved "https://registry.yarnpkg.com/@leichtgewicht/ip-codec/-/ip-codec-2.0.4.tgz#b2ac626d6cb9c8718ab459166d4bb405b8ffa78b"
   integrity sha512-Hcv+nVC0kZnQ3tD9GVu5xSMR4VVYOteQIr/hwFPVEvPdlXqgGEuRjiheChHgdM+JyqdgNcmzZOX/tnl0JOiI7A==
 
-"@marp-team/marp-cli@^3.1.0":
+"@marp-team/marp-cli@^3.0.2":
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/@marp-team/marp-cli/-/marp-cli-3.1.0.tgz#10c286cd0e777c774fe5ae04fdd994848217852f"
   integrity sha512-+T4twmW7CGmb0HNDQhjpiICA/fnpSVai2oxHHRTvDEWcoSUwcjmLwyKr0xkDMZcbFRIWgsu3aFKTNoDGya/UeQ==
