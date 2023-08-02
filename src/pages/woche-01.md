@@ -13,9 +13,10 @@ hide_table_of_contents: true
 </Event>
 <Event time="13:00">
 
-## Vom Algorithmus zum Programm
+## [Vom Algorithmus zum Programm](/bbzbl-modul-319/docs/1a-grundlagen-algorithmus/)
 
 - :teacher: Präsentation / **Diskussion**
+- :pencil: Aufgaben
 
 - :coffee: 13:30
 
@@ -27,12 +28,12 @@ hide_table_of_contents: true
 </Event>
 <Event time="14:40">
 
-## [Grundstrukturen](../1a-grundlagen-algorithmus/index.md)
+## [Grundstrukturen][grundstrukturen]
 
 </Event>
 <Event time="14:50">
 
-## Hallo Welt
+## [Hallo Welt][hallo welt]
 
 - :pencil: [in Eclipse zusammen!][hallo welt]
 
@@ -52,9 +53,9 @@ hide_table_of_contents: true
 </Timeline>
 
 [modulidentifikation]: ../modulidentifikation.md
-[algorithmus]: ../1a-grundlagen-algorithmus/index.md
+[algorithmus]: /bbzbl-modul-319/docs/1a-grundlagen-algorithmus
 [grundstrukturen]:
-  ../1a-grundlagen-algorithmus/index.md#die-grundformen-der-programmierung
-[hallo welt]: ../../docs/1b-hello-world/index.md
-[compiler]: ../../docs/1b-hello-world/aufgabe3-compiler.md
-[code-konventionen]: ../../docs/1b-hello-world/aufgabe5-konventionen.md
+  /bbzbl-modul-319/docs/1a-grundlagen-algorithmus/#die-grundformen-der-programmierung
+[hallo welt]: /bbzbl-modul-319/docs/1b-hello-world
+[compiler]: /bbzbl-modul-319/docs/1b-hello-world/aufgabe3-compiler
+[code-konventionen]: /bbzbl-modul-319/docs/1b-hello-world/aufgabe5-konventionen

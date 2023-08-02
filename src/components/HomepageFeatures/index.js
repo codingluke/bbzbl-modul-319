@@ -15,9 +15,9 @@ const FeatureList = [
     ),
   },
   {
-    title: "LB-Übersicht",
+    title: "Prüfungsübersicht",
     url: "/bbzbl-modul-319/docs/beurteilungen",
-    Svg: "🖍️",
+    Svg: "🚀",
     description: (
       <>
         Hier werden alle Leistungsbeurteilungen genau erläutert. Lesen Sie diese
@@ -27,7 +27,7 @@ const FeatureList = [
   },
   {
     title: "Modulbeschreibung",
-    url: "/bbzbl-modul-319/docs/modulidentifikation",
+    url: "/bbzbl-modul-319/docs#modulidentifikation",
     Svg: "ℹ️",
     description: <>Hier finden Sie die offizielle Berschreibung des Moduls.</>,
   },
