@@ -1,8 +1,8 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
-# Willkommen im Modul 319
+# ℹ️  Willkommen im Modul 319
 
 Willkommen auf der Website, die Sie in das Programmieren einführt, und zwar je
 nach EFZ-Fachrichtung mit den Modulen 319 und 403.
@@ -35,3 +35,26 @@ So haben Sie an der Schule wie auch zu Hause immer die selbe Umgebung.
   für Java Module)
 
 :::
+## Modulidentifikation
+
+[:floppy_disk: PDF speichern](https://modulbaukasten.ch/Module/319_1_Applikationen%20entwerfen%20und%20implementieren.pdf)
+
+<iframe src="https://modulbaukasten.ch/Module/319_1_Applikationen%20entwerfen%20und%20implementieren.pdf"></iframe>
+
+## LBV
+
+[:floppy_disk: PDF speichern](https://www.modulbaukasten.ch/Module/319_1_Applikationen%20entwerfen%20und%20implementieren.pdf)
+
+<iframe src="https://www.modulbaukasten.ch/Module/319_1_Applikationen%20entwerfen%20und%20implementieren.pdf"></iframe>
+
+## Quellen
+
+- [Offizielle Webseite: Modulidentifikation](https://www.modulbaukasten.ch/module/319)
+- [Offizielle Webseite: LBV](https://www.modulbaukasten.ch/module/319/2/de-DE?lbv=0)
+
+## Historie
+
+**Modul 403**
+
+- [:paperclip: Alte Modulidentifikation](https://www.modulbaukasten.ch/module/403/1/de-DE)
+- [:paperclip: ALTE LBV](https://www.modulbaukasten.ch/module/403/2/de-DE?lbv=0)

@@ -11,22 +11,22 @@ sidebar_position: 1
 
 <iframe src="/bbzbl-modul-319/slides/programmieren" width="100%" height="400px"></iframe>
 
-## :compass: Ablauf
+## :compass: Ablauf 
+- [:mag: Vollbild](/bbzbl-modul-319/woche-01)
 
 import Ablauf from "../../src/pages/woche-01.md"
 
+
 <Ablauf />
 
-[modulidentifikation]: ../modulidentifikation.md
-[algorithmus]: ../1a-grundlagen-algorithmus/index.md
-[grundstrukturen]:
-  ../1a-grundlagen-algorithmus/index.md#die-grundformen-der-programmierung
-[hallo welt]: ../1b-hello-world/index.md
-[compiler]: ../1b-hello-world/aufgabe3-compiler.md
-[code-konventionen]: ../1b-hello-world/aufgabe5-konventionen.md
+## :pencil: Aufgaben
+
+- [Video Code.org](../1a-grundlagen-algorithmus/index.md#codeorg)
+- [Problemlösungsschritte](/docs/1a-grundlagen-algorithmus/index.md#-welche-tätigkeiten-mit-problemlösungsschritten-sind-ihnen-bekannt)
+- [Kontrollstrukturen](/docs/1a-grundlagen-algorithmus/index.md#-definition-algorithmus-und-kontrollstrukturen)
+- [Hello World](../1b-hello-world/index.md)
 
 ## :house: Hausaufgaben
-
 ### Auftrag 1
 
 Stellen Sie sicher, dass Sie auch zu Hause mit Ihrer Entwicklungsumgebung
