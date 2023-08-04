@@ -11,7 +11,6 @@ RUN apk update && apk upgrade && \
       chromium@edge \
       freetype@edge \
       libstdc++@edge \
-      harfbuzz@edge \
       ttf-liberation@edge \
       font-noto-cjk@edge \
       font-noto-devanagari@edge \
@@ -22,7 +21,7 @@ RUN apk update && apk upgrade && \
       su-exec
 
 ENV CHROME_PATH /usr/bin/chromium-browser
-ENV PUPPETEER_HEADLESS_MODE old
+ENV PUPPETEER_HEADLESS_MODE new
 
 COPY . /app
 WORKDIR /app
