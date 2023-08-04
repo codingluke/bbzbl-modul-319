@@ -15,7 +15,6 @@ sidebar_position: 1
   - Sie können ein Thema also nur einmal pro Woche vorstellen.
 
 :::danger Bis zur 7. Woche müssen **alle** 5 Themen vorgestellt worden sein.
-:scream:
 
 :::
 

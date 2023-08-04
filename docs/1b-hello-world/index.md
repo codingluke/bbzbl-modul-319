@@ -1,4 +1,4 @@
-# 1b - Hello World Programm
+# 1b - HelloWorld Programm
 
 Sie lernen mit der Entwicklungsumgebung [Eclipse](https://www.eclipseide.org)
 ein **HelloWord-Programm** zu schreiben.

@@ -13,12 +13,12 @@ hide_table_of_contents: true
 </Event>
 <Event time="13:00">
 
-## [Vom Algorithmus zum Programm](/bbzbl-modul-319/docs/1a-grundlagen-algorithmus/)
+## [Vom Algorithmus zum Programm][algorithmus]
 
 - :teacher: Präsentation / **Diskussion**
-- :pencil: Aufgaben
+- :tv: code.org / :coffee: 13:30
 
-- :coffee: 13:30
+- :student: Lesen und Lösen
 
 </Event>
 <Event time="14:20">
@@ -28,16 +28,13 @@ hide_table_of_contents: true
 </Event>
 <Event time="14:40">
 
-## [Grundstrukturen][grundstrukturen]
-
-</Event>
-<Event time="14:50">
-
-## [Hallo Welt][hallo welt]
+## [HalloWorld Programm][hallo welt]
 
 - :pencil: [in Eclipse zusammen!][hallo welt]
-
 - :coffee: 15:30
+- [:sparkles: Vom Quellcode zum Programm][compiler]
+
+- [🧐 Analyse des bisherigen Programms][blocks]
 
 </Event>
 <Event time="15:50">
@@ -52,10 +49,11 @@ hide_table_of_contents: true
 </Event>
 </Timeline>
 
-[modulidentifikation]: ../modulidentifikation.md
-[algorithmus]: /bbzbl-modul-319/docs/1a-grundlagen-algorithmus
+[modulidentifikation]: pathname:///docs#modulidentifikation
+[algorithmus]: pathname:///docs/1a-grundlagen-algorithmus
 [grundstrukturen]:
-  /bbzbl-modul-319/docs/1a-grundlagen-algorithmus/#die-grundformen-der-programmierung
-[hallo welt]: /bbzbl-modul-319/docs/1b-hello-world
-[compiler]: /bbzbl-modul-319/docs/1b-hello-world/aufgabe3-compiler
-[code-konventionen]: /bbzbl-modul-319/docs/1b-hello-world/aufgabe5-konventionen
+  pathname:///docs/1a-grundlagen-algorithmus/#die-grundformen-der-programmierung
+[hallo welt]: pathname:///docs/1b-hello-world
+[compiler]: pathname:///docs/1b-hello-world/aufgabe3-compiler
+[blocks]: pathname:///docs/1b-hello-world/aufgabe4-klammern-bloecke
+[code-konventionen]: pathname:///docs/1b-hello-world/aufgabe5-konventionen
