@@ -14,13 +14,13 @@ footer: BBZBL / Lukas Hodel /  Applikationen entwerfen und implementieren
 
 # Operatoren
 
-<!-- ```mermaid -->
-<!-- graph TD; -->
-<!--     Operatoren---ao[Arithmetische Operatoren] -->
-<!--     Operatoren---uo[Unäre Operatoren] -->
-<!--     Operatoren---vo[Vergleichsoperatoren] -->
-<!--     Operatoren---lo[Logische Operatoren] -->
-<!-- ``` -->
+```mermaid
+graph TD;
+    Operatoren---ao[Arithmetische Operatoren]
+    Operatoren---uo[Unäre Operatoren]
+    Operatoren---vo[Vergleichsoperatoren]
+    Operatoren---lo[Logische Operatoren]
+```
 
 ---
 
@@ -193,20 +193,20 @@ Gegeben: `boolean a = true; boolean b = false;`
 
 Vergleichs- und logische Operatoren kommen häufig dann zum Einsatz, wenn man etwas nur unter einer bestimmten Bedingung ausführen soll.
 
-<!-- ```mermaid -->
-<!-- flowchart TD; -->
-<!--     Kontrollstrukturen---Verzweigungen -->
-<!--     Kontrollstrukturen---Schleifen -->
-<!--     subgraph verz [ ] -->
-<!--         Verzweigungen---if[if-Anweisung] -->
-<!--         if---ifels[if-else-Anweisung] -->
-<!--         Verzweigungen---switch[switch-Anweisung] -->
-<!--     end -->
-<!--     Schleifen---while[while-Anweisung] -->
-<!--     Schleifen---dowhile[do-while-Anweisung] -->
-<!--     Schleifen---for[for-Anweisung] -->
-<!--     style verz fill:#00A17020,stroke:#00A17080,stroke-width:2px -->
-<!-- ``` -->
+```mermaid
+flowchart TD;
+    Kontrollstrukturen---Verzweigungen
+    Kontrollstrukturen---Schleifen
+    subgraph verz [ ]
+        Verzweigungen---if[if-Anweisung]
+        if---ifels[if-else-Anweisung]
+        Verzweigungen---switch[switch-Anweisung]
+    end
+    Schleifen---while[while-Anweisung]
+    Schleifen---dowhile[do-while-Anweisung]
+    Schleifen---for[for-Anweisung]
+    style verz fill:#00A17020,stroke:#00A17080,stroke-width:2px
+```
 
 ---
 
