@@ -94,4 +94,4 @@ um ein **generelles Problem zu lösen**.
 
 # Mit Programmiersprachen!
 
-![bg cover](./images/uebersicht-programmiersprachen.png)
+![bg cover](https://lerneprogrammieren.de/wordpress/wp-content/uploads/uebersicht-programmiersprachen.png)
