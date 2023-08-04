@@ -14,13 +14,13 @@
 |                    | [**Woche&nbsp;9**][w9] | **27.10.2023** | **Prüfung** / Repetition                                                                                | **[LB2]**          |
 
 [w1]: ./woche-01.md
-[w2]: ./woche-02.md
-[w3]: ./woche-03.md
-[w4]: ./woche-04.md
-[w5]: ./woche-05.md
-[w6]: ./woche-06.md
-[w7]: ./woche-07.md
-[w8]: ./woche-08.md
-[w9]: ./woche-09.md
-[lb1]: ../beurteilungen/LB1.md
-[lb2]: ../beurteilungen/LB2.md
+[w2]: #
+[w3]: #
+[w4]: #
+[w5]: #
+[w6]: #
+[w7]: #
+[w8]: #
+[w9]: #
+[lb1]: #
+[lb2]: #

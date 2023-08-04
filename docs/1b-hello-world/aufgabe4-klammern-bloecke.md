@@ -1,12 +1,36 @@
-# Klammerpaare und Blöcke
+# Analyse des bisherigen Programms
 
-In Java ist es wichtig, dass Sie bei allen Klammern immer daran denken, dass
-diese **paarweise eingesetzt werden**. In Java werden folgende Klammertypen
-verwendet:
+Nun haben wir schon ein ausführbares Programm. Hier wird nun Analysiert wie es
+genau Aufgebaut ist. Wie ist die Struktur?, Wo liegen die Dateien?
 
-- `{ }` Codeblock
-- `( )` Methoden/Funktions Signatur (meistens gefolgt von einem Codeblock)
-- `[ ]` Arrays (Auflistung, Anordnung)
+## Von Klammerpaaren und Blöcken
+
+Klammerpaare dienen in Java zum Gruppieren von zusammengehörigem Code. Diese
+Gruppen werden auch Blöcke genannt. Als Eselsbrücke könnt Ihr euch einen Schrank
+vorstellen. Dieser ist in Schubladen unterteilt, wobei jede Schublade eine
+gewisse Kategorie von Gegenstände beherbergt. Z.B. Socken, Unterhosen, T-Shirts,
+usw.
+
+:::tip Struktur ist die halbe Miete, wenn nicht mehr
+
+Natürlich kann man einen Schrank wild füllen, nur ist es dann nicht mehr so
+einfach etwas zu finden. Und genau so ist es beim Programmieren!
+
+Achtet darauf Programme gut zu Strukturieren. Dazu dienen Code-Blöcke.
+
+:::
+
+Es ist nun wichtig, dass Sie bei allen Klammern immer daran denken, dass diese
+**paarweise eingesetzt werden**. Sie müssen also geschlossen werden. Nur so
+können Sie Code Gruppieren. Wird eine Klammer nicht geschlossen, gibt es keine
+klare Abgrenzung (ähnlich wie bei normalem Text... Da fehlt wohl eine Klammer!
+
+In Java werden folgende Klammertypen verwendet:
+
+- `{ }` Geschweifte Klammern für **Codeblock**
+- `( )` Runde Klammern für **Methoden/Funktions Signatur** (meistens gefolgt von
+  einem Codeblock)
+- `[ ]` Eckige Klammern für Auflistungen, auch **Arrays** genannt
 
 Als eine Besonderheit kennzeichnet dieses Klammerpaar `{ }` sogenannte Blöcke,
 die man auch als Programmabschnitte bezeichnen kann.
@@ -23,9 +47,7 @@ die man auch als Programmabschnitte bezeichnen kann.
 
 :::
 
-## :pencil: Aufgaben
-
-### 1. Blöcke finden
+### :pencil: 1. Blöcke finden
 
 Wenden Sie nun das im oberen Abschnitt vorgestellte Konzept der Blöcke an.
 Bisher haben wir die Klassen und `main`-Methode von Java kennen gelernt.
@@ -51,7 +73,13 @@ public class HelloWorld {
 
 :::
 
-### 2. _HelloWorld.java_ Datei finden
+## Dateienstruktur
+
+Wenn Ihr in Eclipse Dateien erstellt, werden automatisch auch Dateien auf dem
+Dateisystem angelegt. Die Struktur ist meistens gleich zum Project-Explorer von
+Eclispe, aber nicht immer.
+
+### :pencil: _HelloWorld.java_ Datei finden
 
 Und wo liegt nun die _HelloWorld.java_ Datei?
 
@@ -66,8 +94,8 @@ aus. Nun sollte Eclipse einen Error anzeigen.
 
 :::
 
-### 3. Das `bin`-Verzeichnis und `class`-Dateien suchen
+### :pencil: Das `bin`-Verzeichnis und `class`-Dateien suchen
 
 Suchen Sie von hier aus auch das `bin`-Verzeichnis. Sie sollten darin die
-class-Dateien sehen. Diese werden jeweils bei jeglicher Veränderung durch
+`class`-Dateien sehen. Diese werden jeweils bei jeglicher Veränderung durch
 Eclipse neu an dieser Stelle erzeugt.
