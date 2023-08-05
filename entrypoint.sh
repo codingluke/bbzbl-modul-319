@@ -6,5 +6,5 @@ set -o pipefail
 
 cd /app
 
-yarn build-marp-pdf
+yarn gen:pdf
 # yarn dev
