@@ -19,8 +19,7 @@
     "write-heading-ids": "docusaurus write-heading-ids",
     "dev": "wireit",
     "start:marp": "wireit",
-    "gen:pdf": "wireit",
-    "gen:pdf-online": "docs-to-pdf --initialDocURLs='https://codingluke.github.io/bbzbl-modul-404/docs/' --contentSelector='article' --paginationSelector='a.pagination-nav__link.pagination-nav__link--next' --excludeSelectors='.margin-vert--xl a,[class^='tocCollapsible'],.breadcrumbs,.theme-edit-this-page' --coverImage='https://codingluke.github.io/bbzbl-modul-404/img/bbzbl-logo.png' --coverTitle='BBZBL - Modul 319'"
+    "gen:pdf": "wireit"
   },
   "wireit": {
     "dev": {
@@ -35,7 +34,7 @@
       "service": true
     },
     "gen:pdf": {
-      "command": "sleep 10 && docs-to-pdf --initialDocURLs='http://localhost:3000/bbzbl-modul-319/docs/' --contentSelector='article' --paginationSelector='a.pagination-nav__link.pagination-nav__link--next' --excludeSelectors='.margin-vert--xl a,[class^='tocCollapsible'],.breadcrumbs,.theme-edit-this-page,iframe' --coverImage='https://codingluke.github.io/bbzbl-modul-404/img/bbzbl-logo.png' --coverTitle='BBZBL - Modul 319'",
+      "command": "sleep 10 && docs-to-pdf --puppeteerArgs='--no-sandbox' --initialDocURLs='http://localhost:3000/bbzbl-modul-319/docs/beurteilungen' --contentSelector='article' --paginationSelector='a.pagination-nav__link.pagination-nav__link--next' --excludeSelectors='.margin-vert--xl a,[class^='tocCollapsible'],.breadcrumbs,.theme-edit-this-page,iframe' --coverImage='https://codingluke.github.io/bbzbl-modul-404/img/bbzbl-logo.png' --coverTitle='BBZBL - Modul 319' --puppeteerArgs='--disable-web-security --disable-features=IsolateOrigins,site-per-process' --baseUrl='https://codingluke.github.io/'",
       "service": true,
       "dependencies": [
         "dev"
@@ -52,7 +51,7 @@
     "@mdx-js/react": "^1.6.22",
     "clsx": "^1.1.1",
     "devserver-config": "file:plugins/devserver-config",
-    "docs-to-pdf": "^0.3.1",
+    "docs-to-pdf": "^0.5.1",
     "markdown-it-container": "^3.0.0",
     "markdown-it-external-links": "^0.0.6",
     "markdown-it-mark": "^3.0.1",
