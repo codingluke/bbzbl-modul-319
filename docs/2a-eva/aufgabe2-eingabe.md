@@ -1,3 +1,7 @@
+---
+keywords:
+  - pdf
+---
 # 📝 Text mit `StdInput` einlesen
 
 - Informieren Sie den Benutzer, dass er nun seinen Namen eintippen soll.

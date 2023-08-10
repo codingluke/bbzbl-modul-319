@@ -1,16 +1,12 @@
-@import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
-@import url(https://code.cdn.mozilla.net/fonts/fira.css);
+/* @import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css); */
+/* @import url(https://code.cdn.mozilla.net/fonts/fira.css); */
 
-/* body { */
-/*   background: var(--ifm-background-color); */
-/*   font-size: 16px; */
-/* } */
 strong {
   font-weight: 600;
 }
 h1 {
   color: var(--ifm-font-color-base);
-  font-family: 'Fira Sans', 'Segoe UI', 'Liberation Sans', 'Helvetica', 'Arial', sans-serif;
+  /* font-family: 'Fira Sans', 'Segoe UI', 'Liberation Sans', 'Helvetica', 'Arial', sans-serif; */
 }
 .container {
   margin-top: 50px;
@@ -47,7 +43,7 @@ h1 {
   /* letter-spacing: 1.5px; */
   font-weight: 300;
   /* font-size: 1.4em; */
-  font-family: 'Fira Sans', 'Segoe UI', 'Liberation Sans', 'Helvetica', 'Arial', sans-serif;
+  /* font-family: 'Fira Sans', 'Segoe UI', 'Liberation Sans', 'Helvetica', 'Arial', sans-serif; */
 }
 .timeline .event {
   border-bottom: 1px dashed var(--ifm-color-content);

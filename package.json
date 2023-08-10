@@ -34,8 +34,8 @@
       "service": true
     },
     "gen:pdf": {
-      "command": "sleep 10 && docs-to-pdf --puppeteerArgs='--no-sandbox' --initialDocURLs='http://localhost:3000/bbzbl-modul-319/docs/beurteilungen' --contentSelector='article' --paginationSelector='a.pagination-nav__link.pagination-nav__link--next' --excludeSelectors='.margin-vert--xl a,[class^='tocCollapsible'],.breadcrumbs,.theme-edit-this-page,iframe' --coverImage='https://codingluke.github.io/bbzbl-modul-404/img/bbzbl-logo.png' --coverTitle='BBZBL - Modul 319' --puppeteerArgs='--disable-web-security --disable-features=IsolateOrigins,site-per-process' --baseUrl='https://codingluke.github.io/'",
-      "service": true,
+      "command": "sleep 5 && mkdir -p build/assets/pdf && node build-pdf.mjs",
+      "service": false,
       "dependencies": [
         "dev"
       ]

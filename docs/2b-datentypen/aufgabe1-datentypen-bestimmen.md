@@ -1,3 +1,7 @@
+---
+keywords:
+  - pdf
+---
 # 📝 Datetypen bestimmen
 
 Bestimmen Sie die die <u>kleinst möglichen</u> Datentypen für die folgenden

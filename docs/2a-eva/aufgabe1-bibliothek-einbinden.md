@@ -1,3 +1,7 @@
+---
+keywords:
+  - pdf
+---
 # 📝 Bibliothek `MyTools` einbinden
 
 ## 1. Neues Projekt und Klasse erstellen

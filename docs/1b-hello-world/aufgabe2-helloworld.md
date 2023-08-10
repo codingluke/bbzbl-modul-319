@@ -1,3 +1,7 @@
+---
+keywords:
+  - pdf
+---
 # Hello World Programm
 
 Das «Hello-World»-Programm ist das wohl berühmteste Programm für Programmierer.

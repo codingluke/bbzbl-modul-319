@@ -1,3 +1,7 @@
+---
+keywords:
+  - pdf
+---
 # Ratespiel
 
 Nun erstellen wir ein Ratespiel. Um einfache Rate-Games zu erstellen, ist es

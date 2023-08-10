@@ -1,3 +1,7 @@
+---
+keywords:
+  - pdf
+---
 # 3a - Kontrollstrukturen
 
 Mit `if` und `switch` können Sie auf unterschiedliche Werte in Ihren Variablen
@@ -25,7 +29,7 @@ unterschiedlich, **spezifisch reagieren**.
 
 ## :open_book: Themen
 
-<DocCardList />
+<DocCardList className="pdf-exclude"/>
 
 ## :tv: Erklärvideos von Studyflix
 

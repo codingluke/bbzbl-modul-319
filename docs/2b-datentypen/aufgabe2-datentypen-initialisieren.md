@@ -1,3 +1,7 @@
+---
+keywords:
+  - pdf
+---
 # 📝 Datentypen initialisieren
 
 Erstellen Sie ein Programm, in welchem Sie:

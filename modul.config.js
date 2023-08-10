@@ -4,4 +4,5 @@ module.exports = {
   repoName: "bbzbl-modul-319",
   url: 'https://codingluke.github.io',
   organizationName: "codingluke", 
+  pdfFilterKeyword: "pdf"
 }

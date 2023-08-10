@@ -62,4 +62,4 @@ die Formulardaten in einer Datenbank gespeichert wurden.
 
 ## :pencil: Aufgaben
 
-<DocCardList />
+<DocCardList className="pdf-exclude"/>
