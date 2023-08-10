@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import styles from "./timeline.module.css";
-import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import styles from "./timeline.module.css"; import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import clsx from "clsx";
 
 export const Event = ({ time, active, children }) => {
@@ -33,8 +32,6 @@ const Timeline = ({ title, children }) => {
     }
     return first <= time;
   };
-
-  console.log(time);
 
   return (
     <div className={styles.container}>
