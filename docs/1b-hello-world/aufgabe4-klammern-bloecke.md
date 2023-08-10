@@ -1,3 +1,7 @@
+---
+keywords:
+  - pdf
+---
 # Analyse des bisherigen Programms
 
 Nun haben wir schon ein ausführbares Programm. Hier wird nun Analysiert wie es

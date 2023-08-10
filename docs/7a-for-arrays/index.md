@@ -1,3 +1,7 @@
+---
+keywords:
+  - pdf
+---
 # 7 - Arrays und for(each)
 
 :::info Ziele
@@ -52,7 +56,7 @@ Wie man das Program trotzdem zähmen kann, erfahren Sie im nächsten Kapitel.
 
 ## :open_book: Themen
 
-<DocCardList />
+<DocCardList className="pdf-exclude"/>
 
 ## :tv: Erklärvideos von Studyflix
 

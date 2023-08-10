@@ -1,5 +1,8 @@
 ---
 sidebar_position: 1
+keywords: 
+  - pdf
+  - test
 ---
 
 # ℹ️  Willkommen im Modul 319

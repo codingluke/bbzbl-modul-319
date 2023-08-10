@@ -1,3 +1,7 @@
+---
+keywords:
+  - pdf
+---
 # Vom Quellcode zum ausführbaren Programm
 
 <!-- TODO: Vereinfachen! verstehen die Lehrnenden nie im Leben -->

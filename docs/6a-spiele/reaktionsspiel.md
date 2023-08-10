@@ -1,3 +1,7 @@
+---
+keywords:
+  - pdf
+---
 # Reaktionsspiel
 
 ## :brain: Aktuelle Zeit

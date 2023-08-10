@@ -1,3 +1,7 @@
+---
+keywords:
+  - pdf
+---
 # Entwicklungsumgebung
 
 In dieser Aufgabe lernen Sie wie, Sie die Entwicklungsumgebung _Eclipse_

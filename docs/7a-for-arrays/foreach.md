@@ -1,3 +1,7 @@
+---
+keywords:
+  - pdf
+---
 # foreach
 
 Arrays, bzw. allgemein Collections, können auch mit der `foreach` Schleife

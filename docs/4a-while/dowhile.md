@@ -1,5 +1,7 @@
 ---
 sidebar_position: 2
+keywords:
+  - pdf
 ---
 
 # `do { } while`

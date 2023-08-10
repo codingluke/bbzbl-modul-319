@@ -1,3 +1,7 @@
+---
+keywords:
+  - pdf
+---
 # 6 - Spiele
 
 Spiele brauchen immer den Zufall. Ohne den Zufall wären Sie langweilig. In
@@ -19,7 +23,7 @@ Sie können in Java-Programmen nun mit Bedingungen umgehen und Wiederholungen
 ausführen. Damit kann man schon einiges machen. Beispielsweise lassen sich damit
 kleine Ratespiele programmieren, wie im nachfolgenden Auftrag.
 
-<DocCardList />
+<DocCardList className="pdf-exclude" />
 
 ## :tv: Erklärvideos vom Studiflix
 

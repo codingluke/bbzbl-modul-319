@@ -1,3 +1,7 @@
+---
+keywords:
+  - pdf
+---
 # Würfelspiel
 
 ## :brain: Zufall erzeugen
