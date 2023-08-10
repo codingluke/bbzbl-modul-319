@@ -1,12 +1,8 @@
-/* @import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css); */
-/* @import url(https://code.cdn.mozilla.net/fonts/fira.css); */
-
 strong {
   font-weight: 600;
 }
 h1 {
   color: var(--ifm-font-color-base);
-  /* font-family: 'Fira Sans', 'Segoe UI', 'Liberation Sans', 'Helvetica', 'Arial', sans-serif; */
 }
 .container {
   margin-top: 50px;
@@ -40,10 +36,7 @@ h1 {
 .timeline h1,
 .timeline h2,
 .timeline h3 {
-  /* letter-spacing: 1.5px; */
   font-weight: 300;
-  /* font-size: 1.4em; */
-  /* font-family: 'Fira Sans', 'Segoe UI', 'Liberation Sans', 'Helvetica', 'Arial', sans-serif; */
 }
 .timeline .event {
   border-bottom: 1px dashed var(--ifm-color-content);
@@ -115,7 +108,11 @@ h1 {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 25% 50%);
 
   /* draw and position the folded ribbon bit */
-  background-image: linear-gradient(45deg, transparent 50%, var(--ifm-color-info-dark) 50%);
+  background-image: linear-gradient(
+    45deg,
+    transparent 50%,
+    var(--ifm-color-info-dark) 50%
+  );
   background-size: 20px 20px;
   background-repeat: no-repeat;
   background-position: bottom right;
