@@ -1,3 +1,7 @@
+---
+keywords:
+  - pdf
+---
 # 2b - Variablen & Datentypen
 Wenn Programme Daten bearbeiten, so sind diese in **Variablen (änderbar)** und
 **Konstanten (nicht änderbar)** gespeichert. Die Variablen und Konstanten
@@ -299,7 +303,7 @@ System.out.println(b); // 1 - 1 = 0
 
 ## :pencil: Aufgaben
 
-<DocCardList />
+<DocCardList className="pdf-exclude"/>
 
 ## :tv: Erklärvideos von Studyflix
 

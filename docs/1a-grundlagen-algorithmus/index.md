@@ -149,5 +149,4 @@ welche grundlegenden Kontrollstrukturen sie mitdefinieren.
 </details>
 
 ## :pencil: Zusätzliche Aufgaben
-
-<DocCardList />
+<DocCardList className="pdf-exclude" />

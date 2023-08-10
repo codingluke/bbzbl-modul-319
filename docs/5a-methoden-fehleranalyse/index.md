@@ -1,3 +1,7 @@
+---
+keywords:
+  - pdf
+---
 # 5 - Methoden und Fehleranalyse (Debugging)
 
 Sie erhalten einen **ersten Einblick in Methoden**, die für grössere Programme
@@ -95,7 +99,7 @@ somit die Fehlersuche von Laufzeitfehlern.
 
 ## :open_book: Themen
 
-<DocCardList />
+<DocCardList className="pdf-exclude"/>
 
 ## :tv: Erklärvideos von Studyflix
 

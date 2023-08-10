@@ -34,6 +34,10 @@
 }
 
 @media print {
+  @page {
+    size: a4;
+  }
+
   :root {
     --ifm-font-size-base: 80%;
     print-color-adjust: exact;
@@ -58,19 +62,14 @@
   h5 {
     page-break-after: avoid;
   }
-  @page { 
-    size: a4;
-    header: "<div>hallo</div>";
-  }
 
-  details {
-    display: none;
-  }
+  /* details { */
+  /*   display: none; */
+  /* } */
 
   iframe {
     display: none;
   }
-  
 }
 
 .break {
@@ -90,7 +89,7 @@ iframe {
   margin-bottom: 1rem;
 }
 
-iframe[src$="pdf"] { 
+iframe[src$="pdf"] {
   height: 800px;
 }
 
@@ -215,4 +214,3 @@ img[src$="#left"] {
 .blank footer {
   display: none;
 }
-

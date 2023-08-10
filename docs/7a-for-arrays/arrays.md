@@ -1,3 +1,7 @@
+---
+keywords:
+  - pdf
+---
 # Arrays / Listen
 
 Programmierer versuchen immer so wenig wie möglich Code schreiben zu müssen - ja
