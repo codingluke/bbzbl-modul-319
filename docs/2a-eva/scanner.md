@@ -1,3 +1,7 @@
+---
+keywords:
+  - pdf
+---
 # 🖲️ Die Klasse Scanner
 
 Java beinhaltet bereits viele vorgefertigte Tools um gängige Aufgaben zu lösen.

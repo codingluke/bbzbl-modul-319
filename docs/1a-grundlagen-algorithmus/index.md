@@ -1,3 +1,7 @@
+---
+keywords: 
+  - pdf
+---
 # 1a - Vom Algorithmus zum Programm
 
 Was sind überhaupt Programme? und was haben diese mit Algorithmen zu tun? 
@@ -145,5 +149,4 @@ welche grundlegenden Kontrollstrukturen sie mitdefinieren.
 </details>
 
 ## :pencil: Zusätzliche Aufgaben
-
-<DocCardList />
+<DocCardList className="pdf-exclude" />

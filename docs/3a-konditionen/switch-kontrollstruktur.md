@@ -1,5 +1,7 @@
 ---
 sidebar_position: 2
+keywords:
+  - pdf
 ---
 
 # Switch - Kontrollstruktur

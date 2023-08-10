@@ -1,3 +1,7 @@
+---
+keywords:
+  - pdf
+---
 # 📝 Verwendung von Konstanten
 
 - Erstellen Sie eine Klasse, welche die unten definierte Konstante `MWST`

@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+keywords:
+  - pdf
 ---
 
 # LB1 - Bewertungsraster (60%)

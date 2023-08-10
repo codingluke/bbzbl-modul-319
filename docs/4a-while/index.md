@@ -1,3 +1,7 @@
+---
+keywords:
+  - pdf
+---
 # 4 - Schleifen und Wiederholungen
 
 :::info Ziele
@@ -9,7 +13,7 @@
 
 ## :open_book: Themen
 
-<DocCardList />
+<DocCardList className="pdf-exclude"/>
 
 ## :tv: Erklärvideos von Studyflix
 

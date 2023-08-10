@@ -1,3 +1,7 @@
+---
+keywords:
+  - pdf
+---
 # 1b - HelloWorld Programm
 
 Sie lernen mit der Entwicklungsumgebung [Eclipse](https://www.eclipseide.org)
@@ -65,7 +69,7 @@ Klicken Sie nun auf [Weiter um Eclipse zu installieren](./aufgabe1-entwicklungsu
 
 ## Themen
 
-<DocCardList />
+<DocCardList className="pdf-exclude"/>
 
 ## :tv: Erklärvideos
 

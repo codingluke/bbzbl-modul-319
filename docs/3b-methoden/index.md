@@ -1,3 +1,7 @@
+---
+keywords:
+  - pdf
+---
 # 3b - Methode debuggen
 
 Sie erhalten einen **ersten Einblick in Methoden**, die für grössere Programme

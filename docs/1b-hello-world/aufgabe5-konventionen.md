@@ -1,3 +1,7 @@
+---
+keywords:
+  - pdf
+---
 # Code-Konventionen
 
 Wenn programmiert wird, kommen meist eine ganze Reihe an Konventionen zur

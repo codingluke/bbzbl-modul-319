@@ -1,3 +1,7 @@
+---
+keywords:
+  - pdf
+---
 # 📝 Noten berechnen
 
 Erstellen Sie ein Programm, welches vom Benutzer

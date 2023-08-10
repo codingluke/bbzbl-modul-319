@@ -1,3 +1,7 @@
+---
+keywords: 
+  - pdf
+---
 # 2a - Das EVA-Prinzip
 
 Ohne Benutzereingaben machen viele Programme keinen Sinn. Sie lernen daher hier
@@ -58,4 +62,4 @@ die Formulardaten in einer Datenbank gespeichert wurden.
 
 ## :pencil: Aufgaben
 
-<DocCardList />
+<DocCardList className="pdf-exclude"/>

@@ -1,3 +1,7 @@
+---
+keywords:
+  - pdf
+---
 # 📝 Text mit `Scanner` einlesen
 
 ## Aufgabenbeschreibung

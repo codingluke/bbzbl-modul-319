@@ -1,3 +1,7 @@
+---
+keywords:
+  - pdf
+---
 # 8 - Repetition und Übungen
 
 Auf dieser Seite finden Sie diverse Aufträge, welche Repetitionen des
@@ -10,5 +14,5 @@ am Schluss der Seite.
 
 ## :open_book: Themen
 
-<DocCardList />
+<DocCardList className="pdf-exclude"/>
 

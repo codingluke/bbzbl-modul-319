@@ -1,5 +1,7 @@
 ---
 sidebar_position: 4
+keywords:
+  - pdf
 ---
 
 # Fehleranalyse und Fehlersuchen

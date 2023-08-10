@@ -18,7 +18,8 @@
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
     "dev": "wireit",
-    "start:marp": "wireit"
+    "start:marp": "wireit",
+    "gen:pdf": "wireit"
   },
   "wireit": {
     "dev": {
@@ -31,6 +32,13 @@
     "start:marp": {
       "command": "env PORT=3003 marp --engine ./src/marp/engine.js --html --allow-local-files --theme slides/theme.css --watch --server slides",
       "service": true
+    },
+    "gen:pdf": {
+      "command": "sleep 5 && mkdir -p build/assets/pdf && node build-pdf.mjs",
+      "service": false,
+      "dependencies": [
+        "dev"
+      ]
     }
   },
   "dependencies": {
@@ -43,6 +51,7 @@
     "@mdx-js/react": "^1.6.22",
     "clsx": "^1.1.1",
     "devserver-config": "file:plugins/devserver-config",
+    "docs-to-pdf": "^0.5.1",
     "markdown-it-container": "^3.0.0",
     "markdown-it-external-links": "^0.0.6",
     "markdown-it-mark": "^3.0.1",
