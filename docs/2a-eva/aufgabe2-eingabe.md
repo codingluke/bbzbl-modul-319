@@ -1,8 +1,9 @@
 ---
+sidebar_position: 3
 keywords:
   - pdf
 ---
-# 📝 Text mit `StdInput` einlesen
+# Text mit `StdInput` einlesen
 
 - Informieren Sie den Benutzer, dass er nun seinen Namen eintippen soll.
 - Legen Sie eine String-Variable an, um die Antwort zu speichern.

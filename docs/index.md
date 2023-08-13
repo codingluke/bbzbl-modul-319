@@ -28,9 +28,10 @@ inklusive der Inhalte die pro Woche anstehen.
 
 ### Navigation
 
-Links ist die Unternavigation sichtbar. 
+Links ist die Unternavigation sichtbar.
 
-Die **Nummern pro Hauptthema entsprechen der Wochennummer** in welchem das Thema besprochen wird.
+Die **Nummern pro Hauptthema entsprechen der Wochennummer** in welchem das Thema
+besprochen wird.
 
 - _**1a - Vom Algorithmus zum Programm**_ wird also in der **Woche 1** relevant
   sein.
@@ -72,6 +73,18 @@ Die Webseite ist komplett durchsuchbar. Dies könnt Ihr machen, idem ich `ctrl-k
 drückt oder einfach oben rechts im Suchfeld nach Begriff sucht.
 
 ![suchen](./images/suchen.png)
+
+### Modul als PDF
+
+Ich könnt den Inhalt der Webseite (Ohne Musterlösungen) als
+[PDF downloaden](https://codingluke.github.io/bbzbl-modul-319/assets/pdf/bbzbl-modul-319.pdf).
+Dies geht auch über den Button oben rechts.
+
+So könnt Ihr mit einem beliebigen PDF viewer beliebige Kommentare und Notizen
+machen. Auch ermöglicht es so die Archivierung für späteres Nachschlagen.
+
+Dieses Feature ist momentan experimentiel! Erwartet nicht das eleganteste PDF.
+Es wird mit der Zeit verbessert.
 
 ## Entwicklungsumgebung
 

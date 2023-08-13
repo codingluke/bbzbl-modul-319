@@ -1,8 +1,9 @@
 ---
+sidebar_position: 2
 keywords:
   - pdf
 ---
-# 📝 Bibliothek `MyTools` einbinden
+# Bibliothek `MyTools` einbinden
 
 ## 1. Neues Projekt und Klasse erstellen
 

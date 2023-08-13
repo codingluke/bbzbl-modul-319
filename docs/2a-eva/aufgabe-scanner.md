@@ -2,16 +2,78 @@
 keywords:
   - pdf
 ---
-# 📝 Text mit `Scanner` einlesen
 
-## Aufgabenbeschreibung
+# Zusatz - Scanner
+
+## Die Klasse Scanner
+
+Java beinhaltet bereits viele vorgefertigte Tools um gängige Aufgaben zu lösen.
+Eine davon ist das Einlesen und Verarbeiten von Benutzereingaben. Wir werden in
+diesem Modul nur Programme scheiben, welche mit dem Benutzer über die Konsole
+interagieren. Diese nennt man auch Konsolen-Applikationen.
+
+Dafür bietet Java die Klasse `java.util.Scanner` an. Sie "scannt" sozusagen die
+Eingabe von Benutzer und gibt diese zurück.
+
+:::caution Musterlösungen mit mytools.StdInput
+
+Die Klasse `Scanner` wird hier für wissbegierige vorgestellt, da Sie zum
+Standard-Repetoir von Java gehört. Das Package `mytools` wird ausserhalb der
+BBZBL nicht verwendet.
+
+Die BBZBL verwendet für dieses Modul die Klasse `mytools.StdInput`. Ihr dürft
+alle Aufgaben auch mit dem `Scanner` lösen. Dafür gibt es jedoch keine
+Musterlösungen.
+
+:::
+
+### Verwendung
+
+Um den Scanner zu verwenden, müssen **3 Punkte** beachtet werden:
+
+```java title="Verwenden vom Scanner"
+// highlight-next-line
+import java.util.Scanner;
+
+class MyClassWithScanner { // INFO: Der Klassenname ist beliebig!
+
+    // highlight-next-line
+    private static Scanner scanner = new Scanner(System.in);
+
+    public static void main(String[] args) {
+        // hier kann nun der scanner verwendet werden
+        // highlight-next-line
+        String eingabe = scanner.next(); // next() gibt immer einen String zurück
+        System.out.println("Ihre eingabe war: " + eingabe);
+    }
+
+}
+```
+
+1. Er muss importiert werden mit `import java.util.Scanner;`
+2. Er muss initialisiert werden mit
+   `private static Scanner scanner = new Scanner(System.in);`
+3. Er muss verwendet werden mit `scanner.next...`
+
+### Weitere Methoden
+
+| Methode      | Datentyp         |
+| ------------ | ---------------- |
+| next()       | String           |
+| nextLine()   | String bis Enter |
+| nextInt()    | int              |
+| nextLong()   | long             |
+| nextFloat()  | float            |
+| nextDouble() | double           |
+
+## :pencil: Aufgabe: Text mit `Scanner` einlesen
 
 - Informieren Sie den Benutzer, dass er nun seinen Namen eintippen soll.
 - Legen Sie eine `String`-Variable an, um die Antwort zu speichern.
 - Die Funktion, um Daten eingeben zu können, ist in der Klasse mit dem Namen
   `Scanner` enthalten.
 
-## Schritt für Schritt Anleitung
+### Schritt für Schritt Anleitung
 
 1. Kopieren Sie den folgenden Code in eine Datei namens `EinUndAusgabe.java`
 

@@ -2,7 +2,9 @@
 keywords:
   - pdf
 ---
+
 # 2b - Variablen & Datentypen
+
 Wenn Programme Daten bearbeiten, so sind diese in **Variablen (änderbar)** und
 **Konstanten (nicht änderbar)** gespeichert. Die Variablen und Konstanten
 besitzen einen Namen sowie einen für die zu speichernden Daten passenden
@@ -281,6 +283,174 @@ oder Fehler angezeigt werden!
 
 ## Rechnen und Operatoren
 
+### Arithmetische `+`, `-`, `/`, `*`, `%`
+
+Arithmetische Operatoren kennt Ihr bereits von der Mathematik. Damit lassen sich
+die gängigen Mathematischen Operationen durchführen. Neu ist einzig der Rest
+Operator `%`. Dieser dividiert eine Zahl und gibt den Rest zurück.
+
+```java title="+ - / * % Arithmetische Operatoren"
+int result;
+int number = 9;
+int anotherNumber = 3;
+
+result = number + anotherNumber; // Addition
+result = number - anotherNumber; // Subtraktion
+result = number / anotherNumber; // Division
+result = number * anotherNumber; // Multiplikation
+result = number % anotherNumber; // Rest der Division
+```
+
+:::tip Gerade/Ungerade berechnen mit `%`
+
+Der Rest-Operator `%` gibt bei einer division immer den Rest zurück. Wenn man
+nun eine Division durch 2 durchführt lässt sich herausfinden ob eine Zahl gerade
+oder ungerade ist.
+
+```java
+9 % 2  // ergibt 4 * 2 Rest 1 also ungerade
+10 % 2 // ergibt 5 * 2 Rest 0 also gerade
+
+public boolean even(int number) {
+    return number % 2 == 0;
+}
+```
+
+:::
+
+### Verkürzte arithmetische Operation mit sich selbst `+=`, `-=`, `*=`, `/=`
+
+Oft möchte man den Wert einer Variablen direkt verändern. Das Resultat also
+nicht in eine neue Variable, sonder in sich selber speichern. Gegeben ist z.B.
+die Variable `number` vom Typ `int` mit dem Initialwert `3`.
+
+```java
+int number = 3;
+```
+
+Möchte man dieser Variable `4` hinzuaddieren geht das folgendermassen:
+
+```java
+number = number + 4; // Addition und Zuweisung zu sich selbst
+```
+
+Da dies sehr oft vorkommt ist in allen gängigen Programmiersprachen dafür ein
+kombinierten Operator vorgesehen. Es wird dem Zuweisungsoperator den
+arithmetische Operator **vorangestellt**.
+
+```java
+number += 4; // Verkürzte Addition und Zuweisung zu sich selbst
+```
+
+Aus `number = number + 4;` wird somit `number += 4;` und erspart uns die
+Dopplung der Variable. Dies geht natürlich auch für alle anderen arithmetischen
+Operatoren.
+
+```java
+number -= 7; // Subtraktion und Zuweisung zu sich selbst
+number *= 9; // Multiplikation und Zuweisung zu sich selbst
+number /= 2; // Division und Zuweisung zu sich selbst
+```
+
+### Unäre (einstellige) Operatoren `++`, `--`
+
+Noch häufiger als die verkürzte arithmetische Operation mit sich selbst wird im
+Programmieren schrittweise hoch und runtergezählt **was auch Iteration genannt
+wird**.
+
+Möchte man also von 0 - 3 hochzählen geht dies so:
+
+```java
+int number = 0;
+number += 1;
+number += 1;
+number += 1;
+```
+
+Der Unäre Operator `++` zählt der links vorangestellten Variable eines
+nummerischen Typ eine 1 hinzu. Der obere Code ist somit identisch zu diesem:
+
+```java
+int number = 0;
+number++;
+number++;
+number++;
+```
+
+:::info Unär => einstellig
+
+Unär bedeutet einstellig, es braucht daher **nur der linke** und nicht auch
+einen rechten Teil beim Operator.
+
+:::
+
+:::tip Iterieren durch Arrays
+
+Der unäre Operator `++` wird insbesondere beim **Iterieren durch Arrays** wie im
+folgenden Beispiel verwendet. Was gibt der obere Code wohl aus?
+
+```java
+char[] text = {'h','a','l','l','o',' ','w','e','l','t'};
+
+// highlight-next-line
+for (int i = 0; i < text.length; i++) {
+    System.out.print(text[i]);
+}
+```
+
+- Es wird Schrittweise jede Stelle vom Array `char[] text` in einem `for`-Loop
+  ausgegeben
+- Die Variable `i`, Iterator, wird durch `i++` für jeden Schritt +1 hochgezählt
+- `i++` könnte auch mit `i += 1` oder `i = i + 1` ersetzt werden.
+- `i++` ist jedoch viel kürzer.
+
+:::
+
+:::note Funfact
+
+C++ erweitert die Programmiersprache C. Um diese Verwandtschaft ein bisschen
+NERDisch Auszudrücken wurde das Wortspiel C++ gewählt. C++ ist eine weitere
+Iteration von C.
+
+:::
+
+### Vergleichsoperatoren `==`, `!=`, `!`
+
+Vergleichsoperatoren ergeben immer einen **boolean (true/false)**. Sie werden in
+Kontrollstrukturen als Bedingungen verwendet.
+
+<div className="grid three"><div>
+
+```java title="== Gleichheit"
+true  == true; // true
+1     == 1     // true
+
+false == true; // false
+1     == 2     // false
+```
+
+</div><div>
+
+```java title="!= Ungleichheit"
+false != true; // true
+1     != 2     // true
+
+true  != true; // false
+1     != 1     // false
+```
+
+</div><div>
+
+```java title="! Negation"
+!false // true
+!(1 == 2) // true
+
+!true // false
+!(1 == 1) // false
+```
+
+</div></div>
+
 Mit den numerischen Datentypen kann mit den bekannten Operatoren gerechnet
 werden. Also jene die aus der Mathematik bekannt sind: `+`, `-`, `*`, `/`.
 
@@ -310,4 +480,3 @@ System.out.println(b); // 1 - 1 = 0
 - [Java Variablen deklarieren und initialisieren](https://studyflix.de/informatik/variablen-216)
 - [Ausdrücke und Operatoren in Java](https://studyflix.de/informatik/ausdrucke-und-arithmetische-operatoren-217)
 - [Boolsche ausdrücke in Java](https://studyflix.de/informatik/boolesche-ausdrucke-221)
-
