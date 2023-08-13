@@ -6,5 +6,4 @@ set -o pipefail
 
 cd /app
 
-yarn gen:pdf
-# yarn dev
+yarn dev

@@ -4,12 +4,10 @@ keywords:
 ---
 # 4 - Schleifen und Wiederholungen
 
-:::info Ziele
+## :dart: Ziele
 
 - Sie können mit dem while durch eine Bedingung gesteuerte Wiederholungen
   programmieren.
-
-:::
 
 ## :open_book: Themen
 

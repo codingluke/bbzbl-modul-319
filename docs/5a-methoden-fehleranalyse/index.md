@@ -9,7 +9,7 @@ zur Strukturierung unerlässlich sind. Zusätzlich wird Ihnen das **Verfahren de
 Debuggings** vorgestellt, da es besonders hilfreich sein kann, um Methoden
 besser zu verstehen und Ihnen auch künftig hilft, Fehler zu finden.
 
-:::info Ziele
+## :dart: Ziele
 
 - Sie können einfache Methoden erklären und anwenden.
 - Sie können mittels Debugging Ihr Programm schrittweise durchlaufen, dabei die
@@ -24,9 +24,7 @@ besser zu verstehen und Ihnen auch künftig hilft, Fehler zu finden.
 - Sie können bei Laufzeitfehlern (das Programm stürzt ab) den Stacktrace
   erkennen und von dort angezeigte Fehlerstellen in Ihrem Programm anspringen.
 
-:::
-
-## :teacher: Präsentation
+<!-- ## :teacher: Präsentation -->
 
 <!-- [:computer: Open in Browser](pathname:///slides/operatoren) | [:floppy_disk: download PDF](pathname:///slides/operatoren.pdf) -->
 

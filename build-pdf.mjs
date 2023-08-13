@@ -11,6 +11,7 @@ generatePDF({
     "--font-render-hinting=none",
     "--export-tagged-pdf",
   ],
+  disableTOC: true,
   outputPDFFilename: `build/assets/pdf/${modulConfig.repoName}.pdf`,
   filterKeyword: modulConfig.pdfFilterKeyword,
   coverTitle: modulConfig.title,

@@ -9,13 +9,11 @@ das EVA-Prinzip kennen, und wie Sie es mit einer Bibliothek in Ihrem Projekt
 nutzen, um Eingaben von Benutzern einzulesen. Sie kennen die vorgestellten
 Datentypen und können diese in Programmen nutzen.
 
-:::info Ziele
+## :dart: Ziele
 
 - Sie können das EVA-Prinzip erklären.
 - Sie können eine Bibliothek in Ihr Eclipse-Projekt einbinden. Sie können die
   Bibliothek dazu verwenden, um Benutzereingaben einzulesen.
-
-:::
 
 ## Das EVA Prinzip
 

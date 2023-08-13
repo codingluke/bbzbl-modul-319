@@ -1,11 +1,11 @@
 ---
 sidebar_position: 1
-keywords: 
+keywords:
   - pdf
   - test
 ---
 
-# ℹ️  Willkommen im Modul 319
+# ℹ️ Willkommen im Modul 319
 
 Willkommen auf der Website, die Sie in das Programmieren einführt, und zwar je
 nach EFZ-Fachrichtung mit den Modulen 319 und 403.
@@ -18,6 +18,60 @@ Hier finden Sie Informationen und Unterlagen zum Unterricht.
 - Auf diese werden Sie im Unterricht nicht ausdrücklich hingewiesen.
 
 :::
+
+## Webseite
+
+### Lektionen
+
+Unter [Lektionen](./lektionen/index.md) finden Sie die Übersicht aller Lektionen
+inklusive der Inhalte die pro Woche anstehen.
+
+### Navigation
+
+Links ist die Unternavigation sichtbar. 
+
+Die **Nummern pro Hauptthema entsprechen der Wochennummer** in welchem das Thema besprochen wird.
+
+- _**1a - Vom Algorithmus zum Programm**_ wird also in der **Woche 1** relevant
+  sein.
+- _**7 - Arrays und for(each)**_ erst in der **Woche 7**
+
+Pro Seite wird unten einen "Zurück" und "Weiter" Link dargestellt. Ich könnt
+also theoretisch alle Themen nacheinander durchgehen und die zugehörigen
+Aufgaben machen.
+
+![weiter](./images/weiter.png)
+
+### Musterlösungen
+
+Musterlösungen befinden sich immer in einer ausklappbaren Box. Ihr könnt alle
+Lösungen direkt auf der Webseite abrufen. Die Box ist eingeklappt, damit Ihr es
+hoffentlich zuerst selber versucht!
+
+<details><summary>Musterlösung:</summary>
+
+Ich bin eine Musterlösung. Bitte zuerst selbst versuchen :smiley:
+
+</details>
+
+:::tip Programmieren braucht Übung!
+
+Nur mit **Repetition und Übung** werdet Ihr Programmieren lernen.
+
+Vergleicht es mit einem Sport! Es ist gut ein Buch über Skaten zu kaufen.
+Natürlich helfen Tips es von Anfang an richtig zu machen.
+
+**ABER:** Ohne selber zu üben schafft man keinen Olly (zumindest ich kann noch
+keinen :D) und schon gar keinen 1080.
+
+:::
+
+### Suche
+
+Die Webseite ist komplett durchsuchbar. Dies könnt Ihr machen, idem ich `ctrl-k`
+drückt oder einfach oben rechts im Suchfeld nach Begriff sucht.
+
+![suchen](./images/suchen.png)
 
 ## Entwicklungsumgebung
 
@@ -38,6 +92,7 @@ So haben Sie an der Schule wie auch zu Hause immer die selbe Umgebung.
   für Java Module)
 
 :::
+
 ## Modulidentifikation
 
 [:floppy_disk: PDF speichern](https://modulbaukasten.ch/Module/319_1_Applikationen%20entwerfen%20und%20implementieren.pdf)
