@@ -14,6 +14,8 @@ footer: BBZBL / Lukas Hodel /  Applikationen entwerfen und implementieren
 
 # Operatoren
 
+![bg w:80%](./images/mermaid-operatoren-organigram.png)
+
 <!-- ```mermaid -->
 <!-- graph TD; -->
 <!--     Operatoren---ao[Arithmetische Operatoren] -->
@@ -192,6 +194,8 @@ Gegeben: `boolean a = true; boolean b = false;`
 # Kontrollstrukturen
 
 Vergleichs- und logische Operatoren kommen häufig dann zum Einsatz, wenn man etwas nur unter einer bestimmten Bedingung ausführen soll.
+
+![h:370](./images/mermaid-kontrollstrukturen-organigram.png)
 
 <!-- ```mermaid -->
 <!-- flowchart TD; -->

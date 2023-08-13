@@ -115,7 +115,11 @@ const config = {
             position: "left",
             label: "Unterlagen",
           },
-          { to: "/slides/", label: "Präsentationen", position: "left" },
+          {
+            to: `/assets/pdf/${modulConfig.repoName}.pdf`,
+            label: "PDF Download",
+            position: "right",
+          },
           {
             href: `https://github.com/codingluke/${modulConfig.repoName}`,
             label: "GitHub",
