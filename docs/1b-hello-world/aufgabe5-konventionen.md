@@ -23,7 +23,7 @@ Jede **Klasse**
   [`UpperCamelCase`](http://wiki.c2.com/?UpperCamelCase)
 
 ```java
-public MeinTollerKlasseName {
+public class MeinTollerKlasseName {
 
 }
 ```
@@ -37,7 +37,7 @@ Jede **Methode**
   [`lowerCamelCase`](http://wiki.c2.com/?LowerCamelCase)
 
 ```java
-public MeinTollerKlasseName {
+public class MeinTollerKlasseName {
   public void meinTollerMethodenName() {
 
   }
@@ -51,7 +51,7 @@ public MeinTollerKlasseName {
   - :apple: Command-Shift-F
 
 ```java
-public MeinTollerKlasseName {
+public class MeinTollerKlasseName {
   // Dieser Block ist eingerückt
   // highlight-start
   public void meinTollerMethodenName() {
@@ -114,7 +114,7 @@ Kommentar
  * @author HerrLehrer
  * @version 1.0.0
  */
-public MeinTollerKlasseName {
+public class MeinTollerKlasseName {
 
   /*
    * Die diese Methode wird ganz tolle Sachen machen
