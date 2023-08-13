@@ -2,6 +2,7 @@
 keywords:
   - pdf
 ---
+
 # 3 - Kontrollstrukturen
 
 Mit `if` und `switch` können Sie auf unterschiedliche Werte in Ihren Variablen
@@ -17,15 +18,6 @@ unterschiedlich, **spezifisch reagieren**.
   Operatoren und boolean-Werten umgehen können.
 - Sie können die switch Kontrollstruktur nutzen, um effizienter auf eine
   kleinere Anzahl unterschiedlicher Werte reagieren zu können als mit einem if.
-
-
-```mermaid
-graph TD;
-    Operatoren---ao[Arithmetische Operatoren]
-    Operatoren---uo[Unäre Operatoren]
-    Operatoren---vo[Vergleichsoperatoren]
-    Operatoren---lo[Logische Operatoren]
-```
 
 ## :teacher: Präsentation
 
