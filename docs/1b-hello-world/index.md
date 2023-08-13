@@ -7,15 +7,13 @@ keywords:
 Sie lernen mit der Entwicklungsumgebung [Eclipse](https://www.eclipseide.org)
 ein **HelloWord-Programm** zu schreiben.
 
-:::info Ziele
+## :dart: Ziele
 
 - Sie wissen, was der Umfang einer Entwicklungsumgebung ist.
 - Sie können Eclipse starten, mit einem Workspace umgehen und Projekte anlegen.
 - Sie können ein erste Programm, _HelloWorld_, schreiben und dessen Elemente
   beschreiben.
 - Sie können die grundlegenden Konventionen und Kommentare anwenden.
-
-:::
 
 ## Infrastruktur zum Programmieren
 

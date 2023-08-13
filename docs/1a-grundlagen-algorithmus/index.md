@@ -6,12 +6,10 @@ keywords:
 
 Was sind überhaupt Programme? und was haben diese mit Algorithmen zu tun? 
 
-:::info Ziele
+## :dart: Ziele
 
 - Sie können erklären, was ein Algorithmus ist und welches die wichtigsten
   Kontrollstrukturen sind.
-
-:::
 
 ## :teacher: Präsentation
 

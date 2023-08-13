@@ -9,16 +9,14 @@ zur Strukturierung unerlässlich sind. Zusätzlich wird Ihnen das Verfahren des
 Debuggings vorgestellt, da es besonders hilfreich sein kann, um Methoden besser
 zu verstehen und Ihnen auch künftig hilft, Fehler zu finden.
 
-:::info Ziele
+## :dart: Ziele
 
 - Sie können einfache Methoden erklären und anwenden.
 - Sie können mittels Debugging Ihr Programm schrittweise durchlaufen, dabei die
   Werte von Variablen beobachten und so Abläufe verstehen und Fehlerquellen
   entdecken.
 
-:::
-
-## :teacher: Präsentation
+<!-- ## :teacher: Präsentation -->
 
 <!-- [:computer: Open in Browser](pathname:///slides/operatoren) | [:floppy_disk: download PDF](pathname:///slides/operatoren.pdf) -->
 

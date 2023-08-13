@@ -8,12 +8,11 @@ Wenn Programme Daten bearbeiten, so sind diese in **Variablen (änderbar)** und
 besitzen einen Namen sowie einen für die zu speichernden Daten passenden
 **Datentyp**.
 
-:::info Ziele
+## :dart: Ziele
 
 - Sie kennen die primitiven Datentypen und den höheren Datentyp String
 - Sie können diese als Variablen in Programmen nutzen.
 
-:::
 <!-- ## :teacher: Präsentation -->
 
 <!-- [:computer: Open in Browser](pathname:///slides/operatoren) | [:floppy_disk: download PDF](pathname:///slides/operatoren.pdf) -->

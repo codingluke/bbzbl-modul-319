@@ -4,14 +4,14 @@ keywords:
 ---
 # 7 - Arrays und for(each)
 
-:::info Ziele
+## :dart: Ziele
 
 - Sie können mittels Arrays effizient mit mehreren Werte des gleichen Datentyps
   programmieren.
 - Sie können die for Kontrollstruktur nutzen, die besonders für das Durchlaufen
   von Arrays hilfreich ist.
 
-:::
+## Einleitung
 
 Wir haben Datentypen kennengelernt und wissen, wie wir Variablen anlegen können.
 Damit können wir Werte zwischenspeichern und später wieder darauf zurückgreifen.

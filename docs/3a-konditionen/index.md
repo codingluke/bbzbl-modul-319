@@ -11,14 +11,12 @@ unterschiedlich, **spezifisch reagieren**.
   für welche Situation gemacht werden soll.
 - Dafür existiert in Java der Datentyp `boolean` und die Vergleichsoperatoren.
 
-:::info Ziele
+## :dart: Ziele
 
 - Sie können die if Kontrollstruktur erklären und anwenden, indem Sie auch mit
   Operatoren und boolean-Werten umgehen können.
 - Sie können die switch Kontrollstruktur nutzen, um effizienter auf eine
   kleinere Anzahl unterschiedlicher Werte reagieren zu können als mit einem if.
-
-:::
 
 ## :teacher: Präsentation
 
