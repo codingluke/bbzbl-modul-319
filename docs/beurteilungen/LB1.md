@@ -88,18 +88,17 @@ und den zugehörigen Aufgabenseiten angegeben:
 
 - **Thema 2 - Selektion und Operatoren**
   - :book: : [2b - Variablen & Datentypen (Rechnen und Operatoren)](../2b-datentypen/index.md#rechnen-und-operatoren)
-  - :book: : [3a - Kontrollstrukturen (Präsentation)](../3a-konditionen/index.md#-präsentation)
+  - :book: : [3 - Kontrollstrukturen (Präsentation)](../3a-konditionen/index.md#-präsentation)
 - **Thema 3 - Methoden**
-  - :book: [3b - Methode debuggen](../3b-methoden/index.md)
-  - :book: [5 - Methoden und Fehleranalyse](../5a-methoden-fehleranalyse/index.md)
+  - :book: [4 - Methoden und Fehleranalyse](../4a-methoden-fehleranalyse/index.md)
 - **Thema 4 - Debugging und Fehlersituationen**
-  - :book: [5 - Methoden und Fehleranalyse](../5a-methoden-fehleranalyse/index.md)
+  - :book: [4 - Methoden und Fehleranalyse](../4a-methoden-fehleranalyse/index.md)
 
 :::caution Vergesst nicht den LB2
 
 Auch wenn das Beurteilungsraster nicht alle Themen abdeckt, bitte möglichst alle
 Themen und Aufgaben bearbeiten. Es könnte ja sein dass z.B.
-[Schleifen](../4a-while/index.md) und [Arrays](../7a-for-arrays/index.md) im
+[Schleifen](../5a-while/index.md) und [Arrays](../7a-for-arrays/index.md) im
 [LB2](./LB2.md) relevant werden.
 
 :::
