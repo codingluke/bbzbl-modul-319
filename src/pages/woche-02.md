@@ -3,22 +3,28 @@ wrapperClassName: blank
 hide_table_of_contents: true
 ---
 
-<Timeline title="Woche 1">
+<Timeline title="Woche 2">
 <Event time="12:45">
 
-## Vorstellung
-
-[Modulidentifikation]
+## :teacher: Themenüberblick :compass:
 
 </Event>
 <Event time="13:00">
 
-## [Vom Algorithmus zum Programm][algorithmus]
+## :teacher: Bibliothek einbinden
 
-- :teacher: Präsentation / **Diskussion**
-- :tv: code.org / :coffee: 13:30
+- EVA
 
-- :student: Lesen und Lösen
+- MyTools.jar
+
+</Event>
+<Event time="13:20">
+
+## :student: Datentypen / Variablen
+
+- :pencil: Aufgaben lösen / :checkered_flag: **Raster Thema 1**
+
+- :coffee: 13:30
 
 </Event>
 <Event time="14:20">
@@ -28,18 +34,20 @@ hide_table_of_contents: true
 </Event>
 <Event time="14:40">
 
-## :student: [HalloWorld Programm][hallo welt]
+## :student: Operatoren
+- :pencil: Aufgaben lösen / :checkered_flag: **Raster Thema 2**
 
-- :teacher: [in Eclipse zusammen!][hallo welt]
 - :coffee: 15:30
-- [:sparkles: Vom Quellcode zum Programm][compiler]
-
-- [🧐 Analyse des bisherigen Programms][blocks]
 
 </Event>
-<Event time="15:50">
+<Event time="15:35">
 
-## 🧑‍🏫 [Code-Konventionen]
+
+## :student: Datentypen / Variablen / Operatoren
+
+- :pencil: Aufgaben lösen / :checkered_flag: **Raster Thema 1/2**
+
+- :superhero: oder schon Kontrollstrukturen (if / switch)!
 
 </Event>
 <Event time="16:15">
