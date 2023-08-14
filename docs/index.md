@@ -4,7 +4,7 @@ keywords:
   - pdf
 ---
 
-# 💁 Willkommen im Modul 319
+# 🤗 Willkommen im Modul 319
 
 Willkommen auf der Website, die Sie in das Programmieren einführt, und zwar je
 nach EFZ-Fachrichtung mit den Modulen 319 und 403.

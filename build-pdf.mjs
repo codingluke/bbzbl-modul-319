@@ -18,7 +18,7 @@ const getBase64ImgTag = (path) => {
 
 generatePDF({
   initialDocURLs: [
-    `http://localhost:3000/${modulConfig.repoName}/docs/effizienter`,
+    `http://localhost:3000/${modulConfig.repoName}/docs`,
   ],
   puppeteerArgs: [
     "--no-sandbox",
@@ -51,10 +51,11 @@ generatePDF({
   headerTemplate: `
     <style>
       .header {
-        height: 35px; 
+        height: 45px; 
         width: 100%; 
         display: flex; 
         justify-content: space-between; 
+        line-height: 1.5;
         align-items: flex-end;
         font-size: 8px; 
         font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont;
