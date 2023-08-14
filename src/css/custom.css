@@ -45,6 +45,7 @@
     --ifm-global-shadow: none;
     print-color-adjust: exact;
     -webkit-print-color-adjust: exact;
+    font-family: system-ui, -apple-system, Noto Emoji, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont;
   }
   .theme-doc-footer {
     display: none;
