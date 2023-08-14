@@ -40,7 +40,11 @@
 
   :root {
     --ifm-font-size-base: 80%;
+    --ifm-alert-shadow: none;
+    --ifm-global-shadow-lw: none;
+    --ifm-global-shadow: none;
     print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
   }
   .theme-doc-footer {
     display: none;
