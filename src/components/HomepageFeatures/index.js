@@ -6,7 +6,7 @@ const FeatureList = [
   {
     title: "Quartalsübersicht",
     url: "/bbzbl-modul-319/docs/lektionen",
-    Svg: "🗓️",
+    Svg: "📅",
     description: (
       <>
         Hier gelangen Sie auf die Lektionenübersicht. Schauen Sie genau,{" "}
@@ -28,7 +28,7 @@ const FeatureList = [
   {
     title: "Modulbeschreibung",
     url: "/bbzbl-modul-319/docs#modulidentifikation",
-    Svg: "ℹ️",
+    Svg: "💁",
     description: <>Hier finden Sie die offizielle Berschreibung des Moduls.</>,
   },
 ];
