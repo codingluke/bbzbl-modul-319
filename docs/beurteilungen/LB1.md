@@ -4,7 +4,7 @@ keywords:
   - pdf
 ---
 
-# LB1 - Beurteilungsrasters (60%)
+# LB1 - Beurteilungsraster (60%)
 
 Ab der 2. Woche bis **spätestens Ende 7. Woche** haben Sie Zeit, die Themen des
 Beurteilungsrasters nachzuweisen.
