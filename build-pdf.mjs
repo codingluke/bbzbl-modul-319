@@ -26,7 +26,7 @@ generatePDF({
     "--font-render-hinting=none",
     "--export-tagged-pdf",
   ],
-  pdfMargin: { top: 110, right: 40, bottom: 60, left: 40 },
+  pdfMargin: { top: 110, right: 72, bottom: 60, left: 72 },
   disableTOC: true,
   outputPDFFilename: `build/assets/pdf/${modulConfig.repoName}.pdf`,
   filterKeyword: modulConfig.pdfFilterKeyword,

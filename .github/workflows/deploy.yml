@@ -28,7 +28,7 @@ jobs:
       - name: Build slides PDFs
         run: yarn build-marp-pdf
       - name: Build page PDF
-        run: yarn gen:pdf
+        run: yarn build:pdf
 
       # Popular action to deploy to GitHub Pages:
       # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
