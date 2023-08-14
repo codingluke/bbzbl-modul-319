@@ -26,13 +26,15 @@ generatePDF({
     "--font-render-hinting=none",
     "--export-tagged-pdf",
   ],
-  pdfMargin: { top: 110, right: 40, bottom: 32, left: 40 },
+  pdfMargin: { top: 110, right: 40, bottom: 60, left: 40 },
   disableTOC: true,
   outputPDFFilename: `build/assets/pdf/${modulConfig.repoName}.pdf`,
   filterKeyword: modulConfig.pdfFilterKeyword,
   coverTitle: modulConfig.title,
+  coverSub: modulConfig.tagline,
+  paperFormat: "A4",
   baseUrl: modulConfig.url,
-  coverImage: "https://codingluke.github.io/bbzbl-modul-404/img/bbzbl-logo.png",
+  // coverImage: "https://codingluke.github.io/bbzbl-modul-404/img/bbzbl-logo.png",
   contentSelector: "article",
   excludeSelectors: [
     "article .anchor:has(+ .pdf-exclude)",
@@ -55,7 +57,7 @@ generatePDF({
         font-size: 8px; 
         margin: 10px 55px;
         font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont;
-        border-top: 1px solid #ccc;
+        border-top: 1px solid rgba(0,0,0,0.05);
       }
     </style>
     <div class="footer">
@@ -74,13 +76,13 @@ generatePDF({
         font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont;
         margin: 10px 55px;
         padding-bottom: 5px;
-        border-bottom: 1px solid #ccc;
+        border-bottom: 1px solid rgba(0,0,0,0.05);
       }
     </style>
     <div class="header">
       <div>Berufsbildungszentrum Baselland, IT-Ausbildung Pratteln<br />${
         modulConfig.title
-      }</div>
+      } - ${modulConfig.tagline}</div>
       ${getBase64ImgTag("/static/img/bbzbl-logo.png")}
     </div>`,
 });

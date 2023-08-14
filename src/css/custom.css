@@ -67,9 +67,9 @@
     page-break-after: avoid;
   }
 
-  /* details { */
-  /*   display: none; */
-  /* } */
+  details {
+    display: none;
+  }
 
   iframe {
     display: none;
