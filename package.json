@@ -19,7 +19,7 @@
     "write-heading-ids": "docusaurus write-heading-ids",
     "dev": "wireit",
     "start:marp": "wireit",
-    "gen:pdf": "wireit"
+    "build:pdf": "wireit"
   },
   "wireit": {
     "dev": {
@@ -33,7 +33,7 @@
       "command": "env PORT=3003 marp --engine ./src/marp/engine.js --html --allow-local-files --theme slides/theme.css --watch --server slides",
       "service": true
     },
-    "gen:pdf": {
+    "build:pdf": {
       "command": "sleep 5 && mkdir -p build/assets/pdf && node build-pdf.mjs",
       "service": false,
       "dependencies": [
