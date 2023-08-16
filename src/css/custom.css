@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: "Noto Emoji";
-  src: url("../../static/fonts/NotoEmoji-Regular.ttf") format("truetype");
+  src: url("../../static/fonts/NotoEmoji-VariableFont_wght.ttf") format("truetype");
 }
 
 /* You can override the default Infima variables here. */
