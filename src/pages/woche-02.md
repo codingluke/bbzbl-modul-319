@@ -6,23 +6,33 @@ hide_table_of_contents: true
 <Timeline title="Woche 2">
 <Event time="12:45">
 
-## :teacher: Themenüberblick :compass:
+## :teacher: Themenüberblick
+
+- :scroll:Variablen / Datentypen 
+- :twisted_rightwards_arrows: Kontrollstrukturen (if / else) 
+- :alembic: Methoden / Funktionen 
+- :repeat: Schleifen / Iteration 
+
+- Arrays / Listen
+
+</Event>
+
+<Event time="12:55">
+
+## :teacher: EVA (:keyboard: :gear: :desktop_computer:)
+
 
 </Event>
 <Event time="13:00">
 
-## :teacher: Bibliothek einbinden
-
-- EVA
-
-- MyTools.jar
+## :teacher: MyTools Bibliothek einbinden
 
 </Event>
 <Event time="13:20">
 
 ## :student: Datentypen / Variablen
 
-- :pencil: Aufgaben lösen / :checkered_flag: **Raster Thema 1**
+- :pencil: Aufgaben lösen / :checkered_flag: **Thema 1**
 
 - :coffee: 13:30
 
@@ -35,17 +45,17 @@ hide_table_of_contents: true
 <Event time="14:40">
 
 ## :student: Operatoren
-- :pencil: Aufgaben lösen / :checkered_flag: **Raster Thema 2**
+
+- :pencil: Aufgaben lösen / :checkered_flag: **Thema 2**
 
 - :coffee: 15:30
 
 </Event>
 <Event time="15:35">
 
-
 ## :student: Datentypen / Variablen / Operatoren
 
-- :pencil: Aufgaben lösen / :checkered_flag: **Raster Thema 1/2**
+- :pencil: Aufgaben lösen / :checkered_flag: **Thema 1/2**
 
 - :superhero: oder schon Kontrollstrukturen (if / switch)!
 
