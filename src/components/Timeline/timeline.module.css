@@ -25,6 +25,8 @@ h1 {
   text-align: left;
   font-weight: 100;
   max-width: 500px;
+  font-weight: 400;
+  font-size: 1.2rem;
 }
 
 @media screen and (max-width: 996px) {
@@ -59,7 +61,7 @@ h1 {
   color: var(--ifm-font-color-base);
   content: attr(data-date);
   font-size: 1.2rem;
-  font-weight: 400;
+  font-weight: 600;
 }
 .timeline .event:after {
   border: 4px solid var(--ifm-color-info-darker);
