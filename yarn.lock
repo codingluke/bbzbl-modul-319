@@ -4359,10 +4359,10 @@ dns-packet@^5.2.2:
   dependencies:
     "@leichtgewicht/ip-codec" "^2.0.1"
 
-docs-to-pdf@^0.5.1:
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/docs-to-pdf/-/docs-to-pdf-0.5.1.tgz#484299ab0d3d0687d51eb9b2e51c1eb8ac904a5d"
-  integrity sha512-NC+NMw03IvIRXQvyzogTxJ3lVvEQKrQ4nFA5mWWyyrUFUMkypvjss8FyVHN1GqRfZ26kqJnQwA7CIYlC9QPIvw==
+docs-to-pdf@^0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/docs-to-pdf/-/docs-to-pdf-0.6.1.tgz#c0771753cc09015d5d6c9c7d8308ab4d9023072d"
+  integrity sha512-gMFV16KwKXzrCJeQ0meQDkSuYLBOazhkmTEdxEthrzadC3XkjXbhtlsvfhKmTsDBEwvXLj9djW5KdJlpzHJuFw==
   dependencies:
     "@types/fs-extra" "^11.0.1"
     chalk "^4.1.2"
