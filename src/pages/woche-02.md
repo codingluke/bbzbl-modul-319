@@ -26,15 +26,14 @@ hide_table_of_contents: true
 <Event time="13:00">
 
 ## :teacher: MyTools Bibliothek einbinden
+:coffee: 13:30
 
 </Event>
-<Event time="13:20">
+<Event time="13:35">
 
 ## :student: Datentypen / Variablen
 
-- :pencil: Aufgaben lösen / :checkered_flag: **Thema 1**
-
-- :coffee: 13:30
+:pencil: Aufgaben lösen / :checkered_flag: **Thema 1**
 
 </Event>
 <Event time="14:20">
@@ -44,20 +43,11 @@ hide_table_of_contents: true
 </Event>
 <Event time="14:40">
 
-## :student: Operatoren
+## :student: Datentypen / Variablen
 
-- :pencil: Aufgaben lösen / :checkered_flag: **Thema 2**
+- :pencil: Aufgaben lösen / :checkered_flag: **Thema 1**
 
-- :coffee: 15:30
-
-</Event>
-<Event time="15:35">
-
-## :student: Datentypen / Variablen / Operatoren
-
-- :pencil: Aufgaben lösen / :checkered_flag: **Thema 1/2**
-
-- :superhero: oder schon Kontrollstrukturen (if / switch)!
+- :superhero: oder Operatoren! **Thema 2**
 
 </Event>
 <Event time="16:15">
