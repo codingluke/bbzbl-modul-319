@@ -105,7 +105,7 @@ der Übersichtlichkeit.
 ```
 
 Die Initialisierung der Werte verwendet spezifische Zeichen für die
-verscheidenen Datentypen. So endet ein `float`-Wert immer mit `f` oder `long`
+verschiedenen Datentypen. So endet ein `float`-Wert immer mit `f` oder `long`
 mit `l`. Die Spezifikas pro Datentyp finden Sie in der Tabelle oberhalb unter
 "Spezifika".
 
