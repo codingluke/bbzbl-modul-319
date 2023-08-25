@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
-import styles from "./timeline.module.css"; import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import styles from "./timeline.module.css";
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import clsx from "clsx";
 
 export const Event = ({ time, active, children }) => {
@@ -25,6 +26,7 @@ const Timeline = ({ title, children }) => {
   }, 3600);
 
   const timeComperator = (a, b) => {
+    if (!a) return false;
     const first = Number(a.replace(":", ""));
     if (b) {
       const second = Number(b.replace(":", ""));
@@ -41,15 +43,11 @@ const Timeline = ({ title, children }) => {
         </h1>
       )}
       <ul className={styles.timeline}>
-        {React.Children.map(children, (element, index) => {
-          if (
-            timeComperator(element?.props.time, children[index + 1]?.props.time)
-          ) {
-            return React.cloneElement(element, { active: true });
-          } else {
-            return React.cloneElement(element);
-          }
-        })}
+        {React.Children.map(children, (element, index) =>
+          timeComperator(element?.props.time, children[index + 1]?.props.time)
+            ? React.cloneElement(element, { active: true })
+            : React.cloneElement(element)
+        )}
       </ul>
     </div>
   );
