@@ -99,8 +99,7 @@ footer: BBZBL / Lukas Hodel /  Applikationen entwerfen und implementieren
 ```java
 // Datentyp     Variablenname   Zuweiseoperator   Wert   Semikolon
    int          number         =                 5     ;
-   char         sign           =                 'c'   ;
-//                                                ^ ^ spezifisch für char sind ('')
    long         longNumber     =                 123l  ;
-//                                                   ^ spezifisch für long (l)
+   char         sign           =                 'c'   ;
+   String       text           =                 "Hi"  ;
 ```
