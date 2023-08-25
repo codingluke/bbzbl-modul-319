@@ -37,7 +37,7 @@ public static int methodenName(int parameter1, String parameter2) {
 - **Kommaseparierte Parameterliste in Klammern**:
   `(Datentyp parameter1, Datentyp2 parameter2)`
 
-### :hammer: Methodenkörper `{ ... }`
+### :mechanical_arm: Methodenkörper `{ ... }`
 
 Nach dem Kopf/Signatur folgt **zwischen geschweiften Klammern `{}`** der Körper
 der Methode. Hier wird nun definiert, **was** gemacht werden soll, wenn die
