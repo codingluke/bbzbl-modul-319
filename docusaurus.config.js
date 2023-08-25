@@ -34,19 +34,20 @@ const config = {
   },
 
   themes: [
-    [
-      require.resolve("@easyops-cn/docusaurus-search-local"),
-      {
-        hashed: true,
-        language: ["de"],
-        indexBlog: false,
-        indexPages: true,
-      },
-    ],
+    // [
+    //   require.resolve("@easyops-cn/docusaurus-search-local"),
+    //   {
+    //     hashed: true,
+    //     language: ["de"],
+    //     indexBlog: false,
+    //     indexPages: true,
+    //   },
+    // ],
     require.resolve("@docusaurus/theme-mermaid"),
   ],
 
   plugins: [
+    "@orama/plugin-docusaurus",
     [
       "devserver-config",
       {

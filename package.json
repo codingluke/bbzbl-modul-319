@@ -46,9 +46,10 @@
     "@docusaurus/core": "^2.4.1",
     "@docusaurus/preset-classic": "^2.4.1",
     "@docusaurus/theme-mermaid": "^2.4.1",
-    "@easyops-cn/docusaurus-search-local": "^0.33.4",
+    "@easyops-cn/docusaurus-search-local": "^0.35.0",
     "@marp-team/marp-cli": "^3.2.0",
     "@mdx-js/react": "^1.6.22",
+    "@orama/plugin-docusaurus": "^1.2.1",
     "clsx": "^1.1.1",
     "devserver-config": "file:plugins/devserver-config",
     "docs-to-pdf": "^0.6.1",
@@ -63,7 +64,7 @@
     "remark-docusaurus-tabs": "^0.2.0",
     "remark-html": "^15.0.1",
     "remark-oembed": "^1.2.2",
-    "wireit": "^0.8.0"
+    "wireit": "^0.9.5"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^2.1.0"

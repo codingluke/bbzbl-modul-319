@@ -21,6 +21,13 @@ besitzen einen Namen sowie einen für die zu speichernden Daten passenden
 
 <!-- <iframe src="/bbzbl-modul-319/slides/operatoren" width="100%" height="400px"></iframe> -->
 
+## :teacher: Präsentation
+
+[:computer: Open in Browser](pathname:///slides/variablen-datentypen) |
+[:floppy_disk: download PDF](pathname:///slides/variablen-datentypen.pdf)
+
+<iframe src="/bbzbl-modul-319/slides/variablen-datentypen" width="100%" height="400px"></iframe>
+
 ## Deklaration und Initialisierung von Variablen
 
 Das generelle Muster _(die Syntax)_, um eine Variable zu deklarieren _(dem

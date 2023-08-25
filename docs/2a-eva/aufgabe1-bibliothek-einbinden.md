@@ -14,9 +14,9 @@ keywords:
 
 1. Legen Sie im Projekt ein Verzeichnis «lib» an
    - Rechtsklick auf das **_Projekt -> New -> Folder_**
-2. Laden Sie die Bibliotheks-Datei [MyTools.jar](./) von der Modulwebseite
+2. Laden Sie die Bibliotheks-Datei [MyTools.jar](../../code/MyTools.jar)
    herunter.
-3. Kopieren Sie die jar-Datei in das erstellte lib-Verzeichnis
+3. Kopieren Sie die Datei in das erstellte lib-Verzeichnis
    - Falls Sie die Datei auf Filesystem Ebene kopiert haben, muss allenfalls die
      **Ansicht in Eclipse aktualisiert** werden
    - Rechtsklick auf das **_Projekt -> Refresh_**
@@ -27,6 +27,12 @@ keywords:
    - Klicken Sie auf «Add JARs...». Öffnen Sie das Projekt und das
      lib-Verzeichnis, und wählen MyTools.jar.
    - Klicken Sie auf «Apply and Close».
+
+:::note MyTools.jar Download
+
+- Die Datei `MyTools.jar` [:link: hier downloaden!](../../code/MyTools.jar)
+
+:::
 
 ## Die Klasse `StdInput`
 
