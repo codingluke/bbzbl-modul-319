@@ -19,12 +19,17 @@ unterschiedlich, **spezifisch reagieren**.
 - Sie können die switch Kontrollstruktur nutzen, um effizienter auf eine
   kleinere Anzahl unterschiedlicher Werte reagieren zu können als mit einem if.
 
-## :teacher: Präsentation
+## :teacher: Präsentationen
 
 [:computer: Open in Browser](pathname:///slides/operatoren) |
 [:floppy_disk: download PDF](pathname:///slides/operatoren.pdf)
 
 <iframe src="/bbzbl-modul-319/slides/operatoren" width="100%" height="400px"></iframe>
+
+[:computer: Open in Browser](pathname:///slides/kontrollstrukturen) |
+[:floppy_disk: download PDF](pathname:///slides/kontrollstrukturen.pdf)
+
+<iframe src="/bbzbl-modul-319/slides/kontrollstrukturen" width="100%" height="400px"></iframe>
 
 ## :open_book: Themen
 

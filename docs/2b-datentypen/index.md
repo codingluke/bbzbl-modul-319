@@ -289,6 +289,10 @@ oder Fehler angezeigt werden!
 :::
 
 ## Rechnen und Operatoren
+[:computer: Open in Browser](pathname:///slides/operatoren) |
+[:floppy_disk: download PDF](pathname:///slides/operatoren.pdf)
+
+<iframe src="/bbzbl-modul-319/slides/operatoren" width="100%" height="400px"></iframe>
 
 ### Arithmetische `+`, `-`, `/`, `*`, `%`
 
