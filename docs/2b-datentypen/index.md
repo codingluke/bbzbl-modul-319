@@ -61,15 +61,12 @@ alle Datentypen gleich. Die Ausnahme ist der Wert, der pro Datentyp anders ist.
 
 Sollen Variablen **nicht änderbar** sein, dann werden diese als Konstanten
 bezeichnet, was durch das Schlüsselwort `final` erfolgt. Der Variablenname wird
-gemäss Konvention in **GROSSBUCHSTABEN** geschrieben: Zudem sind die Konstanten
-`static`, werden also nur einmal angelegt. Mit den Schlüsselwörter private und
-public lässt sich die Nutzung steuern.
+gemäss Konvention in **GROSSBUCHSTABEN** geschrieben.
 
 ```java
-   static final float MWST = 7.7;
-//                    ^^^^ GROSSBUCHSTABEN als Konvention für Konstante
-//        ^^^^^ final definiert eine Konstante
-// ^^^^^^ static definiert dass ein Wert fest ist.
+   final float MWST = 7.7;
+//             ^^^^ GROSSBUCHSTABEN als Konvention für Konstante
+// ^^^^^ final definiert eine Konstante
 ```
 
 ## _Primitive_ Datentypen
@@ -289,6 +286,7 @@ oder Fehler angezeigt werden!
 :::
 
 ## Rechnen und Operatoren
+
 [:computer: Open in Browser](pathname:///slides/operatoren) |
 [:floppy_disk: download PDF](pathname:///slides/operatoren.pdf)
 
