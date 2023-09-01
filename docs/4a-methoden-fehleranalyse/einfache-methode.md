@@ -50,17 +50,18 @@ definiert und ist somit von überall aus sichtbar.
 
 ### `static`: Art (Optional)
 
-An zweiter Stelle steht `static`. Dies muss so sein, da die Mehtode von der
+An zweiter Stelle steht `static`. Dies muss so sein, da die Methode von der
 ebenfalls statischen `main`-Mehtode aus aufgerufen wird.
 
 - Das Schlüsselwort `static` ist **Optional**! Wenn nicht vorhanden ist die
   Methode immer dynamisch.
-- Dieses Schlüsselwort kennzeichnet Variablen und Methoden, welche keine
-  dynamischen Werte verwendet. Methoden welche _static_ sind, dürfen nur
-  Konstanten Verwenden. Konstanten sind Variablen welche mit `static`
-  gekennzeichnet sind.
-- Will man aus einer statischen Methode (wie z.B. der `main`-Methode) eine
-  andere Methode aufrufen, muss diese auch statisch sein.
+- Dieses Schlüsselwort kennzeichnet Variablen und Methoden welche direkt der
+  Klasse und nicht der Instanz zugewiesen sind.
+- Was dies genau bedeutet wird erst im Folgemodul relevant.
+- Relevant ist, dass Methoden die `static` sind, nur andere Methoden, welche
+  auch `static` sind aufrufen können.
+  - Da `main` static ist, müssen alle Methoden in diesem Modul auch statisch
+    sein.
 
 ### `void`: Rückgabewert
 
@@ -69,7 +70,7 @@ Rückgabewert besitzt. Dadurch braucht die Methode auch kein `return` Befehl.
 
 :::note
 
-Wäre `static` weggelasse würde void an zweiter Stelle stehen.
+Wäre `static` weggelasse würde `void` an zweiter Stelle stehen.
 
 - `void` bedeutet, dass die Methode keinen Rückgabewert besitzt
 - Steht ein Datentyp wie z.B. `int`, `String`, muss die Methode diesen Datentyp
