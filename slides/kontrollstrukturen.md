@@ -17,28 +17,26 @@ footer: BBZBL / Lukas Hodel /  Applikationen entwerfen und implementieren
 Vergleichs- und logische Operatoren kommen häufig dann zum Einsatz, wenn man
 etwas nur unter einer bestimmten Bedingung ausführen soll.
 
-![h:370](./images/mermaid-kontrollstrukturen-organigram.png)
-
-<!-- ```mermaid -->
-<!-- flowchart TD; -->
-<!--     Kontrollstrukturen---Verzweigungen -->
-<!--     Kontrollstrukturen---Schleifen -->
-<!--     subgraph verz [ ] -->
-<!--         Verzweigungen---if[if-Anweisung] -->
-<!--         if---ifels[if-else-Anweisung] -->
-<!--         Verzweigungen---switch[switch-Anweisung] -->
-<!--     end -->
-<!--     Schleifen---while[while-Anweisung] -->
-<!--     Schleifen---dowhile[do-while-Anweisung] -->
-<!--     Schleifen---for[for-Anweisung] -->
-<!--     style verz fill:#00A17020,stroke:#00A17080,stroke-width:2px -->
-<!-- ``` -->
+```mermaid width=80% align=center 
+flowchart TD;
+    Kontrollstrukturen---Verzweigungen
+    Kontrollstrukturen---Schleifen
+    subgraph verz [ ]
+        Verzweigungen---if[if-Anweisung]
+        if---ifels[if-else-Anweisung]
+        Verzweigungen---switch[switch-Anweisung]
+    end
+    Schleifen---while[while-Anweisung]
+    Schleifen---dowhile[do-while-Anweisung]
+    Schleifen---for[for-Anweisung]
+    style verz fill:#00A17020,stroke:#00A17080,stroke-width:2px
+```
 
 ---
 
 # if / else if / else
 
-![bg right fit](./images/if-kontrollstruktur-uml.png)
+::: columns
 
 - Wird dafür verwendet, **Bedingungen zu überprüfen**
 
@@ -46,6 +44,21 @@ etwas nur unter einer bestimmten Bedingung ausführen soll.
   **Vergleichsoperator** erzeugt wird.
 
 - Kontrolliert ob ein Codeabschnitt durchlaufen wird
+
+::: split
+
+```mermaid
+flowchart TD
+    C{if-Kontrollstruktur}
+    C -->|"if\n< Bedingung1 >"| D["< Anweisung1 >"]
+    C -->|"else if\n< Bedingung2 >"| E["< Anweisung2 >"]
+    C -->|else| F["< Anweisung3 >"]
+
+    style E fill:#00A17020,stroke:#00A17080,stroke-width:2px
+    style F fill:#0072B520,stroke:#0072B580,stroke-width:2px
+```
+
+:::
 
 ---
 
@@ -128,7 +141,7 @@ if (betrag > 10000 && age < 18) {
 
 # switch / case
 
-![bg right fit](./images/switch-kontrollstruktur-uml.png)
+::: columns
 
 - Wird dafür verwendet, **Gleichheit zu überprüfen**
 
@@ -138,9 +151,37 @@ if (betrag > 10000 && age < 18) {
 
 - Ohne `break` wird die nächste Anweisung auch ausgeführt
 
+::: split
+
+```mermaid width=60%
+flowchart TB
+    A["switch(wert)"]
+    A --> B
+
+    B{"case wert ==\n vergleichsWert1"}
+    C{"case wert ==\n vergleichsWert2"}
+
+    E["Anweisung1;"]
+    F["Anweisung2;\n <b>break;</b>"]
+    D["StandardAnweisung;"]
+
+    E --> |"ohne `break` wird auch\nAnweisung2 ausgeführt"| F
+    B --> |"false"| C
+    B --> |"true"| E
+    C --> |"true"| F
+    C --> |"false"| D
+
+    style C fill:#00A17020,stroke:#00A17080,stroke-width:2px
+    style F fill:#00A17020,stroke:#00A17080,stroke-width:2px
+    style D fill:#0072B520,stroke:#0072B580,stroke-width:2px
+```
+
+:::
+
 ---
 
 <!-- _class: emoji-list -->
+
 # switch / case
 
 ::: columns

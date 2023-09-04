@@ -1,10 +1,11 @@
 /* @theme bbzbl */
-@import 'default';
+@import "default";
 @import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
 @import url(https://code.cdn.mozilla.net/fonts/fira.css);
 
 :root {
-  font-family: 'Fira Sans', 'Segoe UI', 'Liberation Sans', 'Helvetica', 'Arial', sans-serif;
+  font-family: "Fira Sans", "Segoe UI", "Liberation Sans", "Helvetica", "Arial",
+    sans-serif;
 }
 
 /* body { */
@@ -12,23 +13,38 @@
 /* } */
 
 /* * { font-family: 'Fira', sans-serif;  } */
-code * { font-family: 'Fira Code', monospace;  }
+code * {
+  font-family: "Fira Code", monospace;
+}
 @supports (font-variation-settings: normal) {
-  code * { font-family: 'Fira Code VF', monospace; font-size: 95%; }
+  code * {
+    font-family: "Fira Code VF", monospace;
+    font-size: 95%;
+  }
 }
 
-section.code { font-family: 'Fira Code', monospace;  }
+section.code {
+  font-family: "Fira Code", monospace;
+}
 @supports (font-variation-settings: normal) {
-  section.code { font-family: 'Fira Code VF', monospace; }
+  section.code {
+    font-family: "Fira Code VF", monospace;
+  }
 }
 
 * {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
   font-weight: 400;
 }
-.bold{font-weight:bold;}
-.italic{font-style: italic;}
-.oblique{font-style: oblique;}
+.bold {
+  font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}
+.oblique {
+  font-style: oblique;
+}
 
 section.emoji-list ul {
   list-style-type: none;
@@ -102,7 +118,7 @@ section h2 {
 section h1 strong,
 section h2 strong,
 section h3 strong {
-  color:  var(--color-fg-strong) ;
+  color: var(--color-fg-strong);
   font-style: italic;
 }
 section h1 a {
@@ -111,16 +127,16 @@ section h1 a {
 section h1 sup a {
   float: unset;
 }
-section sup a::before, 
+section sup a::before,
 section sup a::after {
   content: unset;
 }
 section a,
-section a:visited{
+section a:visited {
   color: darkblue;
 }
 section hr {
-  padding-top: .10em;
+  padding-top: 0.1em;
 }
 
 /* big */
@@ -156,10 +172,9 @@ section.big h2 {
   float: right;
 }
 
-
 /* small-text */
-section.small-text ul, 
-section.small-text ol, 
+section.small-text ul,
+section.small-text ol,
 section.small-text p {
   font-size: 0.8rem;
 }
@@ -195,7 +210,9 @@ section.light-text h3 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
 }
-.columns h1:first-child, h2:first-child, h3:first-child {
+.columns h1:first-child,
+h2:first-child,
+h3:first-child {
   margin-top: 0;
 }
 
@@ -203,8 +220,8 @@ section.light-text h3 {
 
 section {
   --color-border-default: rgb(100, 100, 100);
-  --header-footer-color: hsla(0,0%,20%,.65);
-  --color-fg-blockquote: hsla(0,0%,10%,.9);
+  --header-footer-color: hsla(0, 0%, 20%, 0.65);
+  --color-fg-blockquote: hsla(0, 0%, 10%, 0.9);
   --color-canvas-default: #fff;
   /* --h1-color: rgb(34, 68, 102); */
   /* --h2-color: rgb(70, 70, 145) */
@@ -219,3 +236,132 @@ section {
   /* color:  #c52233 ; */
 }
 
+.__mermaid * {
+  font-family:"trebuchet ms",verdana,arial,sans-serif;
+  font-size:16px;
+  fill:#333;
+}
+.__mermaid .error-icon {
+  fill:#552222;
+}
+.__mermaid .error-text {
+  fill:#552222;
+  stroke:#552222;
+}
+.__mermaid .edge-thickness-normal {
+  stroke-width:2px;
+}
+.__mermaid .edge-thickness-thick {
+  stroke-width:3.5px;
+}
+.__mermaid .edge-pattern-solid {
+  stroke-dasharray:0;
+}
+.__mermaid .edge-pattern-dashed {
+  stroke-dasharray:3;
+}
+.__mermaid .edge-pattern-dotted {
+  stroke-dasharray:2;
+}
+.__mermaid .marker {
+  fill:#333333;
+  stroke:#333333;
+}
+.__mermaid .marker.cross {
+  stroke:#333333;
+}
+.__mermaid svg {
+  font-family:"trebuchet ms",verdana,arial,sans-serif;
+  font-size:16px;
+}
+.__mermaid .label {
+  font-family:"trebuchet ms",verdana,arial,sans-serif;
+  color:#333;
+}
+.__mermaid .cluster-label text {
+  fill:#333;
+}
+.__mermaid .cluster-label span,
+.__mermaid p {
+  color:#333;
+}
+.__mermaid .label text,
+.__mermaid span,
+.__mermaid p {
+  fill:#333;
+  color:#333;
+}
+.__mermaid .node rect,
+.__mermaid .node circle,
+.__mermaid .node ellipse,
+.__mermaid .node polygon,
+.__mermaid .node path {
+  fill:#ECECFF;
+  stroke:#9370DB;
+  stroke-width:1px;
+}
+.__mermaid .flowchart-label text {
+  text-anchor:middle;
+}
+.__mermaid .node .label {
+  text-align:center;
+}
+.__mermaid .node.clickable {
+  cursor:pointer;
+}
+.__mermaid .arrowheadPath {
+  fill:#333333;
+}
+.__mermaid .edgePath .path {
+  stroke:#333333;
+  stroke-width:2.0px;
+}
+.__mermaid .flowchart-link {
+  stroke:#333333;
+  fill:none;
+}
+.__mermaid .edgeLabel {
+  background-color:#e8e8e8;
+  text-align:center;
+}
+.__mermaid .edgeLabel rect {
+  opacity:0.5;
+  background-color:#e8e8e8;
+  fill:#e8e8e8;
+}
+.__mermaid .labelBkg {
+  background-color:rgba(232, 232, 232, 0.5);
+}
+.__mermaid .cluster rect {
+  fill:#ffffde;
+  stroke:#aaaa33;
+  stroke-width:1px;
+}
+.__mermaid .cluster text {
+  fill:#333;
+}
+.__mermaid .cluster span,
+.__mermaid p {
+  color:#333;
+}
+.__mermaid div.mermaidTooltip {
+  position:absolute;
+  text-align:center;
+  max-width:200px;
+  padding:2px;
+  font-family:"trebuchet ms",verdana,arial,sans-serif;
+  font-size:12px;
+  background:hsl(80, 100%, 96.2745098039%);
+  border:1px solid #aaaa33;
+  border-radius:2px;
+  pointer-events:none;
+  z-index:100;
+}
+.__mermaid .flowchartTitleText {
+  text-anchor:middle;
+  font-size:18px;
+  fill:#333;
+}
+.__mermaid :root {
+  --mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;
+}
