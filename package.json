@@ -6,10 +6,10 @@
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
     "start-poll": "docusaurus start --poll 1 --host 0.0.0.0",
-    "start-marp": "env PORT=3003 marp --engine ./src/marp/engine.js --html --allow-local-files --theme slides/theme.css --watch --server slides",
+    "start-marp": "env PORT=3003 marp --engine ./src/marp/async-engine.mjs --html --allow-local-files --theme slides/theme.css --watch --server slides",
     "build": "docusaurus build",
-    "build-marp": "marp --engine ./src/marp/engine.js --html --allow-local-files --theme slides/theme.css -I slides --output build/slides",
-    "build-marp-pdf": "marp --engine ./src/marp/engine.js --html --allow-local-files --theme slides/theme.css -I slides --output build/slides --pdf --pdf-outlines --pdf-outlines.pages=false",
+    "build-marp": "marp --engine ./src/marp/async-engine.mjs --html --allow-local-files --theme slides/theme.css -I slides --output build/slides",
+    "build-marp-pdf": "marp --engine ./src/marp/async-engine.mjs --html --allow-local-files --theme slides/theme.css -I slides --output build/slides --pdf --pdf-outlines --pdf-outlines.pages=false",
     "copy-marp-images": "cp -r slides/images build/slides/images",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
@@ -30,7 +30,7 @@
       ]
     },
     "start:marp": {
-      "command": "env PORT=3003 marp --engine ./src/marp/engine.js --html --allow-local-files --theme slides/theme.css --watch --server slides",
+      "command": "env PORT=3003 marp --engine ./src/marp/async-engine.mjs --html --allow-local-files --theme slides/theme.css --watch --server slides",
       "service": true
     },
     "build:pdf": {
@@ -47,12 +47,14 @@
     "@docusaurus/preset-classic": "^2.4.1",
     "@docusaurus/theme-mermaid": "^2.4.1",
     "@easyops-cn/docusaurus-search-local": "^0.35.0",
-    "@marp-team/marp-cli": "^3.2.0",
+    "@marp-team/marp-cli": "^3.2.1",
     "@mdx-js/react": "^1.6.22",
+    "@mermaid-js/mermaid-cli": "^10.4.0",
     "@orama/plugin-docusaurus": "^1.2.1",
     "clsx": "^1.1.1",
     "devserver-config": "file:plugins/devserver-config",
     "docs-to-pdf": "^0.6.1",
+    "jsdom": "^22.1.0",
     "markdown-it-container": "^3.0.0",
     "markdown-it-external-links": "^0.0.6",
     "markdown-it-mark": "^3.0.1",
@@ -64,6 +66,7 @@
     "remark-docusaurus-tabs": "^0.2.0",
     "remark-html": "^15.0.1",
     "remark-oembed": "^1.2.2",
+    "temp": "^0.9.4",
     "wireit": "^0.9.5"
   },
   "devDependencies": {
