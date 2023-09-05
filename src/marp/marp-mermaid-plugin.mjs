@@ -6,7 +6,14 @@ import jsdom from "jsdom";
 
 temp.track();
 
-let cache = {}; // TODO: prevent memory leak (cleanup?)
+let cache = {};
+let cleanupInterval = 2;  // minutes
+let cleanupTreshold = 30; // minimum cache size
+setInterval(() => {
+  if (Object.keys(cache).length < cleanupTreshold) return;
+  console.log("clear mermaid cache!");
+  cache = {};
+}, cleanupInterval * 60000);
 
 export default async function marpMermaid(md) {
   const { fence } = md.renderer.rules; // super fence block rule
@@ -76,6 +83,17 @@ async function processMermaidDivCli(div) {
   await fs.writeFile(inputFile, graphDefinition);
   await run(inputFile, outputFile, {
     outputFormat: div.dataset.type || "png",
+    puppeteerConfig: {
+      headless: "new",
+      args: [
+        "--no-sandbox",
+        "--disable-web-security",
+        "--disable-features=IsolateOrigins,site-per-process",
+        "--force-color-profile=srgb",
+        "--font-render-hinting=none",
+      ],
+      ignoreHTTPSErrors: true,
+    },
     parseMMDOptions: {
       viewport: { height: 600, width: 800, deviceScaleFactor: 2 },
     },
