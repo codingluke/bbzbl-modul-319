@@ -7,7 +7,7 @@ import jsdom from "jsdom";
 temp.track();
 
 let cache = {};
-let cleanupInterval = 2;  // minutes
+let cleanupInterval = 2; // minutes
 let cleanupTreshold = 30; // minimum cache size
 setInterval(() => {
   if (Object.keys(cache).length < cleanupTreshold) return;
@@ -54,26 +54,20 @@ export default async function marpMermaid(md) {
 export async function postProcessor(_markdown, _env, html, css, comments) {
   const doc = new jsdom.JSDOM(html); // parse html to DOM
   const mermaidDivs = doc.window.document.querySelectorAll("div.__mermaid");
-  await syncProcessMermaidDivs(mermaidDivs);
+  for (const element of mermaidDivs) await processMermaidDivCli(element);
   const processedHtml = doc.window.document.documentElement.outerHTML;
   return { html: processedHtml, css, comments };
 }
 
-async function syncProcessMermaidDivs(mermaidDivs) {
-  for (const element of mermaidDivs) {
-    await processMermaidDivCli(element);
-  }
-}
-
 async function processMermaidDivCli(div) {
   const graphDefinition = div.textContent;
-  const base64GraphDefinition = btoa(graphDefinition) + div.dataset.type;
+  const cacheKey = btoa(graphDefinition) + div.dataset.type;
 
   // Return cached Image
-  if (cache[base64GraphDefinition]) {
+  if (cache[cacheKey]) {
     if (div.dataset.type === "png")
-      div.innerHTML = `<img src="data:image/png;base64,${cache[base64GraphDefinition]}" alt="" />`;
-    else div.innerHTML = cache[base64GraphDefinition];
+      div.innerHTML = `<img src="data:image/png;base64,${cache[cacheKey]}" alt="" />`;
+    else div.innerHTML = cache[cacheKey];
     return;
   }
 
@@ -99,12 +93,12 @@ async function processMermaidDivCli(div) {
     },
   });
   if (div.dataset.type === "png") {
-    cache[base64GraphDefinition] = await fs.readFile(outputFile, {
+    cache[cacheKey] = await fs.readFile(outputFile, {
       encoding: "base64",
     });
-    div.innerHTML = `<img src="data:image/png;base64,${cache[base64GraphDefinition]}" alt="" />`;
+    div.innerHTML = `<img src="data:image/png;base64,${cache[cacheKey]}" alt="" />`;
   } else {
-    cache[base64GraphDefinition] = await fs.readFile(outputFile);
-    div.innerHTML = cache[base64GraphDefinition];
+    cache[cacheKey] = await fs.readFile(outputFile);
+    div.innerHTML = cache[cacheKey];
   }
 }
