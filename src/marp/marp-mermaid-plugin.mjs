@@ -9,11 +9,12 @@ temp.track();
 let cache = {};
 let cleanupInterval = 2; // minutes
 let cleanupTreshold = 30; // minimum cache size
-setInterval(() => {
-  if (Object.keys(cache).length < cleanupTreshold) return;
-  console.log("clear mermaid cache!");
-  cache = {};
-}, cleanupInterval * 60000);
+// FIXME: The intervall should only be running in dev mode!
+// setInterval(() => {
+//   if (Object.keys(cache).length < cleanupTreshold) return;
+//   console.log("clear mermaid cache!");
+//   cache = {};
+// }, cleanupInterval * 60000);
 
 export default async function marpMermaid(md) {
   const { fence } = md.renderer.rules; // super fence block rule
