@@ -97,24 +97,24 @@ public class SwitchDemo {
 }
 ```
 
-:::tip
+<!-- :::tip -->
 
-Häufig kann ein `switch` durch einen `array` elegant ersetzt werden:
+<!-- Häufig kann ein `switch` durch einen `array` elegant ersetzt werden: -->
 
-```java
-int month = 8;
-int[] monthStrings = {
-    "January", "February", "March", "April", "May", "June",
-    "July", "August", "October", "November", "December"
-}
-if (month < monthStrings.length) { // prüft ob `month` gültig ist
-    System.out.println(monthStrings[month - 1]);
-} else {
-    System.out.println("Invalid month");
-}
-```
+<!-- ```java -->
+<!-- int month = 8; -->
+<!-- String[] monthStrings = { -->
+<!--     "January", "February", "March", "April", "May", "June", -->
+<!--     "July", "August", "October", "November", "December" -->
+<!-- } -->
+<!-- if (month < monthStrings.length) { // prüft ob `month` gültig ist -->
+<!--     System.out.println(monthStrings[month - 1]); -->
+<!-- } else { -->
+<!--     System.out.println("Invalid month"); -->
+<!-- } -->
+<!-- ``` -->
 
-:::
+<!-- ::: -->
 
 ## :pencil: Auftrag 1
 

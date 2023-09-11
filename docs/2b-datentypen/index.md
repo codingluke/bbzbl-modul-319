@@ -119,7 +119,7 @@ mit `l`. Die Spezifikas pro Datentyp finden Sie in der Tabelle oberhalb unter
 
 :::info Speichergrösse
 
-Früher hatte man wehnig Speicher zur Verfügung und hat immer abgewägt, welchen
+Früher hatte man wenig Speicher zur Verfügung und hat immer abgewägt, welchen
 Datentyp verwendet werden soll. Heute nimmt man für gewöhnlich einfach den
 Grössten.
 
@@ -212,78 +212,78 @@ String zahl = "" + 21;
 
 :::
 
-## Der Datentyp `LocalDate` für Datumswerte
+<!-- ## Der Datentyp `LocalDate` für Datumswerte -->
 
-Mit der Klasse `java.time.LocalDate` lassen sich Datumswerte speichern resp. das
-aktuelle Datum erzeugen, wie nachfolgendes Beispiel zeigt:
+<!-- Mit der Klasse `java.time.LocalDate` lassen sich Datumswerte speichern resp. das -->
+<!-- aktuelle Datum erzeugen, wie nachfolgendes Beispiel zeigt: -->
 
-```java title="Momentane Zeit (jetzt, now) ausgeben"
-LocalDate d = LocalDate.now();
-System.out.println(d);
-```
+<!-- ```java title="Momentane Zeit (jetzt, now) ausgeben" -->
+<!-- LocalDate d = LocalDate.now(); -->
+<!-- System.out.println(d); -->
+<!-- ``` -->
 
-## Datentypen konvertieren (Casting)
+<!-- ## Datentypen konvertieren (Casting) -->
 
-Manchmal muss man oder will den aktuellen Datentypen ändern, und Daten in einen
-anderen Datentyp konvertieren. In manchen Fällen ist das unproblematisch, wie
-hier, da Java ermitteln kann, dass kein Genauigkeitsverlust auftritt:
+<!-- Manchmal muss man oder will den aktuellen Datentypen ändern, und Daten in einen -->
+<!-- anderen Datentyp konvertieren. In manchen Fällen ist das unproblematisch, wie -->
+<!-- hier, da Java ermitteln kann, dass kein Genauigkeitsverlust auftritt: -->
 
-```java
-int smallNumber = 123;
-long convertedSmallNumber = smallNumber;
-```
+<!-- ```java -->
+<!-- int smallNumber = 123; -->
+<!-- long convertedSmallNumber = smallNumber; -->
+<!-- ``` -->
 
-In anderen Fällen wird die Entwicklungsumgebung hingegen eine Fehlermeldung
-anzeigen, wie hier:
+<!-- In anderen Fällen wird die Entwicklungsumgebung hingegen eine Fehlermeldung -->
+<!-- anzeigen, wie hier: -->
 
-```java
-long bigNumber = 1112223334445566L;
-int convertedBigNumber = bigNumber;
-```
+<!-- ```java -->
+<!-- long bigNumber = 1112223334445566L; -->
+<!-- int convertedBigNumber = bigNumber; -->
+<!-- ``` -->
 
-In wieder anderen Fällen, werden Sie Berechnungen programmieren, deren Ergebnis
-ganzzahlig sein muss. Angenommen ein strenges Notensystem liesse nur ganze,
-abgerundetee Modulnoten zu, während diese den Semestertests mit Zehntelsnoten
-berechnet werden, dann könnte Eclipse darauf hinweisen, dass folgende Zuweisung
-ungültig ist.
+<!-- In wieder anderen Fällen, werden Sie Berechnungen programmieren, deren Ergebnis -->
+<!-- ganzzahlig sein muss. Angenommen ein strenges Notensystem liesse nur ganze, -->
+<!-- abgerundetee Modulnoten zu, während diese den Semestertests mit Zehntelsnoten -->
+<!-- berechnet werden, dann könnte Eclipse darauf hinweisen, dass folgende Zuweisung -->
+<!-- ungültig ist. -->
 
-```java
-int grade = (3 + 4 + 5.5) / 3;
-```
+<!-- ```java -->
+<!-- int grade = (3 + 4 + 5.5) / 3; -->
+<!-- ``` -->
 
-Die obige Fehlermeldung kann nun beim Programmieren übersteuert werden, indem
-ein Casting erzwungen wird, dazu wird der Datentyp in Klammern dazwischen
-geschrieben:
+<!-- Die obige Fehlermeldung kann nun beim Programmieren übersteuert werden, indem -->
+<!-- ein Casting erzwungen wird, dazu wird der Datentyp in Klammern dazwischen -->
+<!-- geschrieben: -->
 
-```java
-int grade = (int) ((3 + 4 + 5.5) / 3);
-```
+<!-- ```java -->
+<!-- int grade = (int) ((3 + 4 + 5.5) / 3); -->
+<!-- ``` -->
 
-Casting kann sichtbar machen, dass alle Buchstaben am Computer durch Zahlen
-repräsentiert werden (ASCII-Tabelle u.ä.).
+<!-- Casting kann sichtbar machen, dass alle Buchstaben am Computer durch Zahlen -->
+<!-- repräsentiert werden (ASCII-Tabelle u.ä.). -->
 
-```java
-int a = 65;
-System.out.println((char)a);
-```
+<!-- ```java -->
+<!-- int a = 65; -->
+<!-- System.out.println((char)a); -->
+<!-- ``` -->
 
-Je nach Reihenfolge und Stelle des Castings können unterschiedliche Ergebnisse
-berechnet werden, wie das folgende Beispiel zeigt (Ergebnis einmal 70, einmal
-60: aber warum?):
+<!-- Je nach Reihenfolge und Stelle des Castings können unterschiedliche Ergebnisse -->
+<!-- berechnet werden, wie das folgende Beispiel zeigt (Ergebnis einmal 70, einmal -->
+<!-- 60: aber warum?): -->
 
-```java
-int i = (int) (20.0 * 3.5);
-System.out.println("i " + i);
-int j = (int) 20.0 * (int) 3.5;
-System.out.println("j " + j);
-```
+<!-- ```java -->
+<!-- int i = (int) (20.0 * 3.5); -->
+<!-- System.out.println("i " + i); -->
+<!-- int j = (int) 20.0 * (int) 3.5; -->
+<!-- System.out.println("j " + j); -->
+<!-- ``` -->
 
-:::tip in Eclipse ausführen!
+<!-- :::tip in Eclipse ausführen! -->
 
-Führt die Code-Blöcke selbst in Eclipse aus und sieht was genau für Ergebnisse
-oder Fehler angezeigt werden!
+<!-- Führt die Code-Blöcke selbst in Eclipse aus und sieht was genau für Ergebnisse -->
+<!-- oder Fehler angezeigt werden! -->
 
-:::
+<!-- ::: -->
 
 ## Rechnen und Operatoren
 
@@ -393,27 +393,27 @@ einen rechten Teil beim Operator.
 
 :::
 
-:::tip Iterieren durch Arrays
+<!-- :::tip Iterieren durch Arrays -->
 
-Der unäre Operator `++` wird insbesondere beim **Iterieren durch Arrays** wie im
-folgenden Beispiel verwendet. Was gibt der obere Code wohl aus?
+<!-- Der unäre Operator `++` wird insbesondere beim **Iterieren durch Arrays** wie im -->
+<!-- folgenden Beispiel verwendet. Was gibt der obere Code wohl aus? -->
 
-```java
-char[] text = {'h','a','l','l','o',' ','w','e','l','t'};
+<!-- ```java -->
+<!-- char[] text = {'h','a','l','l','o',' ','w','e','l','t'}; -->
 
-// highlight-next-line
-for (int i = 0; i < text.length; i++) {
-    System.out.print(text[i]);
-}
-```
+<!-- // highlight-next-line -->
+<!-- for (int i = 0; i < text.length; i++) { -->
+<!--     System.out.print(text[i]); -->
+<!-- } -->
+<!-- ``` -->
 
-- Es wird Schrittweise jede Stelle vom Array `char[] text` in einem `for`-Loop
-  ausgegeben
-- Die Variable `i`, Iterator, wird durch `i++` für jeden Schritt +1 hochgezählt
-- `i++` könnte auch mit `i += 1` oder `i = i + 1` ersetzt werden.
-- `i++` ist jedoch viel kürzer.
+<!-- - Es wird Schrittweise jede Stelle vom Array `char[] text` in einem `for`-Loop -->
+<!--   ausgegeben -->
+<!-- - Die Variable `i`, Iterator, wird durch `i++` für jeden Schritt +1 hochgezählt -->
+<!-- - `i++` könnte auch mit `i += 1` oder `i = i + 1` ersetzt werden. -->
+<!-- - `i++` ist jedoch viel kürzer. -->
 
-:::
+<!-- ::: -->
 
 :::note Funfact
 
