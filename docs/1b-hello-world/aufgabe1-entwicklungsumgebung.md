@@ -18,6 +18,8 @@ installiert automatisch die aktuelle Java version.
 :::note Wenn Sie auf einem Schulcomputer oder der Windows VM arbeiten, können
 sie diesen Schritt überspringen.
 
+Lehrer: Dies ist aber nicht so wie wir es besprochen haben
+
 :::
 
 ## 2. Eclipse starten und einen Workspace wählen
