@@ -12,10 +12,14 @@ speziellen Modus ausgeführt werden, der es erlaubt, das Programm auf jeder
 beliebigen Codezeile anzuhalten, die in den Variablen gespeicherten Werte
 einzusehen, zu ändern, etc.
 
-## Eine Debugging-Session Schritt-für-Schritt
+## :pencil: Eine Debugging-Session Schritt-für-Schritt
 
 Folgende Schritte sind nötig, um eine Debugging-Session für folgenden
-Programmcode durchzuführen:
+Programmcode durchzuführen.
+
+Erstellen Sie in Eclipse eine neue Klasse mit dem Namen Mini und kopiert das
+folgende Code-Beispiel in die Datei. Dann können Sie direkt die
+Schritt-für-Schritt Session nachvollziehen.
 
 ```java title="Das verwendete Code-Beispiel"
 public class Mini {
@@ -93,32 +97,14 @@ beobachten**. Wenn man z.B. "Hi" nach "i" ändert, wird der Ausdruck `false`, da
    einerseits ein Symbol für die Java-Perspektive (J), und andererseits ein
    Symbol für die Debugging-Perspektive (Käfer) angezeigt.
 
-## :pencil: Aufgaben
+## :pencil: Debuggen der Methode `printCurrentDate()` 
 
-### Auftrag 1
 
-Kopieren Sie das Code-Beispiel und debuggen Sie ihn, wie in der
-[**Schritt für Schritt Anleitung**](#eine-debugging-session-schritt-für-schritt)
-gezeigt.
+Wir Untersuchen den Ablauf der Methode `printCurrentDate()` vom Abschnitt
+[Einfacher Methodenaufruf](./einfache-methode.md)
 
-```java title="Das verwendete Code-Beispiel"
-public class Mini {
-    public static void main(String[] args) {
-        String message = "Hi";
-
-        if (message.equals("Hi")) {
-            System.out.println(message);
-        } else {
-            // nix tun
-        }
-    }
-}
-```
-
-### Auftrag 2
-
-Kopieren Sie folgendes Beispiel mit einfachem Methodenaufruf in eine Klasse
-OutputMethodExample in Eclipse:
+Erstellen Sie dafür in Eclipse eine neue Klasse "OutputMethodExample" und kopieren Sie
+folgendes Beispiel in die neue Datei.
 
 ```java showLineNumbers
 import java.time.LocalDate;
@@ -133,7 +119,6 @@ public class OutputMethodExample {
 
 ```
 
-- Untersuchen Sie den Ablauf mittels Debugging.
 - Ein **Breakpoint** muss dabei <u>mindestens</u> auf die **Zeile 4**, mit dem
   Aufruf der Methode `printCurrentDate`, gesetzt werden.
 - Sobald der Debugger dort anhält, muss:

@@ -2,7 +2,8 @@
 keywords:
   - pdf
 ---
-# 4 - Methoden und Fehleranalyse (Debugging)
+
+# 4 - Methoden und Fehleranalyse
 
 Sie erhalten einen **ersten Einblick in Methoden**, die für grössere Programme
 zur Strukturierung unerlässlich sind. Zusätzlich wird Ihnen das **Verfahren des
@@ -24,12 +25,6 @@ besser zu verstehen und Ihnen auch künftig hilft, Fehler zu finden.
 - Sie können bei Laufzeitfehlern (das Programm stürzt ab) den Stacktrace
   erkennen und von dort angezeigte Fehlerstellen in Ihrem Programm anspringen.
 
-<!-- ## :teacher: Präsentation -->
-
-<!-- [:computer: Open in Browser](pathname:///slides/operatoren) | [:floppy_disk: download PDF](pathname:///slides/operatoren.pdf) -->
-
-<!-- <iframe src="/bbzbl-modul-319/slides/operatoren" width="100%" height="400px"></iframe> -->
-
 ## Was ist eine Methode?
 
 Die bisher in diesem Modul entwickelten Programme sind alle mit einer Methode,
@@ -38,35 +33,19 @@ komplexer. Daher werden sie auf verschiedene Art strukturiert und aufgeteilt.
 Einen ersten Ansatz, um Programme in diesem Sinne zu gliedern, stellen Methoden
 dar.
 
-Eine Methode kann vereinfacht als **Gruppierung von Befehlen** angesehen werden,
-welche in Kombination eine **spezifische Funktionalität** unter einem
-**aussagekräftigem Namen** beschreiben.
-
-Eine mathematische Funktion beschreibt z.B. der Satz des Pythagoras **
-a<sup>2</sup>+b<sup>2</sup> = c<sup>2</sup> **
-
-```java title="Satz des Pythagoras"
-public double pythagoras(double a, double b) {
-    return (a*a) + (b*b);
-}
-```
-
-Im Programmieren kann man jedoch nicht nur Rechnen, sondern z.B. auch einfach
-etwas auf die Konsole ausgeben. Die folgende Methode gibt das aktuelle Datum
-aus:
-
-```java title="printCurrentDate() gibt das aktuelle Datum aus"
-public static void printCurrentDate() {
-    System.out.println("Current date is: " + LocalDate.now());
-}
-```
-
 Methoden dienen also dazu spezifische Funktionalitäten unter einem
-aussagekräftigem Namen zu Gruppieren, damit diese
+aussagekräftigem Namen zu Gruppieren, damit diese:
 
 1. nur einmal definiert werden müssen
 2. an verscheidenen Orte ausgeführt werden könne
 3. das Programm lesbarer machen, da der Name beschreibt was sie macht
+
+**Beispiele**
+
+- Eine mathematische Funktion beschreibt z.B. der Satz des Pythagoras **
+  a<sup>2</sup>+b<sup>2</sup> = c<sup>2</sup> **.
+- Im Programmieren kann man jedoch nicht nur Rechnen, sondern z.B. auch einfach
+  etwas auf die Konsole ausgeben, zum Beispiel das aktuelle Datum.
 
 ## Was ist Debugging?
 

@@ -4,22 +4,15 @@ keywords:
   - pdf
 ---
 
-# `while`
+# `while`-Schlaufe
 
-Das `while` ist dem if ähnlich. Es hat auch eine Bedingung, aber nur einen
-Code-Block, der solange ausgeführt wird, bis die Bedingung den boolean Wert
-`false` ergibt.
+Die `while`-Schlaufe ermöglicht es grundsätzlich, dass Programme geschrieben
+werden können, die nicht nur einmal durchlaufen, sondern Abschnitte resp. Blöcke
+enthalten, die mehrfach ausgeführt werden. Sie ist dem `if` dadurch ähnlich da
+Sie auch eine Bedingung besitzt. Es existiert aber nur einen Code-Block, der
+solange ausgeführt wird, bis die Bedingung den boolean Wert `false` ergibt.
 
-Das `while` ermöglicht es nun grundsätzlich, dass Programme geschrieben werden
-können, die nicht nur einmal durchlaufen, sondern Abschnitte resp. Blöcke
-enthalten, die mehrfach ausgeführt werden können.
-
-Beim `while` wird das Wissen über den boolean Datentyp, wie es beim `if`
-angewandt wurde, ebenfalls benötigt. Zentral ist also wieder, dass eine
-Bedingung formuliert werden kann.
-
-Das grundsätzliche Muster der `while`-Kontrollstruktur sieht folgendermassen
-aus:
+Ein explizites Beispiel der `while`-Kontrollstruktur sieht folgendermassen aus:
 
 <div class="grid"><div>
 

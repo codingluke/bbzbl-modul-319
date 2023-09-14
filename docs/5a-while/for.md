@@ -4,7 +4,7 @@ keywords:
   - pdf
 ---
 
-# `for`
+# `for`-Schleife
 
 Neben `while` und `do..while` existiert noch eine dritte Schleifenart, die
 `for`-Schleife.

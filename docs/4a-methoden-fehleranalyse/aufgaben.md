@@ -1,10 +1,10 @@
 ---
-sidebar_position: 5
+sidebar_position: 4
 keywords:
   - pdf
 ---
 
-# Aufgaben
+# 📝 Methoden Aufgaben
 
 :::info Untersuchen Sie alle Aufgabe auch mittels Debugging
 
@@ -16,7 +16,7 @@ ausgeführt werden. Also auf Zeilen im Methodenkörper.
 
 :::
 
-## Aufgabe 1 – «Grössere Zahl»
+## :pencil: Grössere Zahl
 
 Erstellen Sie ein Programm, das zwei Zahlen von der Konsole einliest.
 
@@ -58,7 +58,7 @@ public class A1EvaluateBiggerNumber {
 
 </details>
 
-## Auftrag 2 – «Intervall»
+## :pencil: Intervall
 
 Erstellen Sie ein Programm, in dem eine Methode prüft, ob eine Zahl innerhalb
 eines Intervalls liegt.
@@ -96,7 +96,7 @@ public class A2Intervall {
 
 </details>
 
-## Auftrag 3 «Zinsrechner»
+## :pencil: Zinsrechner
 
 Erstellen Sie ein Programm, wobei Sie einen Sparbetrag eingeben können, sowie
 einen Zins in %.
@@ -130,7 +130,7 @@ public class A3InterestCalculator {
 
 </details>
 
-## Auftrag 4 «Einfacher Rechner»
+## :pencil: Einfacher Rechner
 
 Dieses Programm erwartet die Eingabe zweier Zahlen `a` und `b` durch den
 Benutzer, sowie den Rechenoperator als String `+` oder `*`.
@@ -190,7 +190,7 @@ public class A4SimpleCalculator {
 
 </details>
 
-## Auftrag 5 «Eigenes Beispiel»
+## :pencil: Eigenes Beispiel
 
 Adaptieren Sie ein Beispiel mit Methoden inkl. Parameter(n) und Rückgabewert auf
 eine eigene Situation.
