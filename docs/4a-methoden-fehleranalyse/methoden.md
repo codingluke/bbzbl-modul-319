@@ -21,21 +21,17 @@ Parameter und der Datentyp des Rückgabewertes deklariert werden, heisst **Kopf*
 Methode aufgerufen werden muss. Nicht aber, was sie genau macht.
 
 ```java title="Signatur einer Methode"
-// highlight-next-line
-public static int methodenName(int parameter1, String parameter2) {
-    // Methodenkörper
-    return 0;
-}
+// highlight-yellow-next-line
+public static String methodenName(int parameter1, String parameter2) {
 ```
 
-- **Sichtbarkeit**: `public`, `private`, `protected`
-- **Art**: `static` oder dynamisch, wenn die Art fehlt
-- **Rückgabewert**: `void`, `int`, beliebiger Datentyp
-  - `void` besitzt keinen Rückgabewert und braucht kein `return`
-  - Wenn ein Rückgabewert angegeben wird, ist `return` am Ende Pflicht!
-- **methodenName**: beliebig, sollte in camelCase geschrieben sein
-- **Kommaseparierte Parameterliste in Klammern**:
-  `(Datentyp parameter1, Datentyp2 parameter2)`
+| Schlüsselwort                         | Beschreibung                                                                                                                                                                                                                                |
+| ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `public`                              | **Sichtbarkeit**: momentan immer `public`                                                                                                                                                                                                   |
+| `static`                              | **Art**: momentan immer `static`                                                                                                                                                                                                            |
+| `String`                              | **Datentyp vom Rückgabewert**: `void` oder beliebiger Datentyp <br/>- `void` besitzt keinen Rückgabewert und braucht kein `return` <br/>- Wenn ein Rückgabewert angegeben wird (z.B. `String`), ist ein `return` im Methodenkörper Pflicht! |
+| `methodenName`                        | **Methodenname**: frei wählbar, sollte in **lowerCamelCase** geschrieben sein                                                                                                                                                                   |
+| `(int parameter1, String parameter2)` | **Parameterliste**: Kommaseparierte Parameterliste in Klammern.<br/>- Jeder Parameter besteht aus: `Datentyp Variabelnamen`<br/>- Jeder Parameter ist im Methodenkörper als Variable verwendbar <br/>- Darf leer sein `()`                                             |
 
 ### :mechanical_arm: Methodenkörper `{ ... }`
 
@@ -45,14 +41,22 @@ Methode aufgerufen wird.
 
 :bulb: Im Methodenkörper befindet sich somit **der ausführbare Code** in Java
 
-```java title="Methodenkörper, ausführbarer Code"
-public static int methodenName(int parameter1, String parameter2) {
+```java title="Methodenkörper, ausführbarer Code" showLineNumbers
+public static String methodenName(int parameter1, String parameter2) {
     // highlight-yellow-start
     int lokaleVariable = parameter1 + 2;
     return lokaleVariable + " " + parameter2;
     // highlight-yellow-end
 }
 ```
+
+:::info Rückgabe: `return`
+
+Besitzt die Signatur einer Methode einen Datentyp (also z.B. `String` wie oben,
+nicht aber `void`), muss die letzte Anweisung (Zeile) einer Methode `return`
+sein! (wie in **Zeile 3**).
+
+:::
 
 ### Beispiel Methode mit Parameter und Rückgabewert
 
@@ -94,84 +98,41 @@ public class Beispiel {
 }
 ```
 
+<div class="grid three"><div>
 <span class="code-block-yellow-line">
 
-**:mechanic: Methoden Verwendung** - gelb, Linie 6
+**:mechanic: Methoden Verwendung** <br/> gelb, Linie 6
 
 </span>
 
 Die Verwendung befindet sich **immer in einem Methoden-Body**. Dies ist
 ausführbarer Code.
 
-- In der `main`-Methode auf Linie 6 wird die Methode
-  `readNumberInRange(40, 60);` verwendet/aufgerufen.
-- Es wird explizit nach einer Nummer im Bereich zwischen 40 und 60 verlangt.
-- die Methode `readNumberInRange` selbst wird auf Zeile 10 definiert.
+</div><div>
 
 <span class="code-block-blue-line">
 
-**:dna: Methoden Kopf / Signatur** - blau auf Zeile 10
+**:dna: Methoden Kopf / Signatur** <br/> blau auf Zeile 10
 
 </span>
 
 Es wird definiert **wie** eine Methode genau aufgerufen werden muss. Der
-Methoden-Kopf ist nicht ausführbarer Code, sondern gehört zur Struktur. Im
-Beispiel werden folgende Merkmale spezifiziert:
+Methoden-Kopf ist nicht ausführbarer Code, sondern gehört zur Struktur.
 
-- **Sichtbarkeit**: `private` <br/> Da sie ausschliesslich in der Klasse
-  Beispiel verwendet wird, in welcher sie auch implementiert ist, muss sie nicht
-  `public` sein.
-- **Art**: `static` <br/> Da die Methode direkt in der statischen Methode `main`
-  aufgerufen wird, muss diese Methode ebenfalls statisch sein.
-- **Rückgabewert**: `int` <br/> Da wir einen Integer `int` einlesen wollen, muss
-  die Methode auch einen `int` zurück geben.
-- **methodenName**: `readNumberInRange` <br/> Der Name "readNumberInRange" fängt
-  klein an und ist sprechend. Er besagt dass eine Nummer in einem bestimmten
-  Bereich eingelesen werden soll.
-- **Kommaseparierte Parameterliste in Klammern**: `(int min, int max)` <br/> Mit
-  den Parametern `int min` und `int max` wird der Bereich mitgegeben, in dem
-  sich die einzulesende Nummer befinden muss.
+</div><div>
 
 <span class="code-block-green-line">
 
-**:mechanical_arm: Methodenkörper** - grün, Zeilen 12 - 18
+**:mechanical_arm: Methodenkörper** <br/> grün, Zeilen 12 - 18
 
 </span>
 
 Es wird definiert **was** genau geschehen soll, wenn die Methode aufgerufen
 wird. Im Methoden-Body befindet sich der ausführbare Code.
 
-- **Linie 13**: Hier wir die lokale Variable `int userInput` initialisiert. In
-  diese solle der eingelesene Wert gespeichert werden.
-- **Linie 14 - 17**: in der `do..while` Schleife, wird die Einleselogik
-  definiert. Es wird so lange nachgefragt, bis eine korrekte Eingabe gemacht
-  wurde. Die Schlaufe wird **mindestens ein Mal** ausgeführt.
-- **Linie 15**: Hier wird dem Benutzer mitgeteilt, dass er eine Zahl eingeben
-  muss. Dabei wird `min` und `max` durch die Parameter dynamisch bestimmt.
-- **Linie 16**: Hier wird mit Hilfe der Methode `mytools.StdInput.readInt` ein
-  Integer von der Konsole eingelesen und in die Variable `userInput`
-  geschrieben.
-- **Linie 17**: Am Ende der `do..while` Schlaufe wird die Bedingung definiert,
-  bei welcher die sie nochmals ausgeführt werden soll. Die Bedingung
-  `min > userInput || userInput > max` besagt, wenn der userInput kleiner als
-  min ODER grösser als max ist, die Schlaufe nochmals ausgeführt werden soll.
-- **Linie 18**: durch `return` wird der `userInput` von der Methode zurück
-  gegeben.
+</div></div>
 
-:::tip Sortierung von Methoden in Klassen ist egal!
-
-Die `main`-Methode ist im Beispiel vor der `readNumberInRange` Methode definiert
-worden. Die Reihenfolge spielt keine Rolle. Diese könnte auch am Ende definiert
-werden.
-
-- Die Reihenfolge ist daher egal, da es sich hier um Struktur und nicht
-  ausführbarem Code handelt.
-- :fire: **Achtung!** die Reihenfolge vom ausführbarem Code im Methodenkörper
-  spielt natürlich eine Rolle!
-
-:::
-
-### Ablauf eines Programms "Flow"
+#### Ablauf des Beispiels
 
 Hier wird nochmals das selbe Programm dargestellt. Es wird nun aufgezeigt wie
 das Program genau durchlaufen wird. In allen Programmiersprachen wird ein
@@ -215,7 +176,20 @@ Programm immer von **Rechts nach Links, nach Unten** :point_left: durchlaufen.
 
 :::
 
-### Geltungsbereich von lokalen Variablen
+:::tip Sortierung von Methoden in Klassen ist egal!
+
+Die `main`-Methode ist im Beispiel vor der `readNumberInRange` Methode definiert
+worden. Die Reihenfolge spielt keine Rolle. Diese könnte auch am Ende definiert
+werden.
+
+- Die Reihenfolge ist daher egal, da es sich hier um Struktur und nicht
+  ausführbarem Code handelt.
+- :fire: **Achtung!** die Reihenfolge vom ausführbarem Code im Methodenkörper
+  spielt natürlich eine Rolle!
+
+:::
+
+## Geltungsbereich von lokalen Variablen
 
 Lokale Variablen können nur im selben Code-Block (geschweifte Klammern `{ }`)
 indem Sie auch deklariert wurden, verwendet werden.
@@ -240,13 +214,6 @@ sichtbar sind. Instanz-Variablen sind in diesem Modul noch nicht relevant!
 :::
 
 #### Explizites Beispiel
-
-Im unteren Beispiel sind die Variablen `userInput` in `userInputMain` und
-`userInputRange` umbenannt.
-
-Ebenfalls führen wir noch die Variable `userInputRangeNested` ein. Diese braucht
-es für die Logik nicht, zeigt aber die Sichtbarkeit innerhalb von geschachtelten
-Code-Blocks in Methoden.
 
 - Grün wird dargestellt wenn eine Variable sichtbar, also deklariert wird
 - Gelb zeigt an wenn die Sichtbarkeit einer Variable endet

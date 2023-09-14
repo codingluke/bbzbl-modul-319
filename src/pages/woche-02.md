@@ -56,12 +56,3 @@ hide_table_of_contents: true
 
 </Event>
 </Timeline>
-
-[modulidentifikation]: pathname:///docs#modulidentifikation
-[algorithmus]: pathname:///docs/1a-grundlagen-algorithmus
-[grundstrukturen]:
-  pathname:///docs/1a-grundlagen-algorithmus/#die-grundformen-der-programmierung
-[hallo welt]: pathname:///docs/1b-hello-world
-[compiler]: pathname:///docs/1b-hello-world/aufgabe3-compiler
-[blocks]: pathname:///docs/1b-hello-world/aufgabe4-klammern-bloecke
-[code-konventionen]: pathname:///docs/1b-hello-world/aufgabe5-konventionen

@@ -68,22 +68,6 @@ aussagekräftigem Namen zu Gruppieren, damit diese
 2. an verscheidenen Orte ausgeführt werden könne
 3. das Programm lesbarer machen, da der Name beschreibt was sie macht
 
-:::note Methode oder Funktion?
-
-Grundsätzlich ist der Name Methode ein Synonym zu Funktion. In
-objektorientierten Programmiersprachen wie Java spricht man jedoch von Methoden.
-Eine "Daumenregel" ist:
-
-- Eine Funktion in einer <u>Klasse</u> nennt man Methode.
-  - Eine Methode besitzt immer einen Zeiger auf das Objekt (`this` in Java,
-    `self` in Python und Ruby, ...)
-- Eine Funktion ausserhalb einer Klasse, nennt man Funktion.
-
-**:bulb: In Java gibt es nur Funktionen in Klassen, daher wird immer von
-Methoden gesprochen!**
-
-:::
-
 ## Was ist Debugging?
 
 Debugging ist eine Arbeitstechnik in der Programmierung, welche es erlaubt, den

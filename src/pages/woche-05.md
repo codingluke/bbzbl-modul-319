@@ -3,25 +3,17 @@ wrapperClassName: blank
 hide_table_of_contents: true
 ---
 
-<Timeline title="Woche 4">
-<Event active="true">
-
-## :checkered_flag: LB1 Thema 1 & 2
-
-- :no_good: Heute bin ich in Gesprächen
-
-- :people_holding_hands: Helft euch gegenseitig!
-
-</Event>
+<Timeline title="Woche 5">
 <Event time="12:45">
 
 ## :teacher: Refresher Methoden
-:bug: Debugging Session 
+
+Vertiefung und Fehleranalyse
 
 </Event>
 <Event time="13:00">
 
-## :student: Methoden Vertiefung
+## :student: Methoden und Fehleranalyse
 
 - :books: Verstehen
 
@@ -36,12 +28,11 @@ hide_table_of_contents: true
 </Event>
 <Event time="14:40">
 
-## :student: Methoden Vertiefung
+## :student: Schleifen
+
+- :books: Verstehen
 
 - :pencil: Aufgaben lösen
-
-- :bug: Fehleranalyse
-
 
 </Event>
 <Event time="16:15">
