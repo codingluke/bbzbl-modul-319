@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
-    "start": "docusaurus start",
+    "start": "wireit",
     "start-poll": "docusaurus start --poll 1 --host 0.0.0.0",
     "start-marp": "env PORT=3003 marp --engine ./src/marp/async-engine.mjs --html --allow-local-files --theme slides/theme.css --watch --server slides",
     "build": "docusaurus build",
@@ -22,6 +22,10 @@
     "build:pdf": "wireit"
   },
   "wireit": {
+    "start": {
+      "command": "docusaurus start",
+      "service": true
+    },
     "dev": {
       "command": "docusaurus start",
       "service": true,
@@ -37,7 +41,7 @@
       "command": "sleep 30 && mkdir -p build/assets/pdf && node build-pdf.mjs",
       "service": false,
       "dependencies": [
-        "dev"
+        "start"
       ]
     }
   },

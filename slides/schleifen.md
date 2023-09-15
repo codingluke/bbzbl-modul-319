@@ -2,7 +2,7 @@
 marp: true
 theme: bbzbl
 paginate: true
-header: Modul 319 - Schlaufen
+header: Modul 319 - Schleifen
 footer: BBZBL / Lukas Hodel / Applikationen entwerfen und implementieren
 ---
 
