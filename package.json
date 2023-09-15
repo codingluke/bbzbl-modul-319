@@ -34,7 +34,7 @@
       "service": true
     },
     "build:pdf": {
-      "command": "sleep 10 && mkdir -p build/assets/pdf && node build-pdf.mjs",
+      "command": "sleep 30 && mkdir -p build/assets/pdf && node build-pdf.mjs",
       "service": false,
       "dependencies": [
         "dev"
