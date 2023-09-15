@@ -31,15 +31,14 @@ while (i > 0) {
 ```mermaid
 stateDiagram-v2
     direction LR
-    state bedingung <<choice>>
+    state Bedingung <<choice>>
+    [*] --> Bedingung
     do: { Code-Block }
-
-    [*] --> bedingung
-    bedingung --> do: true
+    Bedingung --> do: true
     state while {
-        do --> bedingung
+        do --> Bedingung
     }
-    bedingung --> [*]: false
+    Bedingung --> [*]: false
 ```
 
 </div></div>

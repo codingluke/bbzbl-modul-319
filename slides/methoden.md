@@ -47,13 +47,15 @@ footer: BBZBL / Lukas Hodel / Applikationen entwerfen und implementieren
 
 ![bg right fit](./images/methode-struktur-beispiel.png)
 
-### Methoden Verwendung: 
+**Verwendung** (Gelb)
+
 Die Methode wird in einer Anweisung aufgerufen
 
-### Methoden Kopf / Signatur: 
+**Methoden Kopf / Signatur** (Blau)
 
 Definiert **wie** die Methode aufgerufen werden muss
-### Methodenkörper
+
+**Methodenkörper** (Grün)
 
 Definiert **was** die Methode genau macht
 

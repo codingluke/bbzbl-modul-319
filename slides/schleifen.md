@@ -33,14 +33,13 @@ while (<Bedingung>) {
 stateDiagram-v2
     direction LR
     state Bedingung <<choice>>
+    [*] --> Bedingung
     do: { Code-Block }
-
-    [*] --> bedingung
-    bedingung --> do: true
+    Bedingung --> do: true
     state while {
-        do --> bedingung
+        do --> Bedingung
     }
-    bedingung --> [*]: false
+    Bedingung --> [*]: false
 ```
 
 :::
@@ -79,7 +78,7 @@ stateDiagram-v2
     state Bedingung <<choice>>
     [*] --> do
     state do..while {
-        do --> bedingung
+        do --> Bedingung
         Bedingung --> do: true
     }
     Bedingung --> [*]: false
