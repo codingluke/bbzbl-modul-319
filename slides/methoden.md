@@ -16,15 +16,15 @@ footer: BBZBL / Lukas Hodel / Applikationen entwerfen und implementieren
 
 ![bg right fit](./images/letter.png)
 
-**Methodenname**: 
+**Methodenname**:
 
 - verschickeBrief
 
-**Parameter**: 
+**Parameter**:
 
-- Adresse, Briefmarke, Inhalt 
+- Adresse, Briefmarke, Inhalt
 
-**Methodenkörper**: 
+**Methodenkörper**:
 
 - Die Post verschickt den Brief
 
@@ -62,6 +62,5 @@ Definiert **was** die Methode genau macht
 ---
 
 # Flow
+
 ![bg w:70%](./images/methoden-flow.png)
-
-

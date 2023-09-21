@@ -92,7 +92,7 @@ und den zugehörigen Aufgabenseiten angegeben:
 - **Thema 3 - Methoden**
   - :book: [4 - Methoden und Fehleranalyse](../4a-methoden-fehleranalyse/index.md)
 - **Thema 4 - Debugging und Fehlersituationen**
-  - :book: [4 - Methoden und Fehleranalyse](../4a-methoden-fehleranalyse/index.md)
+  - :book: [4 - Methoden und Fehleranalyse](../4a-methoden-fehleranalyse/fehleranalyse.md)
 
 :::caution Vergesst nicht den LB2
 

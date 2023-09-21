@@ -24,12 +24,17 @@
   "wireit": {
     "start": {
       "command": "docusaurus start",
-      "service": true
+      "service": {
+        "readyWhen": {
+          "lineMatches": "Docusaurus website is running at.*"
+        }
+      }
     },
     "dev": {
       "command": "docusaurus start",
       "service": true,
       "dependencies": [
+        "start",
         "start:marp"
       ]
     },
@@ -38,7 +43,7 @@
       "service": true
     },
     "build:pdf": {
-      "command": "sleep 30 && mkdir -p build/assets/pdf && node build-pdf.mjs",
+      "command": "sleep 5 && mkdir -p build/assets/pdf && node build-pdf.mjs",
       "service": false,
       "dependencies": [
         "start"
