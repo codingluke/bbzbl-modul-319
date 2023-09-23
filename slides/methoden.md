@@ -8,17 +8,17 @@ footer: BBZBL / Lukas Hodel / Applikationen entwerfen und implementieren
 
 <!-- _class: big center -->
 
-# :postbox: <br/> Methoden
+# Methoden
+
+### Eine Funktionalität unter einem Namen umsetzen
 
 ---
 
-# Reales Beispiel
+# :postbox: Brief verschicken
 
 ![bg right fit](./images/letter.png)
 
-**Methodenname**:
-
-- verschickeBrief
+**Methodenname**: verschickeBrief
 
 **Parameter**:
 
@@ -28,39 +28,99 @@ footer: BBZBL / Lukas Hodel / Applikationen entwerfen und implementieren
 
 - Die Post verschickt den Brief
 
-**Rückgabewert**:
+**Rückgabetyp**:
 
-- Nichts (senden und vergessen)
+- `void` (senden und vergessen)
+- alternativ einen Beleg
+
+---
+
+# :cook: Pizzabacken
+
+![bg right fit](./images/pizza-salami-methode.png)
+
+**Methodenname**: pizzaSalamiMachen
+
+**Parameter**:
+
+- Teig, Käse, Tomaten, Salami, Zeit
+
+**Methodenkörper**:
+
+- Oven backt die Pizza
+
+**Rückgabetyp**: 
+
+- Pizza Salami :pizza:
+
+:::footnotes
+
+Quelle: Kompezentnachweis Thema 3 einer Lehrnenden,
+https://www.youtube.com/watch?v=oSDtCcDXcTM
+
+:::
 
 ---
 
 # Verantwortung einer Sache
 
-- Jemand macht **eine Sache gut**
+- Jemand (Methode), macht **eine Sache gut** und übernimmt die Arbeit für alle
+- Der **Methodennamen ist klar**, das jeder weiss was geschieht <br/><br/>
+
+::: columns
+
+### Beispiel Post
+
 - Die Post ist gut in Briefe verschicken
 - Sie Verschickt die Briefe für alle
-- Der **Namen ist klar**, das jeder weis was geschieht
+
+::: split
+
+### Beispiel Oven
+
+- Der Ofen kann gut backen
+- Backt die Pizza
+
+:::
 
 ---
 
-# Code-Beispiel
+# Code-Beispiel / _Struktur_
 
-![bg right fit](./images/methode-struktur-beispiel.png)
+::: columns l65 s2
 
-**Verwendung** (Gelb)
+![fit](./images/methode-struktur-beispiel.png)
+
+::: split
+### Verwendung (Gelb)
 
 Die Methode wird in einer Anweisung aufgerufen
 
-**Methoden Kopf / Signatur** (Blau)
+### Methoden Kopf / Signatur (Blau)
 
 Definiert **wie** die Methode aufgerufen werden muss
 
-**Methodenkörper** (Grün)
+### Methodenkörper (Grün)
 
 Definiert **was** die Methode genau macht
 
+:::
+
 ---
 
-# Flow
+# Code-Beispiel / _Flow_
 
-![bg w:70%](./images/methoden-flow.png)
+::: columns l65 s1
+
+![fit](./images/methoden-flow.png)
+
+::: split
+
+1. Methodenaufruf, springt in die Methode
+
+2. Schlaufe wird mehrfach wiederholt
+3. `return` Wert wird ausgegeben
+4. Der `return` Wert wird der Variable zugewiesen
+5. Die Variable wird ausgegeben
+
+:::

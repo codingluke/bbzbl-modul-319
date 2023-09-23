@@ -31,8 +31,6 @@
       }
     },
     "dev": {
-      "command": "docusaurus start",
-      "service": true,
       "dependencies": [
         "start",
         "start:marp"
