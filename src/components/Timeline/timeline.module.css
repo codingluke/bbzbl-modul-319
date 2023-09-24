@@ -84,6 +84,12 @@ h1 {
   font-weight: 600;
 }
 
+.timeline ul,
+.timeline ol,
+.timeline li {
+  margin: 0 0 var(--ifm-list-margin);
+}
+
 .container h1 {
   position: relative;
   margin: 0 auto 20px;

@@ -11,6 +11,12 @@ keywords:
 - Sie können die for Kontrollstruktur nutzen, die besonders für das Durchlaufen
   von Arrays hilfreich ist.
 
+## :teacher: Präsentation
+
+[:computer: Open in Browser](pathname:///slides/arrays) | [:floppy_disk: download PDF](pathname:///slides/arrays.pdf)
+
+<iframe src="/bbzbl-modul-319/slides/arrays" width="100%" height="400px"></iframe>
+
 ## Einleitung
 
 Wir haben Datentypen kennengelernt und wissen, wie wir Variablen anlegen können.
