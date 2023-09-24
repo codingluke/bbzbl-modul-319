@@ -135,7 +135,7 @@ for (int value : values) {
 
 # :mage: <br> Arrays sind Magier!
 
-## Wiso denkt Ihr?
+## Wieso denkt Ihr?
 
 ---
 
@@ -162,7 +162,7 @@ int value100;
 ### :star: Mit Array
 
 ```java
-int values = new int[100];
+int[] values = new int[100];
 
 
 
@@ -195,7 +195,7 @@ value100 = Math.rand();
 
 ::: split
 
-### :star: Mit Array
+### :star: Mit Array und `for`
 
 ```java
 for (int i = 0; i < values.length; i++) {
@@ -233,7 +233,7 @@ System.out.println(value100);
 
 ::: split
 
-### :star: Mit Array
+### :star: Mit Array und `foreach`
 
 ```java
 for (int value : values) {
@@ -254,7 +254,7 @@ for (int value : values) {
 # :bulb: Merken
 
 Wenn eine **manuelle Nummerierung** in Variablennamen oder Methodennamen
-vorkommen, sollte man an **Arrays** denken.
+vorkommt, sollte man an **Arrays** denken.
 
 ---
 

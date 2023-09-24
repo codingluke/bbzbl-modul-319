@@ -84,7 +84,7 @@ durch die bereits bekannte `for`-Schlaufe automatisiert erstellt werden könnten
 :::
 
 Und Sie haben recht! Dies geht nun folgendermassen: **:magic_wand:
-Akra-kadabara-simsalabim aus 100 Zeilen, da mach 3!**
+Abra-kadabara-simsalabim aus 100 Zeilen, da mach 3!**
 
 ```java showLineNumbers title="Abfüllen eines Arrays mit Hilfe einer for-Schleife"
 for (int index = 0; index < 100; i++) { // 100 ist die Array Länge
