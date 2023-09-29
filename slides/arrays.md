@@ -32,7 +32,7 @@ char[] signs = new char[10];
 
 // Zuweisung
 signs[0] = 'a';
-signs[signs.length] = 'j';
+signs[signs.length - 1] = 'j';
 
 // Deklaration + Direktzuweisung
 char[] signs = {
@@ -99,7 +99,7 @@ int lastValue = values[size - 1];
 ```java
 int values = new values[5];
 
-for (int i = 0; i > values.length; i++) {
+for (int i = 0; i < values.length; i++) {
     // Zuweisung
     values[i] = Math.rand();
 
