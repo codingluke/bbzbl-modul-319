@@ -61,7 +61,7 @@
 
 <span class="hljs-comment">// Zuweisung</span>
 signs[<span class="hljs-number">0</span>] = <span class="hljs-string">'a'</span>;
-signs[signs.length] = <span class="hljs-string">'j'</span>;
+signs[signs.length - <span class="hljs-number">1</span>] = <span class="hljs-string">'j'</span>;
 
 <span class="hljs-comment">// Deklaration + Direktzuweisung</span>
 <span class="hljs-type">char</span>[] signs = {
@@ -113,7 +113,7 @@ signs[signs.length] = <span class="hljs-string">'j'</span>;
 <h2 id="mit-for-schleife">Mit <code>for</code>-Schleife</h2>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-java"><span class="hljs-type">int</span> <span class="hljs-variable">values</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">values</span>[<span class="hljs-number">5</span>];
 
-<span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> <span class="hljs-variable">i</span> <span class="hljs-operator">=</span> <span class="hljs-number">0</span>; i &gt; values.length; i++) {
+<span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> <span class="hljs-variable">i</span> <span class="hljs-operator">=</span> <span class="hljs-number">0</span>; i &lt; values.length; i++) {
     <span class="hljs-comment">// Zuweisung</span>
     values[i] = Math.rand();
 
