@@ -1558,7 +1558,7 @@
     react-helmet-async "*"
     react-loadable "npm:@docusaurus/react-loadable@5.5.2"
 
-"@docusaurus/module-type-aliases@2.4.3", "@docusaurus/module-type-aliases@^2.1.0":
+"@docusaurus/module-type-aliases@2.4.3", "@docusaurus/module-type-aliases@^2.4.3":
   version "2.4.3"
   resolved "https://registry.yarnpkg.com/@docusaurus/module-type-aliases/-/module-type-aliases-2.4.3.tgz#d08ef67e4151e02f352a2836bcf9ecde3b9c56ac"
   integrity sha512-cwkBkt1UCiduuvEAo7XZY01dJfRn7UR/75mBgOdb1hKknhrabJZ8YH+7savd/y9kLExPyrhe0QwdS9GuzsRRIA==
