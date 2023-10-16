@@ -16,7 +16,8 @@ hide_table_of_contents: true
 <Event time="12:45">
 
 ## :teacher: Refresher Methoden
-:bug: Debugging Session 
+
+:bug: Debugging Session
 
 </Event>
 <Event time="13:00">
@@ -41,7 +42,6 @@ hide_table_of_contents: true
 - :pencil: Aufgaben lösen
 
 - :bug: Fehleranalyse
-
 
 </Event>
 <Event time="16:15">

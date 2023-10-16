@@ -6,17 +6,17 @@ sidebar_position: 7
 
 <div class="grid"><div>
 
-## :school: Unterricht 
+## :school: Unterricht
 
 :::caution Abgabe Thema 4
 
 :checkered_flag: Heute finden **mündliche Abnahmen zum Thema 4 - Debugging und
-Fehleranalyse**
-statt!
+Fehleranalyse** statt!
 
 :::
 
 ## :pencil: Aufgaben
+
 - [6 - Spiele und Zufallszahlen](../6a-spiele/index.md)
 - [7 - Arrays und `foreach`](../7a-for-arrays/index.md)
 
@@ -24,8 +24,9 @@ statt!
 
 ## :house: Hausaufgaben
 
-- [Würfelspiel](../6a-spiele/wuerfelspiel.md) und [Ratespiel](../6a-spiele/ratespiel.md) umgesetzt.
-  - :superhero: Am besten 1 eigenes Erfunden 
+- [Würfelspiel](../6a-spiele/wuerfelspiel.md) und
+  [Ratespiel](../6a-spiele/ratespiel.md) umgesetzt.
+  - :superhero: Am besten 1 eigenes Erfunden
 - [Arrays](../7a-for-arrays/arrays.md) verstanden
 
 </div></div>

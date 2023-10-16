@@ -2,6 +2,7 @@
 keywords:
   - pdf
 ---
+
 # 6 - Spiele
 
 Spiele brauchen immer den Zufall. Ohne den Zufall wären Sie langweilig. In

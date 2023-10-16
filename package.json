@@ -50,11 +50,11 @@
   },
   "dependencies": {
     "@agentofuser/remark-oembed": "^1.0.4",
-    "@docusaurus/core": "^2.4.1",
-    "@docusaurus/preset-classic": "^2.4.1",
-    "@docusaurus/theme-mermaid": "^2.4.1",
+    "@docusaurus/core": "^2.4.3",
+    "@docusaurus/preset-classic": "^2.4.3",
+    "@docusaurus/theme-mermaid": "^2.4.3",
     "@easyops-cn/docusaurus-search-local": "^0.35.0",
-    "@marp-team/marp-cli": "^3.2.1",
+    "@marp-team/marp-cli": "^3.3.0",
     "@mdx-js/react": "^1.6.22",
     "@mermaid-js/mermaid-cli": "^10.4.0",
     "@orama/plugin-docusaurus": "^1.2.1",
@@ -77,7 +77,7 @@
     "wireit": "^0.9.5"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "^2.1.0"
+    "@docusaurus/module-type-aliases": "^2.4.3"
   },
   "prettier": {
     "proseWrap": "always",
