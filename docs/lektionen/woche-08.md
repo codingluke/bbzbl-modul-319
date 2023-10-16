@@ -18,6 +18,7 @@ sidebar_position: 8
 </div><div>
 
 ## :house: Hausaufgaben
+
 :::caution Prüfung nächste Woche
 
 Nächste Woche steht der [LB2](../beurteilungen/LB2.md) an!
@@ -27,7 +28,6 @@ Nächste Woche steht der [LB2](../beurteilungen/LB2.md) an!
 - [8 - Repetition](../8a-repetition/index.md)
 
 </div></div>
-
 
 ## :compass: Ablauf
 

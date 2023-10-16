@@ -12,12 +12,12 @@ keywords:
 > - Sie entscheiden, zu welchem Zeitpunkt Sie von Teil 1 der Prüfung zu Teil 2
 >   wechseln.
 
-### 1. **Multiple-Choice-Fragen**
+## 1. **Multiple-Choice-Fragen**
 
 - Auf Papier
 - **Computer nicht verwenden**
 
-### 2. **Programmieraufgaben**
+## 2. **Programmieraufgaben**
 
 - Java Aufgaben
 - Zusätzlich vermittelter Stoff

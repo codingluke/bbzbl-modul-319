@@ -34,7 +34,7 @@ hide_table_of_contents: true
 </Event>
 <Event time="15:00">
 
-## :student: Repetition
+## :student: Spiele / Arrays
 
 - :honeybee: Individuelles Arbeiten
 

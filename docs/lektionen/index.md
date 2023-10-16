@@ -10,7 +10,7 @@
 |                    | [**Woche&nbsp;6**][w6] | **22.09.2023** | Ratespiel mit Repetition bisherige Themen                                                               | **[LB1]: Thema 3**       |
 |                    | [**Woche&nbsp;7**][w7] | **29.09.2023** | **Abschluss Beurteilungsraster**                                                                        | **[LB1]: Thema 4**       |
 |                    |                        |                | :star: _Ferien_                                                                                         |                          |
-| :steam_locomotive: |   [Woche&nbsp;8][w8]   |   20.10.2023   | Array / `for` / Repetition                                                                                           |                         |
+| :steam_locomotive: |   [Woche&nbsp;8][w8]   |   20.10.2023   | Array / `for` / Repetition                                                                              |                          |
 |                    | [**Woche&nbsp;9**][w9] | **27.10.2023** | **Prüfung** / Repetition                                                                                | **[LB2]**                |
 
 [w1]: ./woche-01.md
