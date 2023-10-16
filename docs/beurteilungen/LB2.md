@@ -32,8 +32,9 @@ keywords:
 
 :::tip Hilfsmittel
 
-- Das **Dokument zum Modul 403**, welches im Thema _Allgemein -> Hilfsmittel_
-  heruntergeladen werden kann.
+- Das :book:
+  [**Faktenblatt zum Modul 403**](./images/Formelsammlung-Faktenblatt.pdf).
+  Audrucken und mitnehmen
 - Eine **eigene Zusammenfassung**, welche Sie selbst während des Moduls erstellt
   haben, verwenden.
 
