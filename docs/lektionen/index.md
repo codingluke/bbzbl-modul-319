@@ -8,9 +8,9 @@
 |                    | [**Woche&nbsp;4**][w4] | **08.09.2023** | Methoden mit Parametern und Rückgabewert <br/> Fehleranalyse                                            | **[LB1]: Thema 1 und 2** |
 |                    |   [Woche&nbsp;5][w5]   |   15.09.2023   | `while` / Konstanten                                                                                    |                          |
 |                    | [**Woche&nbsp;6**][w6] | **22.09.2023** | Ratespiel mit Repetition bisherige Themen                                                               | **[LB1]: Thema 3**       |
-| :steam_locomotive: | [**Woche&nbsp;7**][w7] | **29.09.2023** | **Abschluss Beurteilungsraster**                                                                        | **[LB1]: Thema 4**       |
+|                    | [**Woche&nbsp;7**][w7] | **29.09.2023** | **Abschluss Beurteilungsraster**                                                                        | **[LB1]: Thema 4**       |
 |                    |                        |                | :star: _Ferien_                                                                                         |                          |
-|                    |   [Woche&nbsp;8][w8]   |   20.10.2023   | Array / `for`                                                                                           |                          |
+| :steam_locomotive: |   [Woche&nbsp;8][w8]   |   20.10.2023   | Array / `for` / Repetition                                                                                           |                         |
 |                    | [**Woche&nbsp;9**][w9] | **27.10.2023** | **Prüfung** / Repetition                                                                                | **[LB2]**                |
 
 [w1]: ./woche-01.md
@@ -20,7 +20,7 @@
 [w5]: ./woche-05.md
 [w6]: ./woche-06.md
 [w7]: ./woche-07.md
-[w8]: #
+[w8]: ./woche-08.md
 [w9]: #
 [lb1]: ../beurteilungen/LB1.md#themendokumente
 [lb2]: ../beurteilungen/LB2.md
