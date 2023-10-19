@@ -6,17 +6,22 @@ hide_table_of_contents: true
 <Timeline title="Woche 8">
 <Event time="12:45">
 
-## :teacher: Reaktionsspiel
+## 🤗 Ankommen
 
-- :microscope: Zusammen Analysieren
+- :desert_island: Ferienerlebnisse teilen
 
 </Event>
 <Event time="13:00">
 
-## :student: Spiele programmieren
+## 🏅 LB2 Ankündigung
 
-- :zap: Reaktionsspiel
-- :game_die: Würfelspiel
+</Event>
+<Event time="13:10">
+
+## :recycle: For-Schleife
+
+- :teacher: Repetition / Präsentation
+- :student: `for`-Schleife Aufgaben
 
 </Event>
 
@@ -27,16 +32,10 @@ hide_table_of_contents: true
 </Event>
 <Event time="14:40">
 
-## :dango: Arrays / Listen
+## :dango: Arrays `[]` und `foreach`
 
-- :teacher: Einführung
-
-</Event>
-<Event time="15:00">
-
-## :student: Spiele / Arrays
-
-- :honeybee: Individuelles Arbeiten
+- :teacher: Repetition / Präsentation
+- :student: Arrays Aufgaben
 
 </Event>
 <Event time="16:15">

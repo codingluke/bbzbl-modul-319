@@ -11,6 +11,7 @@ keywords:
 > - Die gesamte Prüfungsdauer beträgt **90 Minuten**.
 > - Sie entscheiden, zu welchem Zeitpunkt Sie von Teil 1 der Prüfung zu Teil 2
 >   wechseln.
+> - :fire: **Nach dem Wechsel können Sie den Teil 1 nicht mehr bearbeiten!**
 
 ## 1. **Multiple-Choice-Fragen**
 
