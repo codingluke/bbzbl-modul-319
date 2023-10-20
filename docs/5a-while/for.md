@@ -240,6 +240,69 @@ das nach der 5. Wiederholung der Fall sein.
 4. Fragen Sie den Benutzer nach Startwert, Endwert und Schrittweite und geben
    Sie die entsprechenden Zahlen aus.
 
+<details>
+  <summary>Musterlösung</summary>
+
+```java
+public class A1aFor1to10 {
+
+	public static void main(String[] args) {
+		for(int i = 1; i <= 10; i++) {
+			System.out.println(i);
+		}
+	}
+
+}
+```
+
+```java
+public class A1bFor37to55 {
+
+	public static void main(String[] args) {
+		for(int i = 37; i <= 55; i++) {
+			System.out.println(i);
+		}
+	}
+
+}
+```
+
+```java
+public class A1cFor18to96 {
+
+	public static void main(String[] args) {
+		for(int i = 18; i <= 96; i = i + 2) {	// es würde auch gehen  i += 2;
+			System.out.println(i);
+		}
+	}
+
+}
+```
+
+```java
+import mytools.StdInput;
+
+public class A1dFor {
+
+	public static void main(String[] args) {
+		System.out.print("Startwert: ");
+		int start = StdInput.readInt();
+
+		System.out.print("Endwert: ");
+		int ende = StdInput.readInt();
+
+		System.out.print("Schrittweite: ");
+		int sw = StdInput.readInt();
+
+		for(int i = start; i <= ende; i = i + sw) {	// es würde auch gehen  i += sw;
+			System.out.println(i);
+		}
+	}
+}
+```
+
+</details>
+
 ### Auftrag 2a
 
 - Schreiben Sie ein Programm, das eine Zeile mit 10 Sternen ausgibt.
@@ -251,6 +314,40 @@ das nach der 5. Wiederholung der Fall sein.
 ```bash title="Ausgabe"
 **********
 ```
+
+<details><summary>Musterlösung</summary>
+
+```java
+public class A2aSterne {
+
+	public static void main(String[] args) {
+
+		for(int i = 0; i < 10; i++) {
+			System.out.print("*");
+		}
+	}
+
+}
+```
+
+```java
+public class A2bSterne {
+
+	public static void main(String[] args) {
+
+		for (int j = 0; j < 5; j++) {
+			for (int i = 0; i < 10; i++) {
+				System.out.print("*");
+			}
+
+			System.out.println();
+		}
+	}
+
+}
+```
+
+</details>
 
 ### Auftrag 2b
 
@@ -265,6 +362,27 @@ werden. Die Ausgabe sollte also so aussehen :
 **********
 **********
 ```
+
+<details><summary>Musterlösung</summary>
+
+```java
+public class A2bSterne {
+
+	public static void main(String[] args) {
+
+		for (int j = 0; j < 5; j++) {
+			for (int i = 0; i < 10; i++) {
+				System.out.print("*");
+			}
+
+			System.out.println();
+		}
+	}
+
+}
+```
+
+</details>
 
 ### Auftrag 3
 
@@ -284,6 +402,59 @@ Anzahl Zeilen: 5
 *****
 ```
 
+<details><summary>Musterlösung</summary>
+
+```java
+import mytools.StdInput;
+
+public class A3aFlaggen {
+
+	public static void main(String[] args) {
+		System.out.println("Flaggen 1");
+		System.out.print("Anzahl Zeilen: ");
+		int lines = StdInput.readInt();
+
+		for(int currentLine = 0; currentLine < lines; currentLine++) {
+			for(int currentPos = 0; currentPos <= currentLine; currentPos++) {
+				System.out.print('*');
+			}
+
+			System.out.println();
+		}
+	}
+
+}
+```
+
+```java
+import mytools.StdInput;
+
+public class A3bFlaggenMethode {
+
+	public static void main(String[] args) {
+		System.out.println("Flaggen 1");
+		System.out.print("Anzahl Zeilen: ");
+		int lines = StdInput.readInt();
+
+		flag(lines);
+	}
+
+	public static void flag(int nr_of_lines) {
+		for (int currentLine = 0; currentLine < nr_of_lines; currentLine++) {
+			for (int currentPos = 0; currentPos <= currentLine; currentPos++) {
+				System.out.print("*");
+			}
+
+			System.out.println();
+		}
+
+	}
+
+}
+```
+
+</details>
+
 ### Auftrag 4
 
 Erweitern Sie das Programm so, dass der Benutzer das Zeichen, mit dem die Flagge
@@ -301,6 +472,64 @@ xxx
 xxxx
 xxxxx
 ```
+
+<details><summary>Musterlösung</summary>
+
+```java
+import mytools.StdInput;
+
+public class A4aFlaggen {
+
+	public static void main(String[] args) {
+		System.out.println("Flaggen 2");
+		System.out.print("Anzahl Zeilen: ");
+		int lines = StdInput.readInt();
+
+		System.out.print("Zeichen: ");
+		String zeichen = StdInput.readString();
+
+		for (int currentLine = 0; currentLine < lines; currentLine++) {
+			for (int currentPos = 0; currentPos <= currentLine; currentPos++) {
+				System.out.print(zeichen);
+			}
+
+			System.out.println();
+		}
+	}
+
+}
+```
+
+```java
+import mytools.StdInput;
+
+public class A4bFlaggenMethode {
+
+	public static void main(String[] args) {
+		System.out.println("Flaggen 2");
+		System.out.print("Anzahl Zeilen: ");
+		int lines = StdInput.readInt();
+
+		System.out.print("Zeichen: ");
+		String zeichen = StdInput.readString();
+
+		flag(lines, zeichen);
+	}
+
+	public static void flag(int nr_of_lines, String character) {
+		for (int currentLine = 0; currentLine < nr_of_lines; currentLine++) {
+			for (int currentPos = 0; currentPos <= currentLine; currentPos++) {
+				System.out.print(character);
+			}
+
+			System.out.println();
+		}
+
+	}
+}
+```
+
+</details>
 
 ### Auftrag 5
 
@@ -329,6 +558,86 @@ Flagge 2
 @@@@
 @@@@@
 ```
+
+<details><summary>Musterlösung</summary>
+
+```java
+import mytools.StdInput;
+
+public class A5aFlaggen {
+
+	public static void main(String[] args) {
+		System.out.println("Flaggen 3");
+		System.out.print("Anzahl Zeilen: ");
+		int lines = StdInput.readInt();
+
+		System.out.print("Anzahl Flaggen: ");
+		int flags = StdInput.readInt();
+
+		System.out.print("Zeichen: ");
+		String zeichen = StdInput.readString();
+
+		for (int currentFlag = 0; currentFlag < flags; currentFlag++) {
+			System.out.println();
+			System.out.println("Flagge " + (currentFlag + 1));
+			
+			for (int currentLine = 0; currentLine < lines; currentLine++) {
+				for (int currentPos = 0; currentPos <= currentLine; currentPos++) {
+					System.out.print(zeichen);
+				}
+
+				System.out.println();
+			}
+		}
+	}
+
+}
+```
+
+```java
+import mytools.StdInput;
+
+public class A5bFlaggenMethode {
+
+	public static void main(String[] args) {
+		System.out.println("Flaggen 3");
+		System.out.print("Anzahl Zeilen: ");
+		int lines = StdInput.readInt();
+		
+		System.out.print("Anzahl Flaggen: ");
+		int flags = StdInput.readInt();
+
+		System.out.print("Zeichen: ");
+		String zeichen = StdInput.readString();
+
+		for (int currentFlag = 0; currentFlag < flags; currentFlag++) {
+			flag(currentFlag + 1, lines, zeichen);
+		}
+		
+		// eine andere Variante fuer das Zaehlen der Flaggen ist:
+		for (int currentFlag = 1; currentFlag <= flags; currentFlag++) {
+			flag(currentFlag, lines, zeichen);
+		}
+	}
+
+	public static void flag(int flagNumber, int nr_of_lines, String character) {
+		System.out.println();
+		System.out.println("Flagge " + flagNumber);
+		
+		for (int currentLine = 0; currentLine < nr_of_lines; currentLine++) {
+			for (int currentPos = 0; currentPos <= currentLine; currentPos++) {
+				System.out.print(character);
+			}
+
+			System.out.println();
+		}
+		
+	}
+
+}
+```
+
+</details>
 
 ## :tv: Erklärvideos von Studiflix
 
