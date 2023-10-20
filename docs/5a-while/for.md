@@ -393,7 +393,6 @@ Schreiben Sie ein Programm Flaggen, das folgende Anforderungen erfüllt:
   aussehen:
 
 ```bash title="Ausgabe"
-Flaggen 1
 Anzahl Zeilen: 5
 *
 **
@@ -463,7 +462,6 @@ gezeichnet wird, selbst festlegen kann.
 Die Ausgabe soll so aussehen:
 
 ```bash title="Ausgabe"
-Flaggen 2
 Anzahl Zeilen: 5
 Zeichen: x
 x
@@ -481,7 +479,6 @@ import mytools.StdInput;
 public class A4aFlaggen {
 
 	public static void main(String[] args) {
-		System.out.println("Flaggen 2");
 		System.out.print("Anzahl Zeilen: ");
 		int lines = StdInput.readInt();
 
@@ -506,7 +503,6 @@ import mytools.StdInput;
 public class A4bFlaggenMethode {
 
 	public static void main(String[] args) {
-		System.out.println("Flaggen 2");
 		System.out.print("Anzahl Zeilen: ");
 		int lines = StdInput.readInt();
 
@@ -539,7 +535,6 @@ Flaggen gezeichnet werden.
 Die Ausgabe soll so aussehen:
 
 ```bash title="Ausgabe"
-Flaggen 3
 Anzahl Zeilen: 5
 Anzahl Flaggen: 2
 Zeichen: @
@@ -567,7 +562,6 @@ import mytools.StdInput;
 public class A5aFlaggen {
 
 	public static void main(String[] args) {
-		System.out.println("Flaggen 3");
 		System.out.print("Anzahl Zeilen: ");
 		int lines = StdInput.readInt();
 
@@ -600,7 +594,6 @@ import mytools.StdInput;
 public class A5bFlaggenMethode {
 
 	public static void main(String[] args) {
-		System.out.println("Flaggen 3");
 		System.out.print("Anzahl Zeilen: ");
 		int lines = StdInput.readInt();
 		
