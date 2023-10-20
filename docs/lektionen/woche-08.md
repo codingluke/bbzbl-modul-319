@@ -45,12 +45,6 @@ Nächste Woche steht der [**LB2**](../beurteilungen/LB2.md) an!
 
 :::
 
-:::tip Programmieren muss man üben!
-
-Ein Spick hilft oft nicht viel, wenn man es nicht verstanden hat. Macht also
-soviel wie möglich von den Aufgaben.
-
-:::
 
 ## Vorbereitungs Aufgaben
 
@@ -64,6 +58,15 @@ soviel wie möglich von den Aufgaben.
 Wenn ihr oben alles habe könnt ihr noch Repetieren! :muscle:
 
 - [8 - Repetition](../8a-repetition/index.md)
+
+:::tip Programmieren muss man üben!
+
+Ein Spick hilft oft nicht viel, wenn man es nicht verstanden hat. Macht also
+soviel wie möglich von den Aufgaben.
+
+![practice](../images/practice.png)
+
+:::
 
 </div></div>
 

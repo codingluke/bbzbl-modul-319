@@ -27,11 +27,20 @@ while (<Bedingung>) {
 
 ### Explizites Beispiel
 
+```java title="While Code-Beispiel" showLineNumbers
+int i = 10;
+while (i > 0) {
+  System.out.println("value of i: " + i);
+  i = i - 1;
+}
+```
+
 ::: split
 
-```mermaid
+## Ablauf
+```mermaid width=70%
 stateDiagram-v2
-    direction LR
+    direction TB
     state Bedingung <<choice>>
     [*] --> Bedingung
     do: { Code-Block }
@@ -43,14 +52,6 @@ stateDiagram-v2
 ```
 
 :::
-
-```java title="While Code-Beispiel" showLineNumbers
-int i = 10;
-while (i > 0) {
-  System.out.println("value of i: " + i);
-  i = i - 1;
-}
-```
 
 ---
 
@@ -69,11 +70,21 @@ do {
 
 ### Explizites Beispiel
 
-::: split
+```java
+int x = 0;
+do {
+    if (x == 0) x = 10;
+    System.out.println("value of x: " + x);
+    x = x-1;
+} while (x > 0);
+```
 
-```mermaid
+::: split
+## Ablauf
+
+```mermaid width=50%
 stateDiagram-v2
-    direction LR
+    direction TB
     do: { Code-Block }
     state Bedingung <<choice>>
     [*] --> do
@@ -86,30 +97,23 @@ stateDiagram-v2
 
 :::
 
-```java
-int x = 10;
-do {
-    System.out.println("value of x: " + x);
-    x = x-1;
-} while (x > 0);
-```
-
 ---
 
 # for
 
 ::: columns
 
+## Schema
 
 ```java
-for (
-  <Zählervariable>;
-  <Bedingung>;
-  <Schrittweite>
+for (<Zählervariable>;
+     <Bedingung>;
+     <Schrittweite>
 ) {
     <Anweisungen, Sequenz>
 }
 ```
+
 ### Explizites Beispiel
 
 ```java
@@ -119,9 +123,9 @@ for (int i = 0; i < 5; i++) {
 ```
 
 ::: split
+## Ablauf
 
-
-```mermaid width=80%
+```mermaid width=70%
 stateDiagram-v2
     direction TB
     [*] --> init
@@ -139,7 +143,6 @@ stateDiagram-v2
     }
 
     Bedingung --> [*]: false
-
 ```
 
 :::
