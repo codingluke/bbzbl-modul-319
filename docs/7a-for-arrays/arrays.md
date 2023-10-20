@@ -336,7 +336,7 @@ public class SortString {
       "Zitronenfalter",
       "Fensterputzer",
       "Halsabschneider",
-    }
+    };
     //Ausgabe aller Werte des Arrays
     for (int i = 0; i < beruf.length; i++){
         System.out.println(i + ". " + beruf[i]);
