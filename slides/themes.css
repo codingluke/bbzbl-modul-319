@@ -383,3 +383,8 @@ section {
 .__mermaid :root {
   --mermaid-font-family: "trebuchet ms", verdana, arial, sans-serif;
 }
+
+#timer {
+  font-size: 2.7rem;
+  font-weight: bolder;
+}

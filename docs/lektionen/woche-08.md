@@ -45,7 +45,6 @@ Nächste Woche steht der [**LB2**](../beurteilungen/LB2.md) an!
 
 :::
 
-
 ## Vorbereitungs Aufgaben
 
 - [Konntrollstrukturen](../3a-konditionen/uebungen.md)
