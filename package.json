@@ -11,6 +11,7 @@
     "build-marp": "marp --engine ./src/marp/async-engine.mjs --html --allow-local-files --theme slides/theme.css -I slides --output build/slides",
     "build-marp-pdf": "marp --engine ./src/marp/async-engine.mjs --html --allow-local-files --theme slides/theme.css -I slides --output build/slides --pdf --pdf-outlines --pdf-outlines.pages=false",
     "copy-marp-images": "cp -r slides/images build/slides/images",
+    "copy-marp-js": "cp -r slides/js build/slides/js",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",

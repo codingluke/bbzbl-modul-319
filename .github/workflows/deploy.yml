@@ -24,7 +24,7 @@ jobs:
       - name: Build website
         run: yarn build
       - name: Build slides 
-        run: yarn build-marp && yarn run copy-marp-images 
+        run: yarn build-marp && yarn copy-marp-images && yarn copy-marp-js
       - name: Build slides PDFs
         run: yarn build-marp-pdf
       - name: Build page PDF
