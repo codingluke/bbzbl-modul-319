@@ -19,61 +19,32 @@ Programmierung einer einfachen ShoppingList.
 
 <details><summary>Musterlösung:</summary>
 
-```java title="SimpleMemory.java"
+```java title="ShoppingList.java"
 import mytools.StdInput;
 
-public class SimpleMemory {
+public class ShoppingList {
 
 	public static void main(String[] args) {
-		String[] cards = new String[10];
-		cards[0] = "Car";
-		cards[1] = "Pen";
-		cards[2] = "Star";
-		cards[3] = "Apple";
-		cards[4] = "Book";
-		cards[5] = "Printer";
-		cards[6] = "Highway";
-		cards[7] = "Cat";
-		cards[8] = "Clock";
-		cards[9] = "Tree";
+		String[] shoppingList = new String[10];
 
-		String answer = "";
-		int correctAnsweser = 0;
+		String thing = "";
+		int count = 0;
 
-		while (!answer.equals("stop") && correctAnsweser < 10) {
-			System.out.println("");
-			System.out.println("choose: g=guess, l=learn, stop");
-			answer = StdInput.readString();
+		do {
+			System.out.println("Please add an element to the shopping list or press ENTER to terminate");
+			thing = StdInput.readString();
+			shoppingList[count] = thing;
+			count++;
+		} while(!thing.equals("") && count < 10);
 
-			if (answer.equals("l")) {
-				for (int i = 0; i < cards.length; i++) {
-					System.out.print("\t" + cards[i]);
-				}
-			}
+		int i = 0;
 
-			if (answer.equals("g")) {
-				System.out.println("Guess a word: ");
+ 		System.out.println("The contents of your shopping list");
 
-				String guess = StdInput.readString();
-
-				boolean contained = false;
-
-				for (int i = 0; i < cards.length; i++) {
-					if (cards[i].equals(guess)) {
-						contained = true;
-					}
-				}
-
-				if (contained) {
-					System.out.println("Woaw! Great!");
-					correctAnsweser++;
-				} else {
-					System.out.println("Oh, better guess next time");
-				}
-			}
+		while(i < 10) {
+			System.out.println(shoppingList[i]);
+			i++;
 		}
-
-		System.out.println("Great, you did remember all cards");
 	}
 }
 ```
