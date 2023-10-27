@@ -26,6 +26,12 @@ footer: BBZBL / Lukas Hodel / Applikationen entwerfen und implementieren
 
 ---
 
+<!-- _class: big center -->
+
+# :juggling_person: Üben
+
+---
+
 <!-- _class: big emoji-list -->
 
 # :checkered_flag: LB 2 / **Vorbereitung**
@@ -33,7 +39,8 @@ footer: BBZBL / Lukas Hodel / Applikationen entwerfen und implementieren
 - :computer: Workstation neustarten
 
 - :cloud: Windows VM starten
-- :bust_in_silhouette: **`e-`** `vorname.nachname` _(wie gewohnt, mit **e-** vorangestellt!)_
+- :bust*in_silhouette: **`e-`** `vorname.nachname` *(wie gewohnt, mit **e-**
+  vorangestellt!)\_
 - :file_folder: **`L:\Klassenarbeiten\M403-LB2-INB23AB`**
   - **`LB2.zip`** entzippen
   - in Eclipse **`File -> Open Projects from File System...`**
