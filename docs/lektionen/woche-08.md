@@ -38,7 +38,7 @@ Nächste Woche steht der [**LB2**](../beurteilungen/LB2.md) an!
 ### Hilfmittel
 
 - Das :book:
-  [**Faktenblatt zum Modul 403**](../beurteilungen/images/Formelsammlung-Faktenblatt.pdf).
+  [**Faktenblatt zum Modul 319**](../beurteilungen/images/Formelsammlung-Faktenblatt.pdf).
   Audrucken und mitnehmen
 - Eine **eigene Zusammenfassung**, welche Sie selbst während des Moduls erstellt
   haben, verwenden.

@@ -6,15 +6,13 @@ keywords:
 
 # 🤗 Willkommen im Modul 319
 
-Willkommen auf der Website, die Sie in das Programmieren einführt, und zwar je
-nach EFZ-Fachrichtung mit den Modulen 319 und 403.
-
-Hier finden Sie Informationen und Unterlagen zum Unterricht.
+Willkommen auf der Website, die Sie in das Programmieren einführt. Hier finden
+Sie Informationen und Unterlagen zum Unterricht.
 
 :::tip
 
 - Ausserdem finden Sie auch weiterführende Links.
-- Auf diese werden Sie im Unterricht nicht ausdrücklich hingewiesen.
+- Auf diese werden Sie im Unterricht nicht ausdrücklich hingewiesen!
 
 :::
 

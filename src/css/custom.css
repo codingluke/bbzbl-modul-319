@@ -6,7 +6,8 @@
 
 @font-face {
   font-family: "Noto Emoji";
-  src: url("../../static/fonts/NotoEmoji-VariableFont_wght.ttf") format("truetype");
+  src: url("../../static/fonts/NotoEmoji-VariableFont_wght.ttf")
+    format("truetype");
 }
 
 /* You can override the default Infima variables here. */
@@ -112,6 +113,11 @@ iframe[src$="pdf"] {
   }
 }
 
+.grid div {
+  container-type: inline-size;
+  container-name: markdown-grid;
+}
+
 @media print, (min-width: 996px) {
   .grid {
     display: grid;
@@ -159,6 +165,15 @@ img[src$="#left"] {
   display: block;
   margin-right: auto;
   width: 70%;
+}
+
+li.featured {
+  border-left: 2px solid var(--ifm-color-primary);
+  background-color: var(--ifm-breadcrumb-item-background-active);
+}
+
+li.hidden {
+  display: none;
 }
 
 /* codeblock magic comments */

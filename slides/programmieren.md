@@ -71,14 +71,20 @@ um ein **generelles Problem zu lösen**.
 
 ---
 
-<!-- _class: emoji-list -->
+<!-- _class: big center -->
 
-# Was ist nun Programmieren??
+# Was ist nun Programmieren?
+---
 
-- :teacher: Programmieren ist das Beschreiben einer Problemlösung mit Hilfe der
+<!-- _class: emoji-list big -->
+
+
+Programmieren ist das Beschreiben einer Problemlösung mit Hilfe der
   drei Grundstrukturen, sodass es ein Computer versteht und ausführen kann.
 
-- :bulb: **Ein Computerprogramm ist daher immer auch ein Algorithmus.**
+<br/>
+
+- ### :bulb: Ein Computerprogramm ist daher immer auch ein Algorithmus.
 
 ![bg right fit](./images/human-to-robot.jpg)
 

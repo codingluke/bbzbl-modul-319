@@ -19,7 +19,6 @@ h1 {
   letter-spacing: 0.5px;
   position: relative;
   line-height: 1.4em;
-  font-size: 1.03em;
   padding: 50px;
   list-style: none;
   text-align: left;
@@ -55,6 +54,7 @@ h1 {
   display: block;
   top: 0;
 }
+
 .timeline .event:before {
   left: -160px;
   color: var(--ifm-font-color-base);
@@ -141,6 +141,30 @@ h1 {
 .timeline .event.active h3 {
   font-weight: 600;
 }
+
+/* in grid view */
+@container markdown-grid (min-width: 0px) {
+  .timeline .event:before,
+  .timeline .event:after {
+    display: none;
+  }
+  .timeline {
+    border: none;
+    margin: 0;
+    padding: 0;
+    font-weight: inherit;
+    font-size: 1rem;
+  }
+  .container h1 {
+    display: none;
+  }
+  .container {
+    margin-top: 0;
+    text-align: left;
+    box-sizing: border-box;
+  }
+}
+
 
 /* everything below is for demo appearances and not important to the concept */
 
