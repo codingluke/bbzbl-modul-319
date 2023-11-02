@@ -91,7 +91,7 @@ und Lösungen dafür zu entwickeln.
 
 # Webseite
 
-https://codingluke.github.io/bbzbl-modul-319
+[https://codingluke.github.io/bbzbl-modul-319](https://codingluke.github.io/bbzbl-modul-319)
 
 Der ganze Unterrichtsstoff kann auf der Webseite nachgeschlagen werden!
 
@@ -103,7 +103,7 @@ Lass uns **zusammen** ergründen, was es mit Algorithmen so auf sich hat und was
 diese mit Programmieren zu tun haben.
 
 - Öffnen Sie nun alle :link:
-  [Vom Algorithmus zum Programm](https://codingluke.github.id/bbzbl-modul-319/docs/woche01/1a-grundlagen-algorithmus/)
+  [Vom Algorithmus zum Programm](https://codingluke.github.io/bbzbl-modul-319/docs/woche01/1a-grundlagen-algorithmus/)
 
 ## :dart: Ziele
 
@@ -119,7 +119,7 @@ Das `HelloWorld` Programm gibt es für alle Programmiersprachen. Wir wolle es in
 Programmieren anzufreunden.
 
 - Öffnen Sie nun alle das :link:
-  [HelloWorld Programm](https://codingluke.github.id/bbzbl-modul-319/docs/woche01/1b-hello-world/)
+  [HelloWorld Programm](https://codingluke.github.io/bbzbl-modul-319/docs/woche01/1b-hello-world/)
 
 ## :dart: Ziele
 
@@ -133,7 +133,7 @@ Programmieren anzufreunden.
 
 Eine gute Struktur und Einheitlichkeit ist wesentlich beim Programmieren. Bitte
 Lest alle die Seite :link:
-[Konventionen und Kommentare](https://codingluke.github.id/bbzbl-modul-319/docs/woche01/aufgabe5-konventionen)
+[Konventionen und Kommentare](https://codingluke.github.io/bbzbl-modul-319/docs/woche01/aufgabe5-konventionen)
 und löst die Aufgaben:
 
 ### A1: Konventionen in der HelloWolrd Klasse
