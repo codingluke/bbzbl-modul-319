@@ -70,7 +70,7 @@ Der Aufbau der Anweisung ist also so:
 
 :::
 
-## :pencil: Aufgaben
+## :pen: Aufgaben
 
 ### Wiederholte Ausgabe
 
@@ -92,7 +92,8 @@ int zaehler = -5;
 
 Bis zu welchem Wert muss diese Variable laufen?
 
-<details><summary>Musterlösung:</summary>
+<details>
+<summary>Musterlösung:</summary>
 
 ```java title="AASwitzerland.java"
 public class AASwitzerland {
@@ -153,7 +154,8 @@ Schreiben Sie ein Programm, welches eine Multiplikationstafel ausgibt.
 10 x 2 = 20
 ```
 
-<details><summary>Musterlösung:</summary>
+<details>
+<summary>Musterlösung:</summary>
 
 ```java title="ABMultiplication.java"
 import mytools.StdInput;

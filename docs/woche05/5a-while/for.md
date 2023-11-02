@@ -230,7 +230,7 @@ das nach der 5. Wiederholung der Fall sein.
 4
 ```
 
-## :pencil: Aufgaben
+## :pen: Aufgaben
 
 ### Auftrag 1
 
@@ -241,7 +241,7 @@ das nach der 5. Wiederholung der Fall sein.
    Sie die entsprechenden Zahlen aus.
 
 <details>
-  <summary>Musterlösung</summary>
+<summary>Musterlösung</summary>
 
 ```java
 public class A1aFor1to10 {
@@ -315,7 +315,8 @@ public class A1dFor {
 **********
 ```
 
-<details><summary>Musterlösung</summary>
+<details>
+<summary>Musterlösung</summary>
 
 ```java
 public class A2aSterne {
@@ -363,7 +364,8 @@ werden. Die Ausgabe sollte also so aussehen :
 **********
 ```
 
-<details><summary>Musterlösung</summary>
+<details>
+<summary>Musterlösung</summary>
 
 ```java
 public class A2bSterne {
@@ -401,7 +403,8 @@ Anzahl Zeilen: 5
 *****
 ```
 
-<details><summary>Musterlösung</summary>
+<details>
+<summary>Musterlösung</summary>
 
 ```java
 import mytools.StdInput;
@@ -471,7 +474,8 @@ xxxx
 xxxxx
 ```
 
-<details><summary>Musterlösung</summary>
+<details>
+<summary>Musterlösung</summary>
 
 ```java
 import mytools.StdInput;
@@ -554,7 +558,8 @@ Flagge 2
 @@@@@
 ```
 
-<details><summary>Musterlösung</summary>
+<details>
+<summary>Musterlösung</summary>
 
 ```java
 import mytools.StdInput;

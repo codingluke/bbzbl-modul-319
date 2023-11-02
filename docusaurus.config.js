@@ -1,8 +1,10 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
+//
 
-const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+const {themes} = require('prism-react-renderer');
+const lightCodeTheme = themes.github;
+const darkCodeTheme = themes.dracula;
 const oembed = require("@agentofuser/remark-oembed");
 const modulConfig = require("./modul.config");
 
@@ -47,7 +49,7 @@ const config = {
   ],
 
   plugins: [
-    "@orama/plugin-docusaurus",
+    // "@orama/plugin-docusaurus",
     [
       "devserver-config",
       {
@@ -81,7 +83,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl: `https://github.com/codingluke/${modulConfig.repoName}/tree/main/`,
-          remarkPlugins: [oembed],
+          // remarkPlugins: [oembed],
         },
         // blog: {
         //   showReadingTime: true,
@@ -135,7 +137,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-        additionalLanguages: ["java"],
+        additionalLanguages: ["java", "bash", "diff", "json"],
         magicComments: [
           // Remember to extend the default highlight class name as well!
           {

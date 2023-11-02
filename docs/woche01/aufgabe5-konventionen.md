@@ -19,7 +19,7 @@ wichtige Konventionen vor.
 
 ## Konventionen
 
-### :pencil: A1: Konventionen in der `HelloWolrd` Klasse
+### :pen: A1: Konventionen in der `HelloWolrd` Klasse
 
 - Öffnen Sie die `HelloWorld.java` Datei und lesen die unten stehenden
   Konventionen.
@@ -95,7 +95,7 @@ Es gibt gute Gründe für Kommentare:
 - erläutern **warum** eine Entscheidung getroffen wurde
 - "TODO oder FIXME-Kommentare" für Infos was man in Zukunft verbessern sollte
 
-### :pencil: A2: Kommentieren Sie Ihr «HelloWorld» Programm
+### :pen: A2: Kommentieren Sie Ihr «HelloWorld» Programm
 
 Machen Sie sich m it dem "Einzeiligem Kommentar" vertraut und beschreiben Sie
 mit Kommentaren Ihr «HelloWorld»-Programm, so dass Sie sich später wieder an

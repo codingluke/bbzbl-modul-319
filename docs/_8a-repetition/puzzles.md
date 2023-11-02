@@ -60,7 +60,7 @@ public static int puzzle(int x) {
 }
 ```
 
-## :pencil: Aufgaben
+## :pen: Aufgaben
 
 Hier finden Sie nun viele weitere ähnliche Aufgaben Lösungen.
 

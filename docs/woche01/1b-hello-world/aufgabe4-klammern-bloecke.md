@@ -3,7 +3,7 @@ keywords:
   - pdf
 ---
 
-# Analyse des bisherigen Programms
+# Analyse des Programms
 
 Nun haben wir schon ein ausführbares Programm. Hier wird nun analysiert wie es
 genau aufgebaut ist. 
@@ -50,7 +50,7 @@ Fertigungsstrasse.
 
 :::
 
-### :pencil: Aufgabe 1: Blöcke finden
+### :pen: A3: Blöcke finden
 
 Wenden Sie nun das im oberen Abschnitt vorgestellte Konzept der Blöcke an.
 Bisher haben wir die Klassen und `main`-Methode von Java kennen gelernt.
@@ -91,7 +91,7 @@ Java-Klassen **(3)** befinden sich in Eclipse in einem Verzeichnis namens `src`
 
 ![class files](./images/class-files.png)
 
-### :pencil: Aufgabe 2: Klasse Umbenennen
+### :pen: A4: Klasse Umbenennen
 
 - Nennen Sie die Klasse (Nicht Datei) `HelloWorld` in `HoiWelt` um.
   - Sehen Sie den Fehler?
@@ -199,7 +199,7 @@ Wenn Ihr in Eclipse Dateien erstellt, werden automatisch auch Dateien auf dem
 Dateisystem angelegt. Die Struktur ist meistens gleich zum Project-Explorer von
 Eclipse.
 
-### :pencil: Aufgabe 3: _HelloWorld.java_ Datei finden
+### :pen: A5: _HelloWorld.java_ Datei finden
 
 Und wo liegt nun die _HelloWorld.java_ Datei?
 

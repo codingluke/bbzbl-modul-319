@@ -12,7 +12,7 @@ Was sind überhaupt Programme? und was haben diese mit Algorithmen zu tun?
 - Sie können erklären, was ein Algorithmus ist und welches die wichtigsten
   Kontrollstrukturen sind.
 
-## :teacher: Präsentation
+## :man_teacher: Präsentation
 
 [:computer: Open in Browser](pathname:///slides/programmieren) |
 [:floppy_disk: download PDF](pathname:///slides/programmieren.pdf)
@@ -37,14 +37,15 @@ Bedeutung von Programmen und Algorithmen denken.
 
 </div></div>
 
-## :pencil: A1: Welche Tätigkeiten mit "Problemlösungsschritten" sind Ihnen bekannt?
+## :pen: A1: Welche Tätigkeiten mit "Problemlösungsschritten" sind Ihnen bekannt?
 
 Sie konnten im Unterricht diskutieren oder dies nun noch selbst als
 Gedankenexperiment nachholen, welche Tätigkeiten Ihnen einfallen, bei denen Sie
 Probleme analysiert, Lösungen gesucht und gefunden haben, und einen Bauplan
 entwickelt haben, um eine Aufgabe oder ein Problem zu lösen.
 
-<details><summary>Einige Beispiele: Bitte zuerst selbst denken!</summary>
+<details>
+<summary>Einige Beispiele: Bitte zuerst selbst denken!</summary>
 
 Hier einige Beispiele von Tätigkeiten, die es erforderlich machen, Probleme
 auseinanderzunehmen und in einzelnen Schritten zu lösen.
@@ -100,7 +101,7 @@ Folgende Eigenschaften sind relevant:
 
 </div></div>
 
-## :pencil: A2: Definition Algorithmus und Kontrollstrukturen
+## :pen: A2: Definition Algorithmus und Kontrollstrukturen
 
 In diesem Auftrag geht es darum, zu verstehen was Algorithmen überhaupt sind und
 welche grundlegenden Kontrollstrukturen sie mitdefinieren.
@@ -108,7 +109,8 @@ welche grundlegenden Kontrollstrukturen sie mitdefinieren.
 - :link:
   [**Aufgabenblatt**](https://drive.google.com/file/d/1ToXES69-oAbJMEc9H9H4NJ404kYyDtIe/view)
 
-<details><summary>Musterlösung</summary>
+<details>
+<summary>Musterlösung</summary>
 
 :link:
 [**Ausgefülltes Aufgabenblatt**](https://drive.google.com/file/d/1-j3JmnWYRX8tI3H8-T-2K5RE-FV5YWdO/view)
@@ -136,7 +138,7 @@ welche grundlegenden Kontrollstrukturen sie mitdefinieren.
 
 </details>
 
-## :pencil: A3: Geheimschrift
+## :pen: A3: Geheimschrift
 
 Sie tauschen häufiger Mitteilungen aus z.B. über das Handy. Leider können diese
 kurzen Botschaften auch von anderen Familienmitgliedern oder Freunden gelesen
@@ -152,13 +154,14 @@ jtu fjo Uftu!"**.
   zusammen mit diesem Text, den es zu verschlüsseln gilt: „Zaubern ist eine
   Kunst!“
 
-<details><summary>Lösung: "Zaubern ist eine Kunst"</summary>
+<details>
+<summary>Lösung: "Zaubern ist eine Kunst"</summary>
 
 Abvcfso jtu fjof Lvotu!
 
 </details>
 
-## :pencil: A4: Grösster gemeinsamer Teiler (ggT)
+## :pen: A4: Grösster gemeinsamer Teiler (ggT)
 
 **Grösster gemeinsamer Teiler**, der älteste Algorithmus der Welt! :scream:
 
@@ -189,7 +192,7 @@ Der ggT ist **4**, wieso?
 
 </div></div>
 
-## :pencil: A5: Sprecher suchen
+## :pen: A5: Sprecher suchen
 
 <div class="grid"><div>
 
@@ -217,7 +220,7 @@ sich darauf, den Ältesten mit dieser Aufgabe zu betrauen.
 
 </div></div>
 
-## :pencil: A6: Wörter suchen
+## :pen: A6: Wörter suchen
 
 In solchen Rätseln sind in einem oft quadratischen Feld Wörter versteckt, die
 horizontal, vertikal oder diagonal (auch rückwärts) geschrieben sind. In einem

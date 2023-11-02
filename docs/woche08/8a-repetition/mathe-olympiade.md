@@ -108,7 +108,8 @@ Fehleranzahl: 2
 - Nachdem alle Aufgaben gelöst wurden, geben Sie die Anzahl Fehler auf die
   Konsole aus.
 
-<details><summary>Musterlösung:</summary>
+<details>
+<summary>Musterlösung:</summary>
 
 ```java title="MathOlympiad.java"
 import mytools.StdInput;

@@ -113,11 +113,6 @@ iframe[src$="pdf"] {
   }
 }
 
-.grid div {
-  container-type: inline-size;
-  container-name: markdown-grid;
-}
-
 @media print, (min-width: 996px) {
   .grid {
     display: grid;

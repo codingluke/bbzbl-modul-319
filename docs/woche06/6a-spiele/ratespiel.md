@@ -32,7 +32,7 @@ public static int randomNumberInRange(int min, int max) {
 
 :::
 
-## :pencil: Auftrag
+## :pen: Auftrag
 
 Erstellen Sie das Programm namens `GuessGame`.
 
@@ -56,7 +56,8 @@ folgenden Erweiterungen in das Programm ein:
 3. Zählen Sie die Anzahl Versuche, die der Benutzer dazu braucht und geben Sie
    dies am Ende auf die Konsole aus.
 
-<details><summary>Musterlösung:</summary>
+<details>
+<summary>Musterlösung:</summary>
 
 ```java title="Guess.java"
 import mytools.StdInput;

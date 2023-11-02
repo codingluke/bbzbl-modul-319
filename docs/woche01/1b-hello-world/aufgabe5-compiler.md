@@ -3,7 +3,7 @@ keywords:
   - pdf
 ---
 
-# Java Quellcode ausführen
+# Java Kompilierung
 
 Wenn die Klassen ausgeführt werden, erfolgt durch die Entwicklungsumgebung eine
 Umwandlung im Hintergrund, und aus den `.java`-Dateien werden `.class`-Dateien,
@@ -12,12 +12,10 @@ können ausgeführt werden.
 
 ![src bin](./images/src-bin.png)
 
-### :pencil: Aufgabe 1: Das `bin`-Verzeichnis und `.class`-Dateien suchen
+## :pen: A6: Das `bin`-Verzeichnis und `.class`-Dateien suchen
 
 1. auf dem `src`-Ordner die rechte Maustaste betätigen und dann _Show in =>
-   System Explorer_ wählen.
-
-![show in](./images/show-in.png)
+   System Explorer_ wählen. ![show in](./images/show-in.png)
 
 2. Suchen Sie von hier aus auch das `bin`-Verzeichnis. Sie sollten darin die
    `class`-Dateien sehen. Diese werden jeweils bei jeglicher Veränderung durch
@@ -52,7 +50,7 @@ erläutern:
 | An jedem Standort hat die Firma Personen angestellt die Englisch können und vom Englischen in die jeweilige Landessprache übersetzen kann. Damit die lokalen Arbeiter effizient ihre Aufgaben erledigen können.                                                  | Der Bytecode (Englisch), wird also bei jedem Betriebssystem lokal übersetzt rsp. interpretiert, damit es auf dem jeweiligen Betriebssystem ausgeführt werden kann. **Dies ist die Arbeit der Java Virtual Machine.** |
 
 Nun nach dieser Tabelle, liest bitte nochmals
-[von vorne](#1-sourcecode-compiler-interpreter)
+[von vorne](#quellcode-compiler-interpreter)
 
 :::tip Don't Panik!
 
@@ -62,9 +60,8 @@ Nun nach dieser Tabelle, liest bitte nochmals
 
 :::
 
-## :pencil: Aufgabe 2: Umwandlung Visualisieren
+## :pen: A7: Umwandlung Visualisieren
 
 Erstellen Sie eine eigene Visualisierung, welche für Ihr HelloWorld Programm
 aufzeigt, wie der Sourcecode zu einem ausführbaren Programm überführt wird,
 welcher von einem Interpreter ausgeführt werden kann.
-

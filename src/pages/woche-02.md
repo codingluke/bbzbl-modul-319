@@ -31,7 +31,7 @@ hide_table_of_contents: true
 
 ## :student: Datentypen / Variablen
 
-:pencil: Aufgaben lösen / :checkered_flag: **Thema 1**
+:pen: Aufgaben lösen / :checkered_flag: **Thema 1**
 
 </Event>
 <Event time="14:20">
@@ -43,7 +43,7 @@ hide_table_of_contents: true
 
 ## :student: Datentypen / Variablen
 
-- :pencil: Aufgaben lösen / :checkered_flag: **Thema 1**
+- :pen: Aufgaben lösen / :checkered_flag: **Thema 1**
 
 - :superhero: oder Operatoren! **Thema 2**
 

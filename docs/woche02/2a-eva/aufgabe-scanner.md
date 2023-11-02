@@ -66,7 +66,7 @@ class MyClassWithScanner { // INFO: Der Klassenname ist beliebig!
 | nextFloat()  | float            |
 | nextDouble() | double           |
 
-## :pencil: Aufgabe: Text mit `Scanner` einlesen
+## :pen: Aufgabe: Text mit `Scanner` einlesen
 
 - Informieren Sie den Benutzer, dass er nun seinen Namen eintippen soll.
 - Legen Sie eine `String`-Variable an, um die Antwort zu speichern.

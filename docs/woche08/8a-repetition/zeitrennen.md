@@ -65,7 +65,8 @@ Folgende Hinweise helfen Ihnen bei der Implementierung:
   einsortiert wurden, geben Sie die Rangliste auf die Konsole aus. Dies kann
   ebenfalls in eine Methode namens `printRanking` ausgelagert werden.
 
-<details><summary>Musterlösung:</summary>
+<details>
+<summary>Musterlösung:</summary>
 
 ```java title="BikeTimeTrial.java"
 public class BikeTimeTrial {

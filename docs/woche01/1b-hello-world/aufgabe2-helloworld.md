@@ -2,7 +2,7 @@
 keywords:
   - pdf
 ---
-# Programm erstellen 
+# 🖊 A2: "HelloWorld" programmieren
 
 Das «Hello-World»-Programm ist das wohl berühmteste Programm für Programmierer.
 Es ist das erste Programm, dass man üblicherweise programmiert, wenn man mit dem
@@ -77,7 +77,8 @@ System.out.println("Hello World");
    wird.<br/> In der Console sehen Sie die Ausgabe des Programms:
    ![Consolenausgabe](../../../images/helloworld/a1-helloworld-ausgabe.png)
 
-<details><summary>Musterlösung</summary>
+<details>
+<summary>Musterlösung</summary>
 
 ```java title="HelloWorld.java"
 public class HelloWorld {

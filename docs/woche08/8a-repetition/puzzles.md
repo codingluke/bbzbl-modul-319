@@ -60,7 +60,7 @@ public static int puzzle(int x) {
 }
 ```
 
-## :pencil: Aufgaben
+## :pen: Aufgaben
 
 Hier finden Sie nun viele weitere ähnliche Aufgaben Lösungen.
 
@@ -97,7 +97,8 @@ public class Puzzle0002 {
 }
 ```
 
-<details><summary>Musterlösung: Puzzle0002</summary>
+<details>
+<summary>Musterlösung: Puzzle0002</summary>
 
 ```java
 public static int puzzle(int x) {
@@ -133,7 +134,8 @@ public class Puzzle0003 {
 }
 ```
 
-<details><summary>Musterlösung: Puzzle0003</summary>
+<details>
+<summary>Musterlösung: Puzzle0003</summary>
 
 ```java
 public static int puzzle(int x) {
@@ -169,7 +171,8 @@ public class Puzzle0004 {
 }
 ```
 
-<details><summary>Musterlösung: Puzzle0004</summary>
+<details>
+<summary>Musterlösung: Puzzle0004</summary>
 
 ```java
 public static int puzzle(int x, int y) {
@@ -205,7 +208,8 @@ public class Puzzle0103 {
 }
 ```
 
-<details><summary>Musterlösung: Puzzle0103</summary>
+<details>
+<summary>Musterlösung: Puzzle0103</summary>
 
 ```java
 public static int puzzle(int x) {
@@ -241,7 +245,8 @@ public class Puzzle0104 {
 }
 ```
 
-<details><summary>Musterlösung: Puzzle0104</summary>
+<details>
+<summary>Musterlösung: Puzzle0104</summary>
 
 ```java
 public static int puzzle(int x) {
@@ -277,7 +282,8 @@ public class Puzzle0105 {
 }
 ```
 
-<details><summary>Musterlösung: Puzzle0105</summary>
+<details>
+<summary>Musterlösung: Puzzle0105</summary>
 
 ```java
 public static int puzzle(int x) {
@@ -313,7 +319,8 @@ public class Puzzle0106 {
 }
 ```
 
-<details><summary>Musterlösung: Puzzle0106</summary>
+<details>
+<summary>Musterlösung: Puzzle0106</summary>
 
 ```java
 public static int puzzle(int x) {
@@ -349,7 +356,8 @@ public class Puzzle0107 {
 }
 ```
 
-<details><summary>Musterlösung: Puzzle0107</summary>
+<details>
+<summary>Musterlösung: Puzzle0107</summary>
 
 ```java
 public static int puzzle(int x, int y) {
@@ -385,7 +393,8 @@ public class Puzzle0108 {
 }
 ```
 
-<details><summary>Musterlösung: Puzzle0108</summary>
+<details>
+<summary>Musterlösung: Puzzle0108</summary>
 
 ```java
 public static int puzzle(int x, int y) {
@@ -421,7 +430,8 @@ public class Puzzle0109 {
 }
 ```
 
-<details><summary>Musterlösung: Puzzle0109</summary>
+<details>
+<summary>Musterlösung: Puzzle0109</summary>
 
 ```java
 public static int puzzle(int x, int y) {
@@ -456,7 +466,8 @@ public class Puzzle0110 {
 }
 ```
 
-<details><summary>Musterlösung: Puzzle0110</summary>
+<details>
+<summary>Musterlösung: Puzzle0110</summary>
 
 ```java
 public static int puzzle(int x, int y) {
@@ -491,7 +502,8 @@ public class Puzzle0112 {
 }
 ```
 
-<details><summary>Musterlösung: Puzzle0112</summary>
+<details>
+<summary>Musterlösung: Puzzle0112</summary>
 
 ```java
 public static int puzzle(int x) {
@@ -526,7 +538,8 @@ public class Puzzle0113 {
 }
 ```
 
-<details><summary>Musterlösung: Puzzle0113</summary>
+<details>
+<summary>Musterlösung: Puzzle0113</summary>
 
 ```java
 public static int puzzle(int x) {
@@ -561,7 +574,8 @@ public class Puzzle0114 {
 }
 ```
 
-<details><summary>Musterlösung: Puzzle0114</summary>
+<details>
+<summary>Musterlösung: Puzzle0114</summary>
 
 ```java
 public static int puzzle(int x) {
@@ -602,7 +616,8 @@ public class Puzzle0201 {
 }
 ```
 
-<details><summary>Musterlösung: Puzzle0201</summary>
+<details>
+<summary>Musterlösung: Puzzle0201</summary>
 
 ```java
 public static int puzzle(int[] v) {
@@ -643,7 +658,8 @@ public class Puzzle0202 {
 }
 ```
 
-<details><summary>Musterlösung: Puzzle0202</summary>
+<details>
+<summary>Musterlösung: Puzzle0202</summary>
 
 ```java
 public static int puzzle(int n) {
@@ -680,7 +696,8 @@ public class Puzzle0203 {
 }
 ```
 
-<details><summary>Musterlösung: Puzzle0203</summary>
+<details>
+<summary>Musterlösung: Puzzle0203</summary>
 
 ```java
 public static int puzzle(int n) {
@@ -723,7 +740,8 @@ public class Puzzle0204 {
 }
 ```
 
-<details><summary>Musterlösung: Puzzle0204</summary>
+<details>
+<summary>Musterlösung: Puzzle0204</summary>
 
 ```java
 public static int puzzle(String s) {
@@ -766,7 +784,8 @@ public class Puzzle0205 {
 }
 ```
 
-<details><summary>Musterlösung: Puzzle0205</summary>
+<details>
+<summary>Musterlösung: Puzzle0205</summary>
 
 ```java
 public static int puzzle(String s, char x) {

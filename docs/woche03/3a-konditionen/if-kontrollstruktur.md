@@ -97,7 +97,8 @@ flowchart TD
 
 </div>
 
-<details><summary>Praktisches Beispiel</summary>
+<details>
+<summary>Praktisches Beispiel</summary>
 
 Im praktischen Beispiel wollen wir herausfinden ob es sich um ein Kind,
 Jugendlicher oder Erwachsener handelt. Dazu existiert eine Variable `int age` in
@@ -203,7 +204,8 @@ if (giveDiscount) { // Variable vom Datentyp `boolean` in der if-Kontrollstruktu
 }
 ```
 
-<details><summary>Weitere Beispiele</summary>
+<details>
+<summary>Weitere Beispiele</summary>
 
 Hier noch mehr Beispiele wie Boolshe Ausdrücke in boolean Variablen gespeichert
 und verwendet werden können. Laut Konvention beginnen diese Variablennamen mit
@@ -257,7 +259,8 @@ if (amount < 100 && age < 18) {
 
 </div></div>
 
-<details><summary>Wahrheitstabellen</summary>
+<details>
+<summary>Wahrheitstabellen</summary>
 
 <div className="grid"><div>
 
@@ -299,7 +302,7 @@ gelegentlich noch unterbrochen vertikalen Strich dargestellt).
 
 :::
 
-## :pencil: Auftrag 1
+## :pen: Auftrag 1
 
 Erstellen Sie ein Programm, welches:
 
@@ -307,7 +310,8 @@ Erstellen Sie ein Programm, welches:
   _([Eingabe einlesen](../2a-eva/aufgabe2-eingabe.md))_
 - bei Einkäufen über CHF 100 einen Rabatt von 15% gewährt
 
-<details><summary>Musterlösung:</summary>
+<details>
+<summary>Musterlösung:</summary>
 
 ```java
 import mytools.StdInput;
@@ -327,7 +331,7 @@ public class A1DiscountEvaluation {
 
 </details>
 
-## :pencil: Auftrag 2
+## :pen: Auftrag 2
 
 Erstellen Sie Programm, welches:
 
@@ -339,7 +343,8 @@ Erstellen Sie Programm, welches:
 - Für Pakete >= 15kg (ab 15kg) wird auf die Spedition verwiesen. Diese können
   nicht versendet werden.
 
-<details><summary>Musterlösung</summary>
+<details>
+<summary>Musterlösung</summary>
 
 ```java
 import mytools.StdInput;
@@ -373,7 +378,7 @@ public class A2ParcelPrice {
 
 </details>
 
-## :pencil: Auftrag 3
+## :pen: Auftrag 3
 
 Bauen Sie folgenden Abschnitt in ein Programm ein und untersuchen Sie, warum die
 Ausgabe des Programms falsch ist. Warum ist dieser Fehler so schwer zu
@@ -386,7 +391,8 @@ if (value > 100) ; {
 }
 ```
 
-<details><summary>Musterlösung</summary>
+<details>
+<summary>Musterlösung</summary>
 
 Das Semikolon `;` nach der `if (value > 100)` Anweisung is zu viel. Es ist
 jedoch **syntaktisch korrekt** und ergibt keinen Error in Eclipse! Nur macht es
@@ -407,7 +413,7 @@ if (value > 100); // Dieser Ausdruck macht nix! NIE!
 
 </details>
 
-## :pencil: Auftrag 4 - Reflexion
+## :pen: Auftrag 4 - Reflexion
 
 Inzwischen haben Sie eine Vorstellung, was Syntax in Java bedeutet. Sie haben
 inzwischen auch das eine oder andere Programm erstellt. Vermutlich waren einige

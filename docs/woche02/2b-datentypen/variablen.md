@@ -31,7 +31,7 @@ mit `l`. Die Spezifikas pro Datentyp finden Sie in der Tabelle oberhalb unter
    ...
 ```
 
-## :pencil: A2: Datentypen initialisieren
+## :pen: A2: Datentypen initialisieren
 
 Erstellen Sie ein Programm, in welchem Sie:
 

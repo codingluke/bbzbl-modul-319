@@ -16,7 +16,7 @@ ausgeführt werden. Also auf Zeilen im Methodenkörper.
 
 :::
 
-## :pencil: Grössere Zahl
+## :pen: Grössere Zahl
 
 Erstellen Sie ein Programm, das zwei Zahlen von der Konsole einliest.
 
@@ -58,7 +58,7 @@ public class A1EvaluateBiggerNumber {
 
 </details>
 
-## :pencil: Intervall
+## :pen: Intervall
 
 Erstellen Sie ein Programm, in dem eine Methode prüft, ob eine Zahl innerhalb
 eines Intervalls liegt.
@@ -96,7 +96,7 @@ public class A2Intervall {
 
 </details>
 
-## :pencil: Zinsrechner
+## :pen: Zinsrechner
 
 Erstellen Sie ein Programm, wobei Sie einen Sparbetrag eingeben können, sowie
 einen Zins in %.
@@ -130,7 +130,7 @@ public class A3InterestCalculator {
 
 </details>
 
-## :pencil: Einfacher Rechner
+## :pen: Einfacher Rechner
 
 Dieses Programm erwartet die Eingabe zweier Zahlen `a` und `b` durch den
 Benutzer, sowie den Rechenoperator als String `+` oder `*`.
@@ -190,7 +190,7 @@ public class A4SimpleCalculator {
 
 </details>
 
-## :pencil: Eigenes Beispiel
+## :pen: Eigenes Beispiel
 
 Adaptieren Sie ein Beispiel mit Methoden inkl. Parameter(n) und Rückgabewert auf
 eine eigene Situation.

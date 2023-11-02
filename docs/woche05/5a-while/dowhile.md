@@ -54,7 +54,7 @@ stateDiagram-v2
 
 :::
 
-## :pencil: Aufgaben
+## :pen: Aufgaben
 
 ### Fahrenheit Umrechner
 
@@ -72,7 +72,8 @@ fahrenheit = (9.0/5.0) * celsius + 32
 | Gefrierpunkt | 0       | 32         |
 | Kochpunkt    | 100     | 212        |
 
-<details><summary>Musterlösung:</summary>
+<details>
+<summary>Musterlösung:</summary>
 
 ```java title="ACFahrenheit.java"
 public class ACFahrenheit {
@@ -105,7 +106,8 @@ in einer Variablen festlegt.
 - Am Schluss soll «Sorry, your balance now is zero or below» auf die Konsole
   ausgegeben werden.
 
-<details><summary>Musterlösung:</summary>
+<details>
+<summary>Musterlösung:</summary>
 
 ```java title="AD1Balance.java"
 import mytools.StdInput;
@@ -144,7 +146,8 @@ Falls es nicht klappt ➔ if-Blatt lesen ➔ Regeln für String!
 
 :::
 
-<details><summary>Musterlösung:</summary>
+<details>
+<summary>Musterlösung:</summary>
 
 ```java title="AD2Password.java"
 import mytools.StdInput;

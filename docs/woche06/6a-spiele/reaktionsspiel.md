@@ -23,7 +23,7 @@ long time2 = System.currentTimeMillis();
 long reaction = time2 - time1;
 ```
 
-## :pencil: Auftrag
+## :pen: Auftrag
 
 Erstellen Sie ein Programm namens `ReactionGame`.
 
@@ -96,7 +96,8 @@ d
 Your score: 1.6265
 ```
 
-<details><summary>Musterlösung:</summary>
+<details>
+<summary>Musterlösung:</summary>
 
 ```java title="ReactionGame.java"
 import mytools.StdInput;

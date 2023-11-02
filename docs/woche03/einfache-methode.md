@@ -10,7 +10,7 @@ keywords:
 
 - Sie können einfache Methoden erklären und anwenden.
 
-## :pencil: Auftrag
+## :pen: Auftrag
 
 Das folgende Beispiel zeigt einen einfachen Methodenaufruf, ohne Parameter.
 

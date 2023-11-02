@@ -15,7 +15,7 @@ public int randomNumberInRange(int min, int max) {
 }
 ```
 
-## :pencil: Einspieler Variante
+## :pen: Einspieler Variante
 
 Erstellen Sie das Programm namens `DiceGame`. Dieses Programm:
 
@@ -36,7 +36,8 @@ You rolled: 6 3 4 6 1 2 4 1 6 3 1 5 4 4 4 6 5 6 2 6 4 6 4 5 5
 Total points: 103, number of dice: 25
 ```
 
-<details><summary>Musterlösung:</summary>
+<details>
+<summary>Musterlösung:</summary>
 
 ```java title="DiceGame.java"
 import mytools.StdInput;
@@ -77,7 +78,7 @@ public class DiceGame {
 
 </details>
 
-## :pencil: Zweispieler Variante
+## :pen: Zweispieler Variante
 
 Sie haben nun das Programm für einen Spieler erstellt. Kopieren Sie nun die
 Klasse `DiceGame` und benennen Sie die Kopie `DiceGame2Player`.
@@ -103,7 +104,8 @@ Number of dice Player 2: 29
 Player 2 wins.
 ```
 
-<details><summary>Musterlösung:</summary>
+<details>
+<summary>Musterlösung:</summary>
 
 ```java
 import mytools.StdInput;
@@ -160,7 +162,7 @@ public class DiceGame2Player {
 
 </details>
 
-## :pencil: Zusatz Variante
+## :pen: Zusatz Variante
 
 Machen Sie wiederum eine Kopie von `DiceGame2Player` und benennen Sie die Kopie
 `DiceGameVariante`.
@@ -169,7 +171,8 @@ Der Benutzer gibt zu Beginn z.B. nicht ein Punktemaximum an, sondern **definiert
 die Anzahl Würfe**, welche die Spieler würfeln sollen. Derjenigen mit der
 höheren Punktzahl gewinnt zum Schluss das Spiel.
 
-<details><summary>Musterlösung:</summary>
+<details>
+<summary>Musterlösung:</summary>
 
 ```java
 import mytools.StdInput;

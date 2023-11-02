@@ -9,7 +9,7 @@ keywords:
 
 <iframe src="/bbzbl-modul-319/slides/operatoren" width="100%" height="400px"></iframe>
 
-## :pencil: A1: Noten berechnen
+## :pen: A1: Noten berechnen
 
 Erstellen Sie ein Programm, welches vom Benutzer
 

@@ -17,7 +17,8 @@ Programmierung einer einfachen ShoppingList.
 - Wählen Sie geeignete Datentypen, Variablenbezeichnungen und
   Kontrollstrukturen.
 
-<details><summary>Musterlösung:</summary>
+<details>
+<summary>Musterlösung:</summary>
 
 ```java title="ShoppingList.java"
 import mytools.StdInput;

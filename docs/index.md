@@ -46,7 +46,8 @@ Musterlösungen befinden sich immer in einer ausklappbaren Box. Ihr könnt alle
 Lösungen direkt auf der Webseite abrufen. Die Box ist eingeklappt, damit Ihr es
 hoffentlich zuerst selber versucht!
 
-<details><summary>Musterlösung:</summary>
+<details>
+<summary>Musterlösung:</summary>
 
 Ich bin eine Musterlösung. Bitte zuerst selbst versuchen :smiley:
 

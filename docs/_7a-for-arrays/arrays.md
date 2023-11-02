@@ -274,7 +274,7 @@ for(int i = 0; i < worte.length; i++){
 }
 ```
 
-## :pencil: Aufgaben
+## :pen: Aufgaben
 
 ### Array Chars
 

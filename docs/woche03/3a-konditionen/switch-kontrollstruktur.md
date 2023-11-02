@@ -116,7 +116,7 @@ public class SwitchDemo {
 
 <!-- ::: -->
 
-## :pencil: Auftrag 1
+## :pen: Auftrag 1
 
 Erstellen Sie eine Klasse, welche für die Eingabe einer (vereinfachten, ganzen)
 Note die entsprechende textuelle Bewertung ausgibt resp. Fehlermeldung bei
@@ -130,7 +130,8 @@ ungültiger Note:
 - sehr schwach
 - falsche Eingabe
 
-<details><summary>Musterlösung</summary>
+<details>
+<summary>Musterlösung</summary>
 
 ```java
 import mytools.StdInput;
@@ -174,7 +175,7 @@ public class A1GradesToText {
 
 </details>
 
-## :pencil: Auftrag 2
+## :pen: Auftrag 2
 
 Programmieren eines Rechners mit switch.
 
@@ -182,7 +183,8 @@ Erstellen Sie ein Programm, das zwei Zahlen plus einen Operator einliest.
 Berechnen Sie dann mittels des switch-Statements, welche Rechenart erforderlich
 ist, führen die Berechnung aus und geben das Ergebnis aus.
 
-<details><summary>Musterlösung:</summary>
+<details>
+<summary>Musterlösung:</summary>
 
 ```java
 import mytools.StdInput;
@@ -217,7 +219,7 @@ public class A2Calculator {
 
 </details>
 
-## :pencil: Auftrag 3
+## :pen: Auftrag 3
 
 Die Beaufort-Skala wurde 1806 von dem englischen Admiral Sir Francis Beaufort
 (1774 – 1857) erarbeitet. Mit ihrer Hilfe kann anhand der Auswirkungen des
@@ -245,7 +247,8 @@ machen:
 - Nach der Windstärke in Beaufort fragen und den Wert einlesen.
 - Einen Gefahren-text ausgibt
 
-<details><summary>Musterlösung</summary>
+<details>
+<summary>Musterlösung</summary>
 
 ```java
 import mytools.StdInput;

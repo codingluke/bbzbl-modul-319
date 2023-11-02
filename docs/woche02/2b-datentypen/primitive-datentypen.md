@@ -23,7 +23,7 @@ Vorerst nutzen wir die _primitiven_ Datentypen. Diese sind erkennbar, indem der
 [ascii]:
   https://de.wikipedia.org/wiki/American_Standard_Code_for_Information_Interchange
 
-## :pencil: A1: Datentypen bestimmen
+## :pen: A1: Datentypen bestimmen
 
 Bestimmen Sie die die **kleinst möglichen** Datentypen für die folgenden Werte:
 

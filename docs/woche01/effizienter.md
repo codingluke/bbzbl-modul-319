@@ -48,7 +48,7 @@ man tut, ausserhalb von Eclipse ändern.
     Teilbild
   - Schliessen: über das X oben rechts an der Lasche
 - **Package Explorer**: zeigt den "Projektbaum" mit der src-Ordner, in dem die
-  Java-Klassen dargestellt sind, in der Titelzeile ist ein gelbes Pfeilpaar <->,
+  Java-Klassen dargestellt sind, in der Titelzeile ist ein gelbes Pfeilpaar `<->`,
   ist es eingedrückt, wird im Projektbaum die Klasse, welche rechts daneben im
   Editor geöffnet wird, angezeigt.
 - **Code Editor**: dient zum bearbeiten der Java-Klassen

@@ -38,7 +38,8 @@ double celsius = (fahrenheit - 32.0) / 1.800;
 System.out.println(celsius);
 ```
 
-<details><summary>Musterlösung</summary>
+<details>
+<summary>Musterlösung</summary>
 
 ```java
 //Block 1: 4
@@ -73,7 +74,8 @@ public class HelloUser {
 }
 ```
 
-<details><summary>Musterlösung</summary>
+<details>
+<summary>Musterlösung</summary>
 
 - logischer Fehler / statt \*
 
@@ -105,7 +107,8 @@ Erweiterung nachdem alle Programme fertig sind:
 - Umkehrung, km einlesen, Meilen ausgeben.
 - Auswahl durch den Benutzer.
 
-<details><summary>Muaterlösung</summary>
+<details>
+<summary>Muaterlösung</summary>
 
 ```java
 import mytools.StdInput;
@@ -180,7 +183,8 @@ Erweiterung nachdem alle Programme fertig sind:
 - Eingabe der Distanz und Reisedauer berechnet durchschnittliche
   Geschwindigkeit.
 
-<details><summary>Musterlösung:</summary>
+<details>
+<summary>Musterlösung:</summary>
 
 ```java
 import mytools.StdInput;
@@ -221,7 +225,8 @@ public class A2Trains {
 
 Erstellen Sie ein Programm, welches das aktuelle Datum und Uhrzeit ausgibt.
 
-<details><summary>Musterlösung:</summary>
+<details>
+<summary>Musterlösung:</summary>
 
 ```java
 import java.time.LocalDate;
@@ -264,7 +269,8 @@ Zusätzlicher Schinkenbelag Fr. 2
 Gesamtpreis Fr. 17
 ```
 
-<details><summary>Musterlösung:</summary>
+<details>
+<summary>Musterlösung:</summary>
 
 ```java
 import mytools.StdInput;
@@ -307,7 +313,8 @@ berechnet.
 
 - Der Basispreis pro Kilometer ist 0.45 Einheiten.
 
-<details><summary>Musterlösung</summary>
+<details>
+<summary>Musterlösung</summary>
 
 ```java
 import mytools.StdInput;
@@ -380,7 +387,8 @@ Telefon: 079 999 99 99 SSind Sie schon 18 Jahre alt? false Sie sind leider zu
 jung und dürfen nicht in den Club.ind Sie schon 18 Jahre alt?
 ```
 
-<details><summary>Musterlösung:</summary>
+<details>
+<summary>Musterlösung:</summary>
 
 ```java
 import mytools.StdInput;

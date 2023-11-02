@@ -32,7 +32,8 @@ Wählen Sie geeignete Datentypen, Variablenbezeichnungen und Kontrollstrukturen.
 - Sobald der Wert der Variablen der Listengrösse entspricht, endet das Programm
   und gratuliert dem Benutzer.
 
-<details><summary>Musterlösung:</summary>
+<details>
+<summary>Musterlösung:</summary>
 
 ```java
 import mytools.StdInput;
@@ -111,7 +112,8 @@ denen Sie interessante Fragen der Programmierung festigen:
   - z.B. wie heisst das Wort an Position 4? Korrekte Antwort: Apple
 - Das Programm lässt es zu, dass der Benutzer die Worte selbst erfassen kann.
 
-<details><summary>Musterlösung:</summary>
+<details>
+<summary>Musterlösung:</summary>
 
 ```java title="Memory.java"
 import mytools.StdInput;

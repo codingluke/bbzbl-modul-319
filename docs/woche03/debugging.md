@@ -17,7 +17,7 @@ einzusehen, zu ändern, etc.
   Werte von Variablen beobachten und so Abläufe verstehen und Fehlerquellen
   entdecken.
 
-## :pencil: Eine Debugging-Session Schritt-für-Schritt
+## :pen: Eine Debugging-Session Schritt-für-Schritt
 
 Folgende Schritte sind nötig, um eine Debugging-Session für folgenden
 Programmcode durchzuführen.
@@ -102,7 +102,7 @@ beobachten**. Wenn man z.B. "Hi" nach "i" ändert, wird der Ausdruck `false`, da
    einerseits ein Symbol für die Java-Perspektive (J), und andererseits ein
    Symbol für die Debugging-Perspektive (Käfer) angezeigt.
 
-## :pencil: Debuggen der Methode `printCurrentDate()` 
+## :pen: Debuggen der Methode `printCurrentDate()` 
 
 
 Wir Untersuchen den Ablauf der Methode `printCurrentDate()` vom Abschnitt

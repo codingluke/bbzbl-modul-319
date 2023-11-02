@@ -26,7 +26,7 @@ hide_table_of_contents: true
 
 - :books: Verstehen
 
-- :pencil: Aufgaben lösen
+- :pen: Aufgaben lösen
 
 </Event>
 
@@ -39,7 +39,7 @@ hide_table_of_contents: true
 
 ## :student: Methoden Vertiefung
 
-- :pencil: Aufgaben lösen
+- :pen: Aufgaben lösen
 
 - :bug: Fehleranalyse
 
