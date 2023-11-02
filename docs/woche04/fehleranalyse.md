@@ -4,7 +4,7 @@ keywords:
   - pdf
 ---
 
-# Fehleranalyse
+# 🧐 Fehleranalyse
 
 ## :dart: Ziele
 

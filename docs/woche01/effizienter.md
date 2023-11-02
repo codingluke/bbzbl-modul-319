@@ -3,7 +3,7 @@ keywords:
   - pdf
 ---
 
-# Effizienter mit Eclipse
+# 🦸 Effizienter mit Eclipse
 
 ## Workspace
 

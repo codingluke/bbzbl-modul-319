@@ -3,7 +3,7 @@ keywords:
   - pdf
 ---
 
-# Kontrollstrukturen
+# 🔀 Kontrollstrukturen
 
 Mit `if` und `switch` können Sie auf unterschiedliche Werte in Ihren Variablen
 unterschiedlich, **spezifisch reagieren**.

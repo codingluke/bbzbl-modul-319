@@ -4,7 +4,7 @@ keywords:
   - pdf
 ---
 
-# Debugging / Fehleranalyse
+# 🐛 Debugging / Fehleranalyse
 
 Debugging ist eine Arbeitstechnik in der Programmierung, welche es erlaubt, den
 Ablauf eines Programms besser nachzuvollziehen. Dabei kann das Programm in einem

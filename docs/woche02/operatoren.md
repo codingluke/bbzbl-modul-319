@@ -2,7 +2,7 @@
 keywords:
   - pdf
 ---
-# Operatoren und Rechnen
+# ➗ Operatoren und Rechnen
 
 [:computer: Open in Browser](pathname:///slides/operatoren) |
 [:floppy_disk: download PDF](pathname:///slides/operatoren.pdf)

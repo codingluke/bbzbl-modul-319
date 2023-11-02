@@ -13,15 +13,15 @@
 |                    |                        |                | :star: _Ferien_                                                                                         |                          |
 |                    | [**Woche&nbsp;9**][w9] | **12.01.2023** | Repetition / **Prüfung**                                                                                | **[LB2]**                |
 
-[w1]: ./woche-01.md
-[w2]: ./woche-02.md
-[w3]: ./woche-03.md
-[w4]: ./woche-04.md
-[w5]: ./woche-05.md
-[w6]: ./woche-06.md
-[w7]: ./woche-07.md
-[w8]: ./woche-08.md
-[w9]: ./woche-09.md
+[w1]: ../woche01/index.md
+[w2]: ../woche02/index.md
+[w3]: ../woche03/index.md
+[w4]: ../woche04/index.md
+[w5]: ../woche05/index.md
+[w6]: ../woche06/index.md
+[w7]: ../woche07/index.md
+[w8]: ../woche08/index.md
+[w9]: ../woche09/index.md
 [lb1]: ../beurteilungen/LB1.md#themendokumente
 [lb2]: ../beurteilungen/LB2.md
 

@@ -3,13 +3,7 @@ keywords:
   - pdf
 ---
 
-# Konventionen und Kommentare
-
-## :dart: Ziele
-
-- Sie können die grundlegenden Konventionen und Kommentare anwenden.
-
-## Konventionen
+# 📐 Konventionen / Kommentare
 
 Jeder der Programmiert hat meistens seinen eigenen Stiel und Vorlieben. Dies ist
 auch gut so. Wenn nun aber zusammen programmiert wird, muss man sich auf
@@ -18,6 +12,12 @@ einzelnen einfacher sich im Code einzufinden. Es schafft eine Übersichtlichkeit
 
 Je nach Betrieb können die sich erheblich unterscheiden. Wir stellen hier einige
 wichtige Konventionen vor.
+
+## :dart: Ziele
+
+- Sie können die grundlegenden Konventionen und Kommentare anwenden.
+
+## Konventionen
 
 ### :pencil: A1: Konventionen in der `HelloWolrd` Klasse
 
@@ -91,9 +91,9 @@ schlechter Stiel und geben abzug!
 
 Es gibt gute Gründe für Kommentare:
 
-- eine **öffentliche Methode** für JavaDoc kurz Beschreiben
+- eine Methode für JavaDoc kurz Beschreiben
 - erläutern **warum** eine Entscheidung getroffen wurde
-- "TODO-Kommentare" für Infos was man in Zukunft verbessern sollte
+- "TODO oder FIXME-Kommentare" für Infos was man in Zukunft verbessern sollte
 
 ### :pencil: A2: Kommentieren Sie Ihr «HelloWorld» Programm
 
@@ -158,7 +158,7 @@ public class MeinTollerKlasseName {
   Dokumentation daraus generiert werden kann.
 - [:link: JavaDoc Beschreibung auf Wikipedia](https://de.wikipedia.org/wiki/Javadoc)
 
-:::note Es gibt aber auch schlechte Kommentare!
+:::caution Es gibt aber auch schlechte Kommentare!
 
 Kommentare **sollten nicht beschreiben was der Programmcode im Detail macht**!
 Das steht im Code. Wenn dafür Kommentare nötig sind, sollte der Code überdacht

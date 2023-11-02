@@ -3,7 +3,7 @@ keywords:
   - pdf
 ---
 
-# Variablen & Datentypen
+# 📜 Variablen & Datentypen
 
 Wenn Programme Daten bearbeiten, so sind diese in **Variablen (änderbar)** und
 **Konstanten (nicht änderbar)** gespeichert. Die Variablen und Konstanten

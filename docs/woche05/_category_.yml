@@ -1,0 +1,4 @@
+position: 8
+label: 'Woche 5'
+collapsible: true # make the category collapsible
+collapsed: true # keep the category open by default

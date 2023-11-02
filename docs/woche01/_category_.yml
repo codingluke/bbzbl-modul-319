@@ -2,4 +2,4 @@ position: 4
 label: 'Woche 1'
 collapsible: false
 collapsed: false
-className: featured
+className: primary

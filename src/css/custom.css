@@ -167,9 +167,19 @@ img[src$="#left"] {
   width: 70%;
 }
 
-li.featured {
+li.primary {
   border-left: 2px solid var(--ifm-color-primary);
-  background-color: var(--ifm-breadcrumb-item-background-active);
+  background-color: var(--ifm-color-secondary-lightest);
+}
+
+li.warning {
+  border-left: 2px solid var(--ifm-color-warning);
+  background-color: var(--ifm-color-warning-contrast-background);
+}
+
+li.info {
+  border-left: 2px solid var(--ifm-color-info);
+  background-color: var(--ifm-color-info-contrast-background);
 }
 
 li.hidden {

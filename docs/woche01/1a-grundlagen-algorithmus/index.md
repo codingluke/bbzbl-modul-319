@@ -3,7 +3,7 @@ keywords:
   - pdf
 ---
 
-# Vom Algorithmus zum Programm
+# 🦋 Algorithmus / Programm
 
 Was sind überhaupt Programme? und was haben diese mit Algorithmen zu tun?
 

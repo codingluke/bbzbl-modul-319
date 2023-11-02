@@ -4,7 +4,7 @@ keywords:
   - pdf
 ---
 
-# Methoden
+# 🏭 Methoden
 
 Sie erhalten einen **ersten Einblick in Methoden**, die für grössere Programme
 zur Strukturierung unerlässlich sind. Zusätzlich wird Ihnen das **Verfahren des

@@ -8,11 +8,13 @@ sidebar_position: 2
 
 ## :school: Unterricht
 
-import Ablauf from "../../src/pages/woche-02.md"
+:::info 
 
-<Ablauf />
+:construction: Folie Folgt
 
-**[:mag: Ablauf in Vollbild](pathname:///woche-02)**
+:::
+
+- **[:mag: Ablauf in Vollbild](pathname:///woche-02)**
 
 </div><div>
 
@@ -40,9 +42,7 @@ Für die letzte Spalte des Rasters benötigen Sie **eigene Beispiele** mit
 
 </div></div>
 
-## Themen Heute
+## :books: Themen Heute
 
 <DocCardList />
 
-Zusätzlich bereiten Sie sich jeweils vor auf die Gespräche im Rahmen des
-Rasters.

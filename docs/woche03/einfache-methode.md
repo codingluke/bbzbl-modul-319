@@ -4,7 +4,7 @@ keywords:
   - pdf
 ---
 
-# Einfacher Methodenaufruf
+# 👷 Einfacher Methodenaufruf
 
 ## :dart: Ziele
 
