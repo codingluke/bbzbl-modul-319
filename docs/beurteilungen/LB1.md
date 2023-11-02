@@ -24,7 +24,7 @@ und abgegeben werden.
 
 :::info Kurscode:
 
-- Für die Klassen INB23A und B: **xnaua3a**
+- Für die Klasse INP23A: **lx4viyj**
 
 :::
 
@@ -84,16 +84,16 @@ Es existiert für alle vier Themen eine Datei. Folgend sind die Titel der Dateie
 und den zugehörigen Aufgabenseiten angegeben:
 
 - **Thema 1 - Datentypen und Variablen**
-  - :book: : [Variablen & Datentypen](/docs/woche02/2b-datentypen/index.md)
+  - :scroll: : [Variablen & Datentypen](/docs/woche02/2b-datentypen/index.md)
 
 - **Thema 2 - Selektion und Operatoren**
-  - :book: : [Rechnen und Operatoren](/docs/woche02/operatoren.md)
-  - :book: : [Kontrollstrukturen](/docs/woche03/3a-konditionen/index.md)
+  - :heavy_division_sign: : [Rechnen und Operatoren](/docs/woche02/operatoren.md)
+  - :twisted_rightwards_arrows: : [Kontrollstrukturen](/docs/woche03/3a-konditionen/index.md)
 - **Thema 3 - Methoden**
-  - :book: [Methoden](/docs/woche04/4a-methoden-fehleranalyse/index.md)
+  - :factory: [Methoden](/docs/woche04/4a-methoden-fehleranalyse/index.md)
 - **Thema 4 - Debugging und Fehlersituationen**
-  - :book: [Debugging](/docs/woche03/debugging.md)
-  - :book: [Fehleranalyse](/docs/woche04/fehleranalyse.md)
+  - :bug: [Debugging](/docs/woche03/debugging.md)
+  - 🧐 [Fehleranalyse](/docs/woche04/fehleranalyse.md)
 
 :::caution Vergesst nicht den LB2
 
