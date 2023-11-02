@@ -36,7 +36,7 @@ werden kann.
 
 Es existiert pro Person eine Datei unter folgendem Namen.
 
-- _Beurteilungsraster\_{Name}\_{Vorname}_
+- _Beurteilungsraster\_\{Name\}\_\{Vorname\}_
 
 ### Aufbau
 
