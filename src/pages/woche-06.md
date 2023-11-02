@@ -28,7 +28,7 @@ hide_table_of_contents: true
 
 - :books: Verstehen
 
-- :pencil: Aufgaben lösen
+- :pen: Aufgaben lösen
 
 </Event>
 
@@ -44,7 +44,7 @@ hide_table_of_contents: true
 - :joystick: Reaktionsspiel spielen
 - :books: Verstehen
 
-- :pencil: Aufgaben lösen
+- :pen: Aufgaben lösen
 
 </Event>
 <Event time="16:15">

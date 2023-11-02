@@ -7,4 +7,3 @@ Applikationen entwerfen und implementieren
 Ehemaliges Modul 403
 
 Programmabläufe prozedural implementieren
-

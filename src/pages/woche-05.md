@@ -17,7 +17,7 @@ Vertiefung und Fehleranalyse
 
 - :books: Verstehen
 
-- :pencil: Aufgaben lösen
+- :pen: Aufgaben lösen
 
 </Event>
 
@@ -32,7 +32,7 @@ Vertiefung und Fehleranalyse
 
 - :books: Verstehen
 
-- :pencil: Aufgaben lösen
+- :pen: Aufgaben lösen
 
 </Event>
 <Event time="16:15">

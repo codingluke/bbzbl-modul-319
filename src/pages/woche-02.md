@@ -6,14 +6,12 @@ hide_table_of_contents: true
 <Timeline title="Woche 2">
 <Event time="12:45">
 
-## :teacher: Themenüberblick
+## :teacher: Kompetenzraster
 
-- :scroll:Variablen / Datentypen 
+- :scroll: Variablen / Datentypen 
 - :twisted_rightwards_arrows: Kontrollstrukturen (if / else) 
 - :alembic: Methoden / Funktionen 
-- :repeat: Schleifen / Iteration 
-
-- Arrays / Listen
+- :bug: Fehleranalyse und Debugging
 
 </Event>
 
@@ -33,7 +31,7 @@ hide_table_of_contents: true
 
 ## :student: Datentypen / Variablen
 
-:pencil: Aufgaben lösen / :checkered_flag: **Thema 1**
+:pen: Aufgaben lösen / :checkered_flag: **Thema 1**
 
 </Event>
 <Event time="14:20">
@@ -45,7 +43,7 @@ hide_table_of_contents: true
 
 ## :student: Datentypen / Variablen
 
-- :pencil: Aufgaben lösen / :checkered_flag: **Thema 1**
+- :pen: Aufgaben lösen / :checkered_flag: **Thema 1**
 
 - :superhero: oder Operatoren! **Thema 2**
 

@@ -32,9 +32,10 @@ hide_table_of_contents: true
 
 - :teacher: [in Eclipse zusammen!][hallo welt]
 - :coffee: 15:30
+- [🧐 Analyse des bisherigen Programms][blocks]
+
 - [:sparkles: Vom Quellcode zum Programm][compiler]
 
-- [🧐 Analyse des bisherigen Programms][blocks]
 
 </Event>
 <Event time="15:50">
@@ -50,10 +51,10 @@ hide_table_of_contents: true
 </Timeline>
 
 [modulidentifikation]: pathname:///docs#modulidentifikation
-[algorithmus]: pathname:///docs/1a-grundlagen-algorithmus
+[algorithmus]: pathname:///docs/woche01/1a-grundlagen-algorithmus/
+[hallo welt]: pathname:///docs/woche01/1b-hello-world/
 [grundstrukturen]:
   pathname:///docs/1a-grundlagen-algorithmus/#die-grundformen-der-programmierung
-[hallo welt]: pathname:///docs/1b-hello-world
-[compiler]: pathname:///docs/1b-hello-world/aufgabe3-compiler
-[blocks]: pathname:///docs/1b-hello-world/aufgabe4-klammern-bloecke
+[compiler]: pathname:///docs/woche01/1b-hello-world/aufgabe5-compiler
+[blocks]: pathname:///docs/woche01/1b-hello-world/aufgabe4-klammern-bloecke
 [code-konventionen]: pathname:///docs/1b-hello-world/aufgabe5-konventionen

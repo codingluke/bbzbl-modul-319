@@ -1,5 +1,6 @@
-label: 📅 Lektionen
+label: 📅 Quartalsübersicht
 position: 3
-# link:
-#   type: generated-index
+collapsible: false
+collapsed: false
+# className: info
 

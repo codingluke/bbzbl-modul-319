@@ -6,7 +6,8 @@
 
 @font-face {
   font-family: "Noto Emoji";
-  src: url("../../static/fonts/NotoEmoji-VariableFont_wght.ttf") format("truetype");
+  src: url("../../static/fonts/NotoEmoji-VariableFont_wght.ttf")
+    format("truetype");
 }
 
 /* You can override the default Infima variables here. */
@@ -159,6 +160,25 @@ img[src$="#left"] {
   display: block;
   margin-right: auto;
   width: 70%;
+}
+
+li.primary {
+  border-left: 2px solid var(--ifm-color-primary);
+  background-color: var(--ifm-color-secondary-lightest);
+}
+
+li.warning {
+  border-left: 2px solid var(--ifm-color-warning);
+  background-color: var(--ifm-color-warning-contrast-background);
+}
+
+li.info {
+  border-left: 2px solid var(--ifm-color-info);
+  background-color: var(--ifm-color-info-contrast-background);
+}
+
+li.hidden {
+  display: none;
 }
 
 /* codeblock magic comments */
