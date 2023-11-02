@@ -84,22 +84,23 @@ Es existiert für alle vier Themen eine Datei. Folgend sind die Titel der Dateie
 und den zugehörigen Aufgabenseiten angegeben:
 
 - **Thema 1 - Datentypen und Variablen**
-  - :book: : [2b - Variablen & Datentypen](../2b-datentypen/index.md)
+  - :book: : [Variablen & Datentypen](/docs/woche02/2b-datentypen/index.md)
 
 - **Thema 2 - Selektion und Operatoren**
-  - :book: : [2b - Variablen & Datentypen (Rechnen und Operatoren)](../2b-datentypen/index.md#rechnen-und-operatoren)
-  - :book: : [3 - Kontrollstrukturen (Präsentation)](../3a-konditionen/index.md#-präsentation)
+  - :book: : [Rechnen und Operatoren](/docs/woche02/operatoren.md)
+  - :book: : [Kontrollstrukturen](/docs/woche03/3a-konditionen/index.md)
 - **Thema 3 - Methoden**
-  - :book: [4 - Methoden und Fehleranalyse](../4a-methoden-fehleranalyse/index.md)
+  - :book: [Methoden](/docs/woche04/4a-methoden-fehleranalyse/index.md)
 - **Thema 4 - Debugging und Fehlersituationen**
-  - :book: [4 - Methoden und Fehleranalyse](../4a-methoden-fehleranalyse/fehleranalyse.md)
+  - :book: [Debugging](/docs/woche03/debugging.md)
+  - :book: [Fehleranalyse](/docs/woche04/fehleranalyse.md)
 
 :::caution Vergesst nicht den LB2
 
 Auch wenn das Beurteilungsraster nicht alle Themen abdeckt, bitte möglichst alle
 Themen und Aufgaben bearbeiten. Es könnte ja sein dass z.B.
-[Schleifen](../5a-while/index.md) und [Arrays](../7a-for-arrays/index.md) im
-[LB2](./LB2.md) relevant werden.
+[Schleifen](/docs/woche05/5a-while/index.md) und [Arrays](/docs/woche07/7a-for-arrays/index.md)
+[LB2](/docs/beurteilungen/LB2.md) relevant werden.
 
 :::
 
@@ -120,7 +121,7 @@ Jedes Dokument ist in drei Teile eingeteilt
    möchte um das Thema sich selbständig anzueignen.
 
    **Am Ende** wird mit einer Reflexion beschrieben was gut gelungen ist, welche
-   Schwierigkeiten auftegreten sind und wie diese angeganen wurden.
+   Schwierigkeiten aufgetreten sind und wie diese angegangen wurden.
 
 3. Schlussendlich gibt es drei Boxen, zur Beschreibung der **drei
    Schwierigkeitsstufen (grün)**.
@@ -128,8 +129,8 @@ Jedes Dokument ist in drei Teile eingeteilt
    Hier müsst Ihr für die Schwierigkeitsstufen A und C euer Beispiel-Code
    einfügen und dieser schriftlich beschreiben.
 
-   Für die Schwierigkeite "Erweitert (B)" müsst Ihr nichts schreiben. Es
-   empfielt sich jedoch zur Vorbereitung des mündlichen Gesprächs notizen zu
+   Für die Schwierigkeit "Erweitert (B)" müsst Ihr nichts schreiben. Es
+   empfiehlt sich jedoch zur Vorbereitung des mündlichen Gesprächs Notizen zu
    machen.
 
 :::note komplexer Code?

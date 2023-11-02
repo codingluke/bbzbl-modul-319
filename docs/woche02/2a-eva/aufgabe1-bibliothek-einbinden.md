@@ -3,6 +3,7 @@ sidebar_position: 2
 keywords:
   - pdf
 ---
+
 # Bibliothek `MyTools` einbinden
 
 ## 1. Neues Projekt und Klasse erstellen
@@ -14,8 +15,8 @@ keywords:
 
 1. Legen Sie im Projekt ein Verzeichnis «lib» an
    - Rechtsklick auf das **_Projekt -> New -> Folder_**
-2. Laden Sie die Bibliotheks-Datei [MyTools.jar](../../code/MyTools.jar)
-   herunter.
+2. Laden Sie die Bibliotheks-Datei
+   [MyTools.jar](../../../static/files/MyTools.jar) herunter.
 3. Kopieren Sie die Datei in das erstellte lib-Verzeichnis
    - Falls Sie die Datei auf Filesystem Ebene kopiert haben, muss allenfalls die
      **Ansicht in Eclipse aktualisiert** werden
@@ -30,7 +31,8 @@ keywords:
 
 :::note MyTools.jar Download
 
-- Die Datei `MyTools.jar` [:link: hier downloaden!](../../code/MyTools.jar)
+- Die Datei `MyTools.jar`
+  [:link: MyTools.jar](../../../static/files/MyTools.jar)
 
 :::
 
