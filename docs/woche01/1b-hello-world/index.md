@@ -3,7 +3,7 @@ keywords:
   - pdf
 ---
 
-# 🧰 Hallo Eclipse
+# 🌘 Hallo Eclipse
 
 Sie lernen mit der Entwicklungsumgebung [Eclipse](https://www.eclipseide.org)
 ein **HelloWord-Programm** zu schreiben.

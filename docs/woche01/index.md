@@ -58,7 +58,7 @@ programmieren können (falls nicht bereits erledigt)
 
 </div><div>
 
-### :toolbox: Hallo Eclipse
+### :waning_crescent_moon: Hallo Eclipse
 
 - [A1: Eclipse installieren](/docs/woche01/1b-hello-world/aufgabe1-entwicklungsumgebung.md)
 - [A2: "HelloWorld" programmieren](/docs/woche01/1b-hello-world/aufgabe2-helloworld.md)

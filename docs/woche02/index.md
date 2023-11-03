@@ -28,8 +28,10 @@ Bereit für das Gespräch im Rahmen des Rasters.
 
 :::caution Wichtig!
 
-Für die letzte Spalte des Rasters benötigen Sie **eigene Beispiele** mit
+- Für die letzte Spalte des Rasters benötigen Sie **eigene Beispiele** mit
 **eigenen Ideen**
+- Code Beispiele **müssen** der [:triangular_ruler: Konvention](/docs/woche01/aufgabe5-konventionen.md#konventionen) entsprechen
+  - Es gibt pro Konventionfehler `0.1` Notenpunkt Abzug
 
 :::
 

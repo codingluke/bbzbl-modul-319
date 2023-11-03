@@ -6,13 +6,12 @@ keywords:
 
 # LB1 - Beurteilungsraster (60%)
 
-Ab der 2. Woche bis **spätestens Ende 7. Woche** haben Sie Zeit, die Themen des
-Beurteilungsrasters nachzuweisen.
+:::caution Notenabzug Fallstricke
 
-:::caution verspätete Abgabe
-
-Wird ein Dokument verspätet abgegeben wird **pro Dokument 0.25 Punkte**
+- Wird ein Dokument **verspätet abgegeben** wird **pro Dokument `0.25` Punkte**
 abgezogen
+- Code Beispiele **müssen** der [:triangular_ruler: Konvention](/docs/woche01/aufgabe5-konventionen.md#konventionen) entsprechen. Es gibt **pro Konventionfehler `0.1` Notenpunkt Abzug**
+- Für die Schwierigkeit "C" benötigen Sie **eigene Beispiele** mit **eigenen Ideen**
 
 :::
 

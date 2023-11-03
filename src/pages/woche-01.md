@@ -6,19 +6,19 @@ hide_table_of_contents: true
 <Timeline title="Woche 1">
 <Event time="12:45">
 
-## Vorstellung
+## 👋 Vorstellung
 
-[Modulidentifikation]
+- Modulidentifikation
 
 </Event>
 <Event time="13:00">
 
-## [Vom Algorithmus zum Programm][algorithmus]
+## :butterfly: Algorithmus / Programm
 
-- :teacher: Präsentation / **Diskussion**
+- :man_teacher: Präsentation / **Diskussion**
 - :tv: code.org / :coffee: 13:30
 
-- :student: Lesen und Lösen
+- :man_student: Lesen und Lösen
 
 </Event>
 <Event time="14:20">
@@ -28,19 +28,19 @@ hide_table_of_contents: true
 </Event>
 <Event time="14:40">
 
-## :student: [HalloWorld Programm][hallo welt]
+## :waning_crescent_moon: Hallo Eclipse
 
-- :teacher: [in Eclipse zusammen!][hallo welt]
-- :coffee: 15:30
-- [🧐 Analyse des bisherigen Programms][blocks]
+- :man_teacher: Wir lösen die Aufgaben zusammen
+- :coffee: **15:30**
+- 🧐 Analyse des bisherigen Programms
 
-- [:sparkles: Vom Quellcode zum Programm][compiler]
+- :sparkles: Vom Quellcode zum Programm
 
 
 </Event>
 <Event time="15:50">
 
-## 🧑‍🏫 [Code-Konventionen]
+## :triangular_ruler: Code-Konventionen
 
 </Event>
 <Event time="16:15">
@@ -49,12 +49,3 @@ hide_table_of_contents: true
 
 </Event>
 </Timeline>
-
-[modulidentifikation]: pathname:///docs#modulidentifikation
-[algorithmus]: pathname:///docs/woche01/1a-grundlagen-algorithmus/
-[hallo welt]: pathname:///docs/woche01/1b-hello-world/
-[grundstrukturen]:
-  pathname:///docs/1a-grundlagen-algorithmus/#die-grundformen-der-programmierung
-[compiler]: pathname:///docs/woche01/1b-hello-world/aufgabe5-compiler
-[blocks]: pathname:///docs/woche01/1b-hello-world/aufgabe4-klammern-bloecke
-[code-konventionen]: pathname:///docs/1b-hello-world/aufgabe5-konventionen

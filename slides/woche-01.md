@@ -46,7 +46,7 @@ und Lösungen dafür zu entwickeln.
 
 ::: columns
 
-- :toolbox: Entwicklungsumgebung Eclipse
+- :waning_crescent_moon: Entwicklungsumgebung Eclipse
 
 - :triangular_ruler: Code-Konventionen
 - :scroll: Variablen und Datentypen
@@ -102,8 +102,7 @@ Der ganze Unterrichtsstoff kann auf der Webseite nachgeschlagen werden!
 Lass uns **zusammen** ergründen, was es mit Algorithmen so auf sich hat und was
 diese mit Programmieren zu tun haben.
 
-- Öffnen Sie nun alle :link:
-  [Vom Algorithmus zum Programm](https://codingluke.github.io/bbzbl-modul-319/docs/woche01/1a-grundlagen-algorithmus/)
+- Öffnen Sie nun alle [:butterfly: Algorithmus / Programm](https://codingluke.github.io/bbzbl-modul-319/docs/woche01/1a-grundlagen-algorithmus/)
 
 ## :dart: Ziele
 
@@ -118,8 +117,7 @@ Das `HelloWorld` Programm gibt es für alle Programmiersprachen. Wir wolle es in
 `Java` mit der Entwicklungsumgebung Eclipse **zusammen** umsetzen um uns mit dem
 Programmieren anzufreunden.
 
-- Öffnen Sie nun alle das :link:
-  [HelloWorld Programm](https://codingluke.github.io/bbzbl-modul-319/docs/woche01/1b-hello-world/)
+- Öffnen Sie nun alle [:waning_crescent_moon: Hallo Eclipse](https://codingluke.github.io/bbzbl-modul-319/docs/woche01/1b-hello-world/)
 
 ## :dart: Ziele
 
@@ -132,9 +130,7 @@ Programmieren anzufreunden.
 # :student: Konventionen und Kommentare
 
 Eine gute Struktur und Einheitlichkeit ist wesentlich beim Programmieren. Bitte
-Lest alle die Seite :link:
-[Konventionen und Kommentare](https://codingluke.github.io/bbzbl-modul-319/docs/woche01/aufgabe5-konventionen)
-und löst die Aufgaben:
+Lest alle die Seite [:triangular_ruler: Konventionen und Kommentare](https://codingluke.github.io/bbzbl-modul-319/docs/woche01/aufgabe5-konventionen) und löst die Aufgaben selbständig:
 
 ### A1: Konventionen in der HelloWolrd Klasse
 
