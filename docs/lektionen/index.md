@@ -2,8 +2,8 @@
 
 |                    |         Woche          |     Datum      | Thema                                                                                                   | Leistungsbewertung       |
 | ------------------ | :--------------------: | :------------: | :------------------------------------------------------------------------------------------------------ | :----------------------- |
-| :steam_locomotive: |   [Woche&nbsp;1][w1]   |   03.11.2023   | Algorithmus / Sequenz / Bedingung / Iteration <br/> HelloWorld in Eclipse <br/> CodeStyle / Conventions |                          |
-|                    |   [Woche&nbsp;2][w2]   |   10.11.2023   | Datentypen / Ein und Ausgabe / `if` / Operatoren                                                        |                          |
+|                    |   [Woche&nbsp;1][w1]   |   03.11.2023   | Algorithmus / Sequenz / Bedingung / Iteration <br/> HelloWorld in Eclipse <br/> CodeStyle / Conventions |                          |
+| :steam_locomotive: |   [Woche&nbsp;2][w2]   |   10.11.2023   | Datentypen / Ein und Ausgabe / `if` / Operatoren                                                        |                          |
 |                    |   [Woche&nbsp;3][w3]   |   17.11.2023   | Selektion mit `if` und `switch` / Methoden / Debugging                                                  |                          |
 |                    | [**Woche&nbsp;4**][w4] | **24.11.2023** | Methoden mit Parametern und Rückgabewert <br/> Fehleranalyse                                            | **[LB1]: Thema 1 und 2** |
 |                    |   [Woche&nbsp;5][w5]   |   01.12.2023   | `while` / Konstanten                                                                                    |                          |

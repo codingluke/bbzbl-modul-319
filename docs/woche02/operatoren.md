@@ -9,6 +9,50 @@ keywords:
 
 <iframe src="/bbzbl-modul-319/slides/operatoren" width="100%" height="400px"></iframe>
 
+## Zuweisungsoperator `=` 
+Der elementarste Operator ist der Zuweisungsoperator `=`. Mit diesem wir einer Variable einen Wert zugewiesen.
+- Die Variable steht immer links, der zuzuweisende Wert immer rechts.
+- Der zuzuweisende Wert kann sich wiederum in einer Variable oder Methode befinden.
+
+```java
+   int sinnDesLebens = 42;
+   int number        = sinnDesLebens;
+//                   ^ Zuweisungsoperator
+```
+## Arithmetische Operatoren `+`, `-`, `/`, `*`, `%`
+
+Arithmetische Operatoren kennt Ihr bereits von der Mathematik. Damit lassen sich
+die gängigen Mathematischen Operationen durchführen. Neu ist einzig der Rest
+Operator `%`. Dieser dividiert eine Zahl und gibt den Rest zurück.
+
+```java title="+ - / * % Arithmetische Operatoren"
+int result;
+int number = 9;
+int anotherNumber = 3;
+
+result = number + anotherNumber; // Addition
+result = number - anotherNumber; // Subtraktion
+result = number / anotherNumber; // Division
+result = number * anotherNumber; // Multiplikation
+result = number % anotherNumber; // Rest der Division
+```
+
+:::tip Gerade/Ungerade berechnen mit `%`
+
+Der Rest-Operator `%` gibt bei einer division immer den Rest zurück. Wenn man
+nun eine Division durch 2 durchführt lässt sich herausfinden ob eine Zahl gerade
+oder ungerade ist.
+
+```java
+9 % 2  // ergibt 4 * 2 Rest 1 also ungerade
+10 % 2 // ergibt 5 * 2 Rest 0 also gerade
+
+public boolean even(int number) {
+    return number % 2 == 0;
+}
+```
+
+:::
 ## :pen: A1: Noten berechnen
 
 Erstellen Sie ein Programm, welches vom Benutzer
@@ -65,52 +109,13 @@ System.out.println("The average grade is: " + result);
 
 </details>
 
-## Zuweisungsoperator `=` 
-Der elementarste Operator ist der Zuweisungsoperator `=`. Mit diesem wir einer Variable einen Wert zugewiesen.
-- Die Variable steht immer links, der zuzuweisende Wert immer rechts.
-- Der zuzuweisende Wert kann sich wiederum in einer Variable oder Methode befinden.
+---
 
-```java
-   int sinnDesLebens = 42;
-   int number        = sinnDesLebens;
-//                   ^ Zuweisungsoperator
-```
-## Arithmetische Operatoren `+`, `-`, `/`, `*`, `%`
-
-Arithmetische Operatoren kennt Ihr bereits von der Mathematik. Damit lassen sich
-die gängigen Mathematischen Operationen durchführen. Neu ist einzig der Rest
-Operator `%`. Dieser dividiert eine Zahl und gibt den Rest zurück.
-
-```java title="+ - / * % Arithmetische Operatoren"
-int result;
-int number = 9;
-int anotherNumber = 3;
-
-result = number + anotherNumber; // Addition
-result = number - anotherNumber; // Subtraktion
-result = number / anotherNumber; // Division
-result = number * anotherNumber; // Multiplikation
-result = number % anotherNumber; // Rest der Division
-```
-
-:::tip Gerade/Ungerade berechnen mit `%`
-
-Der Rest-Operator `%` gibt bei einer division immer den Rest zurück. Wenn man
-nun eine Division durch 2 durchführt lässt sich herausfinden ob eine Zahl gerade
-oder ungerade ist.
-
-```java
-9 % 2  // ergibt 4 * 2 Rest 1 also ungerade
-10 % 2 // ergibt 5 * 2 Rest 0 also gerade
-
-public boolean even(int number) {
-    return number % 2 == 0;
-}
-```
+:::warning Themen ab hier sind erst in späteren Wochen relevant und werden bei bedarf referenziert
 
 :::
 
-### Verkürzte arithmetische Operation mit sich selbst `+=`, `-=`, `*=`, `/=`
+## Verkürzte arithmetische Operation mit sich selbst `+=`, `-=`, `*=`, `/=`
 
 Oft möchte man den Wert einer Variablen direkt verändern. Das Resultat also
 nicht in eine neue Variable, sonder in sich selber speichern. Gegeben ist z.B.

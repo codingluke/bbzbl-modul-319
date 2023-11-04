@@ -81,7 +81,7 @@ System.out.println(aString + aBoolean);`
 
 </details>
 
-### :superhero: Bonusauftrag: einlesen
+### :man_superhero: Bonusauftrag: einlesen
 
 Sobald Sie den **obigen Auftrag abgeschlossen** haben, können Sie sich nach
 Vorgabe Ihrer Lehrperson (und sofern genügend Zeit verfügbar ist) eine Variante

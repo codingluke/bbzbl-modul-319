@@ -3,7 +3,7 @@ keywords:
   - pdf
 ---
 
-# Zusatz - Scanner
+# Scanner (Optional)
 
 ## Die Klasse Scanner
 
@@ -66,7 +66,7 @@ class MyClassWithScanner { // INFO: Der Klassenname ist beliebig!
 | nextFloat()  | float            |
 | nextDouble() | double           |
 
-## :pen: Aufgabe: Text mit `Scanner` einlesen
+## :pen: A3: Text mit `Scanner` einlesen
 
 - Informieren Sie den Benutzer, dass er nun seinen Namen eintippen soll.
 - Legen Sie eine `String`-Variable an, um die Antwort zu speichern.

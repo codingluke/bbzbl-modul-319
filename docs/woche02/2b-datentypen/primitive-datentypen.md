@@ -3,6 +3,7 @@ sidebar_position: 1
 keywords:
   - pdf
 ---
+
 # Primitive Datentypen
 
 In Java gibt es eine beachtliche Anzahl an Datentypen gemäss folgender Tabelle.

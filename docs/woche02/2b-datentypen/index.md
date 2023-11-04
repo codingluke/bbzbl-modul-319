@@ -15,7 +15,7 @@ besitzen einen Namen sowie einen für die zu speichernden Daten passenden
 - Sie kennen die primitiven Datentypen und den höheren Datentyp String
 - Sie können diese als Variablen in Programmen nutzen.
 
-## :teacher: Präsentation
+## :man_teacher: Präsentation
 
 [:computer: Open in Browser](pathname:///slides/variablen-datentypen) |
 [:floppy_disk: download PDF](pathname:///slides/variablen-datentypen.pdf)
