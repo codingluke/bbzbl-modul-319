@@ -63,6 +63,7 @@ Bereit für das Gespräch im Rahmen des Rasters.
 
 - [A1: Datentypen bestimmen](/docs/woche02/2b-datentypen/primitive-datentypen.md#pen-a1-datentypen-bestimmen)
 - [A2: Datentypen initialisieren](/docs/woche02/2b-datentypen/variablen.md#pen-a2-datentypen-initialisieren)
+- [A3: Datentypen konvertieren](/docs/woche02/2b-datentypen/casting.md#pen-a3-informationsverlust-beim-daten-konvertieren)
 
 </div><div>
 
