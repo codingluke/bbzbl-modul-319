@@ -101,5 +101,25 @@ footer: BBZBL / Lukas Hodel /  Applikationen entwerfen und implementieren
    int          number         =                 5     ;
    long         longNumber     =                 123l  ;
    char         sign           =                 'c'   ;
+   boolean      bedingung      =                 false ;
    String       text           =                 "Hi"  ;
+```
+
+---
+# Datentyp konvertieren
+
+Vom höheren zum kleineren Detailgrad braucht es **casting**
+
+```java
+   float  gleitkommazahl = 3.5f;
+   int    ganzzahl       = (int) gleitkommazahl;
+//                         ^^^^^ Der Datentyp der erzwungen werden soll steht
+//                               immer zwischen zwei runden Klammern
+```
+Vom kleineren zum höheren Detailgrad braucht es **kein casting**
+
+```java
+// Info: Variablen von oben wiederverwendet
+   double gleitkommazahl2 = gleitkommazahl;  // gleitkommazahl war float
+   long   langezahl       = ganzzahl;        // ganzzahl war int
 ```
