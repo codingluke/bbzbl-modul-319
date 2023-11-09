@@ -31,10 +31,10 @@ hide_table_of_contents: true
 </Event>
 <Event time="13:35">
 
-## :scroll: Datentypen
+## :scroll: Datentypen 🏅**T1**
 
 - :man_teacher: Präsentation
-- :pen: Aufgaben lösen / :checkered_flag: **Thema 1**
+- :pen: Aufgaben lösen
 
 </Event>
 <Event time="14:20">
@@ -44,19 +44,19 @@ hide_table_of_contents: true
 </Event>
 <Event time="14:40">
 
-## :scroll: Variablen
+## :scroll: Variablen 🏅**T1**
 
-- :pen: Aufgaben lösen / :checkered_flag: **Thema 1**
+- :pen: Aufgaben lösen
 
 **:coffee: 15:30**
 
 </Event>
 <Event time="15:35">
 
-## :heavy_division_sign: Operatoren und rechnen
+## :heavy_division_sign: Operatoren und rechnen 🏅**T2**
 
 - :man_teacher: Präsentation
-- :pen: Aufgaben lösen / :checkered_flag: **Thema 2**
+- :pen: Aufgaben lösen
 
 </Event>
 <Event time="16:15">

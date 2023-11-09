@@ -7,7 +7,7 @@ keywords:
 # if - Bedingungen (`boolean`)
 Bedingungen sind Code-Ausdrücke, welche entweder wahr (`true`) oder falsch
 (`false`) sein können. Diese werden mit dem Datentyp `boolean` ausgedrückt und
-sind **elementar für die [`if`-Verzweigung](/docs/woche03/3a-konditionen/if-kontrollstruktur.md)** um zu entscheiden, welcher
+sind **elementar für die [`if`-Selektion](/docs/woche03/3a-konditionen/if-kontrollstruktur.md)** um zu entscheiden, welcher
 Codeblock genau ausgeführt werden soll.
 
 :::caution Ohne Vergleichsoperatoren keine Bedingungen

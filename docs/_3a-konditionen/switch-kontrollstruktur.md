@@ -6,7 +6,7 @@ keywords:
 
 # Switch - Kontrollstruktur
 
-Wir haben bereits die if-Verzweigung kennengelernt. Dort kann anhand einer
+Wir haben bereits die if-Selektion kennengelernt. Dort kann anhand einer
 Bedingung eine Wahl zwischen zwei Möglichkeiten getroffen werden. Das ist eine
 sehr gute Möglichkeit, ein Programm flexibel zu machen.
 
@@ -42,7 +42,7 @@ Das obere Beispiel ist nicht alleine lauffähig, dafür fehlt die Methode
 
 :::
 
-Für solche Mehrfachverzweigungen gibt es auch die Kontrollstruktur `switch`.
+Für solche MehrfachSelektionen gibt es auch die Kontrollstruktur `switch`.
 Switch ermöglicht es, **auf genaue**, unterschiedliche Werte zu reagieren
 (`==`). Dabei können die Wert numerisch oder ein String sein. Das Muster sieht
 so aus:

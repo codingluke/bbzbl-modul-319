@@ -7,7 +7,8 @@
 <div class="grid"><div>
 
 ## :school: Unterricht
-:::info 
+
+:::info
 
 :construction: Folie Folgt
 
@@ -42,15 +43,15 @@ erstellt**.
 
 ## :pen: Aufgabenübersicht
 
+### Selektionen
 
-### Verzweigungen
-
-Sie schaffen nicht alle Aufgaben während dem Unterricht.
-Es sollten mindestens zwei Aufgaben von `if` und eine von `switch` gelöst werden.
+Sie schaffen nicht alle Aufgaben während dem Unterricht. Es sollten mindestens
+zwei Aufgaben von `if` und eine von `switch` gelöst werden.
 
 <div class="grid"><div>
 
 #### If
+
 - [A1: Rabettermittlung](/docs/woche03/3a-konditionen/if-kontrollstruktur.md#pen-a1-rabattermittlung)
 - [A2: Paketpreise ermitteln](/docs/woche03/3a-konditionen/if-kontrollstruktur.md#pen-a2-paketpreise-ermitteln)
 

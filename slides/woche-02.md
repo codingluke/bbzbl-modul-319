@@ -54,7 +54,7 @@ Macht euch mit dem Bewertungsraster im Google Classroom vertraut
 
 1. :scroll: Variablen / Datentypen
 2. :heavy_division_sign: Operatoren / 
-   :twisted_rightwards_arrows: Kontrollstrukturen (if / else)
+   :twisted_rightwards_arrows: Selektion (if / else)
 
 **Woche 6**
 

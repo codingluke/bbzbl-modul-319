@@ -4,7 +4,7 @@ keywords:
   - pdf
 ---
 
-# if - Verzweigung
+# if - Selektion
 
 Mit dem Schlüsselwort **if** _(engl. falls)_ in Kombination mit dem **Datentyp
 boolean** können Programme erstellt werden, die abhängig von Benutzereingaben
@@ -12,10 +12,10 @@ oder Variablenwerten unterschiedlich reagieren.
 
 ## Anatomie
 
-Eine Verzweigung mit einem `if` sieht so aus, wie im folgend dargestellt.
+Eine Selektion mit einem `if` sieht so aus, wie im folgend dargestellt.
 Ein **praktisches Beispiel** zur Veranschaulichung kann ausgeklappt werden.
 
-Hier ist nun eine `if-Verzweigung` mit drei möglichen Codeblock Anweisungen
+Hier ist nun eine `if-Selektion` mit drei möglichen Codeblock Anweisungen
 dargestellt. Im laufenden Programm wird immer nur eine der Anweisungen
 ausgeführt. Dies ermöglicht es dynamisch auf die Benutzereingabe zu reagieren
 indem je nach Eingabe einen anderen Code ausgeführt wird.
@@ -26,7 +26,7 @@ späteren praktischen Beispiel werden diese mit korrektem Java-Code ersetzt.
 
 <div className="grid"><div>
 
-**Aufbau einer if-Verzweigung**
+**Aufbau einer if-Selektion**
 
 ```java
 // highlight-start
@@ -48,11 +48,11 @@ else {                  // Optionaler Block
 
 </div><div>
 
-**Flow Diagram einer if-Verzweigung**
+**Flow Diagram einer if-Selektion**
 
 ```mermaid
 flowchart TD
-    C{if-Verzweigung}
+    C{if-Selektion}
     C -->|"if\n< Bedingung1 >"| D["< Anweisung1 >"]
     C -->|"else if\n< Bedingung2 >"| E["< Anweisung2 >"]
     C -->|else| F["< Anweisung3 >"]
@@ -102,7 +102,7 @@ flowchart TD
 
 Im praktischen Beispiel wollen wir herausfinden ob es sich um ein Kind,
 Jugendlicher oder Erwachsener handelt. Dazu existiert eine Variable `int age` in
-der das Alter gespeichert ist. In der if-Verzweigung wird nun das Alter
+der das Alter gespeichert ist. In der if-Selektion wird nun das Alter
 geprüft und je nach Situation in die Console geschrieben ob es sich um ein Kind,
 Jugendlicher oder Erwachsener handelt.
 
@@ -140,7 +140,7 @@ somit "dynamisch" sein. Dann macht die Kondition auch mehr Sinn!
 
 ```mermaid
 flowchart TD
-    A[int age] -->|14| B{if-Verzweigung}
+    A[int age] -->|14| B{if-Selektion}
     B -->|"if (age < 12)"| D[Hallo Kind]
     B -->|"else if (age < 18)"| E[Hallo Jugendlicher]
     B -->|else| F[Hallo Erwachsener]
@@ -169,12 +169,13 @@ flowchart TD
    übersprungen!**
 
 </details>
+
 ## :pen: A1: Rabattermittlung
 
 Erstellen Sie ein Programm, welches:
 
 - einen Kaufbetrag entgegen nimmt
-  _([Eingabe einlesen](../2a-eva/aufgabe2-eingabe.md))_
+  _([siehe Eingabe einlesen](/docs/woche02/2a-eva/aufgabe1-bibliothek-einbinden.md#pen-a2-text-mit-stdinput-einlesen))_
 - bei Einkäufen über CHF 100 einen Rabatt von 15% gewährt
 
 <details>
@@ -203,7 +204,7 @@ public class A1DiscountEvaluation {
 Erstellen Sie Programm, welches:
 
 - Gewichtsangaben entgegen nimmt
-  _([Eingabe einlesen](../2a-eva/aufgabe2-eingabe.md))_
+  _([siehe Eingabe einlesen](/docs/woche02/2a-eva/aufgabe1-bibliothek-einbinden.md#pen-a2-text-mit-stdinput-einlesen))_
 - Bis und mit 5kg CHF 2 für Kleinpakete verrechnet
 - Zwischen 5kg und 10kg CHF 5 für Mittelpakete verrechnet
 - Ab 10kg für Grosspakete CHF 10 verrechnet
@@ -301,7 +302,7 @@ Folgende Bausteine könnten Sie in der Vorarbeit zu einer Aufgabe unterstützen:
 - Eigene Problembeschreibung (Ziel des Programms)
 - In welcher Abfolge soll das Programm erstellt werden (damit möglichst einfach)
 - Welche Daten sind zu bearbeiten und mit welchen Datentypen?
-- Welche Verzweigungen sind zu welchem Zweck zu verwenden?
+- Welche Selektionen sind zu welchem Zweck zu verwenden?
 
 ### Auftrag
 

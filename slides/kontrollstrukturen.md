@@ -2,13 +2,13 @@
 marp: true
 theme: bbzbl
 paginate: true
-header: Modul 319 - Verzweigungen
+header: Modul 319 - Selektionen
 footer: BBZBL / Lukas Hodel /  Applikationen entwerfen und implementieren
 ---
 
 <!-- _class: big center -->
 
-# :twisted_rightwards_arrows: <br/> Verzweigungenen
+# :twisted_rightwards_arrows: <br/> Selektionenen
 
 ---
 
@@ -19,12 +19,12 @@ etwas nur unter einer **bestimmten Bedingung** ausführen soll.
 
 ```mermaid width=80% align=center 
 flowchart TD;
-    Kontrollstrukturen---Verzweigungen
+    Kontrollstrukturen---Selektionen
     Kontrollstrukturen---Schleifen
     subgraph verz [ ]
-        Verzweigungen---if[if-Anweisung]
+        Selektionen---if[if-Anweisung]
         if---ifels[if-else-Anweisung]
-        Verzweigungen---switch[switch-Anweisung]
+        Selektionen---switch[switch-Anweisung]
     end
     Schleifen---while[while-Anweisung]
     Schleifen---dowhile[do-while-Anweisung]
