@@ -3,8 +3,9 @@ keywords:
   - pdf
 ---
 
-# Weitere Übungen
+# 🦸 Weitere Übungen
 
+Diese Übungen sind freiwillig. Viel programmieren ist jedoch die effizienteste Art das Programmieren zu lernen 😉
 ## Quelltext / Code lesen / interpretieren können
 
 Überlegen Sie die Wirkung der nachfolgenden Ausschnitte aus grösseren

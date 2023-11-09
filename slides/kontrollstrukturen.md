@@ -2,20 +2,20 @@
 marp: true
 theme: bbzbl
 paginate: true
-header: Modul 319 - Kontrollstrukturen
+header: Modul 319 - Verzweigungen
 footer: BBZBL / Lukas Hodel /  Applikationen entwerfen und implementieren
 ---
 
 <!-- _class: big center -->
 
-# Kontrollstrukturen
+# :twisted_rightwards_arrows: <br/> Verzweigungenen
 
 ---
 
 # Kontrollstrukturen
 
 Vergleichs- und logische Operatoren kommen häufig dann zum Einsatz, wenn man
-etwas nur unter einer bestimmten Bedingung ausführen soll.
+etwas nur unter einer **bestimmten Bedingung** ausführen soll.
 
 ```mermaid width=80% align=center 
 flowchart TD;
@@ -33,6 +33,44 @@ flowchart TD;
 ```
 
 ---
+# ⚖️  Bedingungen | _Vergleichsoperatoren_
+
+Gegeben: `int a = 2; int b = 3;`
+
+| Operator | Beschreibung                                    | Beispiel | Resultat |
+| :------- | :---------------------------------------------- | :------- | :------- |
+| `==`     | überprüft auf <u>Gleichheit</u> <sup>\*</sup>   | `a == b` | `false`  |
+| `!=`     | überprüft auf <u>Ungleichheit</u> <sup>\*</sup> | `a != b` | `true`   |
+| `>`      | ist linker Operand <u>grösser</u>               | `a > b`  | `false`  |
+| `<=`     | ist linker Operand <u>grösser oder gleich</u>   | `a <= b` | `true`   |
+| `<`      | ist linker Operand <u>kleiner</u>               | `a < b`  | `true`   |
+| `>=`     | ist linker Operand <u>kleiner oder gleich</u>   | `a >= b` | `false`  |
+
+::: footnotes
+
+\* nur bei primitiven Datentypen. Nicht bei `String`!
+
+:::
+
+---
+
+# :stew: Bedingungen kombinieren | <br/> _Logische Operatoren_
+
+Gegeben: `boolean a = true; boolean b = false;`
+
+| Operator | Beschreibung                                    | Beispiel   | Resultat |
+| :------- | :---------------------------------------------- | :--------- | :------- |
+| `&&`     | [UND]: **beide** Ausdrücke sind `true`          | `a && b`   | `false`  |
+| `\|\|`   | [ODER]: **mindistens ein** Ausdruck ist `true`  | `a \|\| b` | `true`   |
+| `^`      | [XOR]: **genau einer** der Ausdrücke ist `true` | `a ^ b`    | `true`   |
+| `!`      | [NOT]: wandelt ein `boolean` ins Gegenteil um   | `!b`       | `true`   |
+
+[und]: https://de.wikipedia.org/wiki/Konjunktion_(Logik)
+[oder]: https://de.wikipedia.org/wiki/Disjunktion
+[xor]: https://de.wikipedia.org/wiki/Kontravalenz
+[not]: https://de.wikipedia.org/wiki/Negation
+
+---
 
 # if / else if / else
 
@@ -40,8 +78,7 @@ flowchart TD;
 
 - Wird dafür verwendet, **Bedingungen zu überprüfen**
 
-- Als Bedingung dient ein **Bool'scher Wert** (`true`, `false`), welche über ein
-  **Vergleichsoperator** erzeugt wird.
+- Als Bedingung dient ein **Bool'scher Wert** (`true`, `false`), welche über ein **Vergleichsoperator** erzeugt wird.
 
 - Kontrolliert ob ein Codeabschnitt durchlaufen wird
 
@@ -61,6 +98,7 @@ flowchart TD
 :::
 
 ---
+
 
 # if / else if / else
 

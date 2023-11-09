@@ -1,21 +1,21 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 keywords:
   - pdf
 ---
 
-# if - Kontrollstruktur
+# if - Verzweigung
 
 Mit dem Schlüsselwort **if** _(engl. falls)_ in Kombination mit dem **Datentyp
 boolean** können Programme erstellt werden, die abhängig von Benutzereingaben
 oder Variablenwerten unterschiedlich reagieren.
 
-## `if`-Anatomie
+## Anatomie
 
-Eine Kontrollstruktur mit einem `if` sieht so aus, wie im folgend dargestellt.
+Eine Verzweigung mit einem `if` sieht so aus, wie im folgend dargestellt.
 Ein **praktisches Beispiel** zur Veranschaulichung kann ausgeklappt werden.
 
-Hier ist nun eine `if-Kontrollstruktur` mit drei möglichen Codeblock Anweisungen
+Hier ist nun eine `if-Verzweigung` mit drei möglichen Codeblock Anweisungen
 dargestellt. Im laufenden Programm wird immer nur eine der Anweisungen
 ausgeführt. Dies ermöglicht es dynamisch auf die Benutzereingabe zu reagieren
 indem je nach Eingabe einen anderen Code ausgeführt wird.
@@ -26,7 +26,7 @@ späteren praktischen Beispiel werden diese mit korrektem Java-Code ersetzt.
 
 <div className="grid"><div>
 
-**Aufbau einer if-Kontrollstruktur**
+**Aufbau einer if-Verzweigung**
 
 ```java
 // highlight-start
@@ -48,11 +48,11 @@ else {                  // Optionaler Block
 
 </div><div>
 
-**Flow Diagram einer if-Kontrollstruktur**
+**Flow Diagram einer if-Verzweigung**
 
 ```mermaid
 flowchart TD
-    C{if-Kontrollstruktur}
+    C{if-Verzweigung}
     C -->|"if\n< Bedingung1 >"| D["< Anweisung1 >"]
     C -->|"else if\n< Bedingung2 >"| E["< Anweisung2 >"]
     C -->|else| F["< Anweisung3 >"]
@@ -102,7 +102,7 @@ flowchart TD
 
 Im praktischen Beispiel wollen wir herausfinden ob es sich um ein Kind,
 Jugendlicher oder Erwachsener handelt. Dazu existiert eine Variable `int age` in
-der das Alter gespeichert ist. In der if-Kontrollstruktur wird nun das Alter
+der das Alter gespeichert ist. In der if-Verzweigung wird nun das Alter
 geprüft und je nach Situation in die Console geschrieben ob es sich um ein Kind,
 Jugendlicher oder Erwachsener handelt.
 
@@ -140,7 +140,7 @@ somit "dynamisch" sein. Dann macht die Kondition auch mehr Sinn!
 
 ```mermaid
 flowchart TD
-    A[int age] -->|14| B{if-Kontrollstruktur}
+    A[int age] -->|14| B{if-Verzweigung}
     B -->|"if (age < 12)"| D[Hallo Kind]
     B -->|"else if (age < 18)"| E[Hallo Jugendlicher]
     B -->|else| F[Hallo Erwachsener]
@@ -169,140 +169,7 @@ flowchart TD
    übersprungen!**
 
 </details>
-
-## Bedingungen (`boolean`)
-Bedingungen sind Code-Ausdrücke, welche entweder wahr (`true`) oder falsch
-(`false`) sein können. Diese werden mit dem Datentyp `boolean` ausgedrückt und
-sind **elementar für die `if`-Kontrollstruktur** um zu entscheiden, welcher
-Codeblock genau ausgeführt werden soll.
-
-:::caution Ohne Vergleichsoperatoren keine Bedingungen
-
-Bedingungen werden mit [Vergleichsoperatoren](../../woche02/operatoren.md#vergleichsoperatoren) definiert.
-Machen Sie sich mit diesen Vertraut.
-
-:::
-
-Beispielsweise könnte eine Kassensoftware Kunden, die für mehr als 100 CHF
-einkaufen einen Rabatt von 10% einräumen. Dies sieht dann so aus:
-
-```java
-if (amount > 100) { // Boolsher Ausdruck direkt in der if-Kontrollstruktur
-    amount = amount * 0.9; // 10% discount
-}
-```
-
-Stattdessen könnte man auch eine **Variable** `boolean giveDiscount` (gebe
-Rabatt) einführen. Dies hat den Vorteil, dass ein guter Variabelname direkt
-beschreibt was gemacht wird. Dies würde dann so aussehen:
-
-```java
-boolean giveDiscount = amount > 100;
-
-if (giveDiscount) { // Variable vom Datentyp `boolean` in der if-Kontrollstruktur
-    amount = amount * 0.9; // 10% discount
-}
-```
-
-<details>
-<summary>Weitere Beispiele</summary>
-
-Hier noch mehr Beispiele wie Boolshe Ausdrücke in boolean Variablen gespeichert
-und verwendet werden können. Laut Konvention beginnen diese Variablennamen mit
-`is` _(zu Deutsch "ist")_.
-
-```java title="Beispiel Bool'she Ausdrücke in Variablen"
-// mit int
-int age = 21;                // gegeben ist eine int Variable
-boolean is21    = age == 21; // true
-boolean isNot21 = age != 21; // false, oder !is21
-boolean isAdult = age >= 18; // true
-boolean isChild = age <= 18; // false
-
-// Diese Variablen können nun in der if-Kontrollstruktur als Bedingung verwendet werden
-if (is21) {
-    System.out.println("Das alter ist genau 21");
-} else if (isAdult) {
-    System.out.println("Es handelt sich um eine erwachsene Person");
-}
-```
-
-</details>
-
-### Kombination von Bedingungen und Wahrheitswerten
-
-Manchmal müssen mehrere Bedingungen kombiniert werden. Dies kann mit einem
-logischen UND (`&&`) sein oder mit einem logischen ODER (`||`). Nur wie stellt
-man dies in Java dar?
-
-| Logischer Ausruck | Beduetung      | Beschreibung                         |
-| :---------------- | :------------- | :----------------------------------- |
-| &&                | Logisches UND  | alle Werte müssen `true` sein        |
-| \|\|              | Logisches ODER | mindestens ein Wert muss `true` sein |
-
-<div className="grid"><div>
-
-```java title="Beispiel: ODER"
-if (amount < 100 || age < 18) {
-    amount = amount * 0.9d;
-}
-```
-
-</div><div>
-
-
-```java title="Beispiel: UND"
-if (amount < 100 && age < 18) {
-    amount = amount * 0.9d;
-}
-```
-
-</div></div>
-
-<details>
-<summary>Wahrheitstabellen</summary>
-
-<div className="grid"><div>
-
-Beim logischen **UND**, `&&`, müssen beide, rsp. **alle Werte `true`** sein.
-Sobald ein false auftritt, ist alles false:
-
-| Kombination    | Resultat |
-| :------------- | :------- |
-| true && true   | true     |
-| true && false  | false    |
-| false && false | false    |
-
-Rabatt für Einkäufe über 100 CHF UND Kunden jünger als 18 Jahre:
-
-
-</div><div>
-
-Beim logischen **ODER**, `||`, muss **mindestens ein Wert `true`** sein. Sobald
-ein `true` auftritt, ist alles `true`:
-
-| Kombination      | Resultat |
-| :--------------- | :------- |
-| true \|\| true   | true     |
-| true \|\| false  | true     |
-| false \|\| false | false    |
-
-Rabatt für Einkäufe über 100 CHF ODER Kunden jünger als 18 Jahre:
-
-
-</div></div>
-
-</details>
-
-:::tip
-
-Die beiden senkrechten Striche werden auf CH-PC-Tastaturen häufig mit
-`ALT-GR plus Taste 7` erzeugt (auf der Taste ist das meist mit einem
-gelegentlich noch unterbrochen vertikalen Strich dargestellt).
-
-:::
-
-## :pen: Auftrag 1
+## :pen: A1: Rabattermittlung
 
 Erstellen Sie ein Programm, welches:
 
@@ -331,7 +198,7 @@ public class A1DiscountEvaluation {
 
 </details>
 
-## :pen: Auftrag 2
+## :pen: A2: Paketpreise ermitteln
 
 Erstellen Sie Programm, welches:
 
@@ -378,7 +245,7 @@ public class A2ParcelPrice {
 
 </details>
 
-## :pen: Auftrag 3
+## :pen: A3: Fehlersuche
 
 Bauen Sie folgenden Abschnitt in ein Programm ein und untersuchen Sie, warum die
 Ausgabe des Programms falsch ist. Warum ist dieser Fehler so schwer zu
@@ -413,7 +280,9 @@ if (value > 100); // Dieser Ausdruck macht nix! NIE!
 
 </details>
 
-## :pen: Auftrag 4 - Reflexion
+## :pen: A4: Reflexion
+
+### Einleitung
 
 Inzwischen haben Sie eine Vorstellung, was Syntax in Java bedeutet. Sie haben
 inzwischen auch das eine oder andere Programm erstellt. Vermutlich waren einige
@@ -432,16 +301,16 @@ Folgende Bausteine könnten Sie in der Vorarbeit zu einer Aufgabe unterstützen:
 - Eigene Problembeschreibung (Ziel des Programms)
 - In welcher Abfolge soll das Programm erstellt werden (damit möglichst einfach)
 - Welche Daten sind zu bearbeiten und mit welchen Datentypen?
-- Welche Kontrollstrukturen sind zu welchem Zweck zu verwenden?
+- Welche Verzweigungen sind zu welchem Zweck zu verwenden?
 
-### Aufgabe
+### Auftrag
 
 Beschreiben Sie nun schriftlich, aus Ihrer Sicht als Programmiererin oder
 Programmierer, **wie** man eine der vorherigen Aufgaben angeht und löst.
 Probieren Sie möglichst, praktisch jedes Detail zu beschreiben und ohne Aussagen
 "ja, das weiss ich einfach" auszukommen.
 
-:::tip Üben
+:::tip Üben, üben, üben
 
 Einer der wichtigsten Punkte beim Programmieren ist das Üben. Das oberhalb
 beschriebene Vorgehen kann dabei helfen, mit dem Lösen solcher Aufgaben

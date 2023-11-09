@@ -4,7 +4,7 @@ keywords:
   - pdf
 ---
 
-# Switch - Kontrollstruktur
+# Switch - Verzweigung
 
 Wir haben bereits die if-Verzweigung kennengelernt. Dort kann anhand einer
 Bedingung eine Wahl zwischen zwei Möglichkeiten getroffen werden. Das ist eine
@@ -97,26 +97,7 @@ public class SwitchDemo {
 }
 ```
 
-<!-- :::tip -->
-
-<!-- Häufig kann ein `switch` durch einen `array` elegant ersetzt werden: -->
-
-<!-- ```java -->
-<!-- int month = 8; -->
-<!-- String[] monthStrings = { -->
-<!--     "January", "February", "March", "April", "May", "June", -->
-<!--     "July", "August", "October", "November", "December" -->
-<!-- } -->
-<!-- if (month < monthStrings.length) { // prüft ob `month` gültig ist -->
-<!--     System.out.println(monthStrings[month - 1]); -->
-<!-- } else { -->
-<!--     System.out.println("Invalid month"); -->
-<!-- } -->
-<!-- ``` -->
-
-<!-- ::: -->
-
-## :pen: Auftrag 1
+## :pen: A5: Note zu Text
 
 Erstellen Sie eine Klasse, welche für die Eingabe einer (vereinfachten, ganzen)
 Note die entsprechende textuelle Bewertung ausgibt resp. Fehlermeldung bei
@@ -136,7 +117,7 @@ ungültiger Note:
 ```java
 import mytools.StdInput;
 
-public class A1GradesToText {
+public class A5GradesToText {
 
 	public static void main(String[] args) {
 
@@ -175,7 +156,7 @@ public class A1GradesToText {
 
 </details>
 
-## :pen: Auftrag 2
+## :pen: A6: Rechner
 
 Programmieren eines Rechners mit switch.
 
@@ -189,7 +170,7 @@ ist, führen die Berechnung aus und geben das Ergebnis aus.
 ```java
 import mytools.StdInput;
 
-public class A2Calculator {
+public class A6Calculator {
 
 	public static void main(String[] args) {
 		double firstNumber = StdInput.readDouble("Zahl 1 eingeben: ");
@@ -219,7 +200,7 @@ public class A2Calculator {
 
 </details>
 
-## :pen: Auftrag 3
+## :pen: A7: Beaufort Skala
 
 Die Beaufort-Skala wurde 1806 von dem englischen Admiral Sir Francis Beaufort
 (1774 – 1857) erarbeitet. Mit ihrer Hilfe kann anhand der Auswirkungen des
@@ -253,41 +234,41 @@ machen:
 ```java
 import mytools.StdInput;
 
-public class A3Beaufort {
+public class A7Beaufort {
 
-	public static void main(String[] args) {
-		System.out.print("Beaufort-Stufe: ");
-		int level = StdInput.readInt();
+  public static void main(String[] args) {
+    System.out.print("Beaufort-Stufe: ");
+    int level = StdInput.readInt();
 
-		switch(level) {
-			case 0: // wenn kein `brake` steht springt es zur nächsten Anweisung
-			case 1: // wenn kein `brake` steht springt es zur nächsten Anweisung
-			case 2: // wenn kein `brake` steht springt es zur nächsten Anweisung
-			case 3: // wenn kein `brake` steht springt es zur nächsten Anweisung
-			case 4: // wenn kein `brake` steht springt es zur nächsten Anweisung
-			case 5: // wenn kein `brake` steht springt es zur nächsten Anweisung
-			case 6: // wenn kein `brake` steht springt es zur nächsten Anweisung
-			case 7: // wenn kein `brake` steht springt es zur nächsten Anweisung
-			case 8:
-                // wird von 0-8 ausgeführt
-				System.out.println("Es besteht keine Gefahr.");
-				break;
+    switch (level) {
+      case 0: // wenn kein `brake` steht springt es zur nächsten Anweisung
+      case 1: // wenn kein `brake` steht springt es zur nächsten Anweisung
+      case 2: // wenn kein `brake` steht springt es zur nächsten Anweisung
+      case 3: // wenn kein `brake` steht springt es zur nächsten Anweisung
+      case 4: // wenn kein `brake` steht springt es zur nächsten Anweisung
+      case 5: // wenn kein `brake` steht springt es zur nächsten Anweisung
+      case 6: // wenn kein `brake` steht springt es zur nächsten Anweisung
+      case 7: // wenn kein `brake` steht springt es zur nächsten Anweisung
+      case 8:
+        // wird von 0-8 ausgeführt
+        System.out.println("Es besteht keine Gefahr.");
+        break;
 
-			case 9:
-				System.out.println("Es bestehen moegliche Gefahren.");
-				break;
+      case 9:
+        System.out.println("Es bestehen moegliche Gefahren.");
+        break;
 
-			case 10: // wenn kein `brake` steht springt es zur nächsten Anweisung
-			case 11: // wenn kein `brake` steht springt es zur nächsten Anweisung
-			case 12:
-                // wird von 10-12 ausgeführt
-				System.out.println("Es bestehen erhebliche Gefahren.");
-				break;
+      case 10: // wenn kein `brake` steht springt es zur nächsten Anweisung
+      case 11: // wenn kein `brake` steht springt es zur nächsten Anweisung
+      case 12:
+        // wird von 10-12 ausgeführt
+        System.out.println("Es bestehen erhebliche Gefahren.");
+        break;
 
-			default:
-				System.out.println("Ungueltige Eingabe");
-		}
-	}
+      default:
+        System.out.println("Ungueltige Eingabe");
+    }
+  }
 
 }
 ```
@@ -297,12 +278,11 @@ Wie ich finde, ist auch hier `if` eleganter:
 ```java
 import mytools.StdInput;
 
-public class A3BeaufortIf {
+public class A7BeaufortIf {
 
-	public static void main(String[] args) {
-		System.out.print("Beaufort-Stufe: ");
-		int level = StdInput.readInt();
-
+    public static void main(String[] args) {
+        System.out.print("Beaufort-Stufe: ");
+        int level = StdInput.readInt();
         if (level <= 8) {
             System.out.println("Es besteht keine Gefahr.");
         } else if (level == 9) {
@@ -312,14 +292,13 @@ public class A3BeaufortIf {
         } else {
             System.out.println("Ungueltige Eingabe");
         }
-	}
+    }
 
 }
 
 ```
 
 </details>
-
 ## Extra: `switch` oder `if` ?
 
 Sie werden nachvollziehen können oder bereits festgestellt haben, dass die
@@ -333,7 +312,7 @@ Die folgende Tabelle stellt Argumente gegenüber:
 | if               | jedes Mal wird das Ergebnis eines boolean Ausdrucks berechnet | überschaubare Anzahl Fälle; alle Datentypen möglich                                       |
 | switch           | definierte, einzelne Werte werden geprüft                     | etwas besser lesbar bei vielen Varianten; nur möglich mit Zeichen, Strings und Ganzzahlen |
 
-:::info Herr Hodels Meinung
+:::note Herr Hodels Meinung
 
 Grundsätzlich kann man auf Switch verzichten. Ist switch wirklich leserlicher?
 Vor allem das `break` nach jeder Anweisung macht es häufig komplexer.

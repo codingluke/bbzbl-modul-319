@@ -16,8 +16,36 @@ einzusehen, zu ändern, etc.
 - Sie können mittels Debugging Ihr Programm schrittweise durchlaufen, dabei die
   Werte von Variablen beobachten und so Abläufe verstehen und Fehlerquellen
   entdecken.
+## :pen: A1: Debuggen vom Methodenaufruf ohne Parameter 
 
-## :pen: Eine Debugging-Session Schritt-für-Schritt
+Wir Untersuchen den Ablauf der Methode `printCurrentDate()` vom Abschnitt
+[Einfacher Methodenaufruf](./einfache-methode.md)
+
+Erstellen Sie dafür in Eclipse eine neue Klasse "OutputMethodExample" und kopieren Sie
+folgendes Beispiel in die neue Datei.
+
+```java showLineNumbers
+import java.time.LocalDate;
+public class OutputMethodExample {
+    public static void main(String[] args) {
+        printCurrentDate();
+    }
+    public static void printCurrentDate() {
+        System.out.println("Current date is: " + LocalDate.now());
+    }
+}
+
+```
+
+- Ein **Breakpoint** muss dabei <u>mindestens</u> auf die **Zeile 4**, mit dem
+  Aufruf der Methode `printCurrentDate`, gesetzt werden.
+- Sobald der Debugger dort anhält, muss:
+  - **Step Into** gewählt werden, damit der Debugger in die Methode verzweigt.
+  - Diese Debugging-Session soll aufzeigen, wie der Aufruf einer Methode
+    erfolgt.
+- Spielen Sie mit den Möglichkeiten
+
+## :pen: A2: Eine Debugging-Session Schritt-für-Schritt
 
 Folgende Schritte sind nötig, um eine Debugging-Session für folgenden
 Programmcode durchzuführen.
@@ -27,7 +55,7 @@ folgende Code-Beispiel in die Datei. Dann können Sie direkt die
 Schritt-für-Schritt Session nachvollziehen.
 
 ```java title="Das verwendete Code-Beispiel"
-public class Mini {
+public class A3Mini {
     public static void main(String[] args) {
         String message = "Hi";
 
@@ -102,32 +130,3 @@ beobachten**. Wenn man z.B. "Hi" nach "i" ändert, wird der Ausdruck `false`, da
    einerseits ein Symbol für die Java-Perspektive (J), und andererseits ein
    Symbol für die Debugging-Perspektive (Käfer) angezeigt.
 
-## :pen: Debuggen der Methode `printCurrentDate()` 
-
-
-Wir Untersuchen den Ablauf der Methode `printCurrentDate()` vom Abschnitt
-[Einfacher Methodenaufruf](./einfache-methode.md)
-
-Erstellen Sie dafür in Eclipse eine neue Klasse "OutputMethodExample" und kopieren Sie
-folgendes Beispiel in die neue Datei.
-
-```java showLineNumbers
-import java.time.LocalDate;
-public class OutputMethodExample {
-    public static void main(String[] args) {
-        printCurrentDate();
-    }
-    public static void printCurrentDate() {
-        System.out.println("Current date is: " + LocalDate.now());
-    }
-}
-
-```
-
-- Ein **Breakpoint** muss dabei <u>mindestens</u> auf die **Zeile 4**, mit dem
-  Aufruf der Methode `printCurrentDate`, gesetzt werden.
-- Sobald der Debugger dort anhält, muss:
-  - **Step Into** gewählt werden, damit der Debugger in die Methode verzweigt.
-  - Diese Debugging-Session soll aufzeigen, wie der Aufruf einer Methode
-    erfolgt.
-- Spielen Sie mit den Möglichkeiten

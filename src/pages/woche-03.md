@@ -6,11 +6,18 @@ hide_table_of_contents: true
 <Timeline title="Woche 3">
 <Event time="12:45">
 
-## Selektion if / Switch
+## :recycle: Repetition Operatoren
 
-- :teacher: Präsentation
+- :jigsaw: Kaggle Fragerunde
 
-- :student: lesen und lösen / :checkered_flag: **Thema 2**
+</Event>
+<Event time="13:00">
+
+## :twisted_rightwards_arrows: Selektion `if` 🏅**T2**
+
+
+- :man_teacher: Präsentation
+- :pen: lesen und lösen | **:coffee: 13:30**
 
 </Event>
 
@@ -21,11 +28,26 @@ hide_table_of_contents: true
 </Event>
 <Event time="14:40">
 
-## :teacher: Methoden / Debuggen
+## :twisted_rightwards_arrows: Selektion `Switch` 🏅**T2**
 
-- :teacher: Live coding
+- :man_teacher: Präsentation
+- :pen: lesen und lösen 
 
-- :student: lesen und lösen / :checkered_flag: **Thema 3**
+</Event>
+<Event time="15:15">
+
+## :sparkles: Einfacher Methodenaufruf
+
+- :two_women_holding_hands: Zusammen programmieren
+- **:coffee: 15:30**
+
+</Event>
+<Event time="15:35">
+
+## :bug: Debbuging
+
+- :two_women_holding_hands: Zusammen der Methodenaufruf debuggen
+- :pen: Schritt für Schritt Aufgabe lösen
 
 </Event>
 <Event time="16:15">

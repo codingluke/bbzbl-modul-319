@@ -40,6 +40,55 @@ erstellt**.
 
 </div></div>
 
-## :books: Themen Heute
+## :pen: Aufgabenübersicht
+
+
+### Verzweigungen
+
+Sie schaffen nicht alle Aufgaben während dem Unterricht.
+Es sollten mindestens zwei Aufgaben von `if` und eine von `switch` gelöst werden.
+
+<div class="grid"><div>
+
+#### If
+- [A1: Rabettermittlung](/docs/woche03/3a-konditionen/if-kontrollstruktur.md#pen-a1-rabattermittlung)
+- [A2: Paketpreise ermitteln](/docs/woche03/3a-konditionen/if-kontrollstruktur.md#pen-a2-paketpreise-ermitteln)
+
+:::note Freiwillig
+
+- [A3: Fehlersuche](/docs/woche03/3a-konditionen/if-kontrollstruktur.md#pen-a3-fehlersuche)
+- [A4: Reflexion](/docs/woche03/3a-konditionen/if-kontrollstruktur.md#pen-a4-reflexion)
+
+:::
+
+</div><div>
+
+#### Switch
+
+- [A5: Note zu Text](/docs/woche03/3a-konditionen/switch-kontrollstruktur.md#pen-a5-note-zu-text)
+
+:::note Freiwillig
+
+- [A6: Rechner](/docs/woche03/3a-konditionen/switch-kontrollstruktur.md#pen-a6-rechner)
+- [A7: Beaufort Skala](/docs/woche03/3a-konditionen/switch-kontrollstruktur.md#pen-a7-beaufort-skala)
+
+:::
+
+</div><div>
+
+### Einfacher Methodenaufruf
+
+- [A1: Methodenaufruf ohne Parameter](/docs/woche03/einfache-methode.md#pen-a1-methodenaufruf-ohne-parameter)
+
+</div><div>
+
+### Debugging und Fehleranalyse
+
+- [A1: Debuggen vom Methodenaufruf ohne Parameter](/docs/woche03/debugging.md#pen-a1-debuggen-vom-methodenaufruf-ohne-parameter)
+- [A2: Eine Debugging-Session Schritt-für-Schritt](/docs/woche03/debugging.md#pen-a2-eine-debugging-session-schritt-für-schritt)
+
+</div></div>
+
+## :books: Themenseiten
 
 <DocCardList />

@@ -4,13 +4,13 @@ keywords:
   - pdf
 ---
 
-# 👷 Einfacher Methodenaufruf
+# ✨ Einfacher Methodenaufruf
 
 ## :dart: Ziele
 
 - Sie können einfache Methoden erklären und anwenden.
 
-## :pen: Auftrag
+## :pen: A1: Methodenaufruf ohne Parameter
 
 Das folgende Beispiel zeigt einen einfachen Methodenaufruf, ohne Parameter.
 
