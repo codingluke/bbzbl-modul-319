@@ -15,6 +15,14 @@ Datentypen und können diese in Programmen nutzen.
 - Sie können eine Bibliothek in Ihr Eclipse-Projekt einbinden. Sie können die
   Bibliothek dazu verwenden, um Benutzereingaben einzulesen.
 
+## :man_teacher: Präsentation
+
+[:computer: Open in Browser](pathname:///slides/eva) |
+[:floppy_disk: download PDF](pathname:///slides/eva.pdf)
+
+<iframe src="/bbzbl-modul-319/slides/eva" width="100%" height="400px"></iframe>
+
+
 ## Das EVA Prinzip
 
 Grundsätzlich befolgen alle Programme das EVA Prinzip. Selbst Smartphones, die

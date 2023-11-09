@@ -38,6 +38,8 @@ Bereit für das Gespräch im Rahmen des Rasters.
 
 ## :house: Hausaufgaben
 
+- Beschreibung des [🏅 LB1](/docs/beurteilungen/LB1.md) durchgelesen und
+  verstanden.
 - Alle in der [Aufgabenübesicht](#pen-aufgabenübersicht) gelisteten Aufgaben
   erledigt. (Scanner ist optional).
 - Eine **eigene Aufgabe**, für den Schwierigkeitsgrad C, erstellt.
@@ -54,7 +56,7 @@ Bereit für das Gespräch im Rahmen des Rasters.
 ### Das EVA-Prinzip
 
 - [A1: MyTools.jar einbinden](/docs/woche02/2a-eva/aufgabe1-bibliothek-einbinden.md#pen-a1-mytoolsjar-einbinden)
-- [A2: Text mit StdInput einlesen](/docs/woche02/2a-eva/aufgabe1-bibliothek-einbinden.md#pen-a2-text-mit-stdinput-einlesen)
+- [A2: Text (String) mit StdInput einlesen](/docs/woche02/2a-eva/aufgabe1-bibliothek-einbinden.md#pen-a2-text-mit-stdinput-einlesen)
 - [A3: Text mit Scanner einlesen (optional)](/docs/woche02/2a-eva/aufgabe-scanner.md#pen-a3-text-mit-scanner-einlesen)
 
 </div><div>

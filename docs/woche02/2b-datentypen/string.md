@@ -9,9 +9,12 @@ Der Datentyp `String` **dient zur Speicherung von Zeichenfolgen**, also
 allgemeiner Text. Der Text muss immer zwischen zwei **"doppelten
 Anführungszeichen"** gestellt werden.
 
+Wir haben ja bereits zusammen die Aufgabe [:pen: A2: Text mit `StdInput` einlesen](/docs/woche02/2a-eva/aufgabe1-bibliothek-einbinden.md#pen-a2-text-mit-stdinput-einlesen) zusammen bearbeitet. Hier ist nun zusätzliche Theorie zum Datentyp `String`.
+
 | Datentyp | Grösse             | Beschreibung              | Spezifika |
 | -------- | ------------------ | ------------------------- | --------- |
 | String   | 2 byte pro Zeichen | Speichert beliebigen Text | `""`      |
+
 
 ## Strings initialisieren
 

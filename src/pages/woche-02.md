@@ -6,32 +6,35 @@ hide_table_of_contents: true
 <Timeline title="Woche 2">
 <Event time="12:45">
 
-## :teacher: Kompetenzraster
+## :man_teacher: Kompetenzraster
 
-- :scroll: Variablen / Datentypen 
-- :twisted_rightwards_arrows: Kontrollstrukturen (if / else) 
-- :alembic: Methoden / Funktionen 
-- :bug: Fehleranalyse und Debugging
+- :compass: Übersicht der Themen
+- :scroll: :heavy_division_sign: :twisted_rightwards_arrows: | :factory: | :bug:
 
 </Event>
 
 <Event time="12:55">
 
-## :teacher: EVA (:keyboard: :gear: :desktop_computer:)
+## :computer: EVA
 
+- :thought_balloon: Diskussion
 
 </Event>
 <Event time="13:00">
 
-## :teacher: MyTools Bibliothek einbinden
-:coffee: 13:30
+## :two_women_holding_hands: MyTools Bibliothek einbinden
+
+- :pen: Zusammen Text einlesen
+
+**:coffee: 13:30**
 
 </Event>
 <Event time="13:35">
 
-## :student: Datentypen / Variablen
+## :scroll: Datentypen
 
-:pen: Aufgaben lösen / :checkered_flag: **Thema 1**
+- :man_teacher: Präsentation
+- :pen: Aufgaben lösen / :checkered_flag: **Thema 1**
 
 </Event>
 <Event time="14:20">
@@ -41,11 +44,19 @@ hide_table_of_contents: true
 </Event>
 <Event time="14:40">
 
-## :student: Datentypen / Variablen
+## :scroll: Variablen
 
 - :pen: Aufgaben lösen / :checkered_flag: **Thema 1**
 
-- :superhero: oder Operatoren! **Thema 2**
+**:coffee: 15:30**
+
+</Event>
+<Event time="15:35">
+
+## :heavy_division_sign: Operatoren und rechnen
+
+- :man_teacher: Präsentation
+- :pen: Aufgaben lösen / :checkered_flag: **Thema 2**
 
 </Event>
 <Event time="16:15">

@@ -106,6 +106,7 @@ footer: BBZBL / Lukas Hodel /  Applikationen entwerfen und implementieren
 ```
 
 ---
+
 # Datentyp konvertieren
 
 Vom höheren zum kleineren Detailgrad braucht es **casting**
@@ -116,10 +117,30 @@ Vom höheren zum kleineren Detailgrad braucht es **casting**
 //                         ^^^^^ Der Datentyp der erzwungen werden soll steht
 //                               immer zwischen zwei runden Klammern
 ```
+
 Vom kleineren zum höheren Detailgrad braucht es **kein casting**
 
 ```java
 // Info: Variablen von oben wiederverwendet
    double gleitkommazahl2 = gleitkommazahl;  // gleitkommazahl war float
    long   langezahl       = ganzzahl;        // ganzzahl war int
+```
+
+---
+
+# Der Datentyp `String`
+
+| Datentyp   | Grösse             | Beschreibung              | Spezifika |
+| ---------- | ------------------ | ------------------------- | --------- |
+| **String** | 2 byte pro Zeichen | Speichert beliebigen Text | `""`      |
+
+- `String` ist gross geschrieben
+- Ein `String` verwendet den primitiven Datentyp `char`.
+
+### Mit + Strings Verbinden
+
+```java
+String intAlsString = "" + 21;
+String stringMitIntVerbunden = "Ihre Geschwindigkeit lautet " + 21;
+String stringMitStringVerbunden = "Your name is " + "Mr Robot");
 ```

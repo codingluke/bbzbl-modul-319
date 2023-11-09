@@ -2,23 +2,42 @@
 keywords:
   - pdf
 ---
+
 # ➗ Operatoren und Rechnen
+
+Nun kennen Sie bereits Variablen und Datentypen um Informationen in Java
+festzuhalten. Informationen sind jedoch nicht viel Wert, wenn damit nicht
+gearbeitet werden kann.
+
+Dazu dienen nun die Operatoren. Diese kennen Sie bereits aus der Mathematik.
+Damit lassen sich Variablen verändern, vergleichen und berechnen.
+
+## :dart: Ziele
+
+- Sie wissen was Operatoren sind
+- Sie können mit Variablen rechnen
+- Sie können Variablen vergleichen und Bedingungen formulieren
 
 [:computer: Open in Browser](pathname:///slides/operatoren) |
 [:floppy_disk: download PDF](pathname:///slides/operatoren.pdf)
 
 <iframe src="/bbzbl-modul-319/slides/operatoren" width="100%" height="400px"></iframe>
 
-## Zuweisungsoperator `=` 
-Der elementarste Operator ist der Zuweisungsoperator `=`. Mit diesem wir einer Variable einen Wert zugewiesen.
+## Zuweisungsoperator `=`
+
+Der elementarste Operator ist der Zuweisungsoperator `=`. Mit diesem wir einer
+Variable einen Wert zugewiesen.
+
 - Die Variable steht immer links, der zuzuweisende Wert immer rechts.
-- Der zuzuweisende Wert kann sich wiederum in einer Variable oder Methode befinden.
+- Der zuzuweisende Wert kann sich wiederum in einer Variable oder Methode
+  befinden.
 
 ```java
    int sinnDesLebens = 42;
    int number        = sinnDesLebens;
 //                   ^ Zuweisungsoperator
 ```
+
 ## Arithmetische Operatoren `+`, `-`, `/`, `*`, `%`
 
 Arithmetische Operatoren kennt Ihr bereits von der Mathematik. Damit lassen sich
@@ -53,6 +72,7 @@ public boolean even(int number) {
 ```
 
 :::
+
 ## :pen: A1: Noten berechnen
 
 Erstellen Sie ein Programm, welches vom Benutzer
@@ -111,7 +131,8 @@ System.out.println("The average grade is: " + result);
 
 ---
 
-:::warning Themen ab hier sind erst in späteren Wochen relevant und werden bei bedarf referenziert
+:::warning Themen ab hier sind erst in späteren Wochen relevant und werden bei
+bedarf referenziert
 
 :::
 
@@ -189,7 +210,7 @@ Iteration von C.
 
 :::
 
-## Vergleichsoperatoren 
+## Vergleichsoperatoren
 
 - `==`, `!=`, `<`, `>`, `<=`, `>=` und die Negation `!`
 

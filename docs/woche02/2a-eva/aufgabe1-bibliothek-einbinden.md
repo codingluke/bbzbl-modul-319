@@ -154,20 +154,3 @@ KlassenName.methodenName([optionaleParemeter]);
 ```
 
 :::
-
-:::tip Strings Zusammensetzen
-
-- Mit einem `+` können Strings Zusammensetzen werden
-- Der erste String sollte mit einem Leerzeichen Enden, wieso?
-
-````java title="Strings zusammensetzen"
-String name = "Mr. Robot";
-System.out.println("Your name is " + name);
-//                              ^ Leerzeichen!
-//                  Your name is Mr. Robot
-
-System.out.println("Your name is" + name);
-//                  Your name isMr. Robot ```
-
-:::
-````

@@ -18,7 +18,7 @@ footer: BBZBL / Lukas Hodel / Applikationen entwerfen und implementieren
 
 # Ablauf
 
-### :point_right: Siehe grosser Screen
+### Siehe grosser Screen :point_right:
 
 ---
 
@@ -48,101 +48,131 @@ Macht euch mit dem Bewertungsraster im Google Classroom vertraut
 ---
 
 # LB1: Themenübersicht
+![bg right fit](./images/meilensteine.png)
 
-<br/>
+**Woche 4**
 
 1. :scroll: Variablen / Datentypen
-2. :twisted_rightwards_arrows: Operatoren / Kontrollstrukturen (if / else)
+2. :heavy_division_sign: Operatoren / 
+   :twisted_rightwards_arrows: Kontrollstrukturen (if / else)
 
-<hr/>
+**Woche 6**
 
 3. :factory: Methoden / Funktionen
 
-<hr/>
+**Woche 7**
 
 4. :bug: Fehleranalyse und Debugging
 
 ---
 
-<!-- _class: big -->
+<!-- _class: emoji-list -->
 
-# LB1: Wichtige Details :rotating_light:
+# LB1: Checkliste
 
-- Code Beispiele müssen der **Konvention entsprechen**
-  - Es gibt pro Konventionsfehler 0.1 Notenpunkt Abzug
+- :white_check_mark: Abgegebener Quellcode entspricht der **Konvention**
+  - :exclamation: Es gibt pro Konventionsfehler 0.1 Notenpunkt Abzug
 
-- Die **Abgabefrist** muss eingehalten werden
-  - Pro Dokument gibt es 0.25 Notenpunkte Abzug
-- Für den fortgeschrittenen Schwierigkeitsgrad Rasters benötigen Sie **eigene Beispiele mit eigenen Ideen**
+- :white_check_mark: Die **Abgabefrist** ist eingehalten
+  - :exclamation: Pro Dokument gibt es 0.25 Notenpunkte Abzug
 
----
-
-<!-- _class: big center -->
-
-# Meilensteine
-
-![inline](./images/meilensteine.png)
+- :white_check_mark: **Eigene Beispiele** mit eigenen **Ideen** für den Schwierigkeitsgrad "C" des Rasters sind vorhanden
+  - :exclamation: Ohne eigene Beispiele und Ideen 0 Punkte für diesen Teil
 
 ---
 
-<!-- _class: big center -->
+<!-- _class: emoji-list -->
 
-# EVA Prinzip
+# :computer: EVA Prinzip
 
-```mermaid
-flowchart LR;
-    E["Eingabe"]-->V["Verarbeitung"]-->A["Ausgabe"]
-```
+::: columns l60
 
----
+- :dart: Sie können das EVA-Prinzip erklären.
+- :dart: Sie können Bibliotheken in Eclipse-Projekt einbinden und Benutzereingaben einlesen.
 
-<!-- _class: big center -->
+::: split
 
-# Was gibt es für Eingabearten?
+- :man_teacher: Lehrergespräch  mit Präsentation (10min)
 
----
+:::
 
-# Eingabe Beispiele
+### :pencil: Auftrag
 
-- Formular einer Applikation
-- Mausbewegung
-- Joystick bewegung
-- Gamepad
-- Wischgeste auf einem Smartphone
-- Spracheingabe
-- Kamera
-- ...
+::: columns l60
 
----
+Zusammen werden wir das EVA-Prinzip ergründen und in Eclipse die Voraussetzung dazu schaffen.
 
-<!-- _class: big center -->
+- [:link: Das EVA-Prinzip | Modulwebseite](https://codingluke.github.io/bbzbl-modul-319/docs/woche02/2a-eva/)
 
-# Was macht wohl die Verarbeitung?
+::: split
+
+- :dna: Plenum / Live-Coding
+- :clock1: Bis zur grossen Pause
+
+:::
 
 ---
 
-# Verarbeitung Beispiele
+<!-- _class: emoji-list -->
 
-- Cursor auf dem Bildschirm bewegen
-- Im Computerspiel auf user Input reagieren. Z.B. Steuern
-- Formulardaten in eine Datenbank speichern
-- ...
+# :scroll: Variablen und Datentypen
+
+::: columns l60
+
+- :dart: Sie kennen die primitiven Datentypen und den höheren Datentyp String
+- :dart: Sie können diese als Variablen in Programmen nutzen.
+
+::: split
+
+- :man_teacher: Präsentation von der Lehrperson (15min)
+
+:::
+
+### :pencil: Auftrag
+
+::: columns l60
+
+Die Aufgaben [A1](/docs/woche02/2b-datentypen/primitive-datentypen.md#pen-a1-datentypen-bestimmen), [A2](/docs/woche02/2b-datentypen/variablen.md#pen-a2-datentypen-initialisieren), und [A3](/docs/woche02/2b-datentypen/casting.md#pen-a3-datentypen-konvertieren) auf der Modulwebseite lesen und bearbeiten
+
+- [:link: Variablen & Datentypen | Modulwebseite](https://codingluke.github.io/bbzbl-modul-319/docs/woche02/2b-datentypen/)
+
+::: split
+
+- :dna: Freies Arbeiten
+- :clock1: Bis 15:30
+
+:::
 
 ---
 
-<!-- _class: big center -->
+<!-- _class: emoji-list -->
 
-# Und wo wird nun was Ausgegeben?
+# :heavy_division_sign: Operatoren und rechnen
 
----
+::: columns l60
 
-# Ausgabe Beispiele
+- :dart: Sie wissen was Operatoren sind
+- :dart: Sie können mit Variablen rechnen
 
-- Bildschirm
-- Konsole / CMD
-- Visuell
-- Text
-- Roboterarm bewegt sich
-- Lampe geht an
-- Auto steuert
-- NASA Rakete nimmt die richtige Laufbahn
+::: split
+
+- :man_teacher: Präsentation von der Lehrperson (15min)
+
+:::
+
+### :pencil: Auftrag
+
+::: columns l60
+
+1. Die Aufgaben auf der Modulwebseite lesen
+2. Die Aufgabe [A1: Noten berechnen](/docs/woche02/operatoren.md#pen-a1-noten-berechnen) lösen
+
+- [:link: Variablen & Datentypen | Modulwebseite](https://codingluke.github.io/bbzbl-modul-319/docs/woche02/2b-datentypen/)
+
+::: split
+
+- :dna: Freies Arbeiten
+- :clock1: Bis 16:15
+
+:::
+
