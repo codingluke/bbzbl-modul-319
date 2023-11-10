@@ -6,7 +6,7 @@ keywords:
 
 # Bibliothek `MyTools`
 
-Die BBibliothek `MyTools` wurde von der Schule entwickelt. Diese ermöglicht
+Die Bibliothek `MyTools` wurde von der Schule entwickelt. Diese ermöglicht
 einfache Texteingaben durch die Console vom Benutzer.
 
 Die Klasse mit der wir ab jetzt arbeiten werden lautet `StdInput`.
