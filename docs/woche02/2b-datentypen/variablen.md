@@ -3,6 +3,7 @@ sidebar_position: 2
 keywords:
   - pdf
 ---
+
 # Deklaration und Initialisierung von Variablen
 
 Beispiele, wie Variablen initialisiert werden können. Die Leerzeichen dienen nur
@@ -17,8 +18,9 @@ der Übersichtlichkeit.
 
 Die Initialisierung der Werte verwendet spezifische Zeichen für die
 verschiedenen Datentypen. So endet ein `float`-Wert immer mit `f` oder `long`
-mit `l`. Die Spezifikas pro Datentyp finden Sie in der Tabelle oberhalb unter
-"Spezifika".
+mit `l`. Die Spezifikas pro Datentyp finden Sie in der
+[Tabelle der primitiven Datentypen](/docs/woche02/2b-datentypen/primitive-datentypen.md)
+unter "Spezifika".
 
 ```java title="Deklarierung & Initialisierung von Variablen"
 
@@ -35,7 +37,10 @@ mit `l`. Die Spezifikas pro Datentyp finden Sie in der Tabelle oberhalb unter
 
 Erstellen Sie ein Programm, in welchem Sie:
 
-- für jeden oben definierten Datentypen eine Variable **deklarieren**
+- für jeden
+  [primitiven Datentypen](/docs/woche02/2b-datentypen/primitive-datentypen.md)
+  sowie [String](/docs/woche02/2b-datentypen/string.md) eine Variable
+  **deklarieren**
 - einen passenden Wert fest **zuweisen**
 - und anschliessend die Variablen **ausgeben**
   - Versucht evt. Datentypen zu verbinden!
