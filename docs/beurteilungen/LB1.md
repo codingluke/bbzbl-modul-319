@@ -87,7 +87,7 @@ und den zugehörigen Aufgabenseiten angegeben:
 
 - **Thema 2 - Selektion und Operatoren**
   - :heavy_division_sign: : [Rechnen und Operatoren](/docs/woche02/operatoren.md)
-  - :twisted_rightwards_arrows: : [Selektionen (if / switch)](/docs/woche03/3a-konditionen/index.md)
+  - :twisted_rightwards_arrows: : [Selektionen (if / switch)](/docs/woche03/selektion/index.md)
 - **Thema 3 - Methoden**
   - :factory: [Methoden](/docs/woche04/4a-methoden-fehleranalyse/index.md)
 - **Thema 4 - Debugging und Fehlersituationen**

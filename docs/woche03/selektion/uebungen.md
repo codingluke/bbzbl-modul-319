@@ -1,9 +1,10 @@
 ---
+sidebar_position: 2
 keywords:
   - pdf
 ---
 
-# 🦸 Weitere Übungen
+# 🦸 Selektion Zusatzaufgaben
 
 Diese Übungen sind freiwillig. Viel programmieren ist jedoch die effizienteste Art das Programmieren zu lernen 😉
 ## Quelltext / Code lesen / interpretieren können

@@ -8,7 +8,7 @@ footer: BBZBL / Lukas Hodel /  Applikationen entwerfen und implementieren
 
 <!-- _class: big center -->
 
-# :twisted_rightwards_arrows: <br/> Selektionenen
+# :twisted_rightwards_arrows: <br/> Selektion
 
 ---
 
@@ -17,7 +17,7 @@ footer: BBZBL / Lukas Hodel /  Applikationen entwerfen und implementieren
 Vergleichs- und logische Operatoren kommen häufig dann zum Einsatz, wenn man
 etwas nur unter einer **bestimmten Bedingung** ausführen soll.
 
-```mermaid width=80% align=center 
+```mermaid width=80% align=center
 flowchart TD;
     Kontrollstrukturen---Selektionen
     Kontrollstrukturen---Schleifen
@@ -33,7 +33,8 @@ flowchart TD;
 ```
 
 ---
-# ⚖️  Bedingungen | _Vergleichsoperatoren_
+
+# ⚖️ Bedingungen | _Vergleichsoperatoren_
 
 Gegeben: `int a = 2; int b = 3;`
 
@@ -78,7 +79,8 @@ Gegeben: `boolean a = true; boolean b = false;`
 
 - Wird dafür verwendet, **Bedingungen zu überprüfen**
 
-- Als Bedingung dient ein **Bool'scher Wert** (`true`, `false`), welche über ein **Vergleichsoperator** erzeugt wird.
+- Als Bedingung dient ein **Bool'scher Wert** (`true`, `false`), welche über ein
+  **Vergleichsoperator** erzeugt wird.
 
 - Kontrolliert ob ein Codeabschnitt durchlaufen wird
 
@@ -98,7 +100,6 @@ flowchart TD
 :::
 
 ---
-
 
 # if / else if / else
 

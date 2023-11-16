@@ -3,7 +3,7 @@ keywords:
   - pdf
 ---
 
-# 🔀 Selektionen
+# 🔀 Selektion
 
 Mit `if` und `switch` können Sie auf unterschiedliche Werte in Ihren Variablen
 unterschiedlich, **spezifisch reagieren**.
@@ -19,14 +19,14 @@ unterschiedlich, **spezifisch reagieren**.
 - Sie können die switch Kontrollstruktur nutzen, um effizienter auf eine
   kleinere Anzahl unterschiedlicher Werte reagieren zu können als mit einem if.
 
-## :teacher: Präsentationen
+## :man_teacher: Präsentationen
 
-[:computer: Open in Browser](pathname:///slides/kontrollstrukturen) |
-[:floppy_disk: download PDF](pathname:///slides/kontrollstrukturen.pdf)
+[:computer: Open in Browser](pathname:///slides/selektion) |
+[:floppy_disk: download PDF](pathname:///slides/selektion.pdf)
 
-<iframe src="/bbzbl-modul-319/slides/kontrollstrukturen" width="100%" height="400px"></iframe>
+<iframe src="/bbzbl-modul-319/slides/selektion" width="100%" height="400px"></iframe>
 
-## :open_book: Themen
+## :books: Aufgaben und Themen
 
 <DocCardList className="pdf-exclude"/>
 

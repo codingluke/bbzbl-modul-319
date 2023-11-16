@@ -1,18 +1,14 @@
 # Woche 3
 
-<!-- import Ablauf from "../../src/pages/woche-03.md" -->
-
-<!-- <Ablauf /> -->
-
 <div class="grid"><div>
 
 ## :school: Unterricht
 
-:::info
+[:computer: Open in Browser](pathname:///slides/woche-03) |
+[:floppy_disk: download PDF](pathname:///slides/woche-03.pdf)
 
-:construction: Folie Folgt
+<iframe src="/bbzbl-modul-319/slides/woche-03" width="100%" height="400px"></iframe>
 
-:::
 
 **[:mag: Ablauf in Vollbild](pathname:///woche-03)**
 
@@ -43,7 +39,7 @@ erstellt**.
 
 ## :pen: Aufgabenübersicht
 
-### Selektionen
+### Selektion
 
 Sie schaffen nicht alle Aufgaben während dem Unterricht. Es sollten mindestens
 zwei Aufgaben von `if` und eine von `switch` gelöst werden.
@@ -52,13 +48,13 @@ zwei Aufgaben von `if` und eine von `switch` gelöst werden.
 
 #### If
 
-- [A1: Rabettermittlung](/docs/woche03/3a-konditionen/if-kontrollstruktur.md#pen-a1-rabattermittlung)
-- [A2: Paketpreise ermitteln](/docs/woche03/3a-konditionen/if-kontrollstruktur.md#pen-a2-paketpreise-ermitteln)
+- [A1: Rabettermittlung](/docs/woche03/selektion/aufgaben.md#pen-a1-rabattermittlung)
+- [A2: Paketpreise ermitteln](/docs/woche03/selektion/aufgaben.md#pen-a2-paketpreise-ermitteln)
 
 :::note Freiwillig
 
-- [A3: Fehlersuche](/docs/woche03/3a-konditionen/if-kontrollstruktur.md#pen-a3-fehlersuche)
-- [A4: Reflexion](/docs/woche03/3a-konditionen/if-kontrollstruktur.md#pen-a4-reflexion)
+- [A3: Fehlersuche](/docs/woche03/selektion/aufgaben.md#pen-a3-fehlersuche)
+- [A4: Reflexion](/docs/woche03/selektion/aufgaben.md#pen-a4-reflexion)
 
 :::
 
@@ -66,12 +62,12 @@ zwei Aufgaben von `if` und eine von `switch` gelöst werden.
 
 #### Switch
 
-- [A5: Note zu Text](/docs/woche03/3a-konditionen/switch-kontrollstruktur.md#pen-a5-note-zu-text)
+- [A5: Note zu Text](/docs/woche03/selektion/aufgaben.md#pen-a5-note-zu-text)
 
 :::note Freiwillig
 
-- [A6: Rechner](/docs/woche03/3a-konditionen/switch-kontrollstruktur.md#pen-a6-rechner)
-- [A7: Beaufort Skala](/docs/woche03/3a-konditionen/switch-kontrollstruktur.md#pen-a7-beaufort-skala)
+- [A6: Rechner](/docs/woche03/selektion/aufgaben.md#pen-a6-rechner)
+- [A7: Beaufort Skala](/docs/woche03/selektion/aufgaben.md#pen-a7-beaufort-skala)
 
 :::
 

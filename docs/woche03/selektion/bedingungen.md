@@ -1,19 +1,22 @@
 ---
-sidebar_position: 1
+sidebar_position: 3
 keywords:
   - pdf
 ---
 
-# if - Bedingungen (`boolean`)
+# 📖 Bedingungen
+
 Bedingungen sind Code-Ausdrücke, welche entweder wahr (`true`) oder falsch
 (`false`) sein können. Diese werden mit dem Datentyp `boolean` ausgedrückt und
-sind **elementar für die [`if`-Selektion](/docs/woche03/3a-konditionen/if-kontrollstruktur.md)** um zu entscheiden, welcher
-Codeblock genau ausgeführt werden soll.
+sind **elementar für die
+[`if`-Selektion](/docs/woche03/selektion/if-selektion)** um zu
+entscheiden, welcher Codeblock genau ausgeführt werden soll.
 
 :::caution Ohne Vergleichsoperatoren keine Bedingungen
 
-Bedingungen werden mit [Vergleichsoperatoren](../../woche02/operatoren.md#vergleichsoperatoren) definiert.
-Machen Sie sich mit diesen Vertraut.
+Bedingungen werden mit
+[⚖️ Vergleichsoperatoren](/docs/woche02/operatoren.md#️-vergleichsoperatoren)
+definiert. Machen Sie sich mit diesen Vertraut.
 
 :::
 
@@ -69,10 +72,10 @@ Manchmal müssen mehrere Bedingungen kombiniert werden. Dies kann mit einem
 logischen UND (`&&`) sein oder mit einem logischen ODER (`||`). Nur wie stellt
 man dies in Java dar?
 
-| Logischer Ausruck | Beduetung      | Beschreibung                         |
-| :---------------- | :------------- | :----------------------------------- |
-| &&                | Logisches UND  | alle Werte müssen `true` sein        |
-| \|\|              | Logisches ODER | mindestens ein Wert muss `true` sein |
+| Java | Beduetung      | Beschreibung                         |
+| :--- | :------------- | :----------------------------------- |
+| &&   | Logisches UND  | alle Werte müssen `true` sein        |
+| \|\| | Logisches ODER | mindestens ein Wert muss `true` sein |
 
 <div className="grid"><div>
 
@@ -83,7 +86,6 @@ if (amount < 100 || age < 18) {
 ```
 
 </div><div>
-
 
 ```java title="Beispiel: UND"
 if (amount < 100 && age < 18) {
@@ -109,7 +111,6 @@ Sobald ein false auftritt, ist alles false:
 
 Rabatt für Einkäufe über 100 CHF UND Kunden jünger als 18 Jahre:
 
-
 </div><div>
 
 Beim logischen **ODER**, `||`, muss **mindestens ein Wert `true`** sein. Sobald
@@ -123,7 +124,6 @@ ein `true` auftritt, ist alles `true`:
 
 Rabatt für Einkäufe über 100 CHF ODER Kunden jünger als 18 Jahre:
 
-
 </div></div>
 
 </details>
@@ -135,4 +135,3 @@ Die beiden senkrechten Striche werden auf CH-PC-Tastaturen häufig mit
 gelegentlich noch unterbrochen vertikalen Strich dargestellt).
 
 :::
-

@@ -210,7 +210,7 @@ Iteration von C.
 
 :::
 
-## Vergleichsoperatoren
+## ⚖️  Vergleichsoperatoren
 
 - `==`, `!=`, `<`, `>`, `<=`, `>=` und die Negation `!`
 

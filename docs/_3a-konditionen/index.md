@@ -26,10 +26,10 @@ unterschiedlich, **spezifisch reagieren**.
 
 <iframe src="/bbzbl-modul-319/slides/operatoren" width="100%" height="400px"></iframe>
 
-[:computer: Open in Browser](pathname:///slides/kontrollstrukturen) |
-[:floppy_disk: download PDF](pathname:///slides/kontrollstrukturen.pdf)
+[:computer: Open in Browser](pathname:///slides/selektion) |
+[:floppy_disk: download PDF](pathname:///slides/selektion.pdf)
 
-<iframe src="/bbzbl-modul-319/slides/kontrollstrukturen" width="100%" height="400px"></iframe>
+<iframe src="/bbzbl-modul-319/slides/selektion" width="100%" height="400px"></iframe>
 
 ## :open_book: Themen
 
