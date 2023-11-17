@@ -1,5 +1,5 @@
 strong {
-  font-weight: 600;
+  font-weight: 800;
 }
 h1 {
   color: var(--ifm-font-color-base);
@@ -23,8 +23,11 @@ h1 {
   list-style: none;
   text-align: left;
   max-width: 500px;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 1.2rem;
+}
+.timeline em {
+  font-weight: 300;
 }
 
 @media screen and (max-width: 996px) {

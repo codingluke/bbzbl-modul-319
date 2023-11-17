@@ -6,17 +6,17 @@ hide_table_of_contents: true
 <Timeline title="Woche 3">
 <Event time="12:45">
 
-## :recycle: Repetition Operatoren
+## 🤗 Ankommen
 
-- :jigsaw: Kaggle Fragerunde
+- :jigsaw: Repetition
+- 🏅 Refresher Kompetenzraster
 
 </Event>
 <Event time="13:00">
 
 ## :twisted_rightwards_arrows: Selektion `if` 🏅**T2**
 
-
-- :man_teacher: Präsentation
+- :man_teacher: Präsentation _10'_
 - :pen: lesen und lösen | **:coffee: 13:30**
 
 </Event>
@@ -30,15 +30,16 @@ hide_table_of_contents: true
 
 ## :twisted_rightwards_arrows: Selektion `Switch` 🏅**T2**
 
-- :man_teacher: Präsentation
-- :pen: lesen und lösen 
+- :man_teacher: Präsentation _5'_
+- :pen: lesen und lösen
 
 </Event>
-<Event time="15:15">
+<Event time="15:10">
 
 ## :sparkles: Einfacher Methodenaufruf
 
-- :two_women_holding_hands: Zusammen programmieren
+- 🎭 Live-Erklärung _10'_
+- :pen: lesen und lösen _10'_
 - **:coffee: 15:30**
 
 </Event>

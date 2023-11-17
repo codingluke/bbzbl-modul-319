@@ -10,7 +10,7 @@ footer: BBZBL / Lukas Hodel / Applikationen entwerfen und implementieren
 
 # Woche 3 / Modul 319
 
-### Applikationen entwerfen und implementieren
+### :twisted_rightwards_arrows: Selektion | :sparkles: Methoden | :bug: Debuggen
 
 ---
 
@@ -24,15 +24,14 @@ footer: BBZBL / Lukas Hodel / Applikationen entwerfen und implementieren
 
 <!-- _class: big center -->
 
-# Kahoot
+# :jigsaw: Kahoot
 
 ---
 
 # LB1: Kompetenzraster
 
 - A: Grundlagen | B: Erweitert | C: Fortgeschritten
-- :pen: schriftlich | :speaking_head: mündlich | :bulb: Eigene Idee und
-  Quellcode
+- :pen: schriftlich | :speaking_head: mündlich | :bulb: Eigene Idee und Quellcode
 
 |                                     | A          | B                    | C                            | Lernweg    |
 | ----------------------------------- | :--------- | -------------------- | ---------------------------- | ---------- |
@@ -57,7 +56,7 @@ footer: BBZBL / Lukas Hodel / Applikationen entwerfen und implementieren
 
 ::: split
 
-- :man_teacher: Lehrergespräch mit Präsentation (15min)
+- :man_teacher: [Präsentation](https://codingluke.github.io/bbzbl-modul-319/slides/selektion) (15min)
 
 :::
 
@@ -67,7 +66,7 @@ footer: BBZBL / Lukas Hodel / Applikationen entwerfen und implementieren
 
 Sie lösen selbständig die Selektion Aufgaben zu `if/else` und `switch/case`
 
-- [:link: Selektion Aufgaben | Modulwebseite](https://codingluke.github.io/bbzbl-modul-319/docs/woche03/selektion/aufgaben)
+- [:pen: Selektion Aufgaben](https://codingluke.github.io/bbzbl-modul-319/docs/woche03/selektion/aufgaben)
 - :boom: **Raster nicht vergessen!**
 
 ::: split
@@ -84,22 +83,29 @@ Sie lösen selbständig die Selektion Aufgaben zu `if/else` und `switch/case`
 
 # :sparkles: Einfacher Methodenaufruf
 
+::: columns l60
+
 - :dart: Sie wissen was eine Methode ist
 - :dart: Sie können einfache Methoden erklären und anwenden.
+
+::: split
+
+:man_teacher: Live-Coding / Einführung Methoden
+
+:::
 
 ### :pencil: Auftrag
 
 ::: columns l60
 
-Zusammen erstellen wir eine Klasse welche nicht nur die `main`, sondern auch
-noch eine zusätzliche Methode besitzt.
+Versucht es nun selbst und macht dazu die Aufgabe _A1: Methodenaufruf ohne Parameter_
 
-- [:link: Einfache Methode | Modulwebseite](https://codingluke.github.io/bbzbl-modul-319/bbzbl-modul-319/docs/woche03/einfache-methode)
+- [:pen: Einfacher Methodeaufruf](https://codingluke.github.io/bbzbl-modul-319/bbzbl-modul-319/docs/woche03/einfache-methode)
 
 ::: split
 
-- :dna: Live-Coding
-- :clock1: Bis 15:30
+- :dna: Einzelarbeit
+- :clock1: Bis 15:45
 
 :::
 
