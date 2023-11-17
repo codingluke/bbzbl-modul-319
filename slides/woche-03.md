@@ -100,7 +100,7 @@ Sie lösen selbständig die Selektion Aufgaben zu `if/else` und `switch/case`
 
 Versucht es nun selbst und macht dazu die Aufgabe _A1: Methodenaufruf ohne Parameter_
 
-- [:pen: Einfacher Methodeaufruf](https://codingluke.github.io/bbzbl-modul-319/bbzbl-modul-319/docs/woche03/einfache-methode)
+- [:pen: Einfacher Methodeaufruf](https://codingluke.github.io/bbzbl-modul-319/docs/woche03/einfache-methode)
 
 ::: split
 

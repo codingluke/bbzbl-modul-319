@@ -34,6 +34,10 @@ flowchart TD;
 
 ---
 
+![bg w:80%](./images/Trsteher-Security-Meme-632x360-1.jpg)
+
+---
+
 # ⚖️ Bedingungen | _Vergleichsoperatoren_
 
 Gegeben: `int a = 2; int b = 3;`
@@ -55,7 +59,7 @@ Gegeben: `int a = 2; int b = 3;`
 
 ---
 
-# :stew: Bedingungen kombinieren | <br/> _Logische Operatoren_
+# :stew: Bedingungen kombinieren 
 
 Gegeben: `boolean a = true; boolean b = false;`
 
@@ -79,8 +83,7 @@ Gegeben: `boolean a = true; boolean b = false;`
 
 - Wird dafür verwendet, **Bedingungen zu überprüfen**
 
-- Als Bedingung dient ein **Bool'scher Wert** (`true`, `false`), welche über ein
-  **Vergleichsoperator** erzeugt wird.
+- Als Bedingung dient ein **Bool'scher Wert** (`true`, `false`), welche über ein **Vergleichsoperator** erzeugt wird.
 
 - Kontrolliert ob ein Codeabschnitt durchlaufen wird
 
@@ -88,7 +91,7 @@ Gegeben: `boolean a = true; boolean b = false;`
 
 ```mermaid
 flowchart TD
-    C{if-Kontrollstruktur}
+    C{if-Selektion}
     C -->|"if\n< Bedingung1 >"| D["< Anweisung1 >"]
     C -->|"else if\n< Bedingung2 >"| E["< Anweisung2 >"]
     C -->|else| F["< Anweisung3 >"]
@@ -131,6 +134,10 @@ System.out.println("Your price " + price);
   - Oder: `price = price * 0.96`
 
 :::
+
+---
+
+![bg w:80%](./images/if-doppelweiche.png)
 
 ---
 
