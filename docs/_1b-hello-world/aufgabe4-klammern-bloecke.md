@@ -47,7 +47,7 @@ die man auch als Programmabschnitte bezeichnen kann.
   - Ausnahmen sind in dem Modul nicht relevant.
 - Jeder Befehl endet mit einem Semikolon `;`
   - Nach jedem Semikolon sollte eine neue Zeile beginnen, muss aber nicht!
-  - Dies nicht zu machen ist **schlechter Stiel und gibt Abzug**!
+  - Dies nicht zu machen ist **schlechter Stil und gibt Abzug**!
 
 :::
 

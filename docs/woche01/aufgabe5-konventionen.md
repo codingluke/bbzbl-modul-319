@@ -5,7 +5,7 @@ keywords:
 
 # 📐 Konventionen / Kommentare
 
-Jeder der Programmiert hat meistens seinen eigenen Stiel und Vorlieben. Dies ist
+Jeder der Programmiert hat meistens seinen eigenen Stil und Vorlieben. Dies ist
 auch gut so. Wenn nun aber zusammen programmiert wird, muss man sich auf
 Konventionen einigen, damit das Gesamtbild stimmig ist. So ist es für den
 einzelnen einfacher sich im Code einzufinden. Es schafft eine Übersichtlichkeit.
@@ -82,7 +82,7 @@ public class MeinTollerKlasseName {
 
 Wenn UTF-8 verwendet wird, sollten theoretisch auch Umlaute auf allen Systemen
 funktionieren. Diese werden jedoch trotzdem vermieden ;) Sie gelten als
-schlechter Stiel und geben abzug!
+schlechter Stil und geben Abzug!
 
 - Standard-Encoding `UTF-8`
 - `Preferences > General > Workspace` -> `UTF-8`

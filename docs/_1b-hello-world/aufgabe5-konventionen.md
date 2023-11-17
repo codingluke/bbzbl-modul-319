@@ -65,7 +65,7 @@ public class MeinTollerKlasseName {
 
 Wenn UTF-8 verwendet wird, sollten theoretisch auch Umlaute auf allen Systemen
 funktionieren. Diese werden jedoch trotzdem vermieden ;) Sie gelten als
-schlechter Stiel und geben abzug!
+schlechter Stil und geben abzug!
 
 - Standard-Encoding `UTF-8`
 - `Preferences > General > Workspace` -> `UTF-8`

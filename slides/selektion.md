@@ -40,16 +40,16 @@ flowchart TD;
 
 # ⚖️ Bedingungen | _Vergleichsoperatoren_
 
-Gegeben: `int a = 2; int b = 3;`
+Gegeben: `int a = 3; int b = 3;`
 
 | Operator | Beschreibung                                    | Beispiel | Resultat |
 | :------- | :---------------------------------------------- | :------- | :------- |
-| `==`     | überprüft auf <u>Gleichheit</u> <sup>\*</sup>   | `a == b` | `false`  |
-| `!=`     | überprüft auf <u>Ungleichheit</u> <sup>\*</sup> | `a != b` | `true`   |
+| `==`     | überprüft auf <u>Gleichheit</u> <sup>\*</sup>   | `a == b` | `true`   |
+| `!=`     | überprüft auf <u>Ungleichheit</u> <sup>\*</sup> | `a != b` | `false`  |
 | `>`      | ist linker Operand <u>grösser</u>               | `a > b`  | `false`  |
-| `<=`     | ist linker Operand <u>grösser oder gleich</u>   | `a <= b` | `true`   |
-| `<`      | ist linker Operand <u>kleiner</u>               | `a < b`  | `true`   |
-| `>=`     | ist linker Operand <u>kleiner oder gleich</u>   | `a >= b` | `false`  |
+| `>=`     | ist linker Operand <u>grösser oder gleich</u>   | `a >= b` | `true`   |
+| `<`      | ist linker Operand <u>kleiner</u>               | `a < b`  | `false`  |
+| `<=`     | ist linker Operand <u>kleiner oder gleich</u>   | `a <= b` | `true`   |
 
 ::: footnotes
 
@@ -59,7 +59,7 @@ Gegeben: `int a = 2; int b = 3;`
 
 ---
 
-# :stew: Bedingungen kombinieren 
+# :stew: Bedingungen kombinieren
 
 Gegeben: `boolean a = true; boolean b = false;`
 
