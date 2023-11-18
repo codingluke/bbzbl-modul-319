@@ -12,7 +12,7 @@ hier einige wichtige Konventionen vor.
 
 Programmcode ist wenn möglich in englisch gehalten. Umlaute können auf
 verschiedenen Systeme zu Fehlern führen und sind nicht international
-verständlich. Desswegen sollen Umlaute beim Programmieren vermieden werden!
+verständlich. Deswegen sollen Umlaute beim Programmieren vermieden werden!
 
 ## Klassennamen
 
@@ -57,6 +57,7 @@ public class MeinTollerKlasseName {
   public void meinTollerMethodenName() {
 
   }
+
   // highlight-end
 }
 ```
@@ -127,7 +128,6 @@ public class MeinTollerKlasseName {
     // TODO: Hier wird noch was tolles programmiert
     return einParameter;
   }
-
 }
 ```
 

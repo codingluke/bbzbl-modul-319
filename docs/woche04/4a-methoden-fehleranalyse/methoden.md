@@ -4,7 +4,7 @@ keywords:
   - pdf
 ---
 
-# Methoden Vertiefung
+# 📖 Methoden Vertiefung
 
 Jetzt lernen Sie, wie Sie Methoden erstellen können, **denen Sie bestimmte Werte
 übermitteln** und die ein berechnetes **Ergebnis zurückgeben** können.

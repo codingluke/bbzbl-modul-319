@@ -3,7 +3,7 @@ sidebar_position: 6
 keywords:
   - pdf
 ---
-# Geltungsbereich von lokalen Variablen
+# 📖 Geltungsbereich von lokalen Variablen
 
 Wenn eine Variable **innerhalb einer Methode initialisiert** wird, spricht man
 von lokalen Variablen. Lokal, da sie nur innerhalb dieser Methode ab der

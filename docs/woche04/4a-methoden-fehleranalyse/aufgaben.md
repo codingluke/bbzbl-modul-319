@@ -1,10 +1,10 @@
 ---
-sidebar_position: 4
+sidebar_position: 1
 keywords:
   - pdf
 ---
 
-# Methoden Aufgaben
+# 🖊️ Methoden Aufgaben
 
 :::caution Untersuchen Sie alle Aufgabe auch mittels Debugging
 
@@ -16,7 +16,7 @@ ausgeführt werden. Also auf Zeilen im Methodenkörper.
 
 :::
 
-## :pen: Grössere Zahl
+## :pen: A1: Grössere Zahl
 
 Erstellen Sie ein Programm, das zwei Zahlen von der Konsole einliest.
 
@@ -33,32 +33,30 @@ import mytools.StdInput;
 
 public class A1EvaluateBiggerNumber {
 
-	public static void main(String[] args) {
-		System.out.print("Input value 1: ");
-		int number1 = StdInput.readInt();
+  public static void main(String[] args) {
+    System.out.print("Input value 1: ");
+    int number1 = StdInput.readInt();
 
-		System.out.print("Input value 2: ");
-		int number2 = StdInput.readInt();
+    System.out.print("Input value 2: ");
+    int number2 = StdInput.readInt();
 
-		int biggerNumber = evaluate(number1, number2);
-		System.out.println("Die grössere Zahl ist: " + biggerNumber);
-	}
+    int biggerNumber = evaluate(number1, number2);
+    System.out.println("Die grössere Zahl ist: " + biggerNumber);
+  }
 
-	public static int evaluate(int value1, int value2) {
-		if (value1 > value2) {
-			return value1;
-		} else {
-			return value2;
-		}
-	}
-
+  public static int evaluate(int value1, int value2) {
+    if (value1 > value2) {
+      return value1;
+    } else {
+      return value2;
+    }
+  }
 }
-
 ```
 
 </details>
 
-## :pen: Intervall
+## :pen: A2: Intervall
 
 Erstellen Sie ein Programm, in dem eine Methode prüft, ob eine Zahl innerhalb
 eines Intervalls liegt.
@@ -76,27 +74,26 @@ import mytools.StdInput;
 
 public class A2Intervall {
 
-	public static void main(String[] args) {
-		int min = 1;
-		int max = 10;
+  public static void main(String[] args) {
+    int min = 1;
+    int max = 10;
 
-		System.out.print("Input value: ");
-		int number = StdInput.readInt();
+    System.out.print("Input value: ");
+    int number = StdInput.readInt();
 
-		boolean inRange = isInRange(min, max, number);
-		System.out.println("Ist im Intervall: " + inRange);
-	}
+    boolean inRange = isInRange(min, max, number);
+    System.out.println("Ist im Intervall: " + inRange);
+  }
 
-	public static boolean isInRange(int minimum, int maximum, int value) {
-		return value >= minimum && value <= maximum;
-	}
-
+  public static boolean isInRange(int minimum, int maximum, int value) {
+    return value >= minimum && value <= maximum;
+  }
 }
 ```
 
 </details>
 
-## :pen: Zinsrechner
+## :pen: A3: Zinsrechner
 
 Erstellen Sie ein Programm, wobei Sie einen Sparbetrag eingeben können, sowie
 einen Zins in %.
@@ -114,23 +111,23 @@ import mytools.StdInput;
 
 public class A3InterestCalculator {
 
-	public static void main(String[] args) {
-		double amount = StdInput.readDouble("Betrag eingeben: ");
-		double interestRate = StdInput.readDouble("Zinssatz in % eingeben: ");
+  public static void main(String[] args) {
+    double amount = StdInput.readDouble("Betrag eingeben: ");
+    double interestRate = StdInput.readDouble("Zinssatz in % eingeben: ");
 
-		double interest = calcInterest(amount, interestRate);
-		System.out.println("Der Zinsbetrag beträgt: " + interest);
-	}
+    double interest = calcInterest(amount, interestRate);
+    System.out.println("Der Zinsbetrag beträgt: " + interest);
+  }
 
-	public static double calcInterest(double amount, double interestRate) {
-		return (amount / 100) * interestRate;
-	}
+  public static double calcInterest(double amount, double interestRate) {
+    return (amount / 100) * interestRate;
+  }
 }
 ```
 
 </details>
 
-## :pen: Einfacher Rechner
+## :pen: A4: Einfacher Rechner
 
 Dieses Programm erwartet die Eingabe zweier Zahlen `a` und `b` durch den
 Benutzer, sowie den Rechenoperator als String `+` oder `*`.
@@ -152,45 +149,75 @@ import mytools.StdInput;
 
 public class A4SimpleCalculator {
 
-	public static void main(String[] args) {
-        // Initialisierung der Variablen
-		int a = 0;
-		int b = 0;
-        int result = 0;
-		String operator;
+  public static void main(String[] args) {
+    // Initialisierung der Variablen
+    int a = 0;
+    int b = 0;
+    int result = 0;
+    char operator;
 
-        // Einlesen der Werte
-		System.out.println("Bitte erste Zahl eingeben:");
-		a = StdInput.readInt();
-		System.out.println("Bitte zweite Zahl eingeben:");
-		b = StdInput.readInt();
-		System.out.println("Welche Operation wollen Sie ausführen: + *");
-		operator = StdInput.readString();
+    // Einlesen der Werte
+    System.out.println("Bitte erste Zahl eingeben:");
+    a = StdInput.readInt();
+    System.out.println("Bitte zweite Zahl eingeben:");
+    b = StdInput.readInt();
+    System.out.println("Welche Operation wollen Sie ausführen: + *");
+    operator = StdInput.readChar(); // INFO: auch möglich als String
 
-        // Operator prüfen und Resultat entsprechend berechnen
-		if ("+".equals(operator)) {
-			result = add(a, b);
-		} else if ("*".equals(operator)) {
-			result = multiply(a, b);
-		}
+    // Operator prüfen und Resultat entsprechend berechnen
+    if (operator == '+')) { // INFO: Wenn string dann `equals`
+      result = add(a, b);
+    } else if (operator == '-') { // INFO: Wenn string dann `equals`
+      result = multiply(a, b);
+    }
 
-        // Resultat ausgeben
-		System.out.println("Das Resultat ist " + result);
-	}
+    // Resultat ausgeben
+    System.out.println("Das Resultat ist " + result);
+  }
 
-	public static int add(int a, int b) {
-		return a + b;
-	}
+  public static int add(int a, int b) {
+    return a + b;
+  }
 
-	public static int multiply(int a, int b) {
-		return a * b;
-	}
+  public static int multiply(int a, int b) {
+    return a * b;
+  }
 }
 ```
 
 </details>
 
-## :pen: Eigenes Beispiel
+## :pen: A5: Eigenes Beispiel
 
-Adaptieren Sie ein Beispiel mit Methoden inkl. Parameter(n) und Rückgabewert auf
-eine eigene Situation.
+Adaptieren Sie ein Beispiel mit Methoden inkl. Parameter(n) und Rückgabewert auf eine eigene Situation.
+
+## :pen: A6: Geltungsbereich
+
+- Lesen Sie die Themenseite [Geltungsbereich von lokalen Variablen](/docs/woche04/4a-methoden-fehleranalyse/geltungsbereich-variablen.md)
+- Studieren Sie das folgenden Programm. (Kopieren Sie es nach Eclipse)
+
+```java title="A6Geltunsbereich.java" showLineNumbers
+public class A6Geltunsbereich {
+
+  public static void main(String[] args) {
+    if (true) {
+      int a = 2
+    }
+    // highlight-red-next-line
+    int b = a; // wieso ist a hier nicht verfügbar
+    int c = 4;
+    // highlight-yellow-next-line
+    int result = add(); // die Methode add() wird aufgerufen
+    System.out.println(result);
+  }
+
+  public static int add() {
+    // highlight-red-next-line
+    return b + c; // wieso sind b und c hier nicht verfügbar?
+  }
+}
+```
+
+1. Wieso ist auf Zeile 9 die Variable `a` nicht sichtbar?
+2. Wieso sind auf Zeile 15 die Variablen `b` und `c` nicht sichtbar?
+3. Korrigieren Sie das Programm so, dass auf der Konsole `6` ausgegeben wird.

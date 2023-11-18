@@ -4,12 +4,10 @@ keywords:
   - pdf
 ---
 
-# 🏭 Methoden
+# ✨ Methoden
 
 Sie erhalten einen **ersten Einblick in Methoden**, die für grössere Programme
-zur Strukturierung unerlässlich sind. Zusätzlich wird Ihnen das **Verfahren des
-Debuggings** vorgestellt, da es besonders hilfreich sein kann, um Methoden
-besser zu verstehen und Ihnen auch künftig hilft, Fehler zu finden.
+zur Strukturierung unerlässlich sind. 
 
 ## :dart: Ziele
 
@@ -20,7 +18,7 @@ besser zu verstehen und Ihnen auch künftig hilft, Fehler zu finden.
 - Sie kennen den Geltungsbereich von Variablen und können erklären, ob eine
   Variable aus der Main-Methode auch in anderen Methoden zur Verfügung steht.
 
-## :teacher: Präsentation
+## :man_teacher: Präsentation
 
 [:computer: Open in Browser](pathname:///slides/methoden) |
 [:floppy_disk: download PDF](pathname:///slides/methoden.pdf)

@@ -67,16 +67,20 @@ public class MeinTollerKlasseName {
   - :keyboard: Ctrl-Shift-F
   - :apple: Command-Shift-F
 
-```java
-public class MeinTollerKlasseName {
-  // Dieser Block ist eingerückt
-  // highlight-start
-  public void meinTollerMethodenName() {
+![code-block](../images/code-blocks-rainbow.png)
 
-  }
-  // highlight-end
-}
-```
+<!-- ```java -->
+<!-- public class MeinTollerKlasseName { -->
+<!--   public void meinTollerMethodenName() { -->
+<!--     if (true) { -->
+<!--       System.out.println("Anweisung"); -->
+<!--     } -->
+<!--   } -->
+<!-- } -->
+<!-- ``` -->
+
+- Achtet auf die Klammerpaare. Die sind im Bild oben farbig eingezeichnet.
+- Anweisungen zwischen zwei Klammerpaare werden eingerückt.
 
 ### UTF-8 als Standard-Encoding
 
@@ -115,11 +119,9 @@ alle Schritte der Erstellung erinnern.
 
 ```java
 /*
-Ich
-bin
-ein
-Mehrzeiliger
-Kommentar
+  Ich bin ein
+  Mehrzeiliger
+  Kommentar
 */
 ```
 
