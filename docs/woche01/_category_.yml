@@ -1,5 +1,5 @@
 position: 4
 label: 'Woche 1'
 collapsible: true # make the category collapsible
-collapsed: false # keep the category open by default
+collapsed: true # keep the category open by default
 # className: primary
