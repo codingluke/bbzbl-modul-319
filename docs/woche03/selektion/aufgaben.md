@@ -49,7 +49,7 @@ public class A1DiscountEvaluation {
 
 </details>
 
-### :pen: A2: Paketpreise ermitteln
+### :pen: A2: Paketpreise ermitteln :rocket:
 
 Erstellen Sie Programm, welches:
 

@@ -7,7 +7,7 @@ keywords:
 # ✨ Methoden
 
 Sie erhalten einen **ersten Einblick in Methoden**, die für grössere Programme
-zur Strukturierung unerlässlich sind. 
+zur Strukturierung unerlässlich sind.
 
 ## :dart: Ziele
 

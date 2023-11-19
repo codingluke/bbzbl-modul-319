@@ -6,13 +6,22 @@ keywords:
 
 # 🖊️ Methoden Aufgaben
 
-:::caution Untersuchen Sie alle Aufgabe auch mittels Debugging
+Lösen Sie diese Aufgaben selbständig. Wenn Sie nicht weiter kommen, ist auch immer
+eine Musterlösung vorhanden. Verwenden Sie diese erst wenn Sie mindestens 20 Minuten
+nicht weiter kommen.
 
-:mag: Verfolgen Sie den Programmablauf und die Werte der Variablen.
+Die Theorie zu den Aufgaben finden Sie unter:
 
-:superhero: Schauen Sie auf welchen Zeilen überhaupt ein "Breakpoint" gesetzt
-werden kann. Sie werden sehen, dies geht nur auf Zeilen die auch wirklich
-ausgeführt werden. Also auf Zeilen im Methodenkörper.
+- [:man_teacher: Präsentation](/docs/woche04/4a-methoden-fehleranalyse/index.md#manteacher-präsentation)
+- [:open_book: Methoden Vertiefung](/docs/woche04/4a-methoden-fehleranalyse/methoden.md)
+- [:open_book: Geltungsbereich von lokalen Variablen](/docs/woche04/4a-methoden-fehleranalyse/geltungsbereich-variablen.md)
+
+:::tip Untersuchen Sie alle Aufgabe auch mittels [Debugging](/docs/woche03/debugging.md)
+
+- :mag: Verfolgen Sie den Programmablauf und die Werte der Variablen.
+- :man_superhero: Schauen Sie auf welchen Zeilen überhaupt ein "Breakpoint" Sinn macht.
+Sie werden sehen, dies geht nur auf Zeilen die auch wirklich ausgeführt werden.
+Also auf Zeilen im Methodenkörper.
 
 :::
 
@@ -127,7 +136,7 @@ public class A3InterestCalculator {
 
 </details>
 
-## :pen: A4: Einfacher Rechner
+## :pen: A4: Einfacher Rechner :rocket:
 
 Dieses Programm erwartet die Eingabe zweier Zahlen `a` und `b` durch den
 Benutzer, sowie den Rechenoperator als String `+` oder `*`.
@@ -187,7 +196,7 @@ public class A4SimpleCalculator {
 
 </details>
 
-## :pen: A5: Eigenes Beispiel
+## :pen: A5: Eigenes Beispiel :star2:
 
 Adaptieren Sie ein Beispiel mit Methoden inkl. Parameter(n) und Rückgabewert auf eine eigene Situation.
 
