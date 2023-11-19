@@ -37,16 +37,14 @@ Methoden dienen also dazu spezifische Funktionalitäten unter einem
 aussagekräftigem Namen zu Gruppieren, damit diese:
 
 1. nur einmal definiert werden müssen
-2. an verscheidenen Orte ausgeführt werden könne
-3. das Programm lesbarer machen, da der Name beschreibt was sie macht
+2. an verschiedenen Orte ausgeführt werden können
+3. das Programm lesbarer machen, da der Name beschreibt was gemacht wird
 
-**Beispiele**
+### Beispiele
 
-- Eine mathematische Funktion beschreibt z.B. der Satz des Pythagoras **
-  a<sup>2</sup>+b<sup>2</sup> = c<sup>2</sup> **.
+- Eine mathematische Funktion beschreibt z.B. der Satz des Pythagoras **a<sup>2</sup>+b<sup>2</sup> = c<sup>2</sup>**.
 - Im Programmieren kann man jedoch nicht nur Rechnen, sondern z.B. auch einfach
   etwas auf die Konsole ausgeben, zum Beispiel das aktuelle Datum.
-
 
 ## :open_book: Themen
 
