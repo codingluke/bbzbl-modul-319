@@ -8,12 +8,23 @@ keywords:
 
 Jetzt lernen Sie, wie Sie Methoden erstellen können, **denen Sie bestimmte Werte
 übermitteln** und die ein berechnetes **Ergebnis zurückgeben** können.
-Zusätzlich werden verschiedene Ansätze betrachtet, wie man sonst noch mit
-Fehlern umgehen kann.
 
 ## Anatomie einer Methode
 
-### :dna: Signatur / Kopf `public ...`
+Im Programmieren gibt es immer Code der die **:dna: Struktur** , definiert, das
+**wie**, und Code der **konkret etwas macht** 🦾, das **was**. Stellt euch ein
+Haus vor. Die Struktur sind die Räume, Türen, Fenster. Der Architekt definiert
+wie das Haus aussehen soll. Nun Stellt sich noch die Frage um das was. Wofür
+wird das Haus gebaut?
+
+- Handelt es sich um einen Bunker, dann wird im Haus Schutz gesucht. Es braucht
+  also keine Fenster.
+- Handelt es sich aber um eine Uhrenwerkstatt, ist Licht ganz wichtig. Da
+  braucht es viele Fenster.
+  - Auch wird etwas produziert, es braucht also auch einen Wahrenausgang
+    (`return`)
+
+### :dna: Signatur / Kopf / Struktur `public ...`
 
 Die unten hervorgehobene Zeile einer Methode, in der die Sichtbarkeit, Name,
 Parameter und der Datentyp des Rückgabewertes deklariert werden, heisst **Kopf**
@@ -25,19 +36,23 @@ Methode aufgerufen werden muss. Nicht aber, was sie genau macht.
 public static String methodenName(int parameter1, String parameter2) {
 ```
 
-| Schlüsselwort                         | Beschreibung                                                                                                                                                                                                                                |
-| ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `public`                              | **Sichtbarkeit**: momentan immer `public`                                                                                                                                                                                                   |
-| `static`                              | **Art**: momentan immer `static`                                                                                                                                                                                                            |
-| `String`                              | **Datentyp vom Rückgabewert**: `void` oder beliebiger Datentyp <br/>- `void` besitzt keinen Rückgabewert und braucht kein `return` <br/>- Wenn ein Rückgabewert angegeben wird (z.B. `String`), ist ein `return` im Methodenkörper Pflicht! |
-| `methodenName`                        | **Methodenname**: frei wählbar, sollte in **lowerCamelCase** geschrieben sein                                                                                                                                                               |
-| `(int parameter1, String parameter2)` | **Parameterliste**: Kommaseparierte Parameterliste in Klammern.<br/>- Jeder Parameter besteht aus: `Datentyp Variabelnamen`<br/>- Jeder Parameter ist im Methodenkörper als Variable verwendbar <br/>- Darf leer sein `()`                  |
+| Konkretes Schlüsselwort               | Beschreibung                                                                                                                                                                                                                                                                         |
+| ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `public`                              | **Sichtbarkeit**: momentan immer `public`                                                                                                                                                                                                                                            |
+| `static`                              | **Art**: momentan immer `static`                                                                                                                                                                                                                                                     |
+| `String`                              | <a class="custom-anchor" id="return"></a>**Datentyp vom Rückgabewert**: `void` oder beliebiger Datentyp <br/>- `void` besitzt keinen Rückgabewert und braucht kein `return` <br/>- Wenn ein Rückgabewert angegeben wird (z.B. `String`), ist ein `return` im Methodenkörper Pflicht! |
+| `methodenName`                        | **Methodenname**: frei wählbar, sollte in **lowerCamelCase** geschrieben sein                                                                                                                                                                                                        |
+| `(int parameter1, String parameter2)` | **Parameterliste**: Kommaseparierte Parameterliste in Klammern.<br/>- Jeder Parameter besteht aus: `Datentyp Variabelnamen`<br/>- Jeder Parameter ist im Methodenkörper als Variable verwendbar <br/>- Darf leer sein `()`                                                           |
 
-### :mechanical_arm: Methodenkörper `{ ... }`
+### 🦾 Methodenkörper `{ ... }`
 
 Nach dem Kopf/Signatur folgt **zwischen geschweiften Klammern `{}`** der Körper
 der Methode. Hier wird nun definiert, **was** gemacht werden soll, wenn die
 Methode aufgerufen wird.
+
+Generiert die Methode ein Resultat das zurückgegeben werden soll, geschieht
+diese in der letzten Zeile durch das Schlüsselwort `return`. Dies bedingt in der
+Signatur den [entsprechenden Datentyp als Rückgabewert](#return).
 
 :bulb: Im Methodenkörper befindet sich somit **der ausführbare Code** in Java
 

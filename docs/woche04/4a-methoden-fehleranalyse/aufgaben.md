@@ -213,20 +213,28 @@ public class A6Geltunsbereich {
       int a = 2
     }
     // highlight-red-next-line
-    int b = a; // wieso ist a hier nicht verfügbar
+    int b = a; // wieso ist `a` hier nicht verfügbar
     int c = 4;
-    // highlight-yellow-next-line
+    // highlight-next-line
     int result = add(); // die Methode add() wird aufgerufen
     System.out.println(result);
   }
 
   public static int add() {
     // highlight-red-next-line
-    return b + c; // wieso sind b und c hier nicht verfügbar?
+    return b + c; // wieso sind `b` und `c` hier nicht verfügbar?
   }
 }
 ```
 
-1. Wieso ist auf Zeile 9 die Variable `a` nicht sichtbar?
-2. Wieso sind auf Zeile 15 die Variablen `b` und `c` nicht sichtbar?
+1. Wieso ist auf **Zeile 7** die Variable `a` nicht sichtbar?
+2. Wieso sind auf **Zeile 14** die Variablen `b` und `c` nicht sichtbar?
 3. Korrigieren Sie das Programm so, dass auf der Konsole `6` ausgegeben wird.
+
+:::warning Relative Zeilennummern
+
+Die Zeilen **7** und **14** beziehen Sie auf das Beispiel oben.
+Wenn Sie es nach Eclipse kopieren und evt. noch ein `package` hinzufügen,
+sind die Zeilen natürlich verschoben.
+
+:::
