@@ -92,7 +92,7 @@ public class Beispiel {
 
     public static void main(String[] args) {
         // highlight-yellow-next-line
-        int userInput = readNumberInRange(40, 60); // Verwendung
+        int userInput = readNumberInRange(40, 60); // Verwendung/aufrufen
         System.out.println("Sie haben " + userInput + " eingegeben!");
     }
 
@@ -116,7 +116,7 @@ public class Beispiel {
 <div class="grid three"><div>
 <span class="code-block-yellow-line">
 
-**:mechanic: Methoden Verwendung** <br/> gelb, Linie 6
+**:mega: Methode aufrufen** <br/> gelb, Linie 6
 
 </span>
 
@@ -138,7 +138,7 @@ Methoden-Kopf ist nicht ausführbarer Code, sondern gehört zur Struktur.
 
 <span class="code-block-green-line">
 
-**:mechanical_arm: Methodenkörper** <br/> grün, Zeilen 12 - 18
+**🦾 Methodenkörper** <br/> grün, Zeilen 12 - 18
 
 </span>
 
