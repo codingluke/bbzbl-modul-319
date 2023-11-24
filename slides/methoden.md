@@ -8,7 +8,7 @@ footer: BBZBL / Lukas Hodel / Applikationen entwerfen und implementieren
 
 <!-- _class: big center -->
 
-# Methoden
+# :sparkles: <br/>Methoden
 
 ### Eine Funktionalität unter einem Namen umsetzen
 
@@ -47,7 +47,7 @@ footer: BBZBL / Lukas Hodel / Applikationen entwerfen und implementieren
 
 **Methodenkörper**:
 
-- Oven backt die Pizza
+- Ofen backt die Pizza
 
 **Rückgabetyp**: 
 
@@ -76,12 +76,22 @@ https://www.youtube.com/watch?v=oSDtCcDXcTM
 
 ::: split
 
-### Beispiel Oven
+### Beispiel Ofen
 
 - Der Ofen kann gut backen
 - Backt die Pizza
 
 :::
+
+---
+
+# Nutzen
+
+* Eine Programmlogik wird nur einmal programmiert
+* Eine Programmlogik kann an verschiedenen Orten verwendet werden
+* Ändert sich die Logik wird diese überall geändert
+* Der Methodennamen beschreibt direkt den Quellcode
+* Kleine Methoden machen den Quellcode übersichtlicher
 
 ---
 
@@ -124,3 +134,4 @@ Definiert **was** die Methode genau macht
 5. Die Variable wird ausgegeben
 
 :::
+
