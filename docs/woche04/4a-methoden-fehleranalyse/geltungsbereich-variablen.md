@@ -6,9 +6,9 @@ keywords:
 
 # 📖 Geltungsbereich von lokalen Variablen
 
-Wenn eine Variable **innerhalb einer Methode initialisiert** wird, spricht man
+Wenn eine Variable **innerhalb einer Methode deklariert** wird, spricht man
 von lokalen Variablen. Lokal, da sie nur innerhalb dieser Methode ab der
-Initialisierung verwendet werden kann (gültig ist).
+Deklarierung verwendet werden kann (gültig ist).
 
 Zudem können lokale Variablen **nur im selben Code-Block** (geschweifte Klammern
 `{ }`) indem Sie deklariert wurden, verwendet werden.
