@@ -31,9 +31,13 @@ Parameter und der Datentyp des Rückgabewertes deklariert werden, heisst **Kopf*
 (oder auch **Signatur**) der Methode. In der Signatur wird definiert **wie** die
 Methode aufgerufen werden muss. Nicht aber, was sie genau macht.
 
-```java title="Signatur einer Methode"
-// highlight-yellow-next-line
-public static String methodenName(int parameter1, String parameter2) {
+```java title="Signatur einer Methode (Zeile 1)" showLineNumbers
+// highlight-blue-next-line
+public static String methodenName(int parameter1, String parameter2)
+{
+    int lokaleVariable = parameter1 + 2;
+    return lokaleVariable + " " + parameter2;
+}
 ```
 
 | Konkretes Schlüsselwort               | Beschreibung                                                                                                                                                                                                                                                                         |
@@ -50,30 +54,41 @@ Nach dem Kopf/Signatur folgt **zwischen geschweiften Klammern `{}`** der Körper
 der Methode. Hier wird nun definiert, **was** gemacht werden soll, wenn die
 Methode aufgerufen wird.
 
+:bulb: Im Methodenkörper befindet sich somit **der ausführbare Code** in Java
+
+```java title="Methodenkörper, ausführbarer Code (Zeilen 2 und 5)" showLineNumbers
+public static String methodenName(int parameter1, String parameter2)
+{
+// highlight-green-start
+    int lokaleVariable = parameter1 + 2;
+    return lokaleVariable + " " + parameter2;
+// highlight-green-end
+}
+```
+
+#### Rückgabe `return`
 Generiert die Methode ein Resultat das zurückgegeben werden soll, geschieht
 diese in der letzten Zeile durch das Schlüsselwort `return`. Dies bedingt in der
 Signatur den [entsprechenden Datentyp als Rückgabewert](#return).
 
-:bulb: Im Methodenkörper befindet sich somit **der ausführbare Code** in Java
-
-```java title="Methodenkörper, ausführbarer Code" showLineNumbers
-public static String methodenName(int parameter1, String parameter2) {
-    // highlight-yellow-start
+```java title="Datentyp für den Rückgabewert und return (Zeilen 1 und 5)" showLineNumbers
+// highlight-blue-next-line
+public static String methodenName(int parameter1, String parameter2)
+//            ^^^^^^ Datentyp für den Rückgabewert
+{
     int lokaleVariable = parameter1 + 2;
+    // highlight-green-next-line
     return lokaleVariable + " " + parameter2;
-    // highlight-yellow-end
+//         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Der Rückgabewert muss hier `String` sein
+//  ^^^^^^ return ist Pflicht da in der Signatur `String` und nicht `void` steht
 }
 ```
 
-:::info Rückgabe: `return`
+- Auf **Zeile 1**, beim Schlüsselwort 3 der Signatur, wird der Datentyp für den
+  Rückgabewert als `String` definiert
+- Daher muss auf **Zeile 5** ein `return` stehen das einen `String` zurück gibt
 
-Besitzt die Signatur einer Methode einen Datentyp (also z.B. `String` wie oben,
-nicht aber `void`), muss die letzte Anweisung (Zeile) einer Methode `return`
-sein! (wie in **Zeile 3**).
-
-:::
-
-### Beispiel Methode mit Parameter und Rückgabewert
+### :eyes: Beispiel Methode mit Parameter und Rückgabewert
 
 Nun wollen wir an einem expliziten Beispiel eine Methode analysieren welche über
 Parameter und Rückgabewert verfügt.
@@ -90,33 +105,32 @@ import mytools.StdInput;
 
 public class Beispiel {
 
-    public static void main(String[] args) {
-        // highlight-yellow-next-line
-        int userInput = readNumberInRange(40, 60); // Verwendung/aufrufen
-        System.out.println("Sie haben " + userInput + " eingegeben!");
-    }
+  public static void main(String[] args) {
+    // highlight-yellow-next-line
+    int userInput = readNumberInRange(40, 60); // Verwendung/aufrufen
+    System.out.println("Sie haben " + userInput + " eingegeben!");
+  }
 
-    // highlight-blue-next-line
-    private static int readNumberInRange(int min, int max) // Kopf / Signatur
-    {
-        // highlight-green-start
-        // Methodenkörper / Methoden-Body
-        int userInput;
-        do {
-            System.out.print("Geben Sie eine Zahl zwischen " + min + " und " + max + " ein: ");
-            userInput = StdInput.readInt();
-        } while (min > userInput || userInput > max);
-        return userInput;
-        // highlight-green-end
-    }
-
+  // highlight-blue-next-line
+  private static int readNumberInRange(int min, int max) // Kopf / Signatur
+  {
+    // highlight-green-start
+    // Methodenkörper / Methoden-Body
+    int userInput;
+    do {
+      System.out.print("Geben Sie eine Zahl zwischen " + min + " und " + max + " ein: ");
+      userInput = StdInput.readInt();
+    } while (min > userInput || userInput > max);
+    return userInput;
+    // highlight-green-end
+  }
 }
 ```
 
 <div class="grid three"><div>
 <span class="code-block-yellow-line">
 
-**:mega: Methode aufrufen** <br/> gelb, Linie 6
+**:mega: Methode aufrufen** <br/> gelb, **Zeile 6**
 
 </span>
 
@@ -127,7 +141,7 @@ ausführbarer Code.
 
 <span class="code-block-blue-line">
 
-**:dna: Methoden Kopf / Signatur** <br/> blau auf Zeile 10
+**:dna: Methoden Kopf / Signatur** <br/> blau auf **Zeile 10**
 
 </span>
 
@@ -138,7 +152,7 @@ Methoden-Kopf ist nicht ausführbarer Code, sondern gehört zur Struktur.
 
 <span class="code-block-green-line">
 
-**🦾 Methodenkörper** <br/> grün, Zeilen 12 - 18
+**🦾 Methodenkörper** <br/> grün, **Zeilen 12 - 18**
 
 </span>
 

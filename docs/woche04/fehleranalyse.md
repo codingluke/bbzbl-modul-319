@@ -133,7 +133,7 @@ ausschliesslich durch den "Stacktrace" beschrieben.
 
 ### 4. Logische Fehler
 
-Der Logische Fehler ist nun der Problematischste. Stellt euch vor Ihr habt eine
+Der Logische Fehler ist nun der problematischste. Stellt euch vor Ihr habt eine
 Kassensoftware geschrieben. Viele Kunden verwenden diese bereits in Ihren
 Geschäften. Nun stellt jemand Fest, dass in der Software ein `<` mit einem `>`
 verwechselt ist.
@@ -141,16 +141,15 @@ verwechselt ist.
 - Es erhalten also alle einen Rabatt unter 1000 und nicht über 1000 Franken.
   :scream:
 
-Dies zu finden kann schnell oder lange dauern. Es gibt jedoch keinen Error! Der
-Fehler ist nicht technischer sondern Inhaltlicher Natur. Der Fehler hat die
+Dies zu finden kann schnell oder lange dauern. Es gibt jedoch keinen Error! **Der
+Fehler ist nicht technischer sondern Inhaltlicher Natur**. Der Fehler hat die
 Kunden schon mehrere 1000.- gekostet!
 
 :::tip Debugging
 
-Logische Fehler können am Besten **durch das
+- Logische Fehler können am Besten **durch das
 [Debugging](../woche03/debugging.md) analysiert** werden.
-
-Wirklich helfen tut jedoch nur eine **gute Qualitätssicherung** während der
-Software-Entwicklung durch manuelle und automatisierte Tests
+- Wirklich helfen tut jedoch nur eine **gute Qualitätssicherung** während der
+Software-Entwicklung durch **manuelle und automatisierte Tests**
 
 :::

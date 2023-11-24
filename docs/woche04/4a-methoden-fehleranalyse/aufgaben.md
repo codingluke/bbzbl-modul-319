@@ -139,7 +139,7 @@ public class A3InterestCalculator {
 ## :pen: A4: Einfacher Rechner :rocket:
 
 Dieses Programm erwartet die Eingabe zweier Zahlen `a` und `b` durch den
-Benutzer, sowie den Rechenoperator als String `+` oder `*`.
+Benutzer, sowie den Rechenoperator als `char` (oder `String`) `+` oder `*`.
 
 - Für die Operatoren `+` und `*` sollen zwei Methoden (z.B. `add`, `mulitpy`)
   existieren welche die Parameter `a` und `b` besitzen und das Resultat
@@ -215,7 +215,7 @@ public class A6Geltunsbereich {
     // highlight-red-next-line
     int b = a; // wieso ist `a` hier nicht verfügbar
     int c = 4;
-    // highlight-next-line
+    // highlight-yellow-next-line
     int result = add(); // die Methode add() wird aufgerufen
     System.out.println(result);
   }

@@ -164,17 +164,14 @@ img[src$="#left"] {
 
 li.primary {
   border-left: 2px solid var(--ifm-color-primary);
-  background-color: var(--ifm-color-secondary-lightest);
 }
 
 li.warning {
   border-left: 2px solid var(--ifm-color-warning);
-  background-color: var(--ifm-color-warning-contrast-background);
 }
 
 li.info {
   border-left: 2px solid var(--ifm-color-info);
-  background-color: var(--ifm-color-info-contrast-background);
 }
 
 li.hidden {
@@ -203,7 +200,7 @@ li.hidden {
 }
 .code-block-red-line .comment {
   color: var(--ifm-color-primary-dark) !important;
-},
+}
 
 .code-block-green-line {
   display: block;
@@ -224,7 +221,6 @@ li.hidden {
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
-  border-left: 3px solid #f5df4e80;
 }
 .code-block-yellow-line,
 .code-block-yellow-line > span:first-child:not(.token) {

@@ -3,6 +3,7 @@ sidebar_position: 6
 keywords:
   - pdf
 ---
+
 # 📖 Geltungsbereich von lokalen Variablen
 
 Wenn eine Variable **innerhalb einer Methode initialisiert** wird, spricht man
@@ -73,8 +74,7 @@ public class Beispiel {
 Beim Programmieren muss man immer ein gutes Auge auf die geschweiften Klammern
 halten. Diese sind sehr oft das Problem wenn Eclipse errors anzeigt.
 
-:superhero: Es ist guter Stil, wenn die Verschachtelung nicht mehr als 3
+:man_superhero: Es ist guter Stil, wenn die Verschachtelung nicht mehr als 3
 Klammern übersteigt.
 
 :::
-
