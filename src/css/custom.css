@@ -187,75 +187,98 @@ li.hidden {
 }
 
 .code-block-red-line {
-  background-color: #ff000020;
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
+  color: black;
+}
+.code-block-red-line,
+.code-block-red-line > span:first-child:not(.token) {
   border-left: 3px solid #ff000080;
+  background-color: #ff000020;
 }
-.code-block-red-line > :first-child::before {
-  opacity: 1;
+.code-block-red-line > span:first-child:not(.token)::before {
+  opacity: 0.9;
   font-weight: bolder;
-  color: #ff0000;
 }
+.code-block-red-line .comment {
+  color: var(--ifm-color-primary-dark) !important;
+},
 
 .code-block-green-line {
-  background-color: #00a17020;
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
+}
+.code-block-green-line,
+.code-block-green-line > span:first-child:not(.token) {
+  background-color: #00a17020;
   border-left: 3px solid #00a17080;
 }
-.code-block-green-line > :first-child::before {
-  opacity: 1;
+.code-block-green-line > span:first-child:not(.token)::before {
+  opacity: 0.9;
   font-weight: bolder;
-  color: #00a170;
 }
 
 .code-block-yellow-line {
-  background-color: #f5df4e40;
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
   border-left: 3px solid #f5df4e80;
 }
-.code-block-yellow-line > :first-child::before {
-  opacity: 1;
+.code-block-yellow-line,
+.code-block-yellow-line > span:first-child:not(.token) {
+  background-color: #f5df4e40;
+  border-left: 3px solid #f5df4e80;
+}
+.code-block-yellow-line > span:first-child:not(.token)::before {
+  opacity: 0.9;
   font-weight: bolder;
 }
 
 .code-block-orange-line {
-  background-color: #f0780040;
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
+}
+.code-block-orange-line,
+.code-block-orange-line > span:first-child:not(.token) {
+  background-color: #f0780040;
   border-left: 3px solid #f0780080;
 }
-.code-block-orange-line > :first-child::before {
-  opacity: 1;
+.code-block-orange-line > span:first-child:not(.token)::before {
+  opacity: 0.9;
   font-weight: bolder;
-  color: #f07800;
 }
 
 .code-block-blue-line {
-  background-color: #0072b520;
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
+}
+.code-block-blue-line,
+.code-block-blue-line > span:first-child:not(.token) {
+  background-color: #0072b520;
   border-left: 3px solid #0072b580;
 }
-.code-block-blue-line > :first-child::before {
-  opacity: 1;
+.code-block-blue-line > span:first-child:not(.token)::before {
+  opacity: 0.9;
   font-weight: bolder;
-  color: #0072b5;
 }
 
 .theme-code-block-highlighted-line {
-  background-color: #bab4b520;
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
+}
+.theme-code-block-highlighted-line,
+.theme-code-block-highlighted-line > span:first-child:not(.token) {
   border-left: 3px solid #bab4b599;
+  background-color: #bab4b520;
+}
+.theme-code-block-highlighted-line > span:first-child:not(.token)::before {
+  opacity: 0.9;
+  font-weight: bolder;
 }
 
 /* Mermaid */
