@@ -15,7 +15,7 @@ footer: BBZBL / Lukas Hodel /  Applikationen entwerfen und implementieren
 # Kontrollstrukturen
 
 Vergleichs- und logische Operatoren kommen häufig dann zum Einsatz, wenn man
-etwas nur unter einer **bestimmten Bedingung** ausführen soll.
+etwas nur **unter einer bestimmten Bedingung ausführen** soll.
 
 ```mermaid width=80% align=center
 flowchart TD;

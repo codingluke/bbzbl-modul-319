@@ -4,20 +4,19 @@ hide_table_of_contents: true
 ---
 
 <Timeline title="Woche 5">
-<Event time="12:45">
+<Event time="12:10">
 
-## :teacher: Refresher Methoden
+## :man_teacher: Refresher Methoden **🏅T3**
 
-Vertiefung und Fehleranalyse
+- ⚡ Einfacher Rechner erklären
 
 </Event>
-<Event time="13:00">
+<Event time="13:10">
 
-## :student: Methoden und Fehleranalyse
+## :sparkles: Methoden **🏅T3**
 
-- :books: Verstehen
-
-- :pen: Aufgaben lösen
+- :books: Lesen & Verstehen
+- :pen: Aufgaben lösen, :boom: Raster
 
 </Event>
 
@@ -28,11 +27,11 @@ Vertiefung und Fehleranalyse
 </Event>
 <Event time="14:40">
 
-## :student: Schleifen
+## 🔁 Schleifen und Wiederholungen
 
+- :man_teacher: Präsentation
 - :books: Verstehen
-
-- :pen: Aufgaben lösen
+- :pen: Aufgaben lösen, :coffee: 15:30
 
 </Event>
 <Event time="16:15">

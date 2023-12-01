@@ -24,7 +24,7 @@ function HomepageHeader() {
             Ausserdem finden Sie auch weiterführende Links. Auf diese werden Sie
             im Unterricht nicht ausdrücklich hingewiesen.
           </p>
-          <Link className="button button--primary" to="/docs/woche04">
+          <Link className="button button--primary" to="/docs/woche05">
             Zur aktuellen Woche 
           </Link>
         </div>

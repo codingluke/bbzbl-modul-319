@@ -1,10 +1,14 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 keywords:
   - pdf
 ---
 
-# `for`-Schleife
+# 📖 `for` - Schleife
+
+:::caution erst in Woche 7 relevant
+
+:::
 
 Neben `while` und `do..while` existiert noch eine dritte Schleifenart, die
 `for`-Schleife.
@@ -579,7 +583,7 @@ public class A5aFlaggen {
 		for (int currentFlag = 0; currentFlag < flags; currentFlag++) {
 			System.out.println();
 			System.out.println("Flagge " + (currentFlag + 1));
-			
+
 			for (int currentLine = 0; currentLine < lines; currentLine++) {
 				for (int currentPos = 0; currentPos <= currentLine; currentPos++) {
 					System.out.print(zeichen);
@@ -601,7 +605,7 @@ public class A5bFlaggenMethode {
 	public static void main(String[] args) {
 		System.out.print("Anzahl Zeilen: ");
 		int lines = StdInput.readInt();
-		
+
 		System.out.print("Anzahl Flaggen: ");
 		int flags = StdInput.readInt();
 
@@ -611,7 +615,7 @@ public class A5bFlaggenMethode {
 		for (int currentFlag = 0; currentFlag < flags; currentFlag++) {
 			flag(currentFlag + 1, lines, zeichen);
 		}
-		
+
 		// eine andere Variante fuer das Zaehlen der Flaggen ist:
 		for (int currentFlag = 1; currentFlag <= flags; currentFlag++) {
 			flag(currentFlag, lines, zeichen);
@@ -621,7 +625,7 @@ public class A5bFlaggenMethode {
 	public static void flag(int flagNumber, int nr_of_lines, String character) {
 		System.out.println();
 		System.out.println("Flagge " + flagNumber);
-		
+
 		for (int currentLine = 0; currentLine < nr_of_lines; currentLine++) {
 			for (int currentPos = 0; currentPos <= currentLine; currentPos++) {
 				System.out.print(character);
@@ -629,7 +633,7 @@ public class A5bFlaggenMethode {
 
 			System.out.println();
 		}
-		
+
 	}
 
 }

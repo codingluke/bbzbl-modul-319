@@ -7,10 +7,10 @@ keywords:
 
 ## :dart: Ziele
 
-- Sie können mit dem while durch eine Bedingung gesteuerte Wiederholungen
-  programmieren.
+- Sie können mit `while` eine bedingungsgesteuerte Wiederholung programmieren
+- Sie können mit `do..while` korrekte Benutzereingaben erzwingen
 
-## :teacher: Präsentation
+## :man_teacher: Präsentation
 
 [:computer: Open in Browser](pathname:///slides/schleifen) |
 [:floppy_disk: download PDF](pathname:///slides/schleifen.pdf)

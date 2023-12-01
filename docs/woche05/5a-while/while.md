@@ -1,10 +1,10 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 keywords:
   - pdf
 ---
 
-# `while`-Schlaufe
+# 📖 `while` - Schleife
 
 Die `while`-Schlaufe ermöglicht es grundsätzlich, dass Programme geschrieben
 werden können, die nicht nur einmal durchlaufen, sondern Abschnitte resp. Blöcke
@@ -20,25 +20,22 @@ Ein explizites Beispiel der `while`-Kontrollstruktur sieht folgendermassen aus:
 int i = 10;
 while (i > 0) {
   System.out.println("value of i: " + i);
-  i = i - 1;
+  i--;
 }
 ```
 
 </div><div>
 
-**Ablaufdiagram**
+### Ablaufdiagram
 
 ```mermaid
-stateDiagram-v2
-    direction LR
-    state Bedingung <<choice>>
-    [*] --> Bedingung
-    do: { Code-Block }
-    Bedingung --> do: true
-    state while {
-        do --> Bedingung
-    }
-    Bedingung --> [*]: false
+flowchart LR
+    A[Anweisung;] --> B{Bedingung}
+    subgraph while
+      C --> B
+      B --> |true| C["{ Codeblock; }"]
+    end
+    B --> |false| F[Anweisung;]
 ```
 
 </div></div>
@@ -69,116 +66,6 @@ Der Aufbau der Anweisung ist also so:
   ausgeführt.
 
 :::
-
-## :pen: Aufgaben
-
-### Wiederholte Ausgabe
-
-Schreiben Sie ein Programm, welches 10-mal „Hopp Schwiiz“ ausgibt.
-
-- Schreiben Sie das Programm **zuerst als Sequenz von 10 Zeilen** mit
-  `System.out.println`.
-- Schreiben Sie dann das Programm kürzer und einfacher mit einer
-  `while`-Schleife.
-
-#### Zusatzaufgabe:
-
-Schreiben Sie das Programm mit einer `while`-Schleife und einer Variablen,
-welche diese steuert, wobei Sie die Variable wie folgt deklarieren:
-
-```java
-int zaehler = -5;
-```
-
-Bis zu welchem Wert muss diese Variable laufen?
-
-<details>
-<summary>Musterlösung:</summary>
-
-```java title="AASwitzerland.java"
-public class AASwitzerland {
-
-	public static void main(String[] args) {
-		// 10 mal die gleiche Zeile
-		System.out.println("Hopp Schwiiz");
-		System.out.println("Hopp Schwiiz");
-		System.out.println("Hopp Schwiiz");
-		System.out.println("Hopp Schwiiz");
-		System.out.println("Hopp Schwiiz");
-		System.out.println("Hopp Schwiiz");
-		System.out.println("Hopp Schwiiz");
-		System.out.println("Hopp Schwiiz");
-		System.out.println("Hopp Schwiiz");
-		System.out.println("Hopp Schwiiz");
-
-		System.out.println("---------------------------------");
-
-		// mit einer while-Schleife
-		int x = 0;
-		while (x < 10) {
-			System.out.println(x + " Hopp Schwiiz");
-			x = x + 1;	// ein kürzere Formulierung, um die Variable um eins zu erhöhen, wäre  x++;
-		}
-
-		System.out.println("---------------------------------");
-
-		// mit einer while-Schleife, aber wir beginnen bei -5
-		int i = -5;
-		while (i < 5) {
-			System.out.println(i + " Hopp Schwiiz");
-			i = i + 1;
-		}
-	}
-}
-```
-
-</details>
-
-### Multiplikationstafel ausgeben
-
-Schreiben Sie ein Programm, welches eine Multiplikationstafel ausgibt.
-
-- Der Benutzer gibt an, für welche Zahl die Multiplikationstafel erstellt werden
-  soll.
-
-```bash title="Folgende Ausgabe ist erwünscht, falls der Benutzer z.B. 2 eingibt:"
-1 x 2 = 2
-2 X 2 = 4
-3 X 2 = 6
-4 x 2 = 8
-5 x 2 = 10
-6 x 2 = 12
-7 x 2 = 14
-8 x 2 = 16
-9 x 2 = 18
-10 x 2 = 20
-```
-
-<details>
-<summary>Musterlösung:</summary>
-
-```java title="ABMultiplication.java"
-import mytools.StdInput;
-
-public class ABMultiplication {
-
-	public static void main(String[] args) {
-		System.out.print("Zahl fuer die Multiplikationstabelle: ");
-		int number = StdInput.readInt();
-
-		int ergebnis;
-		int i = 1;
-		while(i <= 10) {
-			ergebnis = i * number;
-			System.out.println(i + " * " + number + " = " + ergebnis);
-			i = i + 1;
-		}
-	}
-
-}
-```
-
-</details>
 
 ## :tv: Erklärvideos von Studyflix
 

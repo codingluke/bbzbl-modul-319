@@ -8,11 +8,63 @@ footer: BBZBL / Lukas Hodel / Applikationen entwerfen und implementieren
 
 <!-- _class: big center -->
 
-# :ferris_wheel: <br/> Schleifen und Wiederholungen
+# 🔁 <br/> Schleifen und Wiederholungen
+
+---
+
+# Kontrollstrukturen
+
+Vergleichs- und logische Operatoren kommen ebenfalls zum Einsatz, wenn man etwas
+nur **unter einer bestimmten Bedingung wiederholen** soll.
+
+```mermaid width=80% align=center
+flowchart TD;
+    Kontrollstrukturen---Selektionen
+    Selektionen---if[if-Anweisung]
+    Selektionen---switch[switch-Anweisung]
+    if---ifels[if-else-Anweisung]
+
+    Kontrollstrukturen---Schleifen
+    subgraph verz [ ]
+      Schleifen---while[while-Anweisung]
+      Schleifen---dowhile[do-while-Anweisung]
+      Schleifen---for[for-Anweisung]
+    end
+
+    style verz fill:#00A17020,stroke:#00A17080,stroke-width:2px
+```
+
+---
+
+<!-- _class: big center light-text -->
+
+# Zuerst Prüfen <br/> _dann solange machen bis ein Status erreicht wird_
+
+![bg cover brightness:0.5](./images/while-aufraeumen.jpg)
 
 ---
 
 # while
+
+```mermaid width=80%
+flowchart LR
+    A[Anweisung;] --> B{"`**Bedingung**
+      Datentyp: _boolean_`"}
+    subgraph "`**while**`"
+      C --> B
+      B --> |true| C["`{
+          &nbsp;&nbsp;Anweisung;
+          &nbsp;&nbsp;Anweisung;
+        }`"]
+    end
+    B --> |false| F[Anweisung;]
+
+    style C text-align:left
+```
+
+---
+
+# while 
 
 ::: columns
 
@@ -25,33 +77,71 @@ while (<Bedingung>) {
 }
 ```
 
-### Explizites Beispiel
+```mermaid width=80%
+flowchart LR
+    A[Anweisung;] --> B{"`**Bedingung**
+      Datentyp: _boolean_`"}
+    subgraph "`**while**`"
+      C --> B
+      B --> |true| C["`{
+          &nbsp;&nbsp;Anweisung;
+          &nbsp;&nbsp;Anweisung;
+        }`"]
+    end
+    B --> |false| F[Anweisung;]
 
-```java title="While Code-Beispiel" showLineNumbers
-int i = 10;
-while (i > 0) {
-  System.out.println("value of i: " + i);
-  i = i - 1;
-}
+    style C text-align:left
 ```
 
 ::: split
 
-## Ablauf
-```mermaid width=70%
-stateDiagram-v2
-    direction TB
-    state Bedingung <<choice>>
-    [*] --> Bedingung
-    do: { Code-Block }
-    Bedingung --> do: true
-    state while {
-        do --> Bedingung
-    }
-    Bedingung --> [*]: false
+## Beispiel
+
+```java title="While Code-Beispiel" showLineNumbers
+int i = 5;
+while (i > 0) {
+  System.out.println("i: " + i);
+  i--;
+}
+
+// Ausgabe:
+// i: 5
+// i: 4
+// i: 3
+// i: 2
+// i: 1
 ```
 
 :::
+
+---
+
+<!-- _class: big center light-text -->
+
+# Zuerst Machen <br/> _dann prüfen bis ein Status erreicht wird_
+
+![bg cover brightness:0.5](./images/dowhile-pfeilbogen.jpg)
+
+---
+
+# do..while
+
+```mermaid
+flowchart LR
+    A[Anweisung;] --> B["`{
+      &nbsp;&nbsp;Anweisung;
+      &nbsp;&nbsp;Anweisung;
+    }`"]
+
+    subgraph "`**do..while**`"
+      C --> |true| B
+      B --> C{"`**Bedingung**
+        Datentyp: _boolean_`"}
+    end
+
+    C --> |false| F[Anweisung;]
+    style B text-align:left
+```
 
 ---
 
@@ -64,38 +154,66 @@ stateDiagram-v2
 ```java
 do {
     <Anweisung>;
-    <Anweisung>;
 } while (<Bedingung>);
 ```
 
-### Explizites Beispiel
+```mermaid
+flowchart LR
+    A[Anweisung;] --> B["`{
+      &nbsp;&nbsp;Anweisung;
+      &nbsp;&nbsp;Anweisung;
+    }`"]
 
-```java
-int x = 0;
-do {
-    if (x == 0) x = 10;
-    System.out.println("value of x: " + x);
-    x = x-1;
-} while (x > 0);
+    subgraph "`**do..while**`"
+      C --> |true| B
+      B --> C{"`**Bedingung**
+        Datentyp: _boolean_`"}
+    end
+
+    C --> |false| F[Anweisung;]
+    style B text-align:left
 ```
 
 ::: split
-## Ablauf
 
-```mermaid width=50%
-stateDiagram-v2
-    direction TB
-    do: { Code-Block }
-    state Bedingung <<choice>>
-    [*] --> do
-    state do..while {
-        do --> Bedingung
-        Bedingung --> do: true
-    }
-    Bedingung --> [*]: false
+## Beispiel
+
+```java
+String gedanken = "Kaffee";
+String eingabe = "";
+do {
+  if (!eingabe.equals("")) {
+    system.out.println("leider flasch :(");
+  }
+  system.out.println("was denke ich?: ");
+  eingabe = stdinput.readstring();
+} while (gedanken.equals(einbage));
+System.out.println("jaaa");
+
+// Ausgabe:
+// Was denke ich?
+// > quatsch
+// leider falsch :(
+// Was denke ich?
+// > Kaffee
+// jaaa
 ```
 
 :::
+
+---
+
+<!-- _class: big center -->
+
+# `do..while` <br/> Abfrage und Verifikation von Benutzereingaben
+
+---
+
+<!-- _class: big center light-text -->
+
+# Eine bekannte Reihe/Liste durchlaufen
+
+![bg cover brightness:0.5](./images/for-himmel-hoelle.jpg)
 
 ---
 
@@ -123,6 +241,7 @@ for (int i = 0; i < 5; i++) {
 ```
 
 ::: split
+
 ## Ablauf
 
 ```mermaid width=70%

@@ -3,18 +3,20 @@ sidebar_position: 3
 keywords:
   - pdf
 ---
+
 # Der Datentyp `String`
 
 Der Datentyp `String` **dient zur Speicherung von Zeichenfolgen**, also
 allgemeiner Text. Der Text muss immer zwischen zwei **"doppelten
 Anführungszeichen"** gestellt werden.
 
-Wir haben ja bereits zusammen die Aufgabe [:pen: A2: Text mit `StdInput` einlesen](/docs/woche02/2a-eva/aufgabe1-bibliothek-einbinden.md#pen-a2-text-mit-stdinput-einlesen) zusammen bearbeitet. Hier ist nun zusätzliche Theorie zum Datentyp `String`.
+Wir haben ja bereits zusammen die Aufgabe
+[:pen: A2: Text mit `StdInput` einlesen](/docs/woche02/2a-eva/aufgabe1-bibliothek-einbinden.md#pen-a2-text-mit-stdinput-einlesen)
+zusammen bearbeitet. Hier ist nun zusätzliche Theorie zum Datentyp `String`.
 
 | Datentyp | Grösse             | Beschreibung              | Spezifika |
 | -------- | ------------------ | ------------------------- | --------- |
 | String   | 2 byte pro Zeichen | Speichert beliebigen Text | `""`      |
-
 
 ## Strings initialisieren
 
@@ -76,3 +78,43 @@ String zahl = "" + 21;
 ```
 
 :::
+
+## Strings vergleichen
+
+Höhere Datentypen wie Strings können nicht mit `==` verglichen werden.
+
+Strings werden mit `equals` Verglichen.
+
+```java
+boolean istGleicherText = "vergleichswert".equals("anderer text");
+// false
+```
+
+Wobei dies natürlich auch Variablen sein können
+
+```java
+String text = "vergleichswert";
+String text2 = "anderer text";
+
+boolean istGleicherText = text.equals(text2);
+// false
+```
+
+Vergleichen ergibt immer ein `boolean`. Der kann dann in der if-Selektion oder
+der while-Schlaufe verwendet werden
+
+```java
+String text = "vergleichswert";
+String text2 = "anderer text";
+
+boolean istGleicherText = text.equals(text2);
+if (istGleicherText) {
+  System.out.println("jaa");
+} else {
+  System.out.println("nein");
+}
+
+while(!text.equals(text2)) {
+  text2 = "vergleichswert";
+}
+```

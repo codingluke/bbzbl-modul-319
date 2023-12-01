@@ -14,7 +14,6 @@
 </div><div>
 
 ## :zap: Highlights
-
 :::info Freies Arbeiten
 
 Heute bin ich in Gesprächen. Arbeitet also selbständig an den Methoden Aufgaben.
