@@ -5,6 +5,21 @@ keywords:
 ---
 
 # 🖊️ Schleifen Aufgaben
+Lösen Sie diese Aufgaben selbständig. Wenn Sie nicht weiter kommen, ist auch immer
+eine Musterlösung vorhanden. Verwenden Sie diese erst wenn Sie mindestens 20 Minuten
+nicht weiter kommen.
+
+Die Theorie zu den Aufgaben finden Sie unter:
+
+- [:man_teacher: Präsentation](/docs/woche05/5a-while/index.md#manteacher-präsentation)
+- [:open_book: while](/docs/woche05/5a-while/while.md)
+- [:open_book: do..while](/docs/woche05/5a-while/dowhile.md)
+
+:::tip Untersuchen Sie alle Aufgabe auch mittels [Debugging](/docs/woche03/debugging.md)
+
+- :mag: Verfolgen Sie den Programmablauf und die Werte der Variablen.
+
+:::
 
 ## `while`-Schleife
 

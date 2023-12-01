@@ -17,12 +17,20 @@
 
 :::info Freies Arbeiten
 
-🗣️ Heute bin ich in Gesprächen.
+🗣️ Heute bin ich in Gesprächen zum **Thema 3 - Methoden**
 
 - Arbeiten Sie selbständig an **beliebigen Aufgaben**.
 - Nach der grossen Pause solltet Ihr versuchen das
-  **[Ratespiel :joystick:](/docs/woche06/6a-spiele/ratespiel.md)** zu
+  **[😶‍🌫️Ratespiel](/docs/woche06/6a-spiele/ratespiel.md)** zu
   programmieren.
+
+:::
+
+:::tip Spielt das Reaktionsspiel
+
+**Kopiert euch die Musterlösung** vom [:zap: Reaktionsspiel](/docs/woche06/6a-spiele/reaktionsspiel.md) in eine Klasse `ReactionGame.java` und spielt. Danach schaut ihr euch mal den Code an. 
+
+Habt auch Spass. :gun: :joystick: :star2: :rainbow:
 
 :::
 
@@ -34,8 +42,14 @@
 
 ### Spiele
 
-- [A1: Wiederholte Ausgabe](/docs/woche05/5a-while/aufgaben.md#pen-a1-wiederholte-ausgabe)
-- [A2: Multiplikationstafel ausgeben](/docs/woche05/5a-while/aufgaben.md#pen-a2-multiplikationstafel-ausgeben)
+- [😶‍🌫️ Ratespiel :star2:](/docs/woche06/6a-spiele/ratespiel.md) Dies ist eine super Vorbereitung für die Prüfung
+- [:zap: Reaktionsspiel](/docs/woche06/6a-spiele/reaktionsspiel.md) :bulb: Musterlösung kopieren, ausser Ihr habt viel Zeit und Lust zu Hause
+
+:::note freiwillig
+
+- [:game_die: Würfelspiel](/docs/woche06/6a-spiele/wuerfelspiel.md)
+
+:::
 
 ## :books: Themenseiten
 

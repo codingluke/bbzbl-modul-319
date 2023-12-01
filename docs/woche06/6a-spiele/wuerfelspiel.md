@@ -3,17 +3,21 @@ keywords:
   - pdf
 ---
 
-# Würfelspiel
+# 🎲 Würfelspiel
 
-## :brain: Zufall erzeugen
+Um Würfelspiele zu erstellen, ist es nötig, dass zufällige Zahlen zur Verfügung
+stehen. Daher werden wir zuerst erkunden wie dies genau geht.
 
-Die allgemeine Formel für eine Zufallszahl lautet:
+Lest dafür [:open_book: Zufall erzeugen](/docs/woche06/6a-spiele/zufall.md)
+genau durch.
 
-```java title="Generelle Zufallszahl Formel"
-public int randomNumberInRange(int min, int max) {
-    return (int)(Math.random() * (max - min + 1)) + min;
-}
-```
+:::tip Theorie offen behalten
+
+Wenn Ihr [:open_book: Zufall erzeugen](/docs/woche06/6a-spiele/zufall.md) in
+einem eigenen Tab (oder Splitscreen) offen habt, könnt Ihr wärend dem Lösen der
+Aufgabe komfortabel spicken ;)
+
+:::
 
 ## :pen: Einspieler Variante
 

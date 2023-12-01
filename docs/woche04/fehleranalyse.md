@@ -12,7 +12,7 @@ keywords:
 - Sie können bei Laufzeitfehlern (das Programm stürzt ab) den Stacktrace
   erkennen und von dort angezeigte Fehlerstellen in Ihrem Programm anspringen.
 
-## :pen: A1: Bewusst Fehler generieren :rocket:
+## :pen: A1: Bewusst Fehler generieren :star2:
 
 1. Machen Sie eine **Kopie** einer bereits gelösten Aufgabe Ihrer Wahl
 2. Machen Sie sich mit den

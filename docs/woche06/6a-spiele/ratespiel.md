@@ -3,33 +3,26 @@ keywords:
   - pdf
 ---
 
-# Ratespiel
+# 😶‍🌫️ Ratespiel 🌟
 
-Nun erstellen wir ein Ratespiel. Um einfache Rate-Games zu erstellen, ist es
-nötig, dass zufällige Zahlen zur Verfügung stehen. Daher werden wir zuerst
-erkunden wie dies genau geht.
+Um einfache Rate-Games zu erstellen, ist es nötig, dass zufällige Zahlen zur
+Verfügung stehen. Daher werden wir zuerst erkunden wie dies genau geht.
 
-## :brain: Zufall erzeugen
+Lest dafür [:open_book: Zufall erzeugen](/docs/woche06/6a-spiele/zufall.md)
+genau durch.
 
-In Java gibt es eine Klasse Math. Auf dieser kann man beispielsweise den Befehl
-`Math.random()` aufrufen, dann bekommt man eine Zahl zwischen 0 inklusive und 1
-(exklusive) zurück. Wenn ein Programm simulieren soll, dass ein Würfel geworfen
-wurde, und folglich die Zahlen 1 inklusive bis 6 inklusive zufällig ausgewählt
-werden sollen, kann dies mit der folgenden Zeile erfolgen:
+:::tip Theorie offen behalten
 
-```java title="6er Würfel"
-int diceValue = (int) (Math.random() * 6) + 1;
-```
+Wenn Ihr [:open_book: Zufall erzeugen](/docs/woche06/6a-spiele/zufall.md) in
+einem eigenen Tab (oder Splitscreen) offen habt, könnt Ihr wärend dem Lösen der
+Aufgabe komfortabel spicken ;)
 
-Die allgemeine Formel für eine Zufallszahl lautet:
+:::
 
-```java title="Generelle Zufallszahl Formel"
-public static int randomNumberInRange(int min, int max) {
-    return (int)(Math.random() * (max - min + 1)) + min;
-}
-```
+:::caution Untersuchen Sie die Aufgabe auch mittels [Debugging](/docs/woche03/debugging.md)
 
-:::caution Achten Sie darauf, die Klammern korrekt zu setzen.
+- :mag: Verfolgen Sie den Programmablauf und die Werte der Variablen.
+- Debugging und Fehleranalyse ist das **Thema 4 im Kompetenzraster**
 
 :::
 
@@ -39,12 +32,13 @@ Erstellen Sie das Programm namens `GuessGame`.
 
 Dieses Programm:
 
-- erzeugt eine zufällige Zahl zwischen 1 und 100 (wie das gemacht wird, ist oben
-  beschrieben)
-  - Das ist die zu erratende geheime Zahl
+- erzeugt eine zufällige Zahl zwischen 1 und 100
+  - Das ist die zu erratende geheime Zahl, speichert Sie also in einer
+    Variablen.
 - fordert den Benutzer auf, die Zahl zu erraten, liest die Eingabe des Benutzers
   ein und vergleicht sie mit der geheimen Zahl
-  - Das wird solange wiederholt, bis die geheime Zahl erraten wird
+  - Das wird [solange wiederholt](/docs/woche05/5a-while/dowhile.md), bis die
+    geheime Zahl erraten wird
 - Zum Schluss wird dem Benutzer zum Erfolg gratuliert
 
 Für den Benutzer ist das nicht einfach. Bauen Sie deshalb schrittweise die
@@ -57,7 +51,7 @@ folgenden Erweiterungen in das Programm ein:
 3. Zählen Sie die Anzahl Versuche, die der Benutzer dazu braucht und geben Sie
    dies am Ende auf die Konsole aus.
 
-:::info Lesen Sie die Kommentare der Musterlösung!
+:::warning Lesen Sie die Kommentare der Musterlösung!
 
 Die Musterlösung ist mit Kommentaren versehen, um das Spiel mit den drei
 weiteren Funktionalitäten zu ergänzen.
