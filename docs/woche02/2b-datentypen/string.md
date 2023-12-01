@@ -118,3 +118,16 @@ while(!text.equals(text2)) {
   text2 = "vergleichswert";
 }
 ```
+
+### Negation
+
+Nun haben wir gesehen, wie ein String auf Gleichheit geprüft werden kann.
+Wie können wir nun aber auf Ungleichheit prüfen?
+
+Hier zu verwenden wir die [Negation](/docs/woche02/operatoren.md#negation) `!`.
+Mit einem Ausrufezeichen, können wir jedes `true` in ein `false` und wieder zurück verwandeln.
+
+```java
+boolean istNichtGleich = !"vergleichswert".equals("anderer text");
+//                       ^ Negation!
+```

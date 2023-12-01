@@ -210,7 +210,7 @@ Iteration von C.
 
 :::
 
-## ⚖️  Vergleichsoperatoren
+## ⚖️ Vergleichsoperatoren
 
 - `==`, `!=`, `<`, `>`, `<=`, `>=` und die Negation `!`
 
@@ -275,6 +275,8 @@ true  != true; // false
 
 </div><div>
 
+### Negation
+
 ```java title="! Negation"
 !false // true
 !(1 == 2) // true
@@ -288,6 +290,7 @@ true  != true; // false
 :::caution Strings vergleichen
 
 - **String** Variablen **immer mit `.equals()`** vergleichen, nie mit `==`
+  - :exclamation: Mit einem `!` kann es Negiert werden. `!"text".equals("text")`
 - Auch ist es gute Praxis der **bekannte Wert mit dem unbekannten zu
   vergleichen** und nicht anders rum:
   - :white_check_mark: `"auto".equals(vehicle);`

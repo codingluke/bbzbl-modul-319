@@ -14,8 +14,7 @@ footer: BBZBL / Lukas Hodel / Applikationen entwerfen und implementieren
 
 # Kontrollstrukturen
 
-Vergleichs- und logische Operatoren kommen ebenfalls zum Einsatz, wenn man etwas
-nur **unter einer bestimmten Bedingung wiederholen** soll.
+Vergleichs- und logische Operatoren kommen ebenfalls zum Einsatz, wenn man etwas nur **unter einer bestimmten Bedingung wiederholen** soll.
 
 ```mermaid width=80% align=center
 flowchart TD;
@@ -183,10 +182,10 @@ String gedanken = "Kaffee";
 String eingabe = "";
 do {
   if (!eingabe.equals("")) {
-    system.out.println("leider flasch :(");
+    System.out.println("leider flasch :(");
   }
-  system.out.println("was denke ich?: ");
-  eingabe = stdinput.readstring();
+  System.out.println("was denke ich?: ");
+  eingabe = StdInput.readstring();
 } while (gedanken.equals(einbage));
 System.out.println("jaaa");
 
