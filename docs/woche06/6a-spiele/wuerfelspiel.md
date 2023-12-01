@@ -44,35 +44,34 @@ import mytools.StdInput;
 
 public class DiceGame {
 
-	public static void main(String[] args) {
-		System.out.print("Enter the maximum of points: ");
+  public static void main(String[] args) {
+    System.out.print("Enter the maximum of points: ");
 
-		int maximum = StdInput.readInt();
+    int maximum = StdInput.readInt();
 
-		System.out.print("You rolled: ");
-		int total = 0;
-		int counter = 0;
+    System.out.print("You rolled: ");
+    int total = 0;
+    int counter = 0;
 
-		do {
-			total = total + dice();
-			counter++;
+    do {
+      total = total + dice();
+      counter++;
 
-		} while (total < maximum);
+    } while (total < maximum);
 
-		System.out.println();
-		System.out.println("Total points: " + total + ", number of dice: " + counter);
+    System.out.println();
+    System.out.println("Total points: " + total + ", number of dice: " + counter);
+  }
 
-	}
+  public static int dice() {
+    int rolled = randomNumberInRange(1, 6);
+    System.out.print(rolled + " ");
+    return rolled;
+  }
 
-	public static int dice() {
-		int rolled = randomNumberInRange(1, 6);
-		System.out.print(rolled + " ");
-		return rolled;
-	}
-
-    public static int randomNumberInRange(int min, int max) {
-        return (int)(Math.random() * (max - min + 1)) + min;
-    }
+  public static int randomNumberInRange(int min, int max) {
+    return (int) (Math.random() * (max - min + 1)) + min;
+  }
 }
 ```
 
@@ -112,51 +111,50 @@ import mytools.StdInput;
 
 public class DiceGame2Player {
 
-	public static void main(String[] args) {
-		System.out.print("Enter the maximum of points: ");
+  public static void main(String[] args) {
+    System.out.print("Enter the maximum of points: ");
 
-		int maximum = StdInput.readInt();
+    int maximum = StdInput.readInt();
 
-		int counter1 = play(maximum);
-		System.out.println();
-		int counter2 = play(maximum);
+    int counter1 = play(maximum);
+    System.out.println();
+    int counter2 = play(maximum);
 
-		System.out.println();
-		System.out.println("Number of dice Player 1: " + counter1);
-		System.out.println("Number of dice Player 2: " + counter2);
+    System.out.println();
+    System.out.println("Number of dice Player 1: " + counter1);
+    System.out.println("Number of dice Player 2: " + counter2);
 
-		if(counter1 < counter2) {
-			System.out.println("Player 1 wins.");
-		} else if(counter2 < counter1) {
-			System.out.println("Player 2 wins.");
-		} else {
-			System.out.println("Draw.");
-		}
-
-	}
-
-	public static int play(int max) {
-		int total = 0;
-		int counter = 0;
-
-		do {
-			total = total + dice();
-			counter++;
-
-		} while (total < max);
-
-		return counter;
-	}
-
-	public static int dice() {
-		int rolled = randomNumberInRange(1, 6);
-		System.out.print(rolled + " ");
-		return rolled;
-	}
-
-    public int randomNumberInRange(int min, int max) {
-        return (int)(Math.random() * (max - min + 1)) + min;
+    if (counter1 < counter2) {
+      System.out.println("Player 1 wins.");
+    } else if (counter2 < counter1) {
+      System.out.println("Player 2 wins.");
+    } else {
+      System.out.println("Draw.");
     }
+  }
+
+  public static int play(int max) {
+    int total = 0;
+    int counter = 0;
+
+    do {
+      total = total + dice();
+      counter++;
+
+    } while (total < max);
+
+    return counter;
+  }
+
+  public static int dice() {
+    int rolled = randomNumberInRange(1, 6);
+    System.out.print(rolled + " ");
+    return rolled;
+  }
+
+  public int randomNumberInRange(int min, int max) {
+    return (int) (Math.random() * (max - min + 1)) + min;
+  }
 }
 ```
 
@@ -179,51 +177,50 @@ import mytools.StdInput;
 
 public class DiceGameVariante {
 
-	public static void main(String[] args) {
-		System.out.print("Enter the number of dice: ");
+  public static void main(String[] args) {
+    System.out.print("Enter the number of dice: ");
 
-		int numberOfDice = StdInput.readInt();
+    int numberOfDice = StdInput.readInt();
 
-		int total1 = play(numberOfDice);
-		System.out.println();
-		int total2 = play(numberOfDice);
+    int total1 = play(numberOfDice);
+    System.out.println();
+    int total2 = play(numberOfDice);
 
-		System.out.println();
-		System.out.println("Total Player 1: " + total1);
-		System.out.println("Total Player 2: " + total2);
+    System.out.println();
+    System.out.println("Total Player 1: " + total1);
+    System.out.println("Total Player 2: " + total2);
 
-		if(total1 > total2) {
-			System.out.println("Player 1 wins.");
-		} else if(total2 > total1) {
-			System.out.println("Player 2 wins.");
-		} else {
-			System.out.println("Draw.");
-		}
-
-	}
-
-	public static int play(int numberOfDice) {
-		int total = 0;
-		int counter = 0;
-
-		do {
-			total = total + dice();
-			counter++;
-
-		} while (counter < numberOfDice);
-
-		return total;
-	}
-
-	public static int dice() {
-		int rolled = randomNumberInRange(1, 6);
-		System.out.print(rolled + " ");
-		return rolled;
-	}
-
-    public int randomNumberInRange(int min, int max) {
-        return (int)(Math.random() * (max - min + 1)) + min;
+    if (total1 > total2) {
+      System.out.println("Player 1 wins.");
+    } else if (total2 > total1) {
+      System.out.println("Player 2 wins.");
+    } else {
+      System.out.println("Draw.");
     }
+  }
+
+  public static int play(int numberOfDice) {
+    int total = 0;
+    int counter = 0;
+
+    do {
+      total = total + dice();
+      counter++;
+
+    } while (counter < numberOfDice);
+
+    return total;
+  }
+
+  public static int dice() {
+    int rolled = randomNumberInRange(1, 6);
+    System.out.print(rolled + " ");
+    return rolled;
+  }
+
+  public int randomNumberInRange(int min, int max) {
+    return (int) (Math.random() * (max - min + 1)) + min;
+  }
 }
 ```
 

@@ -2,6 +2,7 @@
 keywords:
   - pdf
 ---
+
 # Ratespiel
 
 Nun erstellen wir ein Ratespiel. Um einfache Rate-Games zu erstellen, ist es
@@ -40,11 +41,11 @@ Dieses Programm:
 
 - erzeugt eine zufällige Zahl zwischen 1 und 100 (wie das gemacht wird, ist oben
   beschrieben)
-  - das ist die zu erratende geheime Zahl
+  - Das ist die zu erratende geheime Zahl
 - fordert den Benutzer auf, die Zahl zu erraten, liest die Eingabe des Benutzers
   ein und vergleicht sie mit der geheimen Zahl
-  - das wird solange wiederholt, bis die geheime Zahl erraten wird
-- zum Schluss wird dem Benutzer zum Erfolg gratuliert
+  - Das wird solange wiederholt, bis die geheime Zahl erraten wird
+- Zum Schluss wird dem Benutzer zum Erfolg gratuliert
 
 Für den Benutzer ist das nicht einfach. Bauen Sie deshalb schrittweise die
 folgenden Erweiterungen in das Programm ein:
@@ -56,48 +57,67 @@ folgenden Erweiterungen in das Programm ein:
 3. Zählen Sie die Anzahl Versuche, die der Benutzer dazu braucht und geben Sie
    dies am Ende auf die Konsole aus.
 
+:::info Lesen Sie die Kommentare der Musterlösung!
+
+Die Musterlösung ist mit Kommentaren versehen, um das Spiel mit den drei
+weiteren Funktionalitäten zu ergänzen.
+
+:::
+
 <details>
 <summary>Musterlösung:</summary>
 
-```java title="Guess.java"
+```java title="GuessGame.java"
 import mytools.StdInput;
-
 
 /*
  * Programmbeschreibung:
  * Ziel
- * * Das Programm erzeugt eine zufällige Zahl,
- *      int number = (int) (Math.random() * 100);
- * die der Benutzer anschliessend erraten muss.
+ * * Das Programm erzeugt eine zufällige Zahl, die der Benutzer
+ *   anschliessend erraten muss.
  *
- * Daten
+ * Variablen
  * * eine Variable für die zufällige Zahl (int)
  * * eine Variable für die geratene Zahl (int)
  *
  * Kontrollstrukturen
- * * Schleife, Abfrage Ratezahl Benutzer,
- * bis sie/er richtige Zahl erraten hat, do while
- * * Angabe, ob geheime Zahl grösser oder kleiner (if)
+ * * Schleife, Abfrage der Ratezahl, bis sie/er die
+ *   richtige Zahl erraten hat, `do while`
+ * * Selektion, ob geheime Zahl grösser oder kleiner (if)
  */
-public class Guess {
+public class GuessGame {
 
     public static void main(String[] args){
-        int secret = randomNumberInRange(1, 100)
+        int secret = randomNumberInRange(1, 100) // Zufallszahl zwischen 1 und 100
         int guess = 0;
+        // V3: Gebrauchte Runden zählen
+        //int rounds = 0;
 
-        System.out.println("Just picked a random number, make your guess ;-)");
+        // V2: Kommentieren Sie die nächste Zeile aus um die Geheimzahl anzuzeigen.
+        //    Dies ist auch nützlich um das Programm zu testen
+        // System.out.println("Die geheime Zahl ist: " secret);
+
+        System.out.println("Es wird eine Nummer zwischen 1 und 100 gesucht");
 
         do {
-            System.out.println("Please make a guess");
+            System.out.println("Rate eine Zahl: ");
             guess = StdInput.readInt();
 
-            if(guess > secret) {
-                System.out.println("number is smaller");
-            } else if (guess < secret) {
-                System.out.println("number is larger");
-            }
+            // CHEAT V1: Kommentieren Sie die nächsten Zeilen aus um zu zeigen
+            //          ob die Geheimzahl grösser oder kleiner ist
+            //if(guess > secret) {
+            //    System.out.println("Die gesuchte Zahl ist kleiner");
+            //} else if (guess < secret) {
+            //    System.out.println("Die gesuchte Zahl ist grösser");
+            //}
+
+            // V3: Gebrauchte Runden zählen
+            //rounds++;
         } while(guess != secret);
-        System.out.println("Hurray! Your guess " + guess + " matches the secret " + secret);
+
+        System.out.println("Judihuiii! Deine Zahl " + guess + " stimmt überein!");
+        // V3: Gebrauchte Runden zählen
+        //System.out.println("Sie haben dazu " + rounds + " Runden benötigt!");
     }
 
     public static int randomNumberInRange(int min, int max) {
