@@ -159,7 +159,7 @@ import mytools.StdInput;
 public class A4SimpleCalculator {
 
   public static void main(String[] args) {
-    // Initialisierung der Variablen
+    // Delarierung / Initialisierung der Variablen
     int a = 0;
     int b = 0;
     int result = 0;
@@ -174,9 +174,9 @@ public class A4SimpleCalculator {
     operator = StdInput.readChar(); // INFO: auch möglich als String
 
     // Operator prüfen und Resultat entsprechend berechnen
-    if (operator == '+')) { // INFO: Wenn string dann `equals`
+    if (operator == '+') { // INFO: Wenn string dann `equals`
       result = add(a, b);
-    } else if (operator == '-') { // INFO: Wenn string dann `equals`
+    } else if (operator == '*') { // INFO: Wenn string dann `equals`
       result = multiply(a, b);
     }
 
