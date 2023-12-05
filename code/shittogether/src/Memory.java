@@ -5,7 +5,9 @@ public class Memory {
   private static Scanner scanner = new Scanner(System.in);
 
   public static void main(String[] args) {
-    String[] cards = {"Auto", "Stift", "Stern", "Apfel", "Buch", "Drucker", "Autobahn", "Katze", "Uhr", "Baum"};
+    String[] cards = {
+      "Auto", "Stift", "Stern", "Apfel", "Buch", "Drucker", "Autobahn", "Katze", "Uhr", "Baum"
+    };
     boolean[] guesses = {false, false, false, false, false, false, false, false, false, false};
     String answer = "";
 
@@ -36,8 +38,7 @@ public class Memory {
    * @param cards
    */
   private static void showCards(String[] cards) {
-    for (String card : cards)
-      System.out.print("\t" + card);
+    for (String card : cards) System.out.print("\t" + card);
   }
 
   /**
@@ -49,15 +50,15 @@ public class Memory {
   private static void showCorrectCards(boolean[] guesses, String[] cards) {
     System.out.println("Deine bereits geratenen Wörter");
     for (int i = 0; i < guesses.length; i++) {
-      if (guesses[i])
-        System.out.println(cards[i]);
+      if (guesses[i]) System.out.println(cards[i]);
     }
   }
 
   /**
-   * Wählt eine zu ratende Karte und gibt die Position auf die Konsole aus. Speichert das Resultat in der Variable guesses. Wichtig! Die Variable
-   * `guesses` wird durch Referenz übergeben und wird dadurch auch in der `main` Methode geändert!
-   * 
+   * Wählt eine zu ratende Karte und gibt die Position auf die Konsole aus. Speichert das Resultat
+   * in der Variable guesses. Wichtig! Die Variable `guesses` wird durch Referenz übergeben und wird
+   * dadurch auch in der `main` Methode geändert!
+   *
    * @param guesses
    * @param cards
    */
@@ -75,7 +76,7 @@ public class Memory {
 
   /**
    * Überprüft ob bereits alle Karten korrekt geraten wurden.
-   * 
+   *
    * @param guesses
    * @return
    */
@@ -89,7 +90,8 @@ public class Memory {
   }
 
   /**
-   * Generiert solange eine Zahl zwischen 0 und 9, bis einen Index einer Karte gefunden wurde, welche noch nicht korrekt geraten wurde.
+   * Generiert solange eine Zahl zwischen 0 und 9, bis einen Index einer Karte gefunden wurde,
+   * welche noch nicht korrekt geraten wurde.
    *
    * @param guesses
    * @return Position einer Karte die noch nicht geraten wurde
@@ -101,5 +103,4 @@ public class Memory {
     } while (guesses[nextIndex]);
     return nextIndex;
   }
-
 }
