@@ -21,7 +21,7 @@ Was sind überhaupt Programme? und was haben diese mit Algorithmen zu tun?
 
 ## Code.org
 
-<div class="grid"><div>
+<div className="grid"><div>
 
 Einige Programmierer geben Einblick darein, was sie am programmieren
 faszinierte. Bei welchen einfachen Aufgaben die Herausforderungen bestanden.
@@ -61,7 +61,7 @@ auseinanderzunehmen und in einzelnen Schritten zu lösen.
 
 Die folgenden Grundbegriffe wurden im Unterricht definiert
 
-<div class="grid"><div>
+<div className="grid"><div>
 
 ### Sequenz (Schritt für Schritt)
 Unter Sequenz ist einen Ausführungsschritt gemeint. Beim Programmieren ist dies meistens eine Zeile.
@@ -83,7 +83,7 @@ Beispiele in Java: `while`, `do..while`, `for`
 
 </div></div>
 
-<div class="grid"><div>
+<div className="grid"><div>
 
 ## Algorithmus
 
@@ -169,7 +169,7 @@ Der euklidische Algorithmus ist ein Algorithmus aus dem mathematischen
 Teilgebiet der Zahlentheorie. Mit ihm lässt sich der **grösste gemeinsame
 Teiler** zweier natürlicher Zahlen berechnen.
 
-<div class="grid"><div>
+<div className="grid"><div>
 
 Berechnung des ggT aus `a = 28` und `b = 20`
 
@@ -194,7 +194,7 @@ Der ggT ist **4**, wieso?
 
 ## :pen: A5: Sprecher suchen
 
-<div class="grid"><div>
+<div className="grid"><div>
 
 Für eine große Gruppe von Leuten ist ein Sprecher zu benennen. Die Gruppe einigt
 sich darauf, den Ältesten mit dieser Aufgabe zu betrauen.
@@ -227,7 +227,7 @@ horizontal, vertikal oder diagonal (auch rückwärts) geschrieben sind. In einem
 kleinen Feld lassen sich gesuchte Wörter noch schnell selbst finden. Schon bei
 50x20 Zeichen ist es aber sehr ermüdend.
 
-<div class="grid"><div>
+<div className="grid"><div>
 
 Erläutern Sie präzise, wie Sie einen Suchknecht instruieren könnten, damit er
 alle versteckten Wörter findet.

@@ -156,7 +156,7 @@ if (<Bedingung1>) {
     <Anweisung1>
 } else if (<Bedingung2>) { // Optionaler Block
     <Anweisung2>
-} else {                  // Optionaler Block
+} else {                   // Optionaler Block
     <Anweisung3>
 }
 ```

@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Woche 2
 
-<div class="grid"><div>
+<div className="grid"><div>
 
 ## :school: Unterricht
 
@@ -51,7 +51,7 @@ Bereit für das Gespräch im Rahmen des Rasters.
 
 ## :pen: Aufgabenübersicht
 
-<div class="grid"><div>
+<div className="grid"><div>
 
 ### Das EVA-Prinzip
 

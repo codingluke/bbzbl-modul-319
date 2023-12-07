@@ -6,8 +6,8 @@
 |                    |   [Woche&nbsp;2][w2]   |   10.11.2023   | Datentypen / Ein und Ausgabe / `if` / Operatoren                                                        |                          |
 |                    |   [Woche&nbsp;3][w3]   |   17.11.2023   | Selektion mit `if` und `switch` / Methoden / Debugging                                                  |                          |
 |                    | [**Woche&nbsp;4**][w4] | **24.11.2023** | Methoden mit Parametern und Rückgabewert <br/> Fehleranalyse                                            | **[LB1]: Thema 1 und 2** |
-| :steam_locomotive: |   [Woche&nbsp;5][w5]   |   01.12.2023   | `while` / Konstanten                                                                                    |                          |
-|                    | [**Woche&nbsp;6**][w6] | **08.12.2023** | Ratespiel mit Repetition bisherige Themen                                                               | **[LB1]: Thema 3**       |
+|                    |   [Woche&nbsp;5][w5]   |   01.12.2023   | `while` / Konstanten                                                                                    |                          |
+| :steam_locomotive: | [**Woche&nbsp;6**][w6] | **08.12.2023** | Ratespiel mit Repetition bisherige Themen                                                               | **[LB1]: Thema 3**       |
 |                    | [**Woche&nbsp;7**][w7] | **15.12.2023** | **Abschluss Beurteilungsraster**                                                                        | **[LB1]: Thema 4**       |
 |                    |   [Woche&nbsp;8][w8]   |   22.12.2023   | Array / `for` / Repetition                                                                              |                          |
 |                    |                        |                | :star: _Ferien_                                                                                         |                          |

@@ -12,7 +12,7 @@ das `while` rutscht an den Schluss.
 
 Hier ein explizites Beispiel zur `do..while`-Schlaufe:
 
-<div class="grid"><div>
+<div className="grid"><div>
 
 ```java title="do { } while Code-Beispiel"
 int x = 10;

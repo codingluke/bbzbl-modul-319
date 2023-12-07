@@ -5,9 +5,10 @@ keywords:
 ---
 
 # 🖊️ Schleifen Aufgaben
-Lösen Sie diese Aufgaben selbständig. Wenn Sie nicht weiter kommen, ist auch immer
-eine Musterlösung vorhanden. Verwenden Sie diese erst wenn Sie mindestens 20 Minuten
-nicht weiter kommen.
+
+Lösen Sie diese Aufgaben selbständig. Wenn Sie nicht weiter kommen, ist auch
+immer eine Musterlösung vorhanden. Verwenden Sie diese erst wenn Sie mindestens
+20 Minuten nicht weiter kommen.
 
 Die Theorie zu den Aufgaben finden Sie unter:
 

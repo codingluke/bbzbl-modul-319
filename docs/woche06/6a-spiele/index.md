@@ -16,6 +16,13 @@ einfaches Spiel programmieren können.
 - Sie kennen den Grundmechanismus für ein Game und können damit einfach Spiele
   programmieren.
 
+## :man_teacher: Präsentation
+
+[:computer: Open in Browser](pathname:///slides/spiele) |
+[:floppy_disk: download PDF](pathname:///slides/spiele.pdf)
+
+<iframe src="/bbzbl-modul-319/slides/spiele" width="100%" height="400px"></iframe>
+
 ## :joy: Erste einfache Spiele
 
 Sie können in Java-Programmen nun mit Bedingungen umgehen und Wiederholungen

@@ -1,6 +1,6 @@
 # Woche 1
 
-<div class="grid"><div>
+<div className="grid"><div>
 
 ## :school: Unterricht
 
@@ -40,7 +40,7 @@ programmieren können (falls nicht bereits erledigt)
 
 ## :pen: Aufgabenübersicht
 
-<div class="grid"><div>
+<div className="grid"><div>
 
 ### :butterfly: Algorithmus / Programm
 

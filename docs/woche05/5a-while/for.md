@@ -25,7 +25,7 @@ auch eine `<Zählervariable>` sowie eine `<Schrittweite>`.
 Die for Kontrollstruktur ist zuerst einmal gewöhnungsbedürftig. Das Muster sieht
 so aus:
 
-<div class="grid"><div>
+<div className="grid"><div>
 
 #### for - Muster
 
@@ -116,7 +116,7 @@ Schleife, welches die Zahlen 0 bis 4 ausgibt. Dies soll veranschaulichen, wieso
 die `for`-Schleife zusätzlich zur `while`-Schlaufe in fast jeder
 programmiersprache existiert.
 
-<div class="grid"><div>
+<div className="grid"><div>
 
 **for**
 

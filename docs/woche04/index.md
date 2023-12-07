@@ -1,6 +1,6 @@
 # Woche 4 🏅
 
-<div class="grid"><div>
+<div className="grid"><div>
 
 ## :school: Unterricht
 

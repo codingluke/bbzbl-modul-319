@@ -40,7 +40,7 @@ public class OutputMethodExample {
 }
 ```
 
-<div class="grid"><div>
+<div className="grid"><div>
 
 **Programm starten**
 

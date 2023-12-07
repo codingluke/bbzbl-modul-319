@@ -12,7 +12,7 @@ Ist man jedoch hauptsächlich am **Inhalt der Auflistung** interessiert, kann so
 sehr einfach darauf zugegriffen werden. Mit dieser Variante kann jedoch **keine
 Änderung des Arrays** gemacht werden.
 
-<div class="grid"><div>
+<div className="grid"><div>
 
 ```java title="Schema"
 for(Datentyp variable : Array) {

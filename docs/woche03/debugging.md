@@ -11,18 +11,20 @@ Ablauf eines Programms besser nachzuvollziehen. Dabei kann das Programm in einem
 speziellen Modus ausgeführt werden, der es erlaubt, das Programm auf jeder
 beliebigen Codezeile anzuhalten, die in den Variablen gespeicherten Werte
 einzusehen, zu ändern, etc.
+
 ## :dart: Ziele
 
 - Sie können mittels Debugging Ihr Programm schrittweise durchlaufen, dabei die
   Werte von Variablen beobachten und so Abläufe verstehen und Fehlerquellen
   entdecken.
-## :pen: A1: Debuggen vom Methodenaufruf ohne Parameter 
+
+## :pen: A1: Debuggen vom Methodenaufruf ohne Parameter
 
 Wir Untersuchen den Ablauf der Methode `printCurrentDate()` vom Abschnitt
 [Einfacher Methodenaufruf](./einfache-methode.md)
 
-Erstellen Sie dafür in Eclipse eine neue Klasse "OutputMethodExample" und kopieren Sie
-folgendes Beispiel in die neue Datei.
+Erstellen Sie dafür in Eclipse eine neue Klasse "OutputMethodExample" und
+kopieren Sie folgendes Beispiel in die neue Datei.
 
 ```java showLineNumbers
 import java.time.LocalDate;
@@ -129,4 +131,3 @@ beobachten**. Wenn man z.B. "Hi" nach "i" ändert, wird der Ausdruck `false`, da
    wechseln. Sobald Debugging einmal ausgeführt wurde, wird oben rechts
    einerseits ein Symbol für die Java-Perspektive (J), und andererseits ein
    Symbol für die Debugging-Perspektive (Käfer) angezeigt.
-

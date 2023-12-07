@@ -88,9 +88,9 @@ footer: BBZBL / Lukas Hodel /  Applikationen entwerfen und implementieren
 # Deklarierung einer Variable
 
 ```java
-// Datentyp     Variablenname  Semikolon
-   int          number         ;
-   char         sign           ;
+// Datentyp  Variablenname  Semikolon
+   int       number         ;
+   char      sign           ;
    ...
 ```
 

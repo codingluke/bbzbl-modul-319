@@ -1,6 +1,6 @@
 # Woche 3
 
-<div class="grid"><div>
+<div className="grid"><div>
 
 ## :school: Unterricht
 
@@ -44,7 +44,7 @@ erstellt**.
 Sie schaffen nicht alle Aufgaben während dem Unterricht. Es sollten mindestens
 zwei Aufgaben von `if` und eine von `switch` gelöst werden.
 
-<div class="grid"><div>
+<div className="grid"><div>
 
 #### If
 

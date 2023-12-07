@@ -8,13 +8,8 @@
     sans-serif;
 }
 
-/* body { */
-/*   background-color: #fff; */
-/* } */
-
-/* * { font-family: 'Fira', sans-serif;  } */
-code * {
-  font-family: "Fira Code", monospace;
+section tt {
+  font-family: "Fira Code", monospace !important;
 }
 @supports (font-variation-settings: normal) {
   code * {
@@ -23,11 +18,11 @@ code * {
   }
 }
 
-section.code {
+section code {
   font-family: "Fira Code", monospace;
 }
 @supports (font-variation-settings: normal) {
-  section.code {
+  section code {
     font-family: "Fira Code VF", monospace;
   }
 }
@@ -214,6 +209,9 @@ section.light-text h3 {
 h2:first-child,
 h3:first-child {
   margin-top: 0;
+}
+.columns.three {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 .columns.r60 {
   grid-template-columns: 40% 60%;

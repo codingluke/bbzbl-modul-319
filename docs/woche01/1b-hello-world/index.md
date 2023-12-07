@@ -30,7 +30,7 @@ Um die Ziele zu erreichen wurde diese in vier Bereiche aufgeteilt.
 
 ## :tv: Erklärvideos
 
-<div class="grid"><div class="center">
+<div className="grid"><div className="center">
 
 ### [Java Grundlagen auf Studyflix](https://studyflix.de/informatik/einfuhrung-in-die-java-grundlagen-213?topic_id=16)
 
@@ -44,7 +44,7 @@ Erklärung der wichtigsten Grundlagen in Java:
 
 [![Einführung in die Java Grundlagen](https://d3f6gjnauy613m.cloudfront.net/system/production/videos/000/213/10b5997f7533af3908fd41a0c44619ad0cd73653/card_720.jpeg?1628089774)](https://studyflix.de/informatik/einfuhrung-in-die-java-grundlagen-213?topic_id=16)
 
-</div><div class="center">
+</div><div className="center">
 
 ### [Java Main Methode auf Studyflix](https://studyflix.de/informatik/java-main-1790?topic_id=16)
 
