@@ -34,7 +34,7 @@ hide_table_of_contents: true
 ## 🔁 Schleifen und Wiederholungen
 
 - :books: Verstehen
-- :pen: Aufgaben lösen, 🏅T4
+- :pen: Aufgaben lösen
 
 </Event>
 
@@ -47,9 +47,10 @@ hide_table_of_contents: true
 
 ## :joystick: Spiele
 
+- :man_teacher: Spiele und Zufall
 - :zap: Reaktionsspiel spielen
 - :books::game_die: Zufallszahl Verstehen
-- :pen: Ratespiel lösen, 🏅T4
+- :pen: Ratespiel lösen
 
 </Event>
 <Event time="16:15">

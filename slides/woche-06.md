@@ -19,6 +19,11 @@ footer: BBZBL / Lukas Hodel / Applikationen entwerfen und implementieren
 # Ablauf
 
 ### Siehe grosser Screen :point_right:
+---
+
+<!-- _class: big center -->
+
+# Kahoot!
 
 ---
 

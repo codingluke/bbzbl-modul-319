@@ -30,11 +30,23 @@
 
 **Kopiert euch die Musterlösung** vom [:zap: Reaktionsspiel](/docs/woche06/6a-spiele/reaktionsspiel.md) in eine Klasse `ReactionGame.java` und spielt. Danach schaut ihr euch mal den Code an. 
 
-Habt auch Spass. :gun: :joystick: :star2: :rainbow:
-
 :::
 
 ## :house: Hausaufgaben
+
+:::warning Raster Thema 4
+
+Bereiten Sie sich auf die Gespräche im Rahmen des Rasters vor.
+
+:dart: Raster zum Thema 4 fertig ausgefüllt
+
+:boom: Die Reflexion muss **mindestens 4 Sätze für Erfolg sowie Misserfolg**
+beinhalten. Sätze wie "Ich hatte keine Probleme" werden nicht akzeptiert.
+
+:bulb: Reflexionen sind nicht nur wichtig, wenn man etwas nicht konnte, sondern
+auch um festzuhalten was gut gegangen ist. Und dies **bitte spezifisch**.
+
+:::
 
 </div></div>
 
