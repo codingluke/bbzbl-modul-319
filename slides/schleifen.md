@@ -14,7 +14,8 @@ footer: BBZBL / Lukas Hodel / Applikationen entwerfen und implementieren
 
 # Kontrollstrukturen
 
-Vergleichs- und logische Operatoren kommen ebenfalls zum Einsatz, wenn man etwas nur **unter einer bestimmten Bedingung wiederholen** soll.
+Vergleichs- und logische Operatoren kommen ebenfalls zum Einsatz, wenn man etwas
+nur **unter einer bestimmten Bedingung wiederholen** soll.
 
 ```mermaid width=80% align=center
 flowchart TD;
@@ -43,7 +44,7 @@ flowchart TD;
 
 ---
 
-# while
+# `while` - Schleife
 
 ```mermaid width=80%
 flowchart LR
@@ -63,7 +64,7 @@ flowchart LR
 
 ---
 
-# while 
+# `while` - Schleife
 
 ::: columns
 
@@ -123,7 +124,7 @@ while (i > 0) {
 
 ---
 
-# do..while
+# `do..while` - Schleife
 
 ```mermaid
 flowchart LR
@@ -144,11 +145,9 @@ flowchart LR
 
 ---
 
-# do..while
+# `do..while` - Schema / Beispiel
 
 ::: columns
-
-## Schema
 
 ```java
 do {
@@ -174,8 +173,6 @@ flowchart LR
 ```
 
 ::: split
-
-## Beispiel
 
 ```java
 String gedanken = "Kaffee";
@@ -215,23 +212,42 @@ System.out.println("jaaa");
 ![bg cover brightness:0.5](./images/for-himmel-hoelle.jpg)
 
 ---
+# `for` - Schleife
 
-# for
+```mermaid
+flowchart LR
+    A[Anweisung;] --> B["Zählervariable"]
+    subgraph for
+      B --> C{"Bedingung"}
+      C --> |true| D["`{
+      &nbsp;&nbsp;Anweisung;
+      &nbsp;&nbsp;Anweisung;
+      }`"]
+      D --> E["Schrittweite"]
+      E --> C
+    end
+    C --> |false| F[Anweisung;]
+
+    style D text-align:left
+```
+
+---
+
+# `for` - Schema / Beispiel
 
 ::: columns
 
-## Schema
-
 ```java
-for (<Zählervariable>;
-     <Bedingung>;
-     <Schrittweite>
+for (
+  <Zählervariable>;
+  <Bedingung>;
+  <Schrittweite>
 ) {
     <Anweisungen, Sequenz>
 }
 ```
 
-### Explizites Beispiel
+Beispiel:
 
 ```java
 for (int i = 0; i < 5; i++) {
@@ -241,26 +257,62 @@ for (int i = 0; i < 5; i++) {
 
 ::: split
 
-## Ablauf
-
 ```mermaid width=70%
-stateDiagram-v2
-    direction TB
-    [*] --> init
-    state Bedingung <<choice>>
+flowchart TD
+    A[Anweisung;] --> B["Zählervariable: i = 0;"]
+    subgraph for
+      B --> C{"Bedingung: i < 5"}
+      C --> |true| D["`{
+      &nbsp;&nbsp;// Code-Block
+      &nbsp;&nbsp;System.out.println(i);
+      }`"]
+      D --> E["Schrittweite: i++;"]
+      E --> C
+    end
+    C --> |false| F[Anweisung;]
 
-    state for {
-        init: < Zählervariable >
-        do: { Code-Block }
-        schritt: < Schrittweite >
-
-        init --> Bedingung
-        Bedingung --> do: true
-        do --> schritt
-        schritt --> Bedingung
-    }
-
-    Bedingung --> [*]: false
+    style D text-align:left
 ```
+
+:::
+
+---
+
+# `for` - Ablauf und Ausgabe
+
+![bg fit](./images/for-loop-1.png) ![bg fit](./images/for-loop-result.png)
+
+---
+
+<!-- _class: emoji-list -->
+
+# `for` vs `while` für Aufzählungen
+
+::: columns
+
+for:
+
+```java title="for: Wiederhole 5 mal fix"
+ for (int i = 0; i < 5; i++) {
+   System.out.println(i);
+ }
+```
+
+- :white_check_mark: Variable `i` nur innerhalb der Schlaufe sichtbar
+- :white_check_mark: kürzer
+
+::: split
+
+while:
+
+```java title="while: Wiederhole 5 mal fix"
+ int i = 0;
+ while (i < 5) {
+   System.out.println(i);
+   i++;
+ }
+```
+
+- :scream: Variable `i` wird **ausserhalb der Schleife** initialisiert
 
 :::

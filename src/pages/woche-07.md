@@ -6,25 +6,19 @@ hide_table_of_contents: true
 <Timeline title="Woche 7">
 <Event active="true">
 
-## :checkered_flag: LB1 Thema 4
+## 🏅 LB1 Thema 4 
 
-- :no_good: Heute bin ich in Gesprächen
-- :people_holding_hands: Helft euch gegenseitig!
-
-</Event>
-<Event time="12:45">
-
-## :teacher: Reaktionsspiel
-
-- :microscope: Zusammen Analysieren
+- 🗣️ Heute bin ich in Gesprächen
+- :two_men_holding_hands: Helft euch gegenseitig!
+- :coffee: Selbständige 5 Min Pause
 
 </Event>
 <Event time="13:00">
 
-## :student: Spiele programmieren
+## 🔁 `for` - Schleife
 
-- :zap: Reaktionsspiel
-- :game_die: Würfelspiel
+- :man_teacher: Präsentation
+- :man_student: `for`-Schleife Aufgaben
 
 </Event>
 
@@ -37,12 +31,13 @@ hide_table_of_contents: true
 
 ## :dango: Arrays / Listen
 
-- :teacher: Einführung
+- :man_teacher: Präsentation
+- :man_student: Array `[]` Aufgaben
 
 </Event>
 <Event time="15:00">
 
-## :student: Spiele / Arrays
+## :man_student: Spiele / Arrays
 
 - :honeybee: Individuelles Arbeiten
 

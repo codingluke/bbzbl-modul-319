@@ -14,50 +14,100 @@ footer: BBZBL / Lukas Hodel / Applikationen entwerfen und implementieren
 
 ---
 
-![bg w:40%](./images/arrays-meme-zero.png)
+<!-- _class: emoji-list -->
+
+# Notenliste konventionell
+
+
+:::columns
+
+```java
+double note1 = 6.0d;
+double note2 = 5.5d;
+double note3 = 4.0d;
+double note4 = 5.0d;
+double note5 = 4.5d;
+```
+
+- Viele Variablen
+- :x: Unflexibel für Veränderungen bei mehr oder weniger Daten
+- :x: Jede Variable muss speziell behandelt werden
+
+:::split
+
+![](./images/array-schublade-single.png) ![](./images/array-schublade-single.png) ![](./images/array-schublade-single.png) 
+![](./images/array-schublade-single.png) ![](./images/array-schublade-single.png)
+
+- :exclamation: in jeder Variable kann nur einen Wert gespeichert werden
+- Für jede Variable eine Kommode
+
+:::
 
 ---
 
 <!-- _class: emoji-list -->
 
-# Liste / _eine Dimension_
+# Notenliste als Array
 
-:::columns r60
-
-### `char` Beispiel
+![bg right fit](./images/array-schublade-5.png)
 
 ```java
-// Deklaration
-char[] signs = new char[10];
-
-// Zuweisung
-signs[0] = 'a';
-signs[signs.length - 1] = 'j';
-
-// Deklaration + Direktzuweisung
-char[] signs = {
-    'a', 'b', 'c', 'd', 'e',
-    'f', 'g', 'h', 'i', 'j'
-};
-
-// Zugriff
-char firstValue = signs[0];
-char lastValue = signs[signs.length - 1];
+double[] noten = new double[5];
 ```
 
-- :bulb: mit `[]` erkennt man Arrays
+- :white_check_mark: nur eine Variable als Array nötig
 
-::: split
+- :bulb: **Eckige Klammern** `[]` definieren einen Array
+- Zahl `[5]` in Eckiger Klammer definiert die **Länge**
 
-### Eine Reihe
+- Es ist also ein Array vom Datentyp **double** mit der **Länge 5**
 
-![fit](./images/array-toblerone.png)
+---
 
-- :bulb: Notenliste, Messwerte, usw.
+<!-- _class: emoji-list -->
+
+# Array - Länge durch Zahl in eckiger Klammer 
+
+:::columns
+
+
+```java
+double[] noten = new double[3];
+```
+
+![](./images/array-schublade-3.png)
+
+:::split
+
+```java
+double[] noten = new double[7];
+```
+
+![](./images/array-schublade-7.png)
 
 :::
 
-<!-- https://www.teenvogue.com/story/toblerone-changes-design-chocolate-bar -->
+---
+
+<!-- _class: emoji-list -->
+
+# Array - Werte zuweisen
+
+## Direkt (bestimmt auch die Länge!)
+
+```java
+double[] noten = { 6.0d, 5.5d, 4.0d, 5.0d, 4.5d }
+```
+## Via Index
+
+```java
+double[] noten = new double[5];
+noten[0] = 6.0d;
+noten[1] = 5.5d; 
+noten[2] = 4.0d; 
+noten[3] = 5.0d; 
+noten[4] = 4.5d;
+```
 
 ---
 
@@ -85,6 +135,10 @@ int lastValue = values[size - 1];
 ```
 
 :::
+
+---
+
+![bg w:40%](./images/arrays-meme-zero.png)
 
 ---
 
@@ -155,7 +209,8 @@ int value3;
 int value100;
 ```
 
-- :sweat: Es müssen 100 Zeilen geschrieben werden für 100 Variablen vom gleichen Typ
+- :sweat: Es müssen 100 Zeilen geschrieben werden für 100 Variablen vom gleichen
+  Typ
 
 ::: split
 
@@ -191,7 +246,8 @@ value3 = Math.rand();
 value100 = Math.rand();
 ```
 
-- :sweat: Es müssen 100 Zeilen geschrieben werden um 100 Variablen einen neuen Wert zuzuweisen
+- :sweat: Es müssen 100 Zeilen geschrieben werden um 100 Variablen einen neuen
+  Wert zuzuweisen
 
 ::: split
 
@@ -243,7 +299,8 @@ for (int value : values) {
 
 - :magic_wand: Drei Zeilen reichen aus!
 - Und zwar **auch für 1 Mio Werte**
-- :bulb: Da wir nur auf Daten zugreifen können wir mit `foreach` uns den index sparen
+- :bulb: Da wir nur auf Daten zugreifen können wir mit `foreach` uns den index
+  sparen
 
 :::
 

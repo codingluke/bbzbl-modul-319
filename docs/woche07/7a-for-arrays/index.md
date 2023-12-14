@@ -11,7 +11,7 @@ keywords:
 - Sie können die for Kontrollstruktur nutzen, die besonders für das Durchlaufen
   von Arrays hilfreich ist.
 
-## :teacher: Präsentation
+## :man_teacher: Präsentation
 
 [:computer: Open in Browser](pathname:///slides/arrays) | [:floppy_disk: download PDF](pathname:///slides/arrays.pdf)
 

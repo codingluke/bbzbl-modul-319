@@ -14,7 +14,7 @@ genau durch.
 :::tip Theorie offen behalten
 
 Wenn Ihr [:open_book: Zufall erzeugen](/docs/woche06/6a-spiele/zufall.md) in
-einem eigenen Tab (oder Splitscreen) offen habt, könnt Ihr wärend dem Lösen der
+einem eigenen Tab (oder Splitscreen) offen habt, könnt Ihr während dem Lösen der
 Aufgabe komfortabel spicken ;)
 
 :::
