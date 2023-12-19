@@ -317,7 +317,7 @@ public class A6CombineArraysWithMethods {
 
 </details>
 
-## A7: Noten
+## A7: Noten :star2:
 
 Erstellen Sie ein Programm, welches Noten einlesen kann und in einem Array
 speichert.

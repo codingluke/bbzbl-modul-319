@@ -114,7 +114,7 @@ public class A2Sterne {
 
 </details>
 
-## A3: Erweiterte Sterne
+## A3: Erweiterte Sterne :star2:
 
 Erweitern Sie das obige Programm A2 so, dass 5 Zeilen mit jeweils 10 Sternen
 ausgegeben werden. Die 5 Zeilen müssen auch in einer for-Schleife erstellt
