@@ -6,22 +6,19 @@ hide_table_of_contents: true
 <Timeline title="Woche 8">
 <Event time="12:45">
 
-## 🤗 Ankommen
-
-- :desert_island: Ferienerlebnisse teilen
+## 🏅 LB2 Ankündigung
 
 </Event>
 <Event time="13:00">
 
-## 🏅 LB2 Ankündigung
+## 🔁 For-Schleife
 
-</Event>
-<Event time="13:10">
+- :man_teacher: Repetition / Präsentation
+- :woman_student: `for`-Schleife Partnerarbeit
 
-## :recycle: For-Schleife
-
-- :teacher: Repetition / Präsentation
-- :student: `for`-Schleife Aufgaben
+  - 🖊️ A3: Erweiterte Sterne
+  - :art: **Visuell!**
+  - :keyboard: und dann Code
 
 </Event>
 
@@ -34,8 +31,11 @@ hide_table_of_contents: true
 
 ## :dango: Arrays `[]` und `foreach`
 
-- :teacher: Repetition / Präsentation
-- :student: Arrays Aufgaben
+- :man_teacher: Repetition / Präsentation
+- :woman_student: Array Partnerarbeit
+
+  - 🖊️ A7: Noten
+  - :keyboard: direkt Code
 
 </Event>
 <Event time="16:15">
