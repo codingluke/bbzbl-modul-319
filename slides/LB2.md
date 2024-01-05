@@ -39,11 +39,10 @@ footer: BBZBL / Lukas Hodel / Applikationen entwerfen und implementieren
 - :computer: Workstation neustarten
 
 - :cloud: Windows VM starten
-- :bust*in_silhouette: **`e-`** `vorname.nachname` *(wie gewohnt, mit **e-**
-  vorangestellt!)\_
+- :bust_in_silhouette: **`e-`** `vorname.nachname` _(wie gewohnt, mit **e-** vorangestellt!)_
 - :file_folder: **`L:\Klassenarbeiten\M403-LB2-INB23AB`**
-  - **`LB2.zip`** entzippen
-  - in Eclipse **`File -> Open Projects from File System...`**
+  - :white_check_mark: **`LB2.zip`** entzippen
+  - :white_check_mark: Eclipse starten **`File -> Open Projects from File System...`**
 
 ---
 
@@ -76,5 +75,5 @@ Immer **1 Person, auf die Toilette**
 <!-- Display the countdown timer in -->
 <script type="module">
   import { setTimer } from "./js/timer.mjs";
-  setTimer("timer", "Oct 27, 2023 16:15:00", "Abgabe 🙏");
+  setTimer("timer", "Jan 12, 2024 16:15:00", "Abgabe 🙏");
 </script>

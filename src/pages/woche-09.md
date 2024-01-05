@@ -13,10 +13,10 @@ hide_table_of_contents: true
 </Event>
 <Event time="13:00">
 
-## :student: Vorbereitungsaufgaben
+## :woman_student: Vorbereitungsaufgaben
 
-- :jigsaw: Puzzles
-- :bee: Querbeet üben!
+- 🐝 Querbeet üben!
+- Für jedes Thema eine Aufgabe!
 
 </Event>
 <Event time="14:20">

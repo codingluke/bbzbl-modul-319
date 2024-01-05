@@ -34,8 +34,8 @@ keywords:
 :::tip Hilfsmittel
 
 - Das :book:
-  [**Faktenblatt zum Modul 319**](./images/Formelsammlung-Faktenblatt.pdf).
-  Audrucken und mitnehmen
+  [**Faktenblatt zum Modul 319**](./images/Formelsammlung-Faktenblatt.pdf)
+  ausdrucken und mitnehmen
 - Eine **eigene Zusammenfassung**, welche Sie selbst während des Moduls erstellt
   haben, verwenden.
 

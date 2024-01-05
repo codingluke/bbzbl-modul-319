@@ -1,4 +1,4 @@
 position: 10
-collapsible: false # make the category collapsible
-collapsed: false # keep the category open by default
-className: warning
+collapsible: true # make the category collapsible
+collapsed: true # keep the category open by default
+# className: warning
