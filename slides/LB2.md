@@ -75,5 +75,5 @@ Immer **1 Person, auf die Toilette**
 <!-- Display the countdown timer in -->
 <script type="module">
   import { setTimer } from "./js/timer.mjs";
-  setTimer("timer", "Jan 12, 2024 16:15:00", "Abgabe 🙏");
+  setTimer("timer", "Jan 12, 2024 16:30:00", "Abgabe 🙏");
 </script>
