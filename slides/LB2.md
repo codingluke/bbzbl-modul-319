@@ -40,7 +40,7 @@ footer: BBZBL / Lukas Hodel / Applikationen entwerfen und implementieren
 
 - :cloud: Windows VM starten
 - :bust_in_silhouette: **`e-`** `vorname.nachname` _(wie gewohnt, mit **e-** vorangestellt!)_
-- :file_folder: **`L:\Klassenarbeiten\M403-LB2-INB23AB`**
+- :file_folder: **`L:\Klassenarbeiten\M319-LB2-INP23A`**
   - :white_check_mark: **`LB2.zip`** entzippen
   - :white_check_mark: Eclipse starten **`File -> Open Projects from File System...`**
 
